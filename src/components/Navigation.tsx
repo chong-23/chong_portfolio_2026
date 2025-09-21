@@ -2,8 +2,10 @@ const Navigation = () => {
   return (
     <nav className="w-full py-6 px-6 md:px-12 lg:px-20">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
-        <div className="text-foreground font-medium">
-          Chong | HCI Researcher and Designer
+        <div className="text-foreground">
+          <span className="font-bold">Chong</span>
+          <span className="text-muted-foreground mx-2">|</span>
+          <span className="font-light">HCI Researcher and Designer</span>
         </div>
         <div className="hidden md:flex space-x-8">
           <a 
