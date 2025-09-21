@@ -1,12 +1,88 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navigation from "@/components/Navigation";
+import HeroSection from "@/components/HeroSection";
+import ProjectCard from "@/components/ProjectCard";
+import CreativeWorkCard from "@/components/CreativeWorkCard";
+import Footer from "@/components/Footer";
+import dayProjectImg from "@/assets/100day-project.jpg";
+import rocketSandboxImg from "@/assets/rocket-sandbox.jpg";
+import powerfallImg from "@/assets/powerfall.jpg";
 
 const Index = () => {
+  const projects = [
+    {
+      title: "Allowance Awareness",
+      subtitle: "B2B2C - iOS & Android",
+      description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
+    },
+    {
+      title: "Allowance Awareness",
+      subtitle: "B2B2C - iOS & Android",
+      description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
+    },
+    {
+      title: "Allowance Awareness",
+      subtitle: "B2B2C - iOS & Android",
+      description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
+    },
+  ];
+
+  const creativeWorks = [
+    {
+      title: "#100dayproject",
+      subtitle: "Illustration - Science & Culture",
+      imageUrl: dayProjectImg,
+    },
+    {
+      title: "Rocket Sandbox",
+      subtitle: "Education Game - Connected Devices",
+      imageUrl: rocketSandboxImg,
+    },
+    {
+      title: "Powerfall",
+      subtitle: "Voice-controlled Game - Connected Devices",
+      imageUrl: powerfallImg,
+    },
+  ];
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navigation />
+      <HeroSection />
+      
+      <main className="w-full px-6 md:px-12 lg:px-20">
+        <div className="max-w-7xl mx-auto">
+          {/* Projects Section */}
+          <section id="design" className="mb-20">
+            {projects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                title={project.title}
+                subtitle={project.subtitle}
+                description={project.description}
+              />
+            ))}
+          </section>
+
+          {/* Creative Work Section */}
+          <section className="mb-20">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 tracking-tight">
+              Creation for inspiration & fun
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+              {creativeWorks.map((work, index) => (
+                <CreativeWorkCard
+                  key={index}
+                  title={work.title}
+                  subtitle={work.subtitle}
+                  imageUrl={work.imageUrl}
+                />
+              ))}
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <Footer />
     </div>
   );
 };
