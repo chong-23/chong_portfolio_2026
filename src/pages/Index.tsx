@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ProjectCard from "@/components/ProjectCard";
 import CreativeWorkCard from "@/components/CreativeWorkCard";
 import Footer from "@/components/Footer";
+import SolarSystemAnimation from "@/components/SolarSystemAnimation";
 import dayProjectImg from "@/assets/100day-project.jpg";
 import rocketSandboxImg from "@/assets/rocket-sandbox.jpg";
 import powerfallImg from "@/assets/powerfall.jpg";
@@ -45,7 +46,8 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative">
+      <SolarSystemAnimation />
       <Navigation />
       <HeroSection />
       
