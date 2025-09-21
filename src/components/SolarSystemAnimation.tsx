@@ -1,6 +1,6 @@
 const SolarSystemAnimation = () => {
   return (
-    <div className="fixed -right-32 pointer-events-none opacity-60 z-10" style={{ top: '-228px', width: '1000px', height: '1000px' }}>
+    <div className="fixed -right-32 pointer-events-none opacity-60 z-10" style={{ top: '-258px', width: '1000px', height: '1000px' }}>
       {/* Sun - center circle */}
       <div className="absolute top-1/2 left-1/2 bg-muted rounded-full transform -translate-x-1/2 -translate-y-1/2" style={{ width: '200px', height: '200px' }} />
       
@@ -21,17 +21,9 @@ const SolarSystemAnimation = () => {
       </div>
       
       {/* Third orbit - stationary */}
-      <div className="absolute top-1/2 left-1/2 border border-muted/8 rounded-full transform -translate-x-1/2 -translate-y-1/2" style={{ width: '700px', height: '700px' }}>
-      </div>
-      {/* Third planet - moving */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-spin-slowest" style={{ width: '700px', height: '700px' }}>
-        <div className="absolute top-0 left-1/2 w-1.5 h-1.5 bg-muted/30 rounded-full transform -translate-x-1/2 -translate-y-1/2" />
-      </div>
-      
-      {/* Fourth orbit - stationary */}
       <div className="absolute top-1/2 left-1/2 border border-muted/8 rounded-full transform -translate-x-1/2 -translate-y-1/2" style={{ width: '900px', height: '900px' }}>
       </div>
-      {/* Fourth planet - moving */}
+      {/* Third planet - moving */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style={{ width: '900px', height: '900px', animation: 'spin 60s linear infinite' }}>
         <div className="absolute top-0 left-1/2 w-1 h-1 bg-muted/25 rounded-full transform -translate-x-1/2 -translate-y-1/2" />
       </div>
