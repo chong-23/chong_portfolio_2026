@@ -4,7 +4,7 @@ const Navigation = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <div className="text-foreground">
           <span className="font-bold">Chong</span>
-          <span className="muted-foreground mx-2">|</span>
+          <span className="bg-muted mx-2">|</span>
           <span className="font-light">HCI Researcher and Designer</span>
         </div>
         <div className="hidden md:flex space-x-8">
