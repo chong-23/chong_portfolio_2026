@@ -8,9 +8,9 @@ interface ProjectCardProps {
 const ProjectCard = ({ title, subtitle, description, imageUrl }: ProjectCardProps) => {
   return (
     <div className="w-full mb-12 md:mb-16">
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 p-6 md:p-8 border border-border rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-black/5 hover:-translate-y-1 cursor-pointer group">
         <div className="flex-1 lg:max-w-md">
-          <h3 className="text-2xl md:text-3xl font-bold mb-2 tracking-tight">
+          <h3 className="text-2xl md:text-3xl font-bold mb-2 tracking-tight group-hover:text-primary transition-colors duration-300">
             {title}
           </h3>
           <p className="text-sm text-muted-foreground mb-4 font-medium tracking-wide">
@@ -26,10 +26,10 @@ const ProjectCard = ({ title, subtitle, description, imageUrl }: ProjectCardProp
               <img 
                 src={imageUrl} 
                 alt={title}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             ) : (
-              <div className="w-full h-full bg-muted" />
+              <div className="w-full h-full bg-muted group-hover:bg-muted/80 transition-colors duration-300" />
             )}
           </div>
         </div>
