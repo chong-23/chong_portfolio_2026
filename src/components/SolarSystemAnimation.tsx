@@ -1,6 +1,7 @@
 const SolarSystemAnimation = () => {
   return (
-    <div className="absolute pointer-events-none opacity-30 -z-n1 overflow-hidden" style={{ top: '-250px', right: '-250px', width: '800px', height: '800px' }}>
+    <div className="fixed pointer-events-none opacity-30 -z-10 overflow-hidden inset-0 w-screen h-screen">
+      <div className="absolute" style={{ top: '-250px', right: '-250px', width: '800px', height: '800px' }}>
       {/* Sun - center circle */}
       <div className="absolute top-1/2 left-1/2 bg-muted rounded-full transform -translate-x-1/2 -translate-y-1/2" style={{ width: '150px', height: '150px' }} />
       
@@ -27,6 +28,7 @@ const SolarSystemAnimation = () => {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style={{ width: '700px', height: '700px', animation: 'spin 50s linear infinite' }}>
         <div className="absolute top-0 left-1/2 w-1 h-1 bg-muted/60 rounded-full transform -translate-x-1/2 -translate-y-1/2" />
       </div>
+    </div>
     </div>
   );
 };
