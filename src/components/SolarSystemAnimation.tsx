@@ -28,7 +28,7 @@ const SolarSystemAnimation = () => {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style={{ width: '700px', height: '700px', animation: 'spin 50s linear infinite' }}>
         <div className="absolute top-0 left-1/2 w-1 h-1 bg-muted/60 rounded-full transform -translate-x-1/2 -translate-y-1/2" />
       </div>
-    </div>
+      </div>
     </div>
   );
 };
