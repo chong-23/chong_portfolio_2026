@@ -7,7 +7,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ title, subtitle, description, imageUrl }: ProjectCardProps) => {
   return (
-    <div className="w-full mb-12 md:mb-16">
+    <div className="w-full mb-12 md:mb-12">
       <div className="flex flex-col lg:flex-row lg:h-[400px] border border-border rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-black/5 hover:-translate-y-1 cursor-pointer group overflow-hidden">
         <div className="flex-1 p-6 md:p-8 lg:flex lg:flex-col lg:justify-center">
           <div>
