@@ -23,7 +23,7 @@ const ProjectCard = ({ title, subtitle, description, imageUrl }: ProjectCardProp
           </div>
         </div>
         <div className="flex-1">
-          <div className="w-full h-[400px] lg:h-full bg-muted">
+          <div className="w-full h-[300px] lg:h-full bg-muted">
             {imageUrl ? (
               <img 
                 src={imageUrl} 
