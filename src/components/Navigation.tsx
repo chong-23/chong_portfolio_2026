@@ -14,7 +14,7 @@ const Navigation = () => {
           </a>
           <a 
             href="#design" 
-            className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+            className="text-black border-b-2 border-dashed border-black"
           >
             Design
           </a>
