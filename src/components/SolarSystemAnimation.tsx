@@ -1,6 +1,6 @@
 const SolarSystemAnimation = () => {
   return (
-    <div className="absolute top-8 right-8 w-48 h-48 pointer-events-none opacity-30">
+    <div className="fixed top-8 right-8 w-48 h-48 pointer-events-none opacity-60 z-10">
       {/* Sun - center circle */}
       <div className="absolute top-1/2 left-1/2 w-3 h-3 bg-muted rounded-full transform -translate-x-1/2 -translate-y-1/2" />
       
