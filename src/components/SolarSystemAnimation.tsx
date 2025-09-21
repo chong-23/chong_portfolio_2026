@@ -14,10 +14,10 @@ const SolarSystemAnimation = () => {
       </div>
       
       {/* Second orbit - stationary */}
-      <div className="absolute top-1/2 left-1/2 border border-muted/8 rounded-full transform -translate-x-1/2 -translate-y-1/2" style={{ width: '600px', height: '600px' }}>
+      <div className="absolute top-1/2 left-1/2 border border-muted/8 rounded-full transform -translate-x-1/2 -translate-y-1/2" style={{ width: '500px', height: '500px' }}>
       </div>
       {/* Second planet - moving */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style={{ width: '600px', height: '600px', animation: 'spin 35s linear infinite' }}>
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style={{ width: '500px', height: '500px', animation: 'spin 35s linear infinite' }}>
         <div className="absolute top-0 left-1/2 w-2 h-2 bg-muted/60 rounded-full transform -translate-x-1/2 -translate-y-1/2" />
       </div>
       
