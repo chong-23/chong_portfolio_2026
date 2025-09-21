@@ -15,13 +15,13 @@ const Index = () => {
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
     },
     {
-      title: "Allowance Awareness",
-      subtitle: "B2B2C - iOS & Android",
+      title: "Corporate Admin Revamp",
+      subtitle: "B2B2C - Web",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
     },
     {
-      title: "Allowance Awareness",
-      subtitle: "B2B2C - iOS & Android",
+      title: "Snippet of Past Works",
+      subtitle: "Multiple - Web",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
     },
   ];
