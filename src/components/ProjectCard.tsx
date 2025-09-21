@@ -8,8 +8,8 @@ interface ProjectCardProps {
 const ProjectCard = ({ title, subtitle, description, imageUrl }: ProjectCardProps) => {
   return (
     <div className="w-full mb-12 md:mb-16">
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 p-6 md:p-8 border border-border rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-black/5 hover:-translate-y-1 cursor-pointer group">
-        <div className="flex-1 lg:max-w-md">
+      <div className="flex flex-col lg:flex-row border border-border rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-black/5 hover:-translate-y-1 cursor-pointer group overflow-hidden">
+        <div className="flex-1 lg:max-w-md p-6 md:p-8">
           <h3 className="text-2xl md:text-3xl font-bold mb-2 tracking-tight group-hover:text-primary transition-colors duration-300">
             {title}
           </h3>
@@ -21,7 +21,7 @@ const ProjectCard = ({ title, subtitle, description, imageUrl }: ProjectCardProp
           </p>
         </div>
         <div className="flex-1 lg:flex-2">
-          <div className="w-full h-64 md:h-80 lg:h-96 bg-muted rounded-lg overflow-hidden">
+          <div className="w-full h-64 md:h-80 lg:h-96 bg-muted">
             {imageUrl ? (
               <img 
                 src={imageUrl} 
