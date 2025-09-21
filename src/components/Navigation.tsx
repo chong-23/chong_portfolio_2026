@@ -14,7 +14,7 @@ const Navigation = () => {
           </a>
           <a 
             href="#design" 
-            className="text-black border-b-2 border-dashed border-black"
+            className="text-black border-b-2 border-dotted border-black"
           >
             Design
           </a>
