@@ -116,23 +116,23 @@
 
   /* Typography styles */
   h1 {
-    @apply text-4xl font-bold leading-tight tracking-tight;
+    @apply text-4xl font-bold leading-tight tracking-tight font-montserrat;
   }
 
   h2 {
-    @apply text-3xl font-bold leading-tight tracking-tight;
+    @apply text-3xl font-bold leading-tight tracking-tight font-montserrat;
   }
 
   h3 {
-    @apply text-2xl font-semibold leading-snug;
+    @apply text-2xl font-semibold leading-snug font-montserrat;
   }
 
   h4 {
-    @apply text-xl font-semibold leading-snug;
+    @apply text-xl font-semibold leading-snug font-montserrat;
   }
 
   h5 {
-    @apply text-lg font-medium leading-normal;
+    @apply text-lg font-medium leading-normal font-montserrat;
   }
 
   p {
