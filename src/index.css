@@ -36,6 +36,9 @@
 
     --radius: 0.5rem;
 
+    /* Custom gradients */
+    --gradient-allowance-hero: linear-gradient(135deg, rgb(255, 214, 232) 0%, rgb(242, 242, 242) 100%);
+
     /* Typography scale */
     --font-size-xs: 0.75rem;
     --font-size-sm: 0.875rem;

@@ -7,9 +7,10 @@ const AllowanceAwareness = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      {/* Hero Section */}
-      <main className="pt-20">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+      {/* Hero Section with Gradient Background */}
+      <div className="relative" style={{ background: 'var(--gradient-allowance-hero)' }}>
+        <main className="pt-20 pb-20">
+          <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Title Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
@@ -30,7 +31,13 @@ const AllowanceAwareness = () => {
               />
             </div>
           </div>
+          </div>
+        </main>
+      </div>
 
+      {/* Main Content */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Overview Section */}
           <section className="mb-20">
             <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -160,7 +167,7 @@ const AllowanceAwareness = () => {
           </section>
 
         </div>
-      </main>
+      </div>
       
       <Footer />
     </div>
