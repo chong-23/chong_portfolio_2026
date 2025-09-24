@@ -9,7 +9,7 @@ const ProjectCard = ({ title, subtitle, description, imageUrl }: ProjectCardProp
   return (
     <div className="w-full mb-12 md:mb-8">
       <div className="flex flex-col md:flex-row-reverse border border-border rounded-3xl transition-all duration-300 hover:shadow-lg hover:shadow-black/5 hover:-translate-y-1 cursor-pointer group overflow-hidden">
-        <div className="flex-1 max-w-[550px]">
+        <div className="w-full max-w-[550px]">
           <div className="w-full aspect-square bg-muted">
             {imageUrl ? (
               <img 
