@@ -18,6 +18,7 @@ const Index = () => {
       subtitle: "B2B2C - iOS & Android",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: allowanceCoverImg,
+      link: "/allowance-awareness",
     },
     {
       title: "Corporate Admin Revamp",
@@ -68,6 +69,7 @@ const Index = () => {
                 subtitle={project.subtitle}
                 description={project.description}
                 imageUrl={project.imageUrl}
+                link={project.link}
               />
             ))}
           </section>
