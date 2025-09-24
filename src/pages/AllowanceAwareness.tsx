@@ -16,7 +16,7 @@ const AllowanceAwareness = () => {
                 Allowance Awareness
               </h1>
               <p className="text-xl text-muted-foreground">
-                SWIPE food delivery - iOS & Android
+                B2B2C food delivery - iOS & Android
               </p>
             </div>
           </div>
