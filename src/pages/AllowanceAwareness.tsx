@@ -5,32 +5,20 @@ import allowanceCover from "@/assets/allowance_cover.jpg";
 const AllowanceAwareness = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      {/* Hero Section with Gradient Background */}
+      {/* Hero Section with Gradient Background covering Navigation */}
       <div className="relative h-[550px]" style={{ background: 'var(--gradient-allowance-hero)' }}>
+        <Navigation />
         <main className="pt-20 h-full flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
-          {/* Title Section */}
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
-              Allowance Awareness
-            </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              SWIPE food delivery - iOS & Android
-            </p>
-          </div>
-
-          {/* Hero Image */}
-          <div className="mb-20">
-            <div className="aspect-[16/10] rounded-3xl overflow-hidden bg-muted">
-              <img 
-                src={allowanceCover} 
-                alt="Allowance Awareness App Screenshots"
-                className="w-full h-full object-cover"
-              />
+            {/* Title Section */}
+            <div className="text-center">
+              <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
+                Allowance Awareness
+              </h1>
+              <p className="text-xl text-muted-foreground mb-8">
+                SWIPE food delivery - iOS & Android
+              </p>
             </div>
-          </div>
           </div>
         </main>
       </div>
