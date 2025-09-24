@@ -7,6 +7,9 @@ import SolarSystemAnimation from "@/components/SolarSystemAnimation";
 import dayProjectImg from "@/assets/100day-project.jpg";
 import rocketSandboxImg from "@/assets/rocket-sandbox.jpg";
 import powerfallImg from "@/assets/powerfall.jpg";
+import adminCoverImg from "@/assets/admin_cover.jpg";
+import allowanceCoverImg from "@/assets/allowance_cover.jpg";
+import pastWorkCoverImg from "@/assets/cover_past.jpg";
 
 const Index = () => {
   const projects = [
@@ -14,16 +17,19 @@ const Index = () => {
       title: "Allowance Awareness",
       subtitle: "B2B2C - iOS & Android",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
+      imageUrl: allowanceCoverImg,
     },
     {
       title: "Corporate Admin Revamp",
       subtitle: "B2B2C - Web",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
+      imageUrl: adminCoverImg,
     },
     {
       title: "Snippet of Past Works",
       subtitle: "Multiple - Web",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
+      imageUrl: pastWorkCoverImg,
     },
   ];
 
@@ -61,6 +67,7 @@ const Index = () => {
                 title={project.title}
                 subtitle={project.subtitle}
                 description={project.description}
+                imageUrl={project.imageUrl}
               />
             ))}
           </section>
