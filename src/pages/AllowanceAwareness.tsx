@@ -8,8 +8,8 @@ const AllowanceAwareness = () => {
       {/* Hero Section with Gradient Background covering Navigation */}
       <div className="relative h-[550px]" style={{ background: 'var(--gradient-allowance-hero)' }}>
         <Navigation />
-        <main className="h-full flex items-center">
-          <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full pt-20">
+        <div className="absolute inset-0 flex items-center">
+          <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
             {/* Title Section */}
             <div className="text-left">
               <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
@@ -20,7 +20,7 @@ const AllowanceAwareness = () => {
               </p>
             </div>
           </div>
-        </main>
+        </div>
       </div>
 
       {/* Main Content */}
