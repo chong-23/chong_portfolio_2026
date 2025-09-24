@@ -32,7 +32,7 @@ const AllowanceAwareness = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Overview</h2>
                 <p className="text-lg leading-relaxed text-foreground mb-6">
-                  This project focused on optimizing allowance usage in workplace food services, boosting revenue by enhancing allowance utilization rate from a current 8%.
+                  This project focused on optimizing allowance usage in workplace food services, boosting revenue by <span className="font-bold" style={{ color: '#FE2B84' }}>enhancing allowance utilization rate from a current 8%</span>.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground">
                   This project focused on creating an intuitive interface that seamlessly integrates budget tracking with the food ordering experience, making financial awareness effortless for users.
