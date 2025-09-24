@@ -28,30 +28,14 @@ const AllowanceAwareness = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Overview Section */}
           <section className="mb-20">
-            <div className="grid md:grid-cols-2 gap-12 items-start">
-              <div>
-                <h2 className="text-3xl font-bold mb-6">Overview</h2>
-                <p className="text-lg leading-relaxed text-foreground mb-6">
-                  This project focused on optimizing allowance usage in workplace food services, boosting revenue by <span className="font-bold" style={{ color: '#FE2B84' }}>enhancing allowance utilization rate from a current 8%</span>.
-                </p>
-                <p className="text-lg leading-relaxed text-foreground">
-                  This project focused on creating an intuitive interface that seamlessly integrates budget tracking with the food ordering experience, making financial awareness effortless for users.
-                </p>
-              </div>
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-3">Role</h3>
-                  <p className="text-muted-foreground">UX/UI Designer, Product Designer</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-3">Duration</h3>
-                  <p className="text-muted-foreground">6 months</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-3">Platform</h3>
-                  <p className="text-muted-foreground">iOS & Android</p>
-                </div>
-              </div>
+            <div>
+              <h2 className="text-3xl font-bold mb-6">Overview</h2>
+              <p className="text-lg leading-relaxed text-foreground mb-6">
+                This project focused on optimizing allowance usage in workplace food services, boosting revenue by <span className="font-bold" style={{ color: '#FE2B84' }}>enhancing allowance utilization rate from a current 8%</span>.
+              </p>
+              <p className="text-lg leading-relaxed text-foreground">
+                This project focused on creating an intuitive interface that seamlessly integrates budget tracking with the food ordering experience, making financial awareness effortless for users.
+              </p>
             </div>
           </section>
 
