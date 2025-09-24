@@ -32,11 +32,25 @@ const AllowanceAwareness = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Overview</h2>
                 <p className="text-lg leading-relaxed text-foreground mb-6">
-                  SWIPE is a food delivery app designed to help users track their spending and make informed decisions about their food orders. The Allowance Awareness feature helps users stay within budget while enjoying their favorite meals.
+                  This project focused on optimizing allowance usage in workplace food services, boosting revenue by enhancing allowance utilization rate from a current 8%.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground">
                   This project focused on creating an intuitive interface that seamlessly integrates budget tracking with the food ordering experience, making financial awareness effortless for users.
                 </p>
+              </div>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-xl font-semibold mb-3">Role</h3>
+                  <p className="text-muted-foreground">UX/UI Designer, Product Designer</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-3">Duration</h3>
+                  <p className="text-muted-foreground">6 months</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-3">Platform</h3>
+                  <p className="text-muted-foreground">iOS & Android</p>
+                </div>
               </div>
             </div>
           </section>
