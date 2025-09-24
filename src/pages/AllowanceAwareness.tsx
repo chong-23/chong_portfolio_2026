@@ -11,11 +11,11 @@ const AllowanceAwareness = () => {
         <main className="pt-20 h-full flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
             {/* Title Section */}
-            <div className="text-center">
+            <div className="text-left">
               <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
                 Allowance Awareness
               </h1>
-              <p className="text-xl text-muted-foreground mb-8">
+              <p className="text-xl text-muted-foreground">
                 SWIPE food delivery - iOS & Android
               </p>
             </div>
