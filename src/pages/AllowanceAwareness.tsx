@@ -38,20 +38,6 @@ const AllowanceAwareness = () => {
                   This project focused on creating an intuitive interface that seamlessly integrates budget tracking with the food ordering experience, making financial awareness effortless for users.
                 </p>
               </div>
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-3">Role</h3>
-                  <p className="text-muted-foreground">UX/UI Designer, Product Designer</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-3">Duration</h3>
-                  <p className="text-muted-foreground">6 months</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-3">Platform</h3>
-                  <p className="text-muted-foreground">iOS & Android</p>
-                </div>
-              </div>
             </div>
           </section>
 
