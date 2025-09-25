@@ -59,7 +59,7 @@ const AllowanceAwareness = () => {
               <img 
                 src={allowanceCurrentIssue} 
                 alt="User journey showing lack of allowance visibility until cart stage"
-                className="w-full max-w-5xl h-auto rounded-xl"
+                className="w-full max-w-7xl h-auto rounded-xl"
               />
             </div>
           </section>
