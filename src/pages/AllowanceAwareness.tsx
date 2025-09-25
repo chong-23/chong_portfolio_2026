@@ -82,7 +82,7 @@ const AllowanceAwareness = () => {
         </div>
 
         {/* JTBD, Hypothesis, and HMW Section with Full-Width Gradient Background */}
-        <section className="mb-20 w-full" style={{ background: 'linear-gradient(135deg, #FFD6E8 0%, #F2F2F2 100%)', opacity: 0.7 }}>
+        <section className="mb-20 w-full" style={{ background: 'linear-gradient(135deg, #FFD6E8 0%, #F2F2F2 100%)'}}>
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
             {/* JTBD */}
             <div className="text-center mb-16">
@@ -94,7 +94,7 @@ const AllowanceAwareness = () => {
 
             {/* Hypothesis */}
             <div className="text-center mb-16">
-              <h2 className="text-2xl font-bold mb-4">Hypothesis</h2>
+              <h2 className="text-3xl font-bold mb-8">Hypothesis</h2>
               <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
                 <span className="font-bold" style={{ color: '#FE2B84' }}>Enhancing allowance accessibility and awareness</span> throughout the journey will drive better user decisions, ultimately improving allowance utilization.
               </p>
@@ -102,7 +102,7 @@ const AllowanceAwareness = () => {
 
             {/* HMW */}
             <div className="text-center">
-              <h2 className="text-2xl font-bold mb-4">HMW</h2>
+              <h2 className="text-3xl font-bold mb-8">HMW</h2>
               <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
                 Effectively convey balance and allowance criteria for users to optimize their ordering decisions?
               </p>
@@ -113,7 +113,7 @@ const AllowanceAwareness = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Challenge Section */}
           <section className="mb-20">
-            <h2 className="text-2xl font-bold mb-4">The Challenge</h2>
+            <h2 className="text-3xl font-bold mb-8">The Challenge</h2>
             <div className="bg-muted/50 rounded-2xl p-8">
               <p className="text-lg leading-relaxed max-w-[700px]">
                 How might we help users become more aware of their food delivery spending while maintaining a seamless ordering experience? The challenge was to integrate budget tracking features without disrupting the core user journey of discovering and ordering food.
