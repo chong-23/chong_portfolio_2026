@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import allowanceCover from "@/assets/allowance_cover.jpg";
+import allowanceHs from "@/assets/allowance_hs.jpg";
 
 const AllowanceAwareness = () => {
   return (
@@ -10,14 +11,25 @@ const AllowanceAwareness = () => {
         <Navigation />
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
-            {/* Title Section */}
-            <div className="text-left">
-              <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
-                Allowance Awareness
-              </h1>
-              <p className="text-xl">
-                B2B2C food delivery - iOS & Android
-              </p>
+            <div className="flex items-center justify-between w-full">
+              {/* Title Section */}
+              <div className="text-left flex-1">
+                <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
+                  Allowance Awareness
+                </h1>
+                <p className="text-xl">
+                  B2B2C food delivery - iOS & Android
+                </p>
+              </div>
+              
+              {/* Image Section - Desktop Only */}
+              <div className="hidden lg:block flex-shrink-0 ml-12">
+                <img 
+                  src={allowanceHs} 
+                  alt="Allowance Awareness mobile app interface"
+                  className="w-64 h-auto rounded-2xl shadow-2xl"
+                />
+              </div>
             </div>
           </div>
         </div>
