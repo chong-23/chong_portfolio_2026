@@ -27,7 +27,7 @@ const AllowanceAwareness = () => {
                 <img 
                   src={allowanceHs} 
                   alt="Allowance Awareness mobile app interface"
-                  className="w-64 h-auto rounded-2xl shadow-2xl"
+                  className="w-64 h-auto rounded-2xl"
                 />
               </div>
             </div>
@@ -42,7 +42,7 @@ const AllowanceAwareness = () => {
           <section className="mb-20">
             <div>
               <h2 className="text-3xl font-bold mb-6">Overview</h2>
-              <p className="text-lg leading-relaxed text-foreground mb-6">
+              <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
                 This project focused on optimizing allowance usage in workplace food services, boosting revenue by <span className="font-bold" style={{ color: '#FE2B84' }}>enhancing allowance utilization rate from a current 8%</span>.
               </p>
             </div>
@@ -52,7 +52,7 @@ const AllowanceAwareness = () => {
           <section className="mb-20">
             <h2 className="text-3xl font-bold mb-8">The Challenge</h2>
             <div className="bg-muted/50 rounded-2xl p-8">
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg leading-relaxed max-w-[700px]">
                 How might we help users become more aware of their food delivery spending while maintaining a seamless ordering experience? The challenge was to integrate budget tracking features without disrupting the core user journey of discovering and ordering food.
               </p>
             </div>
@@ -67,21 +67,21 @@ const AllowanceAwareness = () => {
                   <span className="text-2xl font-bold text-primary-foreground">1</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Research</h3>
-                <p className="text-muted-foreground">User interviews and market analysis to understand spending behaviors</p>
+                <p className="text-muted-foreground max-w-[700px]">User interviews and market analysis to understand spending behaviors</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-primary-foreground">2</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Ideation</h3>
-                <p className="text-muted-foreground">Brainstorming solutions for seamless budget integration</p>
+                <p className="text-muted-foreground max-w-[700px]">Brainstorming solutions for seamless budget integration</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-primary-foreground">3</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Testing</h3>
-                <p className="text-muted-foreground">Prototyping and user testing to validate solutions</p>
+                <p className="text-muted-foreground max-w-[700px]">Prototyping and user testing to validate solutions</p>
               </div>
             </div>
           </section>
@@ -93,21 +93,21 @@ const AllowanceAwareness = () => {
               <div className="space-y-6">
                 <div className="border border-border rounded-xl p-6">
                   <h3 className="text-xl font-semibold mb-3">Budget Tracking</h3>
-                  <p className="text-muted-foreground">Real-time spending visualization with intuitive progress bars and alerts</p>
+                  <p className="text-muted-foreground max-w-[700px]">Real-time spending visualization with intuitive progress bars and alerts</p>
                 </div>
                 <div className="border border-border rounded-xl p-6">
                   <h3 className="text-xl font-semibold mb-3">Smart Recommendations</h3>
-                  <p className="text-muted-foreground">AI-powered suggestions based on budget and preferences</p>
+                  <p className="text-muted-foreground max-w-[700px]">AI-powered suggestions based on budget and preferences</p>
                 </div>
               </div>
               <div className="space-y-6">
                 <div className="border border-border rounded-xl p-6">
                   <h3 className="text-xl font-semibold mb-3">Spending Analytics</h3>
-                  <p className="text-muted-foreground">Detailed insights into spending patterns and trends</p>
+                  <p className="text-muted-foreground max-w-[700px]">Detailed insights into spending patterns and trends</p>
                 </div>
                 <div className="border border-border rounded-xl p-6">
                   <h3 className="text-xl font-semibold mb-3">Goal Setting</h3>
-                  <p className="text-muted-foreground">Customizable budget goals with progress tracking</p>
+                  <p className="text-muted-foreground max-w-[700px]">Customizable budget goals with progress tracking</p>
                 </div>
               </div>
             </div>
@@ -134,15 +134,15 @@ const AllowanceAwareness = () => {
             <div className="space-y-6">
               <div className="border-l-4 border-primary pl-6">
                 <h3 className="text-xl font-semibold mb-2">User Behavior Insights</h3>
-                <p className="text-muted-foreground">Users are more likely to stick to budgets when they receive gentle, non-intrusive reminders rather than strict limitations.</p>
+                <p className="text-muted-foreground max-w-[700px]">Users are more likely to stick to budgets when they receive gentle, non-intrusive reminders rather than strict limitations.</p>
               </div>
               <div className="border-l-4 border-primary pl-6">
                 <h3 className="text-xl font-semibold mb-2">Design Integration</h3>
-                <p className="text-muted-foreground">Financial features work best when seamlessly integrated into existing user flows rather than as separate modules.</p>
+                <p className="text-muted-foreground max-w-[700px]">Financial features work best when seamlessly integrated into existing user flows rather than as separate modules.</p>
               </div>
               <div className="border-l-4 border-primary pl-6">
                 <h3 className="text-xl font-semibold mb-2">Visual Feedback</h3>
-                <p className="text-muted-foreground">Progressive visual indicators help users understand their spending without creating anxiety or frustration.</p>
+                <p className="text-muted-foreground max-w-[700px]">Progressive visual indicators help users understand their spending without creating anxiety or frustration.</p>
               </div>
             </div>
           </section>
