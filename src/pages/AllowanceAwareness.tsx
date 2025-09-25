@@ -5,6 +5,7 @@ import allowanceHs from "@/assets/allowance_hs.png";
 import allowanceCurrentIssue from "@/assets/allowance-current-issue.png";
 import allowanceUserJourney from "@/assets/allowance-user-journey.png";
 import allowanceIdeation from "@/assets/allowance-ideation.jpg";
+import allowanceJourneySolution from "@/assets/allowance-journey-solution.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -161,8 +162,8 @@ const AllowanceAwareness = () => {
             </p>
             <div className="flex justify-center">
               <img 
-                src={allowanceUserJourney} 
-                alt="User journey and painpoints diagram showing feedback from 5 markets"
+                src={allowanceJourneySolution} 
+                alt="User journey solution showing improvements across discovering, ordering, checkout, and order tracking phases"
                 className="w-full max-w-7xl h-auto rounded-xl"
               />
             </div>
