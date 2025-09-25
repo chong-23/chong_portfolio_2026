@@ -80,33 +80,32 @@ const AllowanceAwareness = () => {
             </div>
           </section>
 
-          {/* JTBD Section */}
+          {/* JTBD, Hypothesis, and HMW Section with Gradient Background */}
           <section className="mb-20">
-            <div className="text-center">
-              <h2 className="text-3xl font-bold mb-8">JTBD</h2>
-              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-                Accessing allowance info easily during the ordering journey for informed decision-making.
-              </p>
-            </div>
-          </section>
+            <div className="rounded-2xl p-12" style={{ background: 'linear-gradient(135deg, #FFD6E8 0%, #F2F2F2 100%)' }}>
+              {/* JTBD */}
+              <div className="text-center mb-16">
+                <h2 className="text-3xl font-bold mb-8">JTBD</h2>
+                <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
+                  Accessing allowance info easily during the ordering journey for informed decision-making.
+                </p>
+              </div>
 
-          {/* Hypothesis Section */}
-          <section className="mb-20">
-            <div className="text-center">
-              <h2 className="text-3xl font-bold mb-8">Hypothesis</h2>
-              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-                <span className="font-bold" style={{ color: '#FE2B84' }}>Enhancing allowance accessibility and awareness</span> throughout the journey will drive better user decisions, ultimately improving allowance utilization.
-              </p>
-            </div>
-          </section>
+              {/* Hypothesis */}
+              <div className="text-center mb-16">
+                <h2 className="text-3xl font-bold mb-8">Hypothesis</h2>
+                <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
+                  <span className="font-bold" style={{ color: '#FE2B84' }}>Enhancing allowance accessibility and awareness</span> throughout the journey will drive better user decisions, ultimately improving allowance utilization.
+                </p>
+              </div>
 
-          {/* HMW Section */}
-          <section className="mb-20">
-            <div className="text-center">
-              <h2 className="text-3xl font-bold mb-8">HMW</h2>
-              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-                Effectively convey balance and allowance criteria for users to optimize their ordering decisions?
-              </p>
+              {/* HMW */}
+              <div className="text-center">
+                <h2 className="text-3xl font-bold mb-8">HMW</h2>
+                <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
+                  Effectively convey balance and allowance criteria for users to optimize their ordering decisions?
+                </p>
+              </div>
             </div>
           </section>
 
