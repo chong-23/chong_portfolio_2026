@@ -209,8 +209,8 @@ const AllowanceAwareness = () => {
                   {/* Card 1 - Left-Right Layout */}
                   <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
                     <div className="flex-1 pr-8">
-                      <h3 className="text-xl font-semibold mb-3">Challenge</h3>
-                      <p className="text-muted-foreground mb-4">
+                      <h3 className="text-md font-semibold mb-3">Challenge</h3>
+                      <p className="text-xl mb-4">
                         Every domain wants a spot on home screen. How to prioritize allowance section?
                       </p>
                     </div>
