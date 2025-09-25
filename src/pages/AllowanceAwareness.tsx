@@ -9,6 +9,7 @@ import allowanceJourneySolution from "@/assets/allowance-journey-solution.png";
 import homescreenGif from "@/assets/homescreen.gif";
 import allowanceChallenge1 from "@/assets/allowance-challenge-1.png";
 import allowancePieChart from "@/assets/allowance-pie-chart.png";
+import allowanceUserExpectation from "@/assets/allowance-user-expectation.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -253,11 +254,10 @@ const AllowanceAwareness = () => {
                     </div>
                     <div className="flex-1 flex flex-col items-center justify-center">
                       <img 
-                        src={allowancePieChart} 
-                        alt="Business priority pie chart showing Allowance at 58.45%, Other at 27.54%, Voucher at 13.34%, and pandapro at 0.67%"
+                        src={allowanceUserExpectation} 
+                        alt="Mobile app interface showing unmoderated user testing with green dots indicating user interaction points"
                         className="h-full w-auto max-h-[400px] object-contain"
                       />
-                      <p className="text-xs text-muted-foreground mt-2">GMV of corporate services Feb. 2022</p>
                     </div>
                   </div>
              
