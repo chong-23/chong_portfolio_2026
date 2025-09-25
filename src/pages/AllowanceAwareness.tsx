@@ -198,11 +198,11 @@ const AllowanceAwareness = () => {
               <div className="overflow-x-auto pb-4">
                 <div className="flex gap-6 min-w-max">
                   {/* First item - GIF */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center justify-center flex-shrink-0">
+                  <div className="flex items-center justify-center flex-shrink-0">
                     <img 
                       src={homescreenGif} 
                       alt="Push notification flow showing allowance reminder on home screen"
-                      className="h-full w-auto rounded-lg object-contain"
+                      className="h-[500px] w-auto rounded-xl object-contain"
                     />
                   </div>
                   
