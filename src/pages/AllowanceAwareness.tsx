@@ -202,7 +202,7 @@ const AllowanceAwareness = () => {
                     <img 
                       src={homescreenGif} 
                       alt="Push notification flow showing allowance reminder on home screen"
-                      className="h-[500px] w-auto rounded-2xl object-contain"
+                      className="h-[500px] w-auto rounded-3xl object-contain"
                     />
                   </div>
                   
