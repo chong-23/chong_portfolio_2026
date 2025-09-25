@@ -196,35 +196,50 @@ const AllowanceAwareness = () => {
               {/* Gallery */}
               <div className="space-y-6">
                 {/* First item - GIF placeholder */}
-                <div className="bg-muted/30 rounded-xl p-8 flex items-center justify-center h-64">
+                <div className="bg-muted/30 rounded-xl p-8 flex items-center justify-center h-64 mb-6">
                   <p className="text-muted-foreground">GIF placeholder - Push notification flow</p>
                 </div>
                 
-                {/* Gallery cards */}
-                <div className="grid gap-6">
-                  {/* Card 1 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 h-[500px] flex items-center">
-                    <div className="flex-1 pr-8">
-                      <h3 className="text-xl font-semibold mb-3">Challenge</h3>
-                      <p className="text-muted-foreground mb-4">
-                        Every domain wants a spot on home screen. How to prioritize allowance section?
-                      </p>
+                {/* Horizontal Scrolling Carousel */}
+                <div className="overflow-x-auto pb-4">
+                  <div className="flex gap-6 min-w-max">
+                    {/* Card 1 - Left-Right Layout */}
+                    <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                      <div className="flex-1 pr-8">
+                        <h3 className="text-xl font-semibold mb-3">Challenge</h3>
+                        <p className="text-muted-foreground mb-4">
+                          Every domain wants a spot on home screen. How to prioritize allowance section?
+                        </p>
+                      </div>
+                      <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center">
+                        <p className="text-muted-foreground">Mobile mockup placeholder</p>
+                      </div>
                     </div>
-                    <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center">
-                      <p className="text-muted-foreground">Mobile mockup placeholder</p>
+                    
+                    {/* Card 2 - Right-Left Layout */}
+                    <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                      <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center mr-8">
+                        <p className="text-muted-foreground">Mobile mockup placeholder</p>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-xl font-semibold mb-3">Solution</h3>
+                        <p className="text-muted-foreground mb-4">
+                          Fixed module with customizable module based on each market needs for optimal allowance visibility.
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  
-                  {/* Card 2 - Right-Left Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 h-[500px] flex items-center">
-                    <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center mr-8">
-                      <p className="text-muted-foreground">Mobile mockup placeholder</p>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-xl font-semibold mb-3">Solution</h3>
-                      <p className="text-muted-foreground mb-4">
-                        Fixed module with customizable module based on each market needs for optimal allowance visibility.
-                      </p>
+                    
+                    {/* Card 3 - Left-Right Layout */}
+                    <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                      <div className="flex-1 pr-8">
+                        <h3 className="text-xl font-semibold mb-3">Implementation</h3>
+                        <p className="text-muted-foreground mb-4">
+                          Seamlessly integrated allowance tracking into the existing home screen flow.
+                        </p>
+                      </div>
+                      <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center">
+                        <p className="text-muted-foreground">Implementation mockup</p>
+                      </div>
                     </div>
                   </div>
                 </div>
