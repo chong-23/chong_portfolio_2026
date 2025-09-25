@@ -4,6 +4,7 @@ import allowanceCover from "@/assets/allowance_cover.jpg";
 import allowanceHs from "@/assets/allowance_hs.png";
 import allowanceCurrentIssue from "@/assets/allowance-current-issue.png";
 import allowanceUserJourney from "@/assets/allowance-user-journey.png";
+import allowanceIdeation from "@/assets/allowance-ideation.jpg";
 
 const AllowanceAwareness = () => {
   return (
@@ -75,6 +76,50 @@ const AllowanceAwareness = () => {
               <img 
                 src={allowanceUserJourney} 
                 alt="User journey and painpoints diagram showing feedback from 5 markets"
+                className="w-full max-w-7xl h-auto rounded-xl"
+              />
+            </div>
+          </section>
+
+          {/* Opportunities Section */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-4">Opportunities</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
+              After brainstorming with the development team, identified two major directions. Option 1 is unfeasible within a 3-month timeframe and lacks long-term scalability.
+            </p>
+            
+            {/* Two Solutions Evaluation */}
+            <div className="mb-12">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="border border-border rounded-xl p-6 relative">
+                  <div className="absolute top-4 right-4 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center">
+                    <span className="text-red-600 text-xl">✗</span>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-3 text-red-600">Option 1</h3>
+                  <p className="text-muted-foreground">Showing allowance on the navigation across the whole journey</p>
+                  <div className="mt-4 text-sm text-muted-foreground">
+                    <p>• Unfeasible within 3-month timeframe</p>
+                    <p>• Lacks long-term scalability</p>
+                  </div>
+                </div>
+                <div className="border border-border rounded-xl p-6 relative">
+                  <div className="absolute top-4 right-4 w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                    <span className="text-green-600 text-xl">✓</span>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-3 text-green-600">Option 2</h3>
+                  <p className="text-muted-foreground">Showing allowance on key decision-making screens</p>
+                  <div className="mt-4 text-sm text-muted-foreground">
+                    <p>• Feasible implementation</p>
+                    <p>• Scalable approach</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex justify-center">
+              <img 
+                src={allowanceIdeation} 
+                alt="Mobile app wireframes showing allowance integration across homescreen, discovery, restaurant detail, cart checkout, and post ordering screens"
                 className="w-full max-w-7xl h-auto rounded-xl"
               />
             </div>
