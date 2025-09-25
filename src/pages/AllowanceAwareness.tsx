@@ -1,13 +1,13 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import allowanceCover from "@/assets/allowance_cover.jpg";
-import allowanceHs from "@/assets/allowance_hs.jpg";
+import allowanceHs from "@/assets/allowance_hs.png";
 
 const AllowanceAwareness = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Gradient Background covering Navigation */}
-      <div className="relative h-[550px]" style={{ background: 'var(--gradient-allowance-hero)' }}>
+      <div className="relative h-[550px] overflow-hidden" style={{ background: 'var(--gradient-allowance-hero)' }}>
         <Navigation />
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
@@ -23,7 +23,7 @@ const AllowanceAwareness = () => {
               </div>
               
               {/* Image Section - Desktop Only */}
-              <div className="hidden lg:block flex-shrink-0 ml-12">
+              <div className="hidden lg:block flex-shrink-0 ml-12 relative top-[100px]">
                 <img 
                   src={allowanceHs} 
                   alt="Allowance Awareness mobile app interface"
