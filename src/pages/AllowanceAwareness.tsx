@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import allowanceCover from "@/assets/allowance_cover.jpg";
 import allowanceHs from "@/assets/allowance_hs.png";
 import allowanceCurrentIssue from "@/assets/allowance-current-issue.png";
+import allowanceUserJourney from "@/assets/allowance-user-journey.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -59,6 +60,21 @@ const AllowanceAwareness = () => {
               <img 
                 src={allowanceCurrentIssue} 
                 alt="User journey showing lack of allowance visibility until cart stage"
+                className="w-full max-w-7xl h-auto rounded-xl"
+              />
+            </div>
+          </section>
+
+          {/* User Journey & Painpoints Section */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-4">User Journey & Painpoints</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
+              Based on feedback from 5 markets, users struggle to access allowance info crucial for informed decisions during the journey.
+            </p>
+            <div className="flex justify-center">
+              <img 
+                src={allowanceUserJourney} 
+                alt="User journey and painpoints diagram showing feedback from 5 markets"
                 className="w-full max-w-7xl h-auto rounded-xl"
               />
             </div>
