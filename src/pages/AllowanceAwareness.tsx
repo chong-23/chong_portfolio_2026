@@ -233,12 +233,13 @@ const AllowanceAwareness = () => {
                         Allowance holds the highest business priority, being a crucial and widely subscribed service by client companies.
                       </p>
                     </div>
-                    <div className="flex-1 flex items-center justify-center">
+                    <div className="flex-1 flex flex-col items-center justify-center">
                       <img 
                         src={allowancePieChart} 
                         alt="Business priority pie chart showing Allowance at 58.45%, Other at 27.54%, Voucher at 13.34%, and pandapro at 0.67%"
                         className="h-full w-auto max-h-[400px] object-contain"
                       />
+                      <p className="text-xs text-muted-foreground mt-2">GMV of corporate services Feb. 2022</p>
                     </div>
                   </div>
                 </div>
