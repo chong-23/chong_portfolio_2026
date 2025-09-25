@@ -82,7 +82,7 @@ const AllowanceAwareness = () => {
         </div>
 
         {/* JTBD, Hypothesis, and HMW Section with Full-Width Gradient Background */}
-        <section className="mb-20 w-full" style={{ background: 'linear-gradient(135deg, #FFD7E9 0%, #F1F1F1 100%)'}}>
+        <section className="mb-20 w-full" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)'}}>
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
             {/* JTBD */}
             <div className="text-center mb-16">
