@@ -153,31 +153,18 @@ const AllowanceAwareness = () => {
             </div>
           </section>
 
-          {/* Design Process Section */}
+          {/* Userflow Solution */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">Design Process</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-primary-foreground">1</span>
-                </div>
-                <h3 className="text-xl font-semibold mb-3">Research</h3>
-                <p className="text-muted-foreground max-w-[700px]">User interviews and market analysis to understand spending behaviors</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-primary-foreground">2</span>
-                </div>
-                <h3 className="text-xl font-semibold mb-3">Ideation</h3>
-                <p className="text-muted-foreground max-w-[700px]">Brainstorming solutions for seamless budget integration</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-primary-foreground">3</span>
-                </div>
-                <h3 className="text-xl font-semibold mb-3">Testing</h3>
-                <p className="text-muted-foreground max-w-[700px]">Prototyping and user testing to validate solutions</p>
-              </div>
+            <h2 className="text-3xl font-bold mb-4">Userflow Solution</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
+              Solution primarily targets the initial journey phase, with maximum impact on decision-making.
+            </p>
+            <div className="flex justify-center">
+              <img 
+                src={allowanceUserJourney} 
+                alt="User journey and painpoints diagram showing feedback from 5 markets"
+                className="w-full max-w-7xl h-auto rounded-xl"
+              />
             </div>
           </section>
 
