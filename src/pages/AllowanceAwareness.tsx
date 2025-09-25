@@ -176,6 +176,62 @@ const AllowanceAwareness = () => {
             </div>
           </section>
 
+          {/* Solution Gallery Section */}
+          <section className="mb-20">
+            {/* Improvement 1 */}
+            <div className="mb-16">
+              {/* Tag */}
+              <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
+                Improvement 1
+              </div>
+              
+              {/* Title */}
+              <h2 className="text-3xl font-bold mb-4">Reminder & Indicator on home screen</h2>
+              
+              {/* Subtitle */}
+              <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
+                Implemented push notifications for pre-app reminders, directing users to the home screen for quick allowance balance checks.
+              </p>
+              
+              {/* Gallery */}
+              <div className="space-y-6">
+                {/* First item - GIF placeholder */}
+                <div className="bg-muted/30 rounded-xl p-8 flex items-center justify-center h-64">
+                  <p className="text-muted-foreground">GIF placeholder - Push notification flow</p>
+                </div>
+                
+                {/* Gallery cards */}
+                <div className="grid gap-6">
+                  {/* Card 1 - Left-Right Layout */}
+                  <div className="bg-background border border-border rounded-xl p-6 h-[500px] flex items-center">
+                    <div className="flex-1 pr-8">
+                      <h3 className="text-xl font-semibold mb-3">Challenge</h3>
+                      <p className="text-muted-foreground mb-4">
+                        Every domain wants a spot on home screen. How to prioritize allowance section?
+                      </p>
+                    </div>
+                    <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center">
+                      <p className="text-muted-foreground">Mobile mockup placeholder</p>
+                    </div>
+                  </div>
+                  
+                  {/* Card 2 - Right-Left Layout */}
+                  <div className="bg-background border border-border rounded-xl p-6 h-[500px] flex items-center">
+                    <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center mr-8">
+                      <p className="text-muted-foreground">Mobile mockup placeholder</p>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold mb-3">Solution</h3>
+                      <p className="text-muted-foreground mb-4">
+                        Fixed module with customizable module based on each market needs for optimal allowance visibility.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Key Features Section */}
           <section className="mb-20">
             <h2 className="text-3xl font-bold mb-8">Key Features</h2>
