@@ -220,7 +220,7 @@ const AllowanceAwareness = () => {
                       <img 
                         src={allowanceChallenge1} 
                         alt="Mobile app homescreen showing fixed module and customizable module layout"
-                        className="h-full w-auto max-h-[400px] rounded-2xl object-contain"
+                        className="h-full w-auto max-h-[400px] object-contain"
                       />
                     </div>
                   </div>
@@ -237,7 +237,7 @@ const AllowanceAwareness = () => {
                       <img 
                         src={allowancePieChart} 
                         alt="Business priority pie chart showing Allowance at 58.45%, Other at 27.54%, Voucher at 13.34%, and pandapro at 0.67%"
-                        className="h-full w-auto max-h-[400px] rounded-2xl object-contain"
+                        className="h-full w-auto max-h-[400px] object-contain"
                       />
                     </div>
                   </div>
