@@ -42,7 +42,7 @@ const AllowanceAwareness = () => {
           {/* Overview Section */}
           <section className="mb-20">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Overview</h2>
+              <h2 className="text-3xl font-bold mb-4">Overview</h2>
               <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
                 This project focused on optimizing allowance usage in workplace food services, boosting revenue by <span className="font-bold" style={{ color: '#FE2B84' }}>enhancing allowance utilization rate from a current 8%</span>.
               </p>
@@ -51,7 +51,7 @@ const AllowanceAwareness = () => {
 
           {/* What was it like before Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">What was it like before</h2>
+            <h2 className="text-3xl font-bold mb-4">What was it like before</h2>
             <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
               Users lack visibility into their allowance balance until reaching the cart stage.
             </p>
