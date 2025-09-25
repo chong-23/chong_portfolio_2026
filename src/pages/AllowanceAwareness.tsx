@@ -152,7 +152,6 @@ const AllowanceAwareness = () => {
               />
             </div>
           </section>
-        </div>
 
           {/* Design Process Section */}
           <section className="mb-20">
