@@ -202,12 +202,12 @@ const AllowanceAwareness = () => {
                     <img 
                       src={homescreenGif} 
                       alt="Push notification flow showing allowance reminder on home screen"
-                      className="h-[500px] w-auto rounded-xl object-contain"
+                      className="h-[500px] w-auto rounded-2xl object-contain"
                     />
                   </div>
                   
                   {/* Card 1 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-2xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
                     <div className="flex-1 pr-8">
                       <h3 className="text-xl font-semibold mb-3">Challenge</h3>
                       <p className="text-muted-foreground mb-4">
