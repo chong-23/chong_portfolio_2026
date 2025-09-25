@@ -8,6 +8,7 @@ import allowanceIdeation from "@/assets/allowance-ideation.jpg";
 import allowanceJourneySolution from "@/assets/allowance-journey-solution.png";
 import homescreenGif from "@/assets/homescreen.gif";
 import allowanceChallenge1 from "@/assets/allowance-challenge-1.png";
+import allowancePieChart from "@/assets/allowance-pie-chart.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -232,8 +233,12 @@ const AllowanceAwareness = () => {
                         Allowance holds the highest business priority, being a crucial and widely subscribed service by client companies.
                       </p>
                     </div>
-                    <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center">
-                      <p className="text-muted-foreground">Implementation mockup</p>
+                    <div className="flex-1 flex items-center justify-center">
+                      <img 
+                        src={allowancePieChart} 
+                        alt="Business priority pie chart showing Allowance at 58.45%, Other at 27.54%, Voucher at 13.34%, and pandapro at 0.67%"
+                        className="h-full w-auto max-h-[400px] rounded-2xl object-contain"
+                      />
                     </div>
                   </div>
                 </div>
