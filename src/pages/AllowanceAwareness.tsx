@@ -230,7 +230,7 @@ const AllowanceAwareness = () => {
                   <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
                     <div className="flex-1 pr-8">
                       <h3 className="text-xl font-semibold mb-3">Understand the business priority</h3>
-                      <p className="text-muted-foreground mb-4">
+                      <p className="mb-4">
                         Allowance holds the highest business priority, being a crucial and widely subscribed service by client companies.
                       </p>
                     </div>
@@ -248,7 +248,7 @@ const AllowanceAwareness = () => {
                   <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
                     <div className="flex-1 pr-8">
                       <h3 className="text-xl font-semibold mb-3">Understand users’ expectation</h3>
-                      <p className="text-muted-foreground mb-4">
+                      <p className="mb-4">
                         Unmoderated user testing revealed that most users expect allowance information in the menu, while about 1/3 expect a card on the home screen.
                       </p>
                     </div>
