@@ -7,6 +7,7 @@ import allowanceUserJourney from "@/assets/allowance-user-journey.png";
 import allowanceIdeation from "@/assets/allowance-ideation.jpg";
 import allowanceJourneySolution from "@/assets/allowance-journey-solution.png";
 import homescreenGif from "@/assets/homescreen.gif";
+import allowanceChallenge1 from "@/assets/allowance-challenge-1.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -214,8 +215,12 @@ const AllowanceAwareness = () => {
                         Every domain wants a spot on home screen. How to prioritize allowance section?
                       </p>
                     </div>
-                    <div className="flex-1 bg-muted/20 rounded-lg h-full flex items-center justify-center">
-                      <p className="text-muted-foreground">Mobile mockup placeholder</p>
+                    <div className="flex-1 flex items-center justify-center">
+                      <img 
+                        src={allowanceChallenge1} 
+                        alt="Mobile app homescreen showing fixed module and customizable module layout"
+                        className="h-full w-auto max-h-[400px] rounded-2xl object-contain"
+                      />
                     </div>
                   </div>
                   
