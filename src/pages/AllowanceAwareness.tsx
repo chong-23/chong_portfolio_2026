@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import allowanceCover from "@/assets/allowance_cover.jpg";
 import allowanceHs from "@/assets/allowance_hs.png";
+import allowanceCurrentIssue from "@/assets/allowance-current-issue.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -45,6 +46,21 @@ const AllowanceAwareness = () => {
               <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
                 This project focused on optimizing allowance usage in workplace food services, boosting revenue by <span className="font-bold" style={{ color: '#FE2B84' }}>enhancing allowance utilization rate from a current 8%</span>.
               </p>
+            </div>
+          </section>
+
+          {/* What was it like before Section */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-8">What was it like before</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
+              Users lack visibility into their allowance balance until reaching the cart stage.
+            </p>
+            <div className="flex justify-center">
+              <img 
+                src={allowanceCurrentIssue} 
+                alt="User journey showing lack of allowance visibility until cart stage"
+                className="w-full max-w-5xl h-auto rounded-xl"
+              />
             </div>
           </section>
 
