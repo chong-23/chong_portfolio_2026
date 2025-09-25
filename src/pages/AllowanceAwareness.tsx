@@ -81,14 +81,42 @@ const AllowanceAwareness = () => {
             </div>
           </section>
 
-          {/* Opportunities Section */}
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">Opportunities</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
+        {/* JTBD, Hypothesis, and HMW Section with Full-Width Gradient Background */}
+        <section className="mb-20 w-full" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)'}}>
+          <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+            {/* JTBD */}
+            <div className="text-center mb-16">
+              <h2 className="text-2xl font-bold mb-4">JTBD</h2>
+              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
+                Accessing allowance info easily during the ordering journey for informed decision-making.
+              </p>
+            </div>
+
+            {/* Hypothesis */}
+            <div className="text-center mb-16">
+              <h2 className="text-2xl font-bold mb-4">Hypothesis</h2>
+              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
+                <span className="font-bold" style={{ color: '#FE2B84' }}>Enhancing allowance accessibility and awareness</span> throughout the journey will drive better user decisions, ultimately improving allowance utilization.
+              </p>
+            </div>
+
+            {/* HMW */}
+            <div className="text-center">
+              <h2 className="text-2xl font-bold mb-4">HMW</h2>
+              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
+                Effectively convey balance and allowance criteria for users to optimize their ordering decisions?
+              </p>
+            </div>
+          </div>
+        </section>
+        {/* Opportunities Section */}
+        <section className="mb-20">
+          <h2 className="text-3xl font-bold mb-4">Opportunities</h2>
+          <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
               After brainstorming with the development team, identified two major directions. Option 1 is unfeasible within a 3-month timeframe and lacks long-term scalability.
-            </p>
-            
-            {/* Two Solutions Evaluation */}
+          </p>  
+
+      {/* Two Solutions Evaluation */}
             <div className="mb-12">
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="border border-border rounded-xl p-6 relative">
@@ -125,46 +153,6 @@ const AllowanceAwareness = () => {
             </div>
           </section>
         </div>
-
-        {/* JTBD, Hypothesis, and HMW Section with Full-Width Gradient Background */}
-        <section className="mb-20 w-full" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)'}}>
-          <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
-            {/* JTBD */}
-            <div className="text-center mb-16">
-              <h2 className="text-2xl font-bold mb-4">JTBD</h2>
-              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-                Accessing allowance info easily during the ordering journey for informed decision-making.
-              </p>
-            </div>
-
-            {/* Hypothesis */}
-            <div className="text-center mb-16">
-              <h2 className="text-2xl font-bold mb-4">Hypothesis</h2>
-              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-                <span className="font-bold" style={{ color: '#FE2B84' }}>Enhancing allowance accessibility and awareness</span> throughout the journey will drive better user decisions, ultimately improving allowance utilization.
-              </p>
-            </div>
-
-            {/* HMW */}
-            <div className="text-center">
-              <h2 className="text-2xl font-bold mb-4">HMW</h2>
-              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-                Effectively convey balance and allowance criteria for users to optimize their ordering decisions?
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Challenge Section */}
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">The Challenge</h2>
-            <div className="bg-muted/50 rounded-2xl p-8">
-              <p className="text-lg leading-relaxed max-w-[700px]">
-                How might we help users become more aware of their food delivery spending while maintaining a seamless ordering experience? The challenge was to integrate budget tracking features without disrupting the core user journey of discovering and ordering food.
-              </p>
-            </div>
-          </section>
 
           {/* Design Process Section */}
           <section className="mb-20">
