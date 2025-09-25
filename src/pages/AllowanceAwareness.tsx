@@ -7,7 +7,7 @@ const AllowanceAwareness = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Gradient Background covering Navigation */}
-      <div className="relative h-[550px]" style={{ background: 'var(--gradient-allowance-hero)' }}>
+      <div className="relative h-[300px] lg:h-[550px]" style={{ background: 'var(--gradient-allowance-hero)' }}>
         <Navigation />
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
