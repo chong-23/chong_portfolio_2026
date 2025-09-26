@@ -357,15 +357,15 @@ const AllowanceAwareness = () => {
                     <h3 className="text-xl font-semibold mb-6 text-center">Design Decision</h3>
                     <div className="flex-1 flex items-center justify-center gap-8">
                       <div className="flex items-start gap-4">
+                        <div className="flex flex-col justify-start pt-16 max-w-[120px]">
+                          <span className="text-xs text-green-600 font-medium mb-2">✓ Selected</span>
+                          <p className="text-xs text-muted-foreground">Simple banner, less distraction</p>
+                        </div>
                         <img 
                           src={allowanceHsSimple} 
                           alt="Simple allowance design with clean layout and minimal distraction"
                           className="h-80 w-auto object-contain"
                         />
-                        <div className="flex flex-col justify-start pt-16 max-w-[120px]">
-                          <span className="text-xs text-green-600 font-medium mb-2">✓ Selected</span>
-                          <p className="text-xs text-muted-foreground">Simple banner, less distraction</p>
-                        </div>
                       </div>
                       <div className="flex items-start gap-4">
                         <img 
