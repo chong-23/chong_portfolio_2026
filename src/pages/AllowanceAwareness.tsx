@@ -315,6 +315,23 @@ const AllowanceAwareness = () => {
                       />
                     </div>
                   </div>
+
+                  {/* Card 7 - Left-Right Layout */}
+                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                    <div className="flex-1 pr-8">
+                      <h3 className="text-xl font-semibold mb-3">Time as the key element</h3>
+                      <p className="mb-4">
+                         Materials from HR highlight time as a crucial factor when communicating allowances to employees.
+                      </p>
+                    </div>
+                    <div className="flex-1 flex flex-col items-center justify-center">
+                      <img 
+                        src={allowanceUserExpectation} 
+                        alt="Mobile app interface showing unmoderated user testing with green dots indicating user interaction points"
+                        className="h-full w-auto max-h-[400px] object-contain"
+                      />
+                    </div>
+                  </div>
              
                 </div>
               </div>
