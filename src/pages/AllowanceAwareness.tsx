@@ -336,6 +336,36 @@ const AllowanceAwareness = () => {
                       />
                     </div>
                   </div>
+
+                  {/* Card 8 - Center Layout */}
+                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
+                    <h3 className="text-xl font-semibold mb-6 text-center">Card 8 Title</h3>
+                    <div className="flex-1 flex items-center justify-center">
+                      <div className="w-64 h-64 bg-muted rounded-lg flex items-center justify-center">
+                        <p className="text-muted-foreground">Image placeholder</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Card 9 - Center Layout */}
+                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
+                    <h3 className="text-xl font-semibold mb-6 text-center">Card 9 Title</h3>
+                    <div className="flex-1 flex items-center justify-center">
+                      <div className="w-64 h-64 bg-muted rounded-lg flex items-center justify-center">
+                        <p className="text-muted-foreground">Image placeholder</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Card 10 - Center Layout */}
+                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
+                    <h3 className="text-xl font-semibold mb-6 text-center">Card 10 Title</h3>
+                    <div className="flex-1 flex items-center justify-center">
+                      <div className="w-64 h-64 bg-muted rounded-lg flex items-center justify-center">
+                        <p className="text-muted-foreground">Image placeholder</p>
+                      </div>
+                    </div>
+                  </div>
              
                 </div>
               </div>
