@@ -279,6 +279,42 @@ const AllowanceAwareness = () => {
                       />
                     </div>
                   </div>
+
+                  {/* Card 5 - Left-Right Layout */}
+                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                    <div className="flex-1 pr-8">
+                      <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
+                      <p className="font-semibold text-xl mb-4">
+                        There are 9 criteria for an allowance rule. Which information can help the user make a decision?
+                      </p>
+                    </div>
+                    <div className="flex-1 flex items-center justify-center">
+                      <img 
+                        src={allowanceChallenge1} 
+                        alt="Mobile app homescreen showing fixed module and customizable module layout"
+                        className="h-full w-auto max-h-[400px] object-contain"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Card 6 - Left-Right Layout */}
+                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                    <div className="flex-1 pr-8">
+                      <h3 className="text-xl font-semibold mb-3">"Price" as Primary Decision Factor</h3>
+                      <p className="mb-4">
+                         Research indicates "Price" is critical during restaurant browsing; this translates to allowance as amount and availability.
+                      </p>
+                      <p className="text-xs text-muted-foreground mt-2">*Based on the research from homescreen and restaurant listing, “Price” is important information during dicovery：“dish price, delivery fee, promotions and deals”
+                      </p>
+                    </div>
+                    <div className="flex-1 flex flex-col items-center justify-center">
+                      <img 
+                        src={allowanceUserExpectation} 
+                        alt="Mobile app interface showing unmoderated user testing with green dots indicating user interaction points"
+                        className="h-full w-auto max-h-[400px] object-contain"
+                      />
+                    </div>
+                  </div>
              
                 </div>
               </div>
