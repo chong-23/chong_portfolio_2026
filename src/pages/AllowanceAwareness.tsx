@@ -356,23 +356,27 @@ const AllowanceAwareness = () => {
                   <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
                     <h3 className="text-xl font-semibold mb-6 text-center">Design Decision</h3>
                     <div className="flex-1 flex items-center justify-center gap-8">
-                      <div className="flex flex-col items-center max-w-[300px]">
+                      <div className="flex items-start gap-4">
                         <img 
                           src={allowanceHsSimple} 
                           alt="Simple allowance design with clean layout and minimal distraction"
-                          className="h-80 w-auto object-contain mb-3"
+                          className="h-80 w-auto object-contain"
                         />
-                        <span className="text-xs text-green-600 font-medium mb-2">✓ Selected Design</span>
-                        <p className="text-xs text-center text-muted-foreground">Simple and clean with less distraction</p>
+                        <div className="flex flex-col justify-start pt-16 max-w-[120px]">
+                          <span className="text-xs text-green-600 font-medium mb-2">✓ Selected</span>
+                          <p className="text-xs text-muted-foreground">Simple banner, less distraction</p>
+                        </div>
                       </div>
-                      <div className="flex flex-col items-center max-w-[300px]">
+                      <div className="flex items-start gap-4">
                         <img 
                           src={allowanceHsDetailed} 
                           alt="Detailed allowance design with fragmented visual elements"
-                          className="h-80 w-auto object-contain mb-3"
+                          className="h-80 w-auto object-contain"
                         />
-                        <span className="text-xs text-muted-foreground font-medium mb-2">Alternative Design</span>
-                        <p className="text-xs text-center text-muted-foreground">Detailed information but fragmented visual elements</p>
+                        <div className="flex flex-col justify-start pt-16 max-w-[120px]">
+                          <span className="text-xs text-muted-foreground font-medium mb-2">Alternative</span>
+                          <p className="text-xs text-muted-foreground">Detailed card, more fragmented</p>
+                        </div>
                       </div>
                     </div>
                   </div>
