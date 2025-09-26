@@ -11,6 +11,8 @@ import allowanceChallenge1 from "@/assets/allowance-challenge-1.png";
 import allowancePieChart from "@/assets/allowance-pie-chart.png";
 import allowanceUserExpectation from "@/assets/allowance-user-expectation.png";
 import allowanceHomescreenSolution from "@/assets/allowance-homescreen-solution.png";
+import allowancePriceFactors from "@/assets/allowance-price-factors.png";
+import allowanceTimeFactors from "@/assets/allowance-time-factors.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -311,8 +313,8 @@ const AllowanceAwareness = () => {
                     </div>
                     <div className="flex-1 flex flex-col items-center justify-center">
                       <img 
-                        src={allowanceUserExpectation} 
-                        alt="Mobile app interface showing unmoderated user testing with green dots indicating user interaction points"
+                        src={allowancePriceFactors} 
+                        alt="Price factors diagram showing various elements like price level, delivery fee, promotions and deals"
                         className="h-full w-auto max-h-[400px] object-contain"
                       />
                     </div>
@@ -328,8 +330,8 @@ const AllowanceAwareness = () => {
                     </div>
                     <div className="flex-1 flex flex-col items-center justify-center">
                       <img 
-                        src={allowanceUserExpectation} 
-                        alt="Mobile app interface showing unmoderated user testing with green dots indicating user interaction points"
+                        src={allowanceTimeFactors} 
+                        alt="Time-based allowance communication showing one-time and recurring allowance examples"
                         className="h-full w-auto max-h-[400px] object-contain"
                       />
                     </div>
