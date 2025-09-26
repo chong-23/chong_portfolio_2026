@@ -206,200 +206,232 @@ const AllowanceAwareness = () => {
               </p>
               
               {/* Horizontal Scrolling Carousel */}
-              <div className="overflow-x-auto pb-4">
-                <div className="flex gap-6 min-w-max">
-                  {/* First item - GIF */}
-                  <div className="flex items-center justify-center flex-shrink-0">
-                    <img 
-                      src={homescreenGif} 
-                      alt="Push notification flow showing allowance reminder on home screen"
-                      className="h-[500px] w-auto rounded-3xl object-contain"
-                    />
-                  </div>
-                  
-                  {/* Card 1 - Left-Right Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <div className="flex-1 pr-8">
-                      <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
-                      <p className="font-semibold text-xl mb-4">
-                        Every domain wants a spot on home screen. How to prioritize allowance section?
-                      </p>
-                    </div>
-                    <div className="flex-1 flex items-center justify-center">
+              <div className="relative">
+                <div className="overflow-x-auto pb-4" id="carousel-container">
+                  <div className="flex gap-6 min-w-max">
+                    {/* First item - GIF */}
+                    <div className="flex items-center justify-center flex-shrink-0">
                       <img 
-                        src={allowanceChallenge1} 
-                        alt="Mobile app homescreen showing fixed module and customizable module layout"
-                        className="h-full w-auto max-h-[400px] object-contain"
+                        src={homescreenGif} 
+                        alt="Push notification flow showing allowance reminder on home screen"
+                        className="h-[500px] w-auto rounded-3xl object-contain"
                       />
                     </div>
-                  </div>
-                  
-                  {/* Card 2 - Left-Right Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <div className="flex-1 pr-8">
-                      <h3 className="text-xl font-semibold mb-3">Understand the business priority</h3>
-                      <p className="mb-4">
-                        Allowance holds the highest business priority, being a crucial and widely subscribed service by client companies.
-                      </p>
+                    
+                    {/* Card 1 - Left-Right Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <div className="flex-1 pr-8">
+                        <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
+                        <p className="font-semibold text-xl mb-4">
+                          Every domain wants a spot on home screen. How to prioritize allowance section?
+                        </p>
+                      </div>
+                      <div className="flex-1 flex items-center justify-center">
+                        <img 
+                          src={allowanceChallenge1} 
+                          alt="Mobile app homescreen showing fixed module and customizable module layout"
+                          className="h-full w-auto max-h-[400px] object-contain"
+                        />
+                      </div>
                     </div>
-                    <div className="flex-1 flex flex-col items-center justify-center">
-                      <img 
-                        src={allowancePieChart} 
-                        alt="Business priority pie chart showing Allowance at 58.45%, Other at 27.54%, Voucher at 13.34%, and pandapro at 0.67%"
-                        className="h-full w-auto max-h-[400px] object-contain"
-                      />
-                      <p className="text-xs text-muted-foreground mt-2">GMV of corporate services Feb. 2022</p>
+                    
+                    {/* Card 2 - Left-Right Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <div className="flex-1 pr-8">
+                        <h3 className="text-xl font-semibold mb-3">Understand the business priority</h3>
+                        <p className="mb-4">
+                          Allowance holds the highest business priority, being a crucial and widely subscribed service by client companies.
+                        </p>
+                      </div>
+                      <div className="flex-1 flex flex-col items-center justify-center">
+                        <img 
+                          src={allowancePieChart} 
+                          alt="Business priority pie chart showing Allowance at 58.45%, Other at 27.54%, Voucher at 13.34%, and pandapro at 0.67%"
+                          className="h-full w-auto max-h-[400px] object-contain"
+                        />
+                        <p className="text-xs text-muted-foreground mt-2">GMV of corporate services Feb. 2022</p>
+                      </div>
                     </div>
-                  </div>
 
-                  {/* Card 3 - Left-Right Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <div className="flex-1 pr-8">
-                      <h3 className="text-xl font-semibold mb-3">Understand users' expectation</h3>
-                      <p className="mb-4">
-                        Unmoderated user testing revealed that most users expect allowance information in the menu, while about 1/3 expect a card on the home screen.
-                      </p>
+                    {/* Card 3 - Left-Right Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <div className="flex-1 pr-8">
+                        <h3 className="text-xl font-semibold mb-3">Understand users expectation</h3>
+                        <p className="mb-4">
+                          Unmoderated user testing revealed that most users expect allowance information in the menu, while about 1/3 expect a card on the home screen.
+                        </p>
+                      </div>
+                      <div className="flex-1 flex flex-col items-center justify-center">
+                        <img 
+                          src={allowanceUserExpectation} 
+                          alt="Mobile app interface showing unmoderated user testing with green dots indicating user interaction points"
+                          className="h-full w-auto max-h-[400px] object-contain"
+                        />
+                      </div>
                     </div>
-                    <div className="flex-1 flex flex-col items-center justify-center">
-                      <img 
-                        src={allowanceUserExpectation} 
-                        alt="Mobile app interface showing unmoderated user testing with green dots indicating user interaction points"
-                        className="h-full w-auto max-h-[400px] object-contain"
-                      />
-                    </div>
-                  </div>
 
-                   {/* Card 4 - Left-Right Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <div className="flex-1 pr-8">
-                      <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
-                      <h3 className="text-xl font-semibold mb-3">Enable quick skim</h3>
-                      <p className="mb-4">
-                        When users land on the home screen, they can quickly scan allowance information and focus on restaurant and food browsing.
-                      </p>
+                     {/* Card 4 - Left-Right Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <div className="flex-1 pr-8">
+                        <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
+                        <h3 className="text-xl font-semibold mb-3">Enable quick skim</h3>
+                        <p className="mb-4">
+                          When users land on the home screen, they can quickly scan allowance information and focus on restaurant and food browsing.
+                        </p>
+                      </div>
+                      <div className="flex-1 flex flex-col items-center justify-center">
+                        <img 
+                          src={allowanceHomescreenSolution} 
+                          alt="Mobile app homescreen showing quickly skim and primary focus areas for allowance information"
+                          className="h-full w-auto max-h-[400px] object-contain"
+                        />
+                      </div>
                     </div>
-                    <div className="flex-1 flex flex-col items-center justify-center">
-                      <img 
-                        src={allowanceHomescreenSolution} 
-                        alt="Mobile app homescreen showing quickly skim and primary focus areas for allowance information"
-                        className="h-full w-auto max-h-[400px] object-contain"
-                      />
-                    </div>
-                  </div>
 
-                  {/* Card 5 - Left-Right Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <div className="flex-1 pr-8">
-                      <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
-                      <p className="font-semibold text-xl mb-4">
-                        There are 9 criteria for an allowance rule. Which information can help the user make a decision?
-                      </p>
+                    {/* Card 5 - Left-Right Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <div className="flex-1 pr-8">
+                        <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
+                        <p className="font-semibold text-xl mb-4">
+                          There are 9 criteria for an allowance rule. Which information can help the user make a decision?
+                        </p>
+                      </div>
+                      <div className="flex-1 flex items-center justify-center">
+                        <div className="grid grid-cols-3 gap-3 w-full max-w-sm">
+                          {['Frequency', 'Amount', 'Days', 'Time', 'Select employees', 'Locations', 'Service types', 'Delivery method', 'Expense'].map((criteria, index) => (
+                            <div key={index} className="bg-primary/10 text-primary text-center py-3 px-3 rounded-lg text-sm font-medium flex items-center justify-center min-h-[50px]">
+                              {criteria}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex-1 flex items-center justify-center">
-                      <div className="grid grid-cols-3 gap-3 w-full max-w-sm">
-                        {['Frequency', 'Amount', 'Days', 'Time', 'Select employees', 'Locations', 'Service types', 'Delivery method', 'Expense'].map((criteria, index) => (
-                          <div key={index} className="bg-primary/10 text-primary text-center py-3 px-3 rounded-lg text-sm font-medium flex items-center justify-center min-h-[50px]">
-                            {criteria}
+
+                    {/* Card 6 - Left-Right Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <div className="flex-1 pr-8">
+                        <h3 className="text-xl font-semibold mb-3">"Price" as Primary Decision Factor</h3>
+                        <p className="mb-4">
+                           Research indicates "Price" is critical during restaurant browsing; this translates to allowance as amount and availability.
+                        </p>
+                        <p className="text-xs text-muted-foreground mt-2">*Based on the research from homescreen and restaurant listing, "Price" is important information during dicovery："dish price, delivery fee, promotions and deals"
+                        </p>
+                      </div>
+                      <div className="flex-1 flex flex-col items-center justify-center">
+                        <img 
+                          src={allowancePriceFactors} 
+                          alt="Price factors diagram showing various elements like price level, delivery fee, promotions and deals"
+                          className="h-full w-auto max-h-[400px] object-contain"
+                        />
+                      </div>
+                    </div>
+
+                     {/* Card 7 - Left-Right Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <div className="flex-1 pr-8">
+                        <h3 className="text-xl font-semibold mb-3">Time as the key element</h3>
+                        <p className="mb-4">
+                           Materials from HR highlight time as a crucial factor when communicating allowances to employees.
+                        </p>
+                      </div>
+                      <div className="flex-1 flex flex-col items-center justify-center">
+                        <img 
+                          src={allowanceTimeFactors} 
+                          alt="Time-based allowance communication showing one-time and recurring allowance examples"
+                          className="h-full w-auto max-h-[400px] object-contain"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Card 8 - Center Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <h3 className="text-xl font-semibold mb-6 text-center">Information Architecture</h3>
+                      <div className="flex-1 flex items-center justify-center">
+                        <img 
+                          src={allowanceWireframes} 
+                          alt="Mobile app wireframes showing different information levels: minimum info, key info, support info, and all info"
+                          className="h-full w-auto max-h-[350px] object-contain"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Card 9 - Center Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <h3 className="text-xl font-semibold mb-6 text-center">Design Decision</h3>
+                      <div className="flex-1 flex items-center justify-center gap-8">
+                        <div className="flex items-start gap-4">
+                          <div className="flex flex-col justify-start pt-16 max-w-[120px]">
+                            <span className="text-xs text-green-600 font-medium mb-2">✓ Selected</span>
+                            <p className="text-xs text-muted-foreground">Simple banner, less distraction</p>
                           </div>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Card 6 - Left-Right Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <div className="flex-1 pr-8">
-                      <h3 className="text-xl font-semibold mb-3">"Price" as Primary Decision Factor</h3>
-                      <p className="mb-4">
-                         Research indicates "Price" is critical during restaurant browsing; this translates to allowance as amount and availability.
-                      </p>
-                      <p className="text-xs text-muted-foreground mt-2">*Based on the research from homescreen and restaurant listing, "Price" is important information during dicovery："dish price, delivery fee, promotions and deals"
-                      </p>
-                    </div>
-                    <div className="flex-1 flex flex-col items-center justify-center">
-                      <img 
-                        src={allowancePriceFactors} 
-                        alt="Price factors diagram showing various elements like price level, delivery fee, promotions and deals"
-                        className="h-full w-auto max-h-[400px] object-contain"
-                      />
-                    </div>
-                  </div>
-
-                   {/* Card 7 - Left-Right Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <div className="flex-1 pr-8">
-                      <h3 className="text-xl font-semibold mb-3">Time as the key element</h3>
-                      <p className="mb-4">
-                         Materials from HR highlight time as a crucial factor when communicating allowances to employees.
-                      </p>
-                    </div>
-                    <div className="flex-1 flex flex-col items-center justify-center">
-                      <img 
-                        src={allowanceTimeFactors} 
-                        alt="Time-based allowance communication showing one-time and recurring allowance examples"
-                        className="h-full w-auto max-h-[400px] object-contain"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Card 8 - Center Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <h3 className="text-xl font-semibold mb-6 text-center">Information Architecture</h3>
-                    <div className="flex-1 flex items-center justify-center">
-                      <img 
-                        src={allowanceWireframes} 
-                        alt="Mobile app wireframes showing different information levels: minimum info, key info, support info, and all info"
-                        className="h-full w-auto max-h-[350px] object-contain"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Card 9 - Center Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <h3 className="text-xl font-semibold mb-6 text-center">Design Decision</h3>
-                    <div className="flex-1 flex items-center justify-center gap-8">
-                      <div className="flex items-start gap-4">
-                        <div className="flex flex-col justify-start pt-16 max-w-[120px]">
-                          <span className="text-xs text-green-600 font-medium mb-2">✓ Selected</span>
-                          <p className="text-xs text-muted-foreground">Simple banner, less distraction</p>
+                          <img 
+                            src={allowanceHsSimple} 
+                            alt="Simple allowance design with clean layout and minimal distraction"
+                            className="h-96 w-auto object-contain"
+                          />
                         </div>
-                        <img 
-                          src={allowanceHsSimple} 
-                          alt="Simple allowance design with clean layout and minimal distraction"
-                          className="h-96 w-auto object-contain"
-                        />
-                      </div>
-                      <div className="flex items-start gap-4">
-                        <img 
-                          src={allowanceHsDetailed} 
-                          alt="Detailed allowance design with fragmented visual elements"
-                          className="h-96 w-auto object-contain"
-                        />
-                        <div className="flex flex-col justify-start pt-16 max-w-[120px]">
-                          <span className="text-xs text-muted-foreground font-medium mb-2">Alternative</span>
-                          <p className="text-xs text-muted-foreground">Detailed card, more fragmented</p>
+                        <div className="flex items-start gap-4">
+                          <img 
+                            src={allowanceHsDetailed} 
+                            alt="Detailed allowance design with fragmented visual elements"
+                            className="h-96 w-auto object-contain"
+                          />
+                          <div className="flex flex-col justify-start pt-16 max-w-[120px]">
+                            <span className="text-xs text-muted-foreground font-medium mb-2">Alternative</span>
+                            <p className="text-xs text-muted-foreground">Detailed card, more fragmented</p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
-                  {/* Card 10 - Center Layout */}
-                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                    <h3 className="text-xl font-semibold mb-6 text-center">Final Implementation</h3>
-                    <div className="flex-1 flex items-center justify-center gap-8">
-                      <img 
-                        src={allowanceHsFinal} 
-                        alt="Final homescreen implementation with allowance banner"
-                        className="h-96 w-auto object-contain"
-                      />
-                      <img 
-                        src={allowanceBottomSheet} 
-                        alt="Allowance bottom sheet with detailed information and action buttons"
-                        className="h-96 w-auto object-contain"
-                      />
+                    {/* Card 10 - Center Layout */}
+                    <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                      <h3 className="text-xl font-semibold mb-6 text-center">Final Implementation</h3>
+                      <div className="flex-1 flex items-center justify-center gap-8">
+                        <img 
+                          src={allowanceHsFinal} 
+                          alt="Final homescreen implementation with allowance banner"
+                          className="h-96 w-auto object-contain"
+                        />
+                        <img 
+                          src={allowanceBottomSheet} 
+                          alt="Allowance bottom sheet with detailed information and action buttons"
+                          className="h-96 w-auto object-contain"
+                        />
+                      </div>
                     </div>
+
                   </div>
-             
+                </div>
+
+                {/* Navigation Arrows */}
+                <div className="flex justify-center items-center gap-4 mt-6">
+                  <button 
+                    className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+                    onClick={() => {
+                      const container = document.getElementById('carousel-container');
+                      if (container) {
+                        container.scrollBy({ left: -800, behavior: 'smooth' });
+                      }
+                    }}
+                  >
+                    <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                  </button>
+                  <button 
+                    className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+                    onClick={() => {
+                      const container = document.getElementById('carousel-container');
+                      if (container) {
+                        container.scrollBy({ left: 800, behavior: 'smooth' });
+                      }
+                    }}
+                  >
+                    <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
