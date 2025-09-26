@@ -201,7 +201,7 @@ const AllowanceAwareness = () => {
               <h2 className="text-3xl font-bold mb-4">Reminder & Indicator on home screen</h2>
               
               {/* Subtitle */}
-              <p className="text-lg leading-relaxed text-foreground mb-2 max-w-[700px]">
+              <p className="text-lg leading-relaxed text-foreground max-w-[700px]">
                 Implemented push notifications for pre-app reminders, directing users to the home screen for quick allowance balance checks.
               </p>
             </div>
