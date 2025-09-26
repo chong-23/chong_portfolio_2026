@@ -10,6 +10,7 @@ import homescreenGif from "@/assets/homescreen.gif";
 import allowanceChallenge1 from "@/assets/allowance-challenge-1.png";
 import allowancePieChart from "@/assets/allowance-pie-chart.png";
 import allowanceUserExpectation from "@/assets/allowance-user-expectation.png";
+import allowanceHomescreenSolution from "@/assets/allowance-homescreen-solution.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -272,8 +273,8 @@ const AllowanceAwareness = () => {
                     </div>
                     <div className="flex-1 flex flex-col items-center justify-center">
                       <img 
-                        src={allowanceUserExpectation} 
-                        alt="Mobile app interface showing unmoderated user testing with green dots indicating user interaction points"
+                        src={allowanceHomescreenSolution} 
+                        alt="Mobile app homescreen showing quickly skim and primary focus areas for allowance information"
                         className="h-full w-auto max-h-[400px] object-contain"
                       />
                     </div>
