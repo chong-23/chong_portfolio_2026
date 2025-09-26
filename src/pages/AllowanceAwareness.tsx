@@ -14,6 +14,8 @@ import allowanceHomescreenSolution from "@/assets/allowance-homescreen-solution.
 import allowancePriceFactors from "@/assets/allowance-price-factors.png";
 import allowanceTimeFactors from "@/assets/allowance-time-factors.png";
 import allowanceWireframes from "@/assets/allowance-wireframes.png";
+import allowanceHsSimple from "@/assets/allowance-hs-simple.png";
+import allowanceHsDetailed from "@/assets/allowance-hs-detailed.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -352,10 +354,26 @@ const AllowanceAwareness = () => {
 
                   {/* Card 9 - Center Layout */}
                   <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
-                    <h3 className="text-xl font-semibold mb-6 text-center">Card 9 Title</h3>
-                    <div className="flex-1 flex items-center justify-center">
-                      <div className="w-64 h-64 bg-muted rounded-lg flex items-center justify-center">
-                        <p className="text-muted-foreground">Image placeholder</p>
+                    <h3 className="text-xl font-semibold mb-4 text-center">Design Decision</h3>
+                    <p className="text-sm text-muted-foreground mb-6 text-center max-w-[600px]">
+                      The first design is selected because of its simplicity and less distraction. The second, although providing detailed information, has very fragmented visual elements.
+                    </p>
+                    <div className="flex-1 flex items-center justify-center gap-8">
+                      <div className="flex flex-col items-center">
+                        <img 
+                          src={allowanceHsSimple} 
+                          alt="Simple allowance design with clean layout and minimal distraction"
+                          className="h-64 w-auto object-contain mb-2"
+                        />
+                        <span className="text-xs text-green-600 font-medium">✓ Selected Design</span>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <img 
+                          src={allowanceHsDetailed} 
+                          alt="Detailed allowance design with fragmented visual elements"
+                          className="h-64 w-auto object-contain mb-2"
+                        />
+                        <span className="text-xs text-muted-foreground">Alternative Design</span>
                       </div>
                     </div>
                   </div>
