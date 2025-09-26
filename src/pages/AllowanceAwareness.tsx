@@ -209,39 +209,39 @@ const AllowanceAwareness = () => {
         </div>
       </div>
 
+      {/* Navigation Arrows - Above Gallery */}
+      <div className="flex justify-end items-center gap-4 mb-6 px-6 md:px-12 lg:px-20">
+        <button 
+          className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+          onClick={() => {
+            const container = document.getElementById('carousel-container');
+            if (container) {
+              container.scrollBy({ left: -800, behavior: 'smooth' });
+            }
+          }}
+        >
+          <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <button 
+          className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+          onClick={() => {
+            const container = document.getElementById('carousel-container');
+            if (container) {
+              container.scrollBy({ left: 800, behavior: 'smooth' });
+            }
+          }}
+        >
+          <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+
       {/* Full-Width Horizontal Scrolling Carousel */}
       <section className="mb-20 w-full">
         <div className="relative">
-          {/* Navigation Arrows - Top Right */}
-          <div className="absolute top-0 right-6 md:right-12 lg:right-20 z-10 flex items-center gap-4">
-            <button 
-              className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
-              onClick={() => {
-                const container = document.getElementById('carousel-container');
-                if (container) {
-                  container.scrollBy({ left: -800, behavior: 'smooth' });
-                }
-              }}
-            >
-              <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-            </button>
-            <button 
-              className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
-              onClick={() => {
-                const container = document.getElementById('carousel-container');
-                if (container) {
-                  container.scrollBy({ left: 800, behavior: 'smooth' });
-                }
-              }}
-            >
-              <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
-          </div>
-
           <div className="overflow-x-auto pb-4" id="carousel-container">
             <div className="flex gap-6 min-w-max">
               {/* First item aligned with title */}
