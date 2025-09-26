@@ -218,7 +218,7 @@ const AllowanceAwareness = () => {
                   </div>
                   
                   {/* Card 1 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <div className="flex-1 pr-8">
                       <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
                       <p className="font-semibold text-xl mb-4">
@@ -235,7 +235,7 @@ const AllowanceAwareness = () => {
                   </div>
                   
                   {/* Card 2 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <div className="flex-1 pr-8">
                       <h3 className="text-xl font-semibold mb-3">Understand the business priority</h3>
                       <p className="mb-4">
@@ -253,9 +253,9 @@ const AllowanceAwareness = () => {
                   </div>
 
                   {/* Card 3 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <div className="flex-1 pr-8">
-                      <h3 className="text-xl font-semibold mb-3">Understand users’ expectation</h3>
+                      <h3 className="text-xl font-semibold mb-3">Understand users' expectation</h3>
                       <p className="mb-4">
                         Unmoderated user testing revealed that most users expect allowance information in the menu, while about 1/3 expect a card on the home screen.
                       </p>
@@ -270,7 +270,7 @@ const AllowanceAwareness = () => {
                   </div>
 
                    {/* Card 4 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <div className="flex-1 pr-8">
                       <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
                       <h3 className="text-xl font-semibold mb-3">Enable quick skim</h3>
@@ -287,8 +287,8 @@ const AllowanceAwareness = () => {
                     </div>
                   </div>
 
-                   {/* Card 5 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                  {/* Card 5 - Left-Right Layout */}
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <div className="flex-1 pr-8">
                       <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
                       <p className="font-semibold text-xl mb-4">
@@ -307,13 +307,13 @@ const AllowanceAwareness = () => {
                   </div>
 
                   {/* Card 6 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <div className="flex-1 pr-8">
                       <h3 className="text-xl font-semibold mb-3">"Price" as Primary Decision Factor</h3>
                       <p className="mb-4">
                          Research indicates "Price" is critical during restaurant browsing; this translates to allowance as amount and availability.
                       </p>
-                      <p className="text-xs text-muted-foreground mt-2">*Based on the research from homescreen and restaurant listing, “Price” is important information during dicovery：“dish price, delivery fee, promotions and deals”
+                      <p className="text-xs text-muted-foreground mt-2">*Based on the research from homescreen and restaurant listing, "Price" is important information during dicovery："dish price, delivery fee, promotions and deals"
                       </p>
                     </div>
                     <div className="flex-1 flex flex-col items-center justify-center">
@@ -325,8 +325,8 @@ const AllowanceAwareness = () => {
                     </div>
                   </div>
 
-                  {/* Card 7 - Left-Right Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
+                   {/* Card 7 - Left-Right Layout */}
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <div className="flex-1 pr-8">
                       <h3 className="text-xl font-semibold mb-3">Time as the key element</h3>
                       <p className="mb-4">
@@ -343,7 +343,7 @@ const AllowanceAwareness = () => {
                   </div>
 
                   {/* Card 8 - Center Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <h3 className="text-xl font-semibold mb-6 text-center">Information Architecture</h3>
                     <div className="flex-1 flex items-center justify-center">
                       <img 
@@ -355,7 +355,7 @@ const AllowanceAwareness = () => {
                   </div>
 
                   {/* Card 9 - Center Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <h3 className="text-xl font-semibold mb-6 text-center">Design Decision</h3>
                     <div className="flex-1 flex items-center justify-center gap-8">
                       <div className="flex items-start gap-4">
@@ -384,7 +384,7 @@ const AllowanceAwareness = () => {
                   </div>
 
                   {/* Card 10 - Center Layout */}
-                  <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
+                  <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                     <h3 className="text-xl font-semibold mb-6 text-center">Final Implementation</h3>
                     <div className="flex-1 flex items-center justify-center gap-8">
                       <img 
