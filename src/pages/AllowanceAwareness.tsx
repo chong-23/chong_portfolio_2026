@@ -280,7 +280,7 @@ const AllowanceAwareness = () => {
                     </div>
                   </div>
 
-                  {/* Card 5 - Left-Right Layout */}
+                   {/* Card 5 - Left-Right Layout */}
                   <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0">
                     <div className="flex-1 pr-8">
                       <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
@@ -289,11 +289,13 @@ const AllowanceAwareness = () => {
                       </p>
                     </div>
                     <div className="flex-1 flex items-center justify-center">
-                      <img 
-                        src={allowanceChallenge1} 
-                        alt="Mobile app homescreen showing fixed module and customizable module layout"
-                        className="h-full w-auto max-h-[400px] object-contain"
-                      />
+                      <div className="grid grid-cols-3 gap-3 w-full max-w-sm">
+                        {['Frequency', 'Amount', 'Days', 'Time', 'Select employees', 'Locations', 'Service types', 'Delivery method', 'Expense'].map((criteria, index) => (
+                          <div key={index} className="bg-primary/10 text-primary text-center py-2 px-3 rounded-lg text-sm font-medium">
+                            {criteria}
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
 
