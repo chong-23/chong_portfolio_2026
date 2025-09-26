@@ -364,14 +364,14 @@ const AllowanceAwareness = () => {
                         <img 
                           src={allowanceHsSimple} 
                           alt="Simple allowance design with clean layout and minimal distraction"
-                          className="h-80 w-auto object-contain"
+                          className="h-96 w-auto object-contain"
                         />
                       </div>
                       <div className="flex items-start gap-4">
                         <img 
                           src={allowanceHsDetailed} 
                           alt="Detailed allowance design with fragmented visual elements"
-                          className="h-80 w-auto object-contain"
+                          className="h-96 w-auto object-contain"
                         />
                         <div className="flex flex-col justify-start pt-16 max-w-[120px]">
                           <span className="text-xs text-muted-foreground font-medium mb-2">Alternative</span>
