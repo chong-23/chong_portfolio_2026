@@ -16,6 +16,8 @@ import allowanceTimeFactors from "@/assets/allowance-time-factors.png";
 import allowanceWireframes from "@/assets/allowance-wireframes.png";
 import allowanceHsSimple from "@/assets/allowance-hs-simple.png";
 import allowanceHsDetailed from "@/assets/allowance-hs-detailed.png";
+import allowanceHsFinal from "@/assets/allowance-hs-final.png";
+import allowanceBottomSheet from "@/assets/allowance-bottom-sheet.jpg";
 
 const AllowanceAwareness = () => {
   return (
@@ -383,11 +385,18 @@ const AllowanceAwareness = () => {
 
                   {/* Card 10 - Center Layout */}
                   <div className="bg-background border border-border rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0">
-                    <h3 className="text-xl font-semibold mb-6 text-center">Card 10 Title</h3>
-                    <div className="flex-1 flex items-center justify-center">
-                      <div className="w-64 h-64 bg-muted rounded-lg flex items-center justify-center">
-                        <p className="text-muted-foreground">Image placeholder</p>
-                      </div>
+                    <h3 className="text-xl font-semibold mb-6 text-center">Final Implementation</h3>
+                    <div className="flex-1 flex items-center justify-center gap-8">
+                      <img 
+                        src={allowanceHsFinal} 
+                        alt="Final homescreen implementation with allowance banner"
+                        className="h-96 w-auto object-contain"
+                      />
+                      <img 
+                        src={allowanceBottomSheet} 
+                        alt="Allowance bottom sheet with detailed information and action buttons"
+                        className="h-96 w-auto object-contain"
+                      />
                     </div>
                   </div>
              
