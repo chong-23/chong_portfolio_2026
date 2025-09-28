@@ -189,7 +189,7 @@ const AllowanceAwareness = () => {
           </section>
 
           {/* Solution Gallery Section */}
-          <section className="mb-20">
+          <section>
             {/* Improvement 1 */}
             <div className="mb-16">
               {/* Tag */}
