@@ -248,17 +248,14 @@ const AllowanceAwareness = () => {
             <div className="flex gap-6 min-w-max">
 
               <div className="
-                flex gap-6 min-w-max items-stretch
-                /* regular container padding on small/medium */
-                pl-6 md:pl-12 lg:pl-20 pr-6 md:pr-12 lg:pr-20
-                /* match the centered 7xl container on wide screens */
-                xl:pl-[calc(50vw-40rem)] xl:pr-[calc(50vw-40rem)]">
+                flex gap-6 min-w-max items-stretch pl-6 md:pl-12 lg:pl-20 pr-6 md:pr-12 lg:pr-20 xl:pl-[calc(50vw-40rem)] xl:pr-[calc(50vw-40rem)]">
                 {/* first image */}
                 <img
                   src={homescreenGif}
                   alt="Push notification flow showing allowance reminder on home screen"
                   className="h-[500px] w-auto rounded-3xl object-contain shrink-0"
                 />
+              </div>
               
               {/* Card 1 - Left-Right Layout */}
               <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
