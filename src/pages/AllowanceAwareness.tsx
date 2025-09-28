@@ -245,12 +245,14 @@ const AllowanceAwareness = () => {
           <div className="overflow-x-auto pb-4" id="carousel-container">
             <div className="flex gap-6 min-w-max">
               {/* First item aligned with title */}
-              <div className="pl-6 md:pl-12 lg:pl-20 flex items-center justify-start flex-shrink-0">
-                <img 
-                  src={homescreenGif} 
-                  alt="Push notification flow showing allowance reminder on home screen"
-                  className="h-[500px] w-auto rounded-3xl object-contain"
-                />
+              <div className="flex items-center justify-start flex-shrink-0">
+                <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full flex justify-start">
+                  <img 
+                    src={homescreenGif} 
+                    alt="Push notification flow showing allowance reminder on home screen"
+                    className="h-[500px] w-auto rounded-3xl object-contain"
+                  />
+                </div>
               </div>
               
               {/* Card 1 - Left-Right Layout */}
