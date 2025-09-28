@@ -240,7 +240,7 @@ const AllowanceAwareness = () => {
       </div>
 
       {/* Full-Width Horizontal Scrolling Carousel */}
-      <section className="mb-20 w-full">
+      <section className="mb-20">
         <div className="relative">
           <div className="overflow-x-auto pb-4" id="carousel-container">
             <div className="flex gap-6 min-w-max">
