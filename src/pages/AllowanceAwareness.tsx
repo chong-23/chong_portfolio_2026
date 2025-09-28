@@ -545,33 +545,33 @@ const AllowanceAwareness = () => {
                   <div className="flex-1 pr-8">
                     <h6 className="text-muted-foreground font-semibold mb-3">Idea 1</h6>
                     <h3 className="text-xl font-semibold mb-3">The “best solution”, but not for all</h3>
-                    {/* Evaluation List */}
+                     {/* Evaluation List */}
                     <div className="space-y-4">
                       <div className="flex items-center gap-3">
-                        <div className="w-6 h-6 text-green-600 rounded-full flex items-center justify-center flex-shrink-0">
-                          <svg className="w-4 h-4 bg-green-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        <div className="w-7 h-7 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 rounded-full flex items-center justify-center flex-shrink-0">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-label="Positive evaluation point" role="img">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                           </svg>
                         </div>
-                        <p className="text-sm">Good visibility</p>
+                        <p className="text-sm font-medium">Good visibility</p>
                       </div>
                       
                       <div className="flex items-center gap-3">
-                        <div className="w-6 h-6 text-green-600 rounded-full flex items-center justify-center flex-shrink-0">
-                          <svg className="w-4 h-4 bg-green-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        <div className="w-7 h-7 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 rounded-full flex items-center justify-center flex-shrink-0">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-label="Positive evaluation point" role="img">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                           </svg>
                         </div>
-                        <p className="text-sm">Full information can be well presented</p>
+                        <p className="text-sm font-medium">Full information can be well presented</p>
                       </div>
                       
                       <div className="flex items-start gap-3">
-                        <div className="w-6 h-6 text-yellow-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                          <svg className="w-4 h-4 bg-yellow-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
+                        <div className="w-7 h-7 bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-label="Warning or concern point" role="img">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
                           </svg>
                         </div>
-                        <p className="text-sm">Removing campaign banner can affect conversion rate</p>
+                        <p className="text-sm font-medium">Removing campaign banner can affect conversion rate</p>
                       </div>
                     </div>
                   </div>
