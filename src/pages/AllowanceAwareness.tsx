@@ -252,7 +252,7 @@ const AllowanceAwareness = () => {
               <div className="
                 flex gap-6 min-w-max items-stretch">
 
-                 {/* ✅ Responsive spacer — matches container padding */}
+                 {/* Responsive spacer — matches container padding */}
                 <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)] " aria-hidden></div>
                 {/* first image */}
                 <img
@@ -465,7 +465,7 @@ const AllowanceAwareness = () => {
               
               {/* Subtitle */}
               <p className="text-lg leading-relaxed text-foreground max-w-[700px]">
-                Enhanced menu navigation with integrated allowance indicators to help users make informed decisions during restaurant browsing.
+                 Integrated real-time allowance balance visibility during menu browsing and order placement, enhancing informed decision-making.
               </p>
             </div>
           </section>
@@ -521,35 +521,22 @@ const AllowanceAwareness = () => {
                   alt="Allowance indicator on menu interface showing restaurant delivery app with menu options"
                   className="h-[500px] w-auto rounded-3xl object-contain shrink-0 shadow-lg"
                 />
-              
-                {/* Card 1 - Menu Indicator Research */}
-                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                  <div className="flex-1 pr-8">
-                    <h6 className="text-muted-foreground font-semibold mb-3">Research</h6>
-                    <h3 className="text-xl font-semibold mb-3">Menu Navigation Patterns</h3>
-                    <p className="mb-4">
-                      Analysis of user behavior revealed that 67% of users check menu prices before making decisions, indicating the need for allowance visibility at this stage.
-                    </p>
-                  </div>
-                  <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Menu Research Placeholder</span>
-                    </div>
-                  </div>
-                </div>
+            
                 
-                {/* Card 2 - Design Challenge */}
+                {/* Card 1 - Design Challenge */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                   <div className="flex-1 pr-8">
                     <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
                     <p className="font-semibold text-xl mb-4">
-                      How to integrate allowance information without cluttering the menu interface?
+                      With many layers of content, how can the indicator be made visible?
                     </p>
                   </div>
-                  <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Design Challenge Placeholder</span>
-                    </div>
+                  <div className="flex-1 flex flex-col items-center justify-center">
+                    <img 
+                      src={allowanceTimeFactors} 
+                      alt="Time-based allowance communication showing one-time and recurring allowance examples"
+                      className="h-full w-auto max-h-[400px] object-contain"
+                    />
                   </div>
                 </div>
                 
