@@ -244,8 +244,12 @@ const AllowanceAwareness = () => {
       {/* Full-Width Horizontal Scrolling Carousel */}
       <section className="mb-20">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          <div className="overflow-x-auto pb-4 scrollbar-hide -mr-6 md:-mr-12 lg:-mr-20 pr-6 md:pr-12 lg:pr-20" id="carousel-container" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-            <div className="flex gap-6 min-w-max">
+          <div className="overflow-x-auto pb-4 scrollbar-hide -mx-6 md:-mx-12 lg:-mx-20" id="carousel-container" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+            <div className="flex gap-6 min-w-max items-stretch">
+              
+              {/* Left spacer == container padding (keeps initial alignment) */}
+              <div className="shrink-0 w-6 md:w-12 lg:w-20" aria-hidden />
+              
               {/* First item aligned with title */}
               <img 
                 src={homescreenGif} 
