@@ -245,7 +245,7 @@ const AllowanceAwareness = () => {
       <section className="mb-20 w-full">
         <div className="relative">
           <div className="overflow-x-auto pb-4" id="carousel-container">
-            <div className="flex gap-6 min-w-max mx-auto pl-6 md:pl-12 lg:pl-20">
+            <div className="flex gap-6 min-w-max">
               {/* First item aligned with title */}
               <img 
                 src={homescreenGif} 
