@@ -248,7 +248,7 @@ const AllowanceAwareness = () => {
             <div className="flex gap-6 min-w-max">
 
               <div className="
-                flex gap-6 min-w-max items-stretch pl-6 md:pl-12 lg:pl-20 pr-6 md:pr-12 lg:pr-20 xl:pl-[calc(50vw-40rem)] xl:pr-[calc(50vw-40rem)]">
+                flex gap-6 min-w-max items-stretch pr-6 md:pr-12 lg:pr-20 xl:pl-[calc(50vw-40rem)] xl:pr-[calc(50vw-40rem)]">
                 {/* first image */}
                 <img
                   src={homescreenGif}
