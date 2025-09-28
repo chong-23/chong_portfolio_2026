@@ -247,15 +247,15 @@ const AllowanceAwareness = () => {
           <div className="overflow-x-auto pb-4 scrollbar-hide -mx-6 md:-mx-12 lg:-mx-20" id="carousel-container" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
             <div className="flex gap-6 min-w-max items-stretch">
               
-              {/* Left spacer == container padding (keeps initial alignment) */}
-              <div className="shrink-0 w-6 md:w-12 lg:w-20" aria-hidden />
               
               {/* First item aligned with title */}
-              <img 
-                src={homescreenGif} 
-                alt="Push notification flow showing allowance reminder on home screen"
-                className="h-[500px] w-auto rounded-3xl object-contain flex-shrink-0"
-              />
+               <div className="pl-6 md:pl-12 lg:pl-20 -ml-6 md:-ml-12 lg:-ml-20 flex-shrink-0">
+                  <img
+                    src={homescreenGif}
+                    alt="Push notification flow…"
+                    className="h-[500px] w-auto rounded-3xl object-contain"
+                  />
+              </div>
               
               {/* Card 1 - Left-Right Layout */}
               <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
