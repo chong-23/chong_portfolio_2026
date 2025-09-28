@@ -250,8 +250,8 @@ const AllowanceAwareness = () => {
               <div className="
                 flex gap-6 min-w-max items-stretch">
 
-                 {/* ✅ Responsive spacer — matches container padding */}
-                <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2 + 5rem)] " aria-hidden></div>
+                 {/* Responsive spacer — matches container padding */}
+                <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-1120px-80rem)/2)] " aria-hidden></div>
                 {/* first image */}
                 <img
                   src={homescreenGif}
