@@ -512,7 +512,7 @@ const AllowanceAwareness = () => {
 
               <div className="flex gap-6 min-w-max items-stretch">
 
-                {/* ✅ Responsive spacer — matches container padding */}
+                {/* Responsive spacer — matches container padding */}
                 <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
                 
                 {/* First image - Allowance indicator on menu */}
@@ -582,7 +582,6 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
 
-
                 {/* Card 3 - Design Evaluation */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                   <div className="flex-1 pr-8">
@@ -615,6 +614,48 @@ const AllowanceAwareness = () => {
                           </svg>
                         </div>
                         <p className="text-sm font-medium">Looks like a main action</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Partial content display can cause confusion</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 4 - Design Evaluation */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Idea 3 - Aligned with dependencies</h6>
+                    <h3 className="text-xl font-semibold mb-3">Focus on information priority</h3>
+                     {/* Evaluation List */}
+                    <div className="space-y-4">
+                      <div className="flex items-center gap-3">
+                        <div className="w-7 h-7 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 rounded-full flex items-center justify-center flex-shrink-0">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-label="Positive evaluation point" role="img">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p className="text-sm font-medium">Information is fully presented</p>
+                      </div>
+
+                      <div className="flex items-center gap-3">
+                        <div className="w-7 h-7 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 rounded-full flex items-center justify-center flex-shrink-0">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-label="Positive evaluation point" role="img">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p className="text-sm font-medium">Only overlap with secondary information</p>
+                      </div>                    
+                      
+                      <div className="flex items-center gap-3">
+                        <div className="w-7 h-7 bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-label="Warning or concern point" role="img">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
+                          </svg>
+                        </div>
+                        <p className="text-sm font-medium">The visibility may not be the most ideal</p>
                       </div>
                     </div>
                   </div>
