@@ -18,6 +18,8 @@ import allowanceHsSimple from "@/assets/allowance-hs-simple.png";
 import allowanceHsDetailed from "@/assets/allowance-hs-detailed.png";
 import allowanceHsFinal from "@/assets/allowance-hs-final.png";
 import allowanceBottomSheet from "@/assets/allowance-bottom-sheet.jpg";
+import allowanceRDP2 from "@/assets/allowanceRDP2.gif";
+import allowanceDetails from "@/assets/allowanceDetails.gif";
 
 const AllowanceAwareness = () => {
   return (
@@ -513,6 +515,13 @@ const AllowanceAwareness = () => {
                 {/* ✅ Responsive spacer — matches container padding */}
                 <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
                 
+                {/* First image - Allowance indicator on menu */}
+                <img
+                  src={allowanceRDP2}
+                  alt="Allowance indicator on menu interface showing restaurant delivery app with menu options"
+                  className="h-[500px] w-auto rounded-3xl object-contain shrink-0"
+                />
+              
                 {/* Card 1 - Menu Indicator Research */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                   <div className="flex-1 pr-8">
@@ -691,6 +700,13 @@ const AllowanceAwareness = () => {
 
                 {/* ✅ Responsive spacer — matches container padding */}
                 <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
+                
+                {/* First image - Allowance details screen */}
+                <img
+                  src={allowanceDetails}
+                  alt="Allowance details screen showing menu interface with allowances, profile, and other options"
+                  className="h-[500px] w-auto rounded-3xl object-contain shrink-0"
+                />
                 
                 {/* Card 1 - Information Architecture */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
