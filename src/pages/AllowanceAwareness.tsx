@@ -314,7 +314,7 @@ const AllowanceAwareness = () => {
                 </div>
               </div>
 
-               {/* Card 4 - Left-Right Layout */}
+              {/* Card 4 - Left-Right Layout */}
               <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                 <div className="flex-1 pr-8">
                   <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
@@ -540,10 +540,11 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
                 
-                {/* Card 3 - Icon Design */}
+                {/* Card 2 - Icon Design */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                   <div className="flex-1 pr-8">
-                    <h3 className="text-xl font-semibold mb-3">Icon System Design</h3>
+                    <h6 className="text-muted-foreground font-semibold mb-3">Idea 1</h6>
+                    <h3 className="text-xl font-semibold mb-3">The “best solution”, but not for all</h3>
                     <p className="mb-4">
                       Created a subtle indicator system that communicates allowance availability without overwhelming the existing menu design.
                     </p>
