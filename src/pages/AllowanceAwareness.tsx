@@ -243,8 +243,9 @@ const AllowanceAwareness = () => {
 
       {/* Full-Width Horizontal Scrolling Carousel */}
       <section className="mb-20">
-        <div className="overflow-x-auto pb-4" id="carousel-container">
-          <div className="flex gap-6 min-w-max pr-6 md:pr-12 lg:pr-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="overflow-x-auto pb-4" id="carousel-container">
+            <div className="flex gap-6 min-w-max">
               {/* First item aligned with title */}
               <img 
                 src={homescreenGif} 
@@ -436,6 +437,7 @@ const AllowanceAwareness = () => {
               </div>
 
             </div>
+          </div>
         </div>
       </section>
 
