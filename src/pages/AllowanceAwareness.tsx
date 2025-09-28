@@ -448,6 +448,348 @@ const AllowanceAwareness = () => {
         </div>
       </section>
 
+      {/* Improvement 2 */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <section>
+            <div>
+              {/* Tag */}
+              <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
+                Improvement 2
+              </div>
+              
+              {/* Title */}
+              <h2 className="text-3xl font-bold mb-4">Allowance indicator on menu</h2>
+              
+              {/* Subtitle */}
+              <p className="text-lg leading-relaxed text-foreground max-w-[700px]">
+                Enhanced menu navigation with integrated allowance indicators to help users make informed decisions during restaurant browsing.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Navigation Arrows - Above Gallery */}
+      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+        <div className="flex justify-end items-center gap-4 mb-6">
+          <button 
+            className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+            onClick={() => {
+              const container = document.getElementById('carousel-container-2');
+              if (container) {
+                container.scrollBy({ left: -800, behavior: 'smooth' });
+              }
+            }}
+          >
+            <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button 
+            className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+            onClick={() => {
+              const container = document.getElementById('carousel-container-2');
+              if (container) {
+                container.scrollBy({ left: 800, behavior: 'smooth' });
+              }
+            }}
+          >
+            <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* Full-Width Horizontal Scrolling Carousel */}
+      <section className="mb-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="overflow-x-auto pb-4 scrollbar-hide mx-[calc(50%-50vw)]" id="carousel-container-2" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+            <div className="flex gap-6 min-w-max">
+
+              <div className="flex gap-6 min-w-max items-stretch">
+
+                {/* ✅ Responsive spacer — matches container padding */}
+                <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
+                
+                {/* Card 1 - Menu Indicator Research */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Research</h6>
+                    <h3 className="text-xl font-semibold mb-3">Menu Navigation Patterns</h3>
+                    <p className="mb-4">
+                      Analysis of user behavior revealed that 67% of users check menu prices before making decisions, indicating the need for allowance visibility at this stage.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Menu Research Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 2 - Design Challenge */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
+                    <p className="font-semibold text-xl mb-4">
+                      How to integrate allowance information without cluttering the menu interface?
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Design Challenge Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 3 - Icon Design */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h3 className="text-xl font-semibold mb-3">Icon System Design</h3>
+                    <p className="mb-4">
+                      Created a subtle indicator system that communicates allowance availability without overwhelming the existing menu design.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Icon System Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 4 - Implementation */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
+                    <h3 className="text-xl font-semibold mb-3">Menu Integration</h3>
+                    <p className="mb-4">
+                      Implemented allowance indicators directly in restaurant cards and menu headers for immediate visibility.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Menu Integration Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 5 - User Testing */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h3 className="text-xl font-semibold mb-3">User Testing Results</h3>
+                    <p className="mb-4">
+                      A/B testing showed 43% improvement in user confidence when making menu selections with allowance indicators present.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Testing Results Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 6 - Visual Hierarchy */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h3 className="text-xl font-semibold mb-3">Visual Hierarchy</h3>
+                    <p className="mb-4">
+                      Balanced information display ensuring allowance data supports rather than competes with menu browsing.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Visual Hierarchy Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 7 - Final Implementation with right padding */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0 mr-6 md:mr-12 lg:mr-20" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Final</h6>
+                    <h3 className="text-xl font-semibold mb-3">Menu Implementation</h3>
+                    <p className="mb-4">
+                      Final menu design with integrated allowance indicators providing seamless user experience.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Final Implementation Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Improvement 3 */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <section>
+            <div>
+              {/* Tag */}
+              <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
+                Improvement 3
+              </div>
+              
+              {/* Title */}
+              <h2 className="text-3xl font-bold mb-4">Allowance details screen</h2>
+              
+              {/* Subtitle */}
+              <p className="text-lg leading-relaxed text-foreground max-w-[700px]">
+                Comprehensive allowance management interface providing users with detailed spending insights and control over their budget allocation.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Navigation Arrows - Above Gallery */}
+      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+        <div className="flex justify-end items-center gap-4 mb-6">
+          <button 
+            className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+            onClick={() => {
+              const container = document.getElementById('carousel-container-3');
+              if (container) {
+                container.scrollBy({ left: -800, behavior: 'smooth' });
+              }
+            }}
+          >
+            <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button 
+            className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+            onClick={() => {
+              const container = document.getElementById('carousel-container-3');
+              if (container) {
+                container.scrollBy({ left: 800, behavior: 'smooth' });
+              }
+            }}
+          >
+            <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* Full-Width Horizontal Scrolling Carousel */}
+      <section className="mb-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="overflow-x-auto pb-4 scrollbar-hide mx-[calc(50%-50vw)]" id="carousel-container-3" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+            <div className="flex gap-6 min-w-max">
+
+              <div className="flex gap-6 min-w-max items-stretch">
+
+                {/* ✅ Responsive spacer — matches container padding */}
+                <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
+                
+                {/* Card 1 - Information Architecture */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Planning</h6>
+                    <h3 className="text-xl font-semibold mb-3">Information Architecture</h3>
+                    <p className="mb-4">
+                      Structured allowance data hierarchy to present complex financial information in digestible sections.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Information Architecture Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 2 - Data Visualization */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h3 className="text-xl font-semibold mb-3">Data Visualization</h3>
+                    <p className="mb-4">
+                      Designed intuitive charts and graphs to help users understand their spending patterns and remaining allowance.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Data Visualization Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 3 - Interaction Design */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h3 className="text-xl font-semibold mb-3">Interaction Design</h3>
+                    <p className="mb-4">
+                      Created intuitive touch interactions for detailed allowance exploration and budget management controls.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Interaction Design Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 4 - Accessibility Features */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h3 className="text-xl font-semibold mb-3">Accessibility Features</h3>
+                    <p className="mb-4">
+                      Implemented voice over support and high contrast modes to ensure allowance information is accessible to all users.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Accessibility Features Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 5 - Progressive Disclosure */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h3 className="text-xl font-semibold mb-3">Progressive Disclosure</h3>
+                    <p className="mb-4">
+                      Layered information presentation allowing users to drill down into specific allowance details as needed.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Progressive Disclosure Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 6 - Final Details Screen with right padding */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0 mr-6 md:mr-12 lg:mr-20" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Final</h6>
+                    <h3 className="text-xl font-semibold mb-3">Details Screen</h3>
+                    <p className="mb-4">
+                      Complete allowance details interface providing comprehensive budget management and spending insights.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Final Details Screen Placeholder</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Key Features Section */}
