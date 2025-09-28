@@ -209,51 +209,50 @@ const AllowanceAwareness = () => {
         </div>
       </div>
 
-      {/* Navigation Arrows - Above Gallery */}
-      <div className="flex justify-end items-center gap-4 mb-6 px-6 md:px-12 lg:px-20">
-        <button 
-          className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
-          onClick={() => {
-            const container = document.getElementById('carousel-container');
-            if (container) {
-              container.scrollBy({ left: -800, behavior: 'smooth' });
-            }
-          }}
-        >
-          <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
-        <button 
-          className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
-          onClick={() => {
-            const container = document.getElementById('carousel-container');
-            if (container) {
-              container.scrollBy({ left: 800, behavior: 'smooth' });
-            }
-          }}
-        >
-          <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
-      </div>
-
       {/* Full-Width Horizontal Scrolling Carousel */}
       <section className="mb-20">
-        <div className="relative">
-          <div className="overflow-x-auto pb-4" id="carousel-container">
-            <div className="flex gap-6 min-w-max">
-              {/* First item aligned with title */}
-              <div className="flex items-center justify-start flex-shrink-0">
-                <div className="max-w-7xl mx-auto w-full flex justify-start">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          {/* Navigation Arrows - Above Gallery */}
+          <div className="flex justify-end items-center gap-4 mb-6">
+            <button 
+              className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+              onClick={() => {
+                const container = document.getElementById('carousel-container');
+                if (container) {
+                  container.scrollBy({ left: -800, behavior: 'smooth' });
+                }
+              }}
+            >
+              <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button 
+              className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+              onClick={() => {
+                const container = document.getElementById('carousel-container');
+                if (container) {
+                  container.scrollBy({ left: 800, behavior: 'smooth' });
+                }
+              }}
+            >
+              <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+          
+          <div className="relative">
+            <div className="overflow-x-auto pb-4" id="carousel-container">
+              <div className="flex gap-6 min-w-max">
+                {/* First item aligned with title */}
+                <div className="flex-shrink-0">
                   <img 
                     src={homescreenGif} 
                     alt="Push notification flow showing allowance reminder on home screen"
                     className="h-[500px] w-auto rounded-3xl object-contain"
                   />
                 </div>
-              </div>
               
               {/* Card 1 - Left-Right Layout */}
               <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
@@ -437,7 +436,7 @@ const AllowanceAwareness = () => {
                   />
                 </div>
               </div>
-
+              </div>
             </div>
           </div>
         </div>
