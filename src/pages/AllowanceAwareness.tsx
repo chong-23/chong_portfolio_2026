@@ -258,7 +258,7 @@ const AllowanceAwareness = () => {
                 <img
                   src={homescreenGif}
                   alt="Push notification flow showing allowance reminder on home screen"
-                  className="h-[500px] w-auto rounded-3xl object-contain shrink-0"
+                  className="h-[500px] w-auto rounded-3xl object-contain shrink-0 shadow-lg"
                 />
               </div>
               
@@ -519,7 +519,7 @@ const AllowanceAwareness = () => {
                 <img
                   src={allowanceRDP2}
                   alt="Allowance indicator on menu interface showing restaurant delivery app with menu options"
-                  className="h-[500px] w-auto rounded-3xl object-contain shrink-0"
+                  className="h-[500px] w-auto rounded-3xl object-contain shrink-0 shadow-lg"
                 />
               
                 {/* Card 1 - Menu Indicator Research */}
@@ -705,7 +705,7 @@ const AllowanceAwareness = () => {
                 <img
                   src={allowanceDetails}
                   alt="Allowance details screen showing menu interface with allowances, profile, and other options"
-                  className="h-[500px] w-auto rounded-3xl object-contain shrink-0"
+                  className="h-[500px] w-auto rounded-3xl object-contain shrink-0 shadow-lg"
                 />
                 
                 {/* Card 1 - Information Architecture */}
