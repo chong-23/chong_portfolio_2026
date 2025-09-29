@@ -666,14 +666,11 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
                 
-                {/* Card 4 - Implementation */}
+                {/* Card 5 - challenge2 */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                   <div className="flex-1 pr-8">
-                    <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
-                    <h3 className="text-xl font-semibold mb-3">Menu Integration</h3>
-                    <p className="mb-4">
-                      Implemented allowance indicators directly in restaurant cards and menu headers for immediate visibility.
-                    </p>
+                    <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
+                    <h3 className="text-xl font-semibold mb-3">How can we balance the visibility of all information?</h3>
                   </div>
                   <div className="flex-1 flex items-center justify-center">
                     <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
@@ -682,27 +679,28 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
                 
-                {/* Card 5 - User Testing */}
-                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                  <div className="flex-1 pr-8">
-                    <h3 className="text-xl font-semibold mb-3">User Testing Results</h3>
-                    <p className="mb-4">
-                      A/B testing showed 43% improvement in user confidence when making menu selections with allowance indicators present.
-                    </p>
-                  </div>
+                {/* Card 6 - Center Layout */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <h3 className="text-xl font-semibold mb-6 text-center">Information Architecture</h3>
+                  <p className="mb-4">
+                     Stakeholders prefer bold indicator color, which may disrupt balance. Therefore, we tested the less intense option. Users can locate the allowance indicator in mockups.
+                  </p>
                   <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Testing Results Placeholder</span>
-                    </div>
+                    <img 
+                      src={allowanceWireframes} 
+                      alt="Mobile app wireframes showing different information levels: minimum info, key info, support info, and all info"
+                      className="h-full w-auto max-h-[350px] object-contain"
+                    />
                   </div>
                 </div>
                 
-                {/* Card 6 - Visual Hierarchy */}
+                {/* Card 7 - Visual Hierarchy */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
                   <div className="flex-1 pr-8">
-                    <h3 className="text-xl font-semibold mb-3">Visual Hierarchy</h3>
+                    <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
+                    <h3 className="text-xl font-semibold mb-3">Animation with interactions for attention</h3>
                     <p className="mb-4">
-                      Balanced information display ensuring allowance data supports rather than competes with menu browsing.
+                      Opting for animations with interactions to capture attention instead of using strong colors.
                     </p>
                   </div>
                   <div className="flex-1 flex items-center justify-center">
@@ -712,22 +710,6 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
                 
-                {/* Card 7 - Final Implementation with right padding */}
-                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0 mr-6 md:mr-12 lg:mr-20" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                  <div className="flex-1 pr-8">
-                    <h6 className="text-muted-foreground font-semibold mb-3">Final</h6>
-                    <h3 className="text-xl font-semibold mb-3">Menu Implementation</h3>
-                    <p className="mb-4">
-                      Final menu design with integrated allowance indicators providing seamless user experience.
-                    </p>
-                  </div>
-                  <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Final Implementation Placeholder</span>
-                    </div>
-                  </div>
-                </div>
-
               </div>
             </div>
           </div>
