@@ -694,12 +694,12 @@ const AllowanceAwareness = () => {
                     <img 
                       src={aaRDP4} 
                       alt="Restaurant menu showing allowance indicator on bottom navigation"
-                      className="h-full w-auto max-h-[450px] object-contain rounded-lg"
+                      className="h-full w-auto max-h-[380px] object-contain rounded-lg"
                     />
                     <img 
                       src={aaRDP5} 
                       alt="Restaurant menu showing expanded allowance indicator on bottom navigation"
-                      className="h-full w-auto max-h-[450px] object-contain rounded-lg"
+                      className="h-full w-auto max-h-[380px] object-contain rounded-lg"
                     />
                   </div>
                 </div>
