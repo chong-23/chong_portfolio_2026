@@ -680,6 +680,13 @@ const AllowanceAwareness = () => {
                 
                 {/* Card 5 - Two Images Side by Side */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
+                    <p className="font-semibold text-xl mb-4">
+                      How can we balance the visibility of all information?
+                    </p>
+                  </div>
+                  
                   <div className="flex gap-4 w-full h-full items-center justify-center">
                     <img 
                       src={aaRDP4} 
