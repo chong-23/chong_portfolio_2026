@@ -20,6 +20,12 @@ import allowanceHsFinal from "@/assets/allowance-hs-final.png";
 import allowanceBottomSheet from "@/assets/allowance-bottom-sheet.jpg";
 import allowanceRDP2 from "@/assets/allowanceRDP2.gif";
 import allowanceDetails from "@/assets/allowanceDetails.gif";
+import aaChaLayers from "@/assets/AA_cha_layers.png";
+import aaRDP1 from "@/assets/AA_RDP_1.png";
+import aaRDP2 from "@/assets/AA_RDP_2.png";
+import aaRDP3 from "@/assets/AA_RDP_3.png";
+import aaRDP4 from "@/assets/AA_RDP_4.png";
+import aaRDP5 from "@/assets/AA_RDP_5.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -533,8 +539,8 @@ const AllowanceAwareness = () => {
                   </div>
                   <div className="flex-1 flex flex-col items-center justify-center">
                     <img 
-                      src={allowanceTimeFactors} 
-                      alt="Time-based allowance communication showing one-time and recurring allowance examples"
+                      src={aaChaLayers} 
+                      alt="Original design on menu showing layers of content including fixed module, exclusive discounts, menu area, and min order discount"
                       className="h-full w-auto max-h-[400px] object-contain"
                     />
                   </div>
@@ -576,9 +582,11 @@ const AllowanceAwareness = () => {
                     </div>
                   </div>
                   <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Icon System Placeholder</span>
-                    </div>
+                    <img 
+                      src={aaRDP1} 
+                      alt="Wireframe showing allowance design with highlighted allowance indicator"
+                      className="h-full w-auto max-h-[400px] object-contain"
+                    />
                   </div>
                 </div>
 
@@ -618,9 +626,11 @@ const AllowanceAwareness = () => {
                     </div>
                   </div>
                   <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Partial content display can cause confusion</span>
-                    </div>
+                    <img 
+                      src={aaRDP2} 
+                      alt="Wireframe showing allowance design with shopping bag indicator"
+                      className="h-full w-auto max-h-[400px] object-contain"
+                    />
                   </div>
                 </div>
 
@@ -660,22 +670,27 @@ const AllowanceAwareness = () => {
                     </div>
                   </div>
                   <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Partial content display can cause confusion</span>
-                    </div>
+                    <img 
+                      src={aaRDP3} 
+                      alt="Wireframe showing allowance design with bottom allowance indicator"
+                      className="h-full w-auto max-h-[400px] object-contain"
+                    />
                   </div>
                 </div>
                 
-                {/* Card 5 - challenge2 */}
+                {/* Card 5 - Two Images Side by Side */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                  <div className="flex-1 pr-8">
-                    <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
-                    <h3 className="text-xl font-semibold mb-3">How can we balance the visibility of all information?</h3>
-                  </div>
-                  <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Menu Integration Placeholder</span>
-                    </div>
+                  <div className="flex gap-4 w-full h-full items-center justify-center">
+                    <img 
+                      src={aaRDP4} 
+                      alt="Restaurant menu showing allowance indicator on bottom navigation"
+                      className="h-full w-auto max-h-[450px] object-contain rounded-lg"
+                    />
+                    <img 
+                      src={aaRDP5} 
+                      alt="Restaurant menu showing expanded allowance indicator on bottom navigation"
+                      className="h-full w-auto max-h-[450px] object-contain rounded-lg"
+                    />
                   </div>
                 </div>
                 
