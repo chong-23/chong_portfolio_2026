@@ -714,7 +714,7 @@ const AllowanceAwareness = () => {
                   </div>
                   
                   <div className="mb-8">
-                    <p className="text-base leading-relaxed mb-8">
+                    <p className="text-base leading-relaxed">
                       <strong>Q:</strong> Imagine that you have added an item to your cart that costs $9. From the information provided on this screen, how much more can you spend within your given allowance?
                     </p>
                   </div>
