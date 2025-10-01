@@ -529,20 +529,36 @@ const AllowanceAwareness = () => {
                 />
             
                 
-                {/* Card 1 - Design Challenge */}
-                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                  <div className="flex-1 pr-8">
+                {/* Card 1 - Design Challenge with Two Images on Left */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="mb-4">
                     <h6 className="text-muted-foreground font-semibold mb-3">Challenge</h6>
-                    <p className="font-semibold text-xl mb-4">
+                    <p className="font-semibold text-xl">
                       With many layers of content, how can the indicator be made visible?
                     </p>
                   </div>
-                  <div className="flex-1 flex flex-col items-center justify-center">
-                    <img 
-                      src={aaChaLayers} 
-                      alt="Original design on menu showing layers of content including fixed module, exclusive discounts, menu area, and min order discount"
-                      className="h-full w-auto max-h-[400px] object-contain"
-                    />
+                  <div className="flex gap-4 items-center flex-1">
+                    {/* Two Images Stacked on Left */}
+                    <div className="flex flex-col gap-3 flex-1">
+                      <img 
+                        src={aaRDP4} 
+                        alt="Restaurant menu showing allowance indicator on bottom navigation"
+                        className="w-full h-auto max-h-[180px] object-contain rounded-lg"
+                      />
+                      <img 
+                        src={aaRDP5} 
+                        alt="Restaurant menu showing expanded allowance indicator on bottom navigation"
+                        className="w-full h-auto max-h-[180px] object-contain rounded-lg"
+                      />
+                    </div>
+                    {/* Challenge Layer Image on Right */}
+                    <div className="flex-1 flex items-center justify-center">
+                      <img 
+                        src={aaChaLayers} 
+                        alt="Original design on menu showing layers of content including fixed module, exclusive discounts, menu area, and min order discount"
+                        className="h-full w-auto max-h-[400px] object-contain"
+                      />
+                    </div>
                   </div>
                 </div>
                 
