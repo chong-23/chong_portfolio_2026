@@ -724,11 +724,9 @@ const AllowanceAwareness = () => {
                     <div className="flex justify-between items-center mb-2">
                       <div className="text-center flex-1">
                         <p className="font-semibold text-green-700 dark:text-green-400">Correct Answer</p>
-                        <p className="text-sm text-green-600 dark:text-green-500">($11)</p>
                       </div>
                       <div className="text-center flex-1">
                         <p className="font-semibold text-red-700 dark:text-red-400">Incorrect Answer</p>
-                        <p className="text-sm text-red-600 dark:text-red-500">(other responses)</p>
                       </div>
                     </div>
                     
