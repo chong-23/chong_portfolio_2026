@@ -704,30 +704,22 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
                 
-                {/* Card 6 - Center Layout */}
-                <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                  <h3 className="text-xl font-semibold mb-6 text-center">Unmoderated Usability Test</h3>
-                  <p className="mb-4">
-                     Stakeholders prefer bold indicator color, which may disrupt balance. Therefore, we tested the less intense option. Users can locate the allowance indicator in mockups.
-                  </p>
-                  <div className="flex-1 flex items-center justify-center">
-                    <img 
-                      src={allowanceWireframes} 
-                      alt="Mobile app wireframes showing different information levels: minimum info, key info, support info, and all info"
-                      className="h-full w-auto max-h-[350px] object-contain"
-                    />
-                  </div>
-                </div>
-                
-                {/* Card 7 - Test Results */}
+                {/* Card 6 - Test Results */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="mb-2">
+                    <h3 className="text-xl font-semibold mb-6">Unmoderated Usability Test</h3>
+                    <p className="mb-4">
+                       Stakeholders prefer bold indicator color, which may disrupt balance. Therefore, we tested the less intense option. Users can locate the allowance indicator in mockups.
+                    </p>
+                  </div>
+                  
                   <div className="mb-8">
-                    <p className="text-lg leading-relaxed mb-8">
+                    <p className="text-base leading-relaxed mb-8">
                       <strong>Q:</strong> Imagine that you have added an item to your cart that costs $9. From the information provided on this screen, how much more can you spend within your given allowance?
                     </p>
                   </div>
                   
-                  <div className="space-y-6">
+                  <div className="space-y-4">
                     {/* Results Header */}
                     <div className="flex justify-between items-center mb-2">
                       <div className="text-center flex-1">
@@ -741,13 +733,29 @@ const AllowanceAwareness = () => {
                     </div>
                     
                     {/* Results Bar Chart */}
-                    <div className="flex h-24 rounded-lg overflow-hidden shadow-md">
-                      <div className="bg-green-600 dark:bg-green-700 flex items-center justify-center text-white font-semibold text-xl" style={{ width: '65%' }}>
+                    <div className="flex h-20 rounded-lg overflow-hidden shadow-md">
+                      <div className="bg-green-600 dark:bg-green-700 flex items-center justify-center text-white font-semibold text-lg" style={{ width: '65%' }}>
                         65% / n = 13
                       </div>
-                      <div className="bg-red-600 dark:bg-red-700 flex items-center justify-center text-white font-semibold text-xl" style={{ width: '35%' }}>
+                      <div className="bg-red-600 dark:bg-red-700 flex items-center justify-center text-white font-semibold text-lg" style={{ width: '35%' }}>
                         35% / n = 7
                       </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Card 7 - Visual Hierarchy */}
+                <div className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
+                  <div className="flex-1 pr-8">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
+                    <h3 className="text-xl font-semibold mb-3">Animation with interactions for attention</h3>
+                    <p className="mb-4">
+                      Opting for animations with interactions to capture attention instead of using strong colors.
+                    </p>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
+                      <span className="text-muted-foreground">Visual Hierarchy Placeholder</span>
                     </div>
                   </div>
                 </div>
