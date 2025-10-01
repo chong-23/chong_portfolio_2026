@@ -346,14 +346,17 @@ const AllowanceAwareness = () => {
                     There are 9 criteria for an allowance rule. Which information can help the user make a decision?
                   </p>
                 </div>
-                <div className="flex-1 flex items-center justify-center">
-                  <div className="grid grid-cols-3 gap-3 w-full max-w-sm">
-                    {['Frequency', 'Amount', 'Days', 'Time', 'Select employees', 'Locations', 'Service types', 'Delivery method', 'Expense'].map((criteria, index) => (
-                      <div key={index} className="bg-primary/10 text-primary text-center py-3 px-3 rounded-lg text-sm font-medium flex items-center justify-center min-h-[50px]">
-                        {criteria}
-                      </div>
-                    ))}
-                  </div>
+                <div className="flex-1 flex gap-4 items-center justify-center">
+                  <img 
+                    src={aaRDP4} 
+                    alt="Allowance criteria visualization 1"
+                    className="h-full w-auto max-h-[450px] object-contain rounded-lg"
+                  />
+                  <img 
+                    src={aaRDP5} 
+                    alt="Allowance criteria visualization 2"
+                    className="h-full w-auto max-h-[450px] object-contain rounded-lg"
+                  />
                 </div>
               </div>
 
