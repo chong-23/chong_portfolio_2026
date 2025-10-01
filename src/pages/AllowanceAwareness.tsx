@@ -706,7 +706,7 @@ const AllowanceAwareness = () => {
                 
                 {/* Card 6 - Center Layout */}
                 <div className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col items-center justify-center flex-shrink-0" style={{ background: 'linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)' }}>
-                  <h3 className="text-xl font-semibold mb-6 text-center">Information Architecture</h3>
+                  <h3 className="text-xl font-semibold mb-6 text-center">Unmoderated Usability Test</h3>
                   <p className="mb-4">
                      Stakeholders prefer bold indicator color, which may disrupt balance. Therefore, we tested the less intense option. Users can locate the allowance indicator in mockups.
                   </p>
