@@ -690,7 +690,7 @@ const AllowanceAwareness = () => {
                     </p>
                   </div>
                   
-                  <div className="flex-1 gap-4 w-full h-full items-center justify-center">
+                  <div className="flex-1 flex flex-row gap-4 w-full h-full items-center justify-center">
                     <img 
                       src={aaRDP4} 
                       alt="Restaurant menu showing allowance indicator on bottom navigation"
