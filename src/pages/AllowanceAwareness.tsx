@@ -371,7 +371,7 @@ const AllowanceAwareness = () => {
                     <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
                       Service types
                     </div>
-                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm col-span-2">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm ">
                       Delivery method
                     </div>
                     <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
