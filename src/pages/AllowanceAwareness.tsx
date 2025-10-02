@@ -758,12 +758,12 @@ const AllowanceAwareness = () => {
                     <img 
                       src={menuInitial} 
                       alt="Menu initial state showing allowance indicator"
-                      className="h-full w-auto max-h-[380px] object-contain rounded-lg"
+                      className="h-full w-auto max-h-[380px] object-contain rounded-3xl"
                     />
                     <img 
                       src={menuScroll} 
                       alt="Menu scrolled state with allowance indicator visible"
-                      className="h-full w-auto max-h-[380px] object-contain rounded-lg"
+                      className="h-full w-auto max-h-[380px] object-contain rounded-3xl"
                     />
                   </div>
                 </div>
