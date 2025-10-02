@@ -348,17 +348,45 @@ const AllowanceAwareness = () => {
                     There are 9 criteria for an allowance rule. Which information can help the user make a decision?
                   </p>
                 </div>
-                <div className="flex-1 flex gap-4 items-center justify-center">
-                  <img 
-                    src={aaRDP4} 
-                    alt="Allowance criteria visualization 1"
-                    className="h-full w-auto max-h-[450px] object-contain rounded-lg"
-                  />
-                  <img 
-                    src={aaRDP5} 
-                    alt="Allowance criteria visualization 2"
-                    className="h-full w-auto max-h-[450px] object-contain rounded-lg"
-                  />
+                <div className="flex-1 flex items-center justify-center">
+                  <ul className="space-y-3 text-lg">
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Frequency
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Amount
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Days
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Time
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Employees
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Locations
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Service types
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Delivery method
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                      Expense
+                    </li>
+                  </ul>
                 </div>
               </div>
 
