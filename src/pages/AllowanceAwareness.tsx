@@ -349,32 +349,32 @@ const AllowanceAwareness = () => {
                   </p>
                 </div>
                 <div className="flex-1 flex items-center justify-center">
-                  <div className="space-y-3 w-full max-w-sm">
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                  <div className="grid grid-cols-3 gap-3 w-full max-w-lg">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
                       Frequency
                     </div>
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
                       Amount
                     </div>
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
                       Days
                     </div>
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
                       Time
                     </div>
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
-                      Select employees
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
+                      Employees
                     </div>
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
                       Locations
                     </div>
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
                       Service types
                     </div>
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm col-span-2">
                       Delivery method
                     </div>
-                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                    <div className="bg-white rounded-full px-4 py-2 text-center text-sm font-medium shadow-sm">
                       Expense
                     </div>
                   </div>
