@@ -755,16 +755,22 @@ const AllowanceAwareness = () => {
                   </div>
                   
                   <div className="flex-1 flex flex-row gap-4 items-center justify-center">
-                    <img 
-                      src={menuInitial} 
-                      alt="Menu initial state showing allowance indicator"
-                      className="h-full w-auto max-h-[380px] object-contain rounded-3xl"
-                    />
-                    <img 
-                      src={menuScroll} 
-                      alt="Menu scrolled state with allowance indicator visible"
-                      className="h-full w-auto max-h-[380px] object-contain rounded-3xl"
-                    />
+                    <div className="flex flex-col items-center gap-2">
+                      <img 
+                        src={menuInitial} 
+                        alt="Menu initial state showing allowance indicator"
+                        className="h-full w-auto max-h-[380px] object-contain rounded-3xl"
+                      />
+                      <p className="text-sm text-muted-foreground">Initial show-up</p>
+                    </div>
+                    <div className="flex flex-col items-center gap-2">
+                      <img 
+                        src={menuScroll} 
+                        alt="Menu scrolled state with allowance indicator visible"
+                        className="h-full w-auto max-h-[380px] object-contain rounded-3xl"
+                      />
+                      <p className="text-sm text-muted-foreground">Show up when scroll up</p>
+                    </div>
                   </div>
                 </div>
                 
