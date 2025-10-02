@@ -26,6 +26,8 @@ import aaRDP2 from "@/assets/AA_RDP_2.png";
 import aaRDP3 from "@/assets/AA_RDP_3.png";
 import aaRDP4 from "@/assets/AA_RDP_4.png";
 import aaRDP5 from "@/assets/AA_RDP_5.png";
+import menuInitial from "@/assets/menu_initial.gif";
+import menuScroll from "@/assets/menu_scroll.gif";
 
 const AllowanceAwareness = () => {
   return (
@@ -751,10 +753,18 @@ const AllowanceAwareness = () => {
                       Opting for animations with interactions to capture attention instead of using strong colors.
                     </p>
                   </div>
-                  <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Visual Hierarchy Placeholder</span>
-                    </div>
+                  
+                  <div className="flex-1 flex flex-row gap-4 items-center justify-center">
+                    <img 
+                      src={menuInitial} 
+                      alt="Menu initial state showing allowance indicator"
+                      className="h-full w-auto max-h-[380px] object-contain rounded-lg"
+                    />
+                    <img 
+                      src={menuScroll} 
+                      alt="Menu scrolled state with allowance indicator visible"
+                      className="h-full w-auto max-h-[380px] object-contain rounded-lg"
+                    />
                   </div>
                 </div>
                 
