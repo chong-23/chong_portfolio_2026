@@ -349,44 +349,35 @@ const AllowanceAwareness = () => {
                   </p>
                 </div>
                 <div className="flex-1 flex items-center justify-center">
-                  <ul className="space-y-3 text-lg">
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                  <div className="space-y-3 w-full max-w-sm">
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
                       Frequency
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                    </div>
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
                       Amount
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                    </div>
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
                       Days
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                    </div>
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
                       Time
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
-                      Employees
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                    </div>
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
+                      Select employees
+                    </div>
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
                       Locations
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                    </div>
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
                       Service types
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                    </div>
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
                       Delivery method
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-primary"></span>
+                    </div>
+                    <div className="bg-white rounded-full px-8 py-4 text-center text-lg font-medium shadow-sm">
                       Expense
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
 
