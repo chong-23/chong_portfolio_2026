@@ -28,6 +28,7 @@ import aaRDP4 from "@/assets/AA_RDP_4.png";
 import aaRDP5 from "@/assets/AA_RDP_5.png";
 import menuInitial from "@/assets/menu_initial.gif";
 import menuScroll from "@/assets/menu_scroll.gif";
+import cardWire from "@/assets/card_wire.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -1112,24 +1113,27 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
 
-                {/* Card 2 - Data Visualization */}
+                {/* Card 2 - Information Hierarchy */}
                 <div
-                  className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0"
+                  className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0"
                   style={{
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
                 >
-                  <div className="flex-1 pr-8">
-                    <h3 className="text-xl font-semibold mb-3">Data Visualization</h3>
-                    <p className="mb-4">
-                      Designed intuitive charts and graphs to help users understand their spending patterns and
-                      remaining allowance.
+                  <div className="mb-6">
+                    <h3 className="text-xl font-semibold mb-4">Establish Clear Information Hierarchy</h3>
+                    <p className="text-base leading-relaxed">
+                      Research identifies key allowance indicator elements on the home screen—amount, availability, and
+                      available time—structured into a 2-level hierarchy.
                     </p>
                   </div>
+
                   <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Data Visualization Placeholder</span>
-                    </div>
+                    <img
+                      src={cardWire}
+                      alt="Information hierarchy diagram showing 1st level with action leading information and 2nd level with identification and detailed criteria"
+                      className="h-full w-auto max-h-[320px] object-contain"
+                    />
                   </div>
                 </div>
 
