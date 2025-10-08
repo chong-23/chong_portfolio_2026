@@ -1147,7 +1147,7 @@ const AllowanceAwareness = () => {
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
                 >
-                  <h3 className="text-xl font-semibold mb-6">Unmoderated usability test</h3>
+                  <h3 className="text-xl font-semibold mb-6">3 Directions</h3>
 
                   <div className="flex gap-5 flex-1">
                     {/* Card 1 - Minimal */}
