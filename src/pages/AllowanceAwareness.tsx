@@ -1225,12 +1225,12 @@ const AllowanceAwareness = () => {
                 >
                   <div className="mb-2">
                     <h3 className="text-xl font-semibold mb-6">Unmoderated usability test</h3>
-                    <p className="mb-4">
+                    <p className="mb-2">
                       The result highlights confusion: 50%+ users misinterpret remaining as total allowance.
                     </p>
                   </div>
 
-                  <div className="mb-8">
+                  <div className="mb-6">
                     <p className="text-base leading-relaxed">
                       <strong>Q:</strong> From the information presented on this screen, what is the total allowance you
                       get today? (Imagine that today is Friday and it is 10:00 am)
@@ -1266,7 +1266,7 @@ const AllowanceAwareness = () => {
                           55% / n = 11
                         </div>
                       </div>
-                      
+
                       {/* Second row - split of incorrect answers */}
                       <div className="flex justify-end">
                         <div className="flex h-12 rounded-lg overflow-hidden shadow-md" style={{ width: "55%" }}>
