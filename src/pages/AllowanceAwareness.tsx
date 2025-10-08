@@ -1230,7 +1230,7 @@ const AllowanceAwareness = () => {
                     </p>
                   </div>
 
-                  <div className="mb-6">
+                  <div className="mb-2">
                     <p className="text-base leading-relaxed">
                       <strong>Q:</strong> From the information presented on this screen, what is the total allowance you
                       get today? (Imagine that today is Friday and it is 10:00 am)
