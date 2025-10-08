@@ -1142,29 +1142,69 @@ const AllowanceAwareness = () => {
 
                 {/* Card 3 - 3 Key Structural Directions */}
                 <div
-                  className="rounded-xl p-8 w-[780px] h-[500px] flex flex-col flex-shrink-0"
+                  className="rounded-xl p-8 w-[780px] h-[500px] flex flex-col flex-shrink-0 overflow-y-auto"
                   style={{
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
                 >
                   <h3 className="text-2xl font-semibold mb-6">3 Key Structural Directions</h3>
                   
-                  <div className="flex gap-6 flex-1 items-start justify-center">
-                    <img
-                      src={card2_1}
-                      alt="Minimal card design showing collapsible information"
-                      className="h-auto max-h-[380px] object-contain shadow-md rounded-lg"
-                    />
-                    <img
-                      src={card2_2}
-                      alt="Medium card design with expanded criteria"
-                      className="h-auto max-h-[380px] object-contain shadow-md rounded-lg"
-                    />
-                    <img
-                      src={card2_3}
-                      alt="Full card design with status header"
-                      className="h-auto max-h-[380px] object-contain shadow-md rounded-lg"
-                    />
+                  <div className="flex gap-5 flex-1">
+                    {/* Card 1 - Minimal */}
+                    <div className="flex-1 flex flex-col">
+                      <img
+                        src={card2_1}
+                        alt="Minimal card design showing collapsible information"
+                        className="w-full h-auto object-contain shadow-md rounded-lg mb-3"
+                      />
+                      <div className="space-y-2">
+                        <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
+                          <span className="text-base mr-1.5">🤔</span>
+                          <span className="font-medium">Should some information be folded?</span>
+                          <p className="mt-1 text-gray-600 ml-6">
+                            98% of users have less than 3 allowances. It&apos;s more straightforward to present everything.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Card 2 - Medium */}
+                    <div className="flex-1 flex flex-col">
+                      <img
+                        src={card2_2}
+                        alt="Medium card design with expanded criteria"
+                        className="w-full h-auto object-contain shadow-md rounded-lg mb-3"
+                      />
+                      <div className="space-y-2">
+                        <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
+                          <span className="text-base mr-1.5">🤔</span>
+                          <span className="font-medium">Should the status be softened and less intrusive on the top?</span>
+                        </div>
+                        <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
+                          <span className="text-base mr-1.5">💡</span>
+                          <span className="font-medium">3 layers of information stacked weakens visual hierarchy.</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Card 3 - Full */}
+                    <div className="flex-1 flex flex-col">
+                      <img
+                        src={card2_3}
+                        alt="Full card design with status header"
+                        className="w-full h-auto object-contain shadow-md rounded-lg mb-3"
+                      />
+                      <div className="space-y-2">
+                        <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
+                          <span className="text-base mr-1.5">🤔</span>
+                          <span className="font-medium">Can user differentiate between available and total allowance?</span>
+                        </div>
+                        <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
+                          <span className="text-base mr-1.5">💡</span>
+                          <span className="font-medium">We can figure out through the test.</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
