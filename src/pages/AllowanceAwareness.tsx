@@ -1216,23 +1216,84 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
 
-                {/* Card 4 - Accessibility Features */}
+                {/* Card 4 - Usability Test Results */}
                 <div
-                  className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0"
+                  className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0"
                   style={{
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
                 >
-                  <div className="flex-1 pr-8">
-                    <h3 className="text-xl font-semibold mb-3">Accessibility Features</h3>
+                  <div className="mb-2">
+                    <h3 className="text-xl font-semibold mb-6">Unmoderated usability test</h3>
                     <p className="mb-4">
-                      Implemented voice over support and high contrast modes to ensure allowance information is
-                      accessible to all users.
+                      The result highlights confusion: 50%+ users misinterpret remaining as total allowance.
                     </p>
                   </div>
-                  <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Accessibility Features Placeholder</span>
+
+                  <div className="mb-8">
+                    <p className="text-base leading-relaxed">
+                      <strong>Q:</strong> From the information presented on this screen, what is the total allowance you
+                      get today? (Imagine that today is Friday and it is 10:00 am)
+                    </p>
+                  </div>
+
+                  <div className="space-y-4">
+                    {/* Results Header */}
+                    <div className="flex justify-between items-center mb-2">
+                      <div className="text-center flex-1">
+                        <p className="font-semibold text-green-700 dark:text-green-400">Correct Answer</p>
+                        <p className="text-sm text-muted-foreground">($10)</p>
+                      </div>
+                      <div className="text-center flex-1">
+                        <p className="font-semibold text-red-700 dark:text-red-400">Incorrect Answer</p>
+                        <p className="text-sm text-muted-foreground">(other responses)</p>
+                      </div>
+                    </div>
+
+                    {/* Results Bar Chart */}
+                    <div className="space-y-3">
+                      <div className="flex h-16 rounded-lg overflow-hidden shadow-md">
+                        <div
+                          className="bg-green-600 dark:bg-green-700 flex items-center justify-center text-white font-semibold text-base"
+                          style={{ width: "45%" }}
+                        >
+                          45% / n = 9
+                        </div>
+                        <div
+                          className="bg-red-600 dark:bg-red-700 flex items-center justify-center text-white font-semibold text-base"
+                          style={{ width: "55%" }}
+                        >
+                          55% / n = 11
+                        </div>
+                      </div>
+                      
+                      {/* Second row - split of incorrect answers */}
+                      <div className="flex justify-end">
+                        <div className="flex h-12 rounded-lg overflow-hidden shadow-md" style={{ width: "55%" }}>
+                          <div
+                            className="bg-red-700 dark:bg-red-800 flex items-center justify-center text-white font-semibold text-sm"
+                            style={{ width: "73%" }}
+                          >
+                            73% / n = 8
+                          </div>
+                          <div
+                            className="bg-red-400 dark:bg-red-500 flex items-center justify-center text-white font-semibold text-sm"
+                            style={{ width: "27%" }}
+                          >
+                            27% / n = 3
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Note pointing to 73% section */}
+                      <div className="flex justify-end">
+                        <div className="bg-red-100 dark:bg-red-900/30 rounded-lg p-3 text-xs" style={{ width: "55%" }}>
+                          <p className="text-red-800 dark:text-red-200">
+                            <strong>Incorrect answer: $2</strong> as not immediately distinguish "Total" & "Available".
+                            7 out 8 answered the 2nd related question correctly
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
