@@ -1148,7 +1148,7 @@ const AllowanceAwareness = () => {
                   }}
                 >
                   <h3 className="text-2xl font-semibold mb-6">3 Key Structural Directions</h3>
-                  
+
                   <div className="flex gap-5 flex-1">
                     {/* Card 1 - Minimal */}
                     <div className="flex-1 flex flex-col">
@@ -1161,9 +1161,13 @@ const AllowanceAwareness = () => {
                         <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
                           <span className="text-base mr-1.5">🤔</span>
                           <span className="font-medium">Should some information be folded?</span>
-                          <p className="mt-1 text-gray-600 ml-6">
-                            98% of users have less than 3 allowances. It&apos;s more straightforward to present everything.
-                          </p>
+                        </div>
+                        <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
+                          <span className="text-base mr-1.5">💡</span>
+                          <span className="font-medium">
+                            98% of users have less than 3 allowances. It’s more straightforward to present
+                            everything.{" "}
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -1178,7 +1182,9 @@ const AllowanceAwareness = () => {
                       <div className="space-y-2">
                         <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
                           <span className="text-base mr-1.5">🤔</span>
-                          <span className="font-medium">Should the status be softened and less intrusive on the top?</span>
+                          <span className="font-medium">
+                            Should the status be softened and less intrusive on the top?
+                          </span>
                         </div>
                         <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
                           <span className="text-base mr-1.5">💡</span>
@@ -1197,7 +1203,9 @@ const AllowanceAwareness = () => {
                       <div className="space-y-2">
                         <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
                           <span className="text-base mr-1.5">🤔</span>
-                          <span className="font-medium">Can user differentiate between available and total allowance?</span>
+                          <span className="font-medium">
+                            Can user differentiate between available and total allowance?
+                          </span>
                         </div>
                         <div className="bg-yellow-50 rounded-lg p-2.5 text-xs">
                           <span className="text-base mr-1.5">💡</span>
