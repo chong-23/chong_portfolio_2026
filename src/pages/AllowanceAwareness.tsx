@@ -1218,7 +1218,7 @@ const AllowanceAwareness = () => {
 
                 {/* Card 4 - Usability Test Results */}
                 <div
-                  className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0"
+                  className="rounded-xl p-10 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0"
                   style={{
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
