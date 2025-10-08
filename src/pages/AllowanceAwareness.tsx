@@ -1137,23 +1137,128 @@ const AllowanceAwareness = () => {
                   </div>
                 </div>
 
-                {/* Card 3 - Interaction Design */}
+                {/* Card 3 - 3 Key Structural Directions */}
                 <div
-                  className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0"
+                  className="rounded-xl p-8 w-[780px] h-[500px] flex flex-col flex-shrink-0"
                   style={{
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
                 >
-                  <div className="flex-1 pr-8">
-                    <h3 className="text-xl font-semibold mb-3">Interaction Design</h3>
-                    <p className="mb-4">
-                      Created intuitive touch interactions for detailed allowance exploration and budget management
-                      controls.
-                    </p>
-                  </div>
-                  <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Interaction Design Placeholder</span>
+                  <h3 className="text-2xl font-semibold mb-6">3 Key Structural Directions</h3>
+                  
+                  <div className="flex gap-4 flex-1">
+                    {/* Card 1 - Minimal */}
+                    <div className="flex-1 flex flex-col">
+                      <div className="bg-white rounded-lg shadow-sm p-4 mb-3">
+                        <div className="bg-teal-700 text-white text-xs font-medium px-3 py-1 rounded-full inline-flex items-center gap-1 mb-3">
+                          <span className="text-white">✓</span> S$ 10.00 available
+                        </div>
+                        <h4 className="font-semibold text-base mb-2">Tasty Thursday</h4>
+                        <p className="text-xs text-gray-600 mb-3">Total allowance S$ 20.00 / day</p>
+                        <div className="border-t pt-3">
+                          <p className="text-xs font-medium text-gray-600 mb-2">Valid for</p>
+                          <div className="flex items-center gap-2 text-xs mb-2">
+                            <span>🕐</span> 9:00 - 18:00
+                          </div>
+                          <div className="flex items-center gap-2 text-xs">
+                            <span>📅</span> Every Mon, Tue, Wed, Thu, Fri, Sat
+                          </div>
+                          <button className="text-xs mt-3 flex items-center gap-1">
+                            See more criteria <span>▼</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div className="bg-yellow-50 rounded-lg p-3 text-xs">
+                        <span className="text-lg mr-2">🤔</span>
+                        <span className="font-medium">Should some information be folded?</span>
+                        <p className="mt-1 text-gray-600 ml-7">98% of users have less than 3 allowances. It's more straightforward to present everything.</p>
+                      </div>
+                    </div>
+
+                    {/* Card 2 - Medium */}
+                    <div className="flex-1 flex flex-col">
+                      <div className="bg-gray-50 rounded-lg shadow-sm p-4 mb-3">
+                        <div className="bg-teal-600 text-white text-xs font-medium px-3 py-1 rounded-full inline-flex items-center gap-1 mb-3">
+                          <span className="text-white">✓</span> S$ 10.00 available
+                        </div>
+                        <h4 className="font-semibold text-base mb-2">Tasty Thursday</h4>
+                        <p className="text-xs text-gray-600 mb-3">Total allowance S$ 20.00 / day</p>
+                        <div className="border-t pt-3">
+                          <p className="text-xs font-medium text-gray-600 mb-2">Valid for</p>
+                          <div className="flex items-center gap-2 text-xs mb-2">
+                            <span>🕐</span> 9:00 - 18:00
+                          </div>
+                          <div className="flex items-center gap-2 text-xs mb-2">
+                            <span>📅</span> Every Mon, Tue, Wed, Thu, Fri, Sat
+                          </div>
+                          <div className="flex items-center gap-2 text-xs mb-2">
+                            <span>📍</span> All addresses
+                          </div>
+                          <div className="flex items-center gap-2 text-xs mb-2">
+                            <span>🚚</span> Delivery only
+                          </div>
+                          <div className="flex items-center gap-2 text-xs mb-2">
+                            <span>🍔</span> Food delivery, shops and catering
+                          </div>
+                          <div className="flex items-center gap-2 text-xs">
+                            <span>📄</span> Expense code required
+                          </div>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="bg-yellow-50 rounded-lg p-2 text-xs">
+                          <span className="text-base mr-2">🤔</span>
+                          <span className="font-medium">Should the status be softened and less intrusive on the top?</span>
+                        </div>
+                        <div className="bg-yellow-50 rounded-lg p-2 text-xs">
+                          <span className="text-base mr-2">💡</span>
+                          <span className="font-medium">3 layers of information stacked weakens visual hierarchy.</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Card 3 - Full */}
+                    <div className="flex-1 flex flex-col">
+                      <div className="bg-white rounded-lg shadow-sm overflow-hidden mb-3">
+                        <div className="bg-teal-700 text-white text-xs font-medium px-3 py-2 flex items-center gap-1">
+                          <span className="text-white">✓</span> S$ 10.00 available
+                        </div>
+                        <div className="p-4">
+                          <h4 className="font-semibold text-base mb-2">Tasty Thursday</h4>
+                          <p className="text-xs text-gray-600 mb-3">Total allowance S$ 20.00 / Day</p>
+                          <div className="border-t pt-3">
+                            <p className="text-xs font-medium text-gray-600 mb-2">Valid for</p>
+                            <div className="flex items-center gap-2 text-xs mb-2">
+                              <span>🕐</span> 9:00 - 18:00
+                            </div>
+                            <div className="flex items-center gap-2 text-xs mb-2">
+                              <span>📅</span> Mon, Tue, Wed, Thu, Fri, Sat
+                            </div>
+                            <div className="flex items-center gap-2 text-xs mb-2">
+                              <span>📍</span> All addresses
+                            </div>
+                            <div className="flex items-center gap-2 text-xs mb-2">
+                              <span>🚚</span> Delivery only
+                            </div>
+                            <div className="flex items-center gap-2 text-xs mb-2">
+                              <span>🍔</span> Food delivery, shops and catering
+                            </div>
+                            <div className="flex items-center gap-2 text-xs">
+                              <span>📄</span> Expense code required
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="bg-yellow-50 rounded-lg p-2 text-xs">
+                          <span className="text-base mr-2">🤔</span>
+                          <span className="font-medium">Can user differentiate between available and total allowance?</span>
+                        </div>
+                        <div className="bg-yellow-50 rounded-lg p-2 text-xs">
+                          <span className="text-base mr-2">💡</span>
+                          <span className="font-medium">We can figure out through the test.</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
