@@ -1308,7 +1308,7 @@ const AllowanceAwareness = () => {
                 >
                   <div className="mb-6">
                     <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
-                    <h3 className="text-xl font-semibold mb-4">
+                    <h3 className="text-xl font-semibold">
                       Putting remanning and total allowance together to emphasize their connections.
                     </h3>
                   </div>
