@@ -1368,59 +1368,29 @@ const AllowanceAwareness = () => {
 
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Key Features Section */}
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">Key Features</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="space-y-6">
-                <div className="border border-border rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3">Budget Tracking</h3>
-                  <p className="text-muted-foreground max-w-[700px]">
-                    Real-time spending visualization with intuitive progress bars and alerts
-                  </p>
-                </div>
-                <div className="border border-border rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3">Smart Recommendations</h3>
-                  <p className="text-muted-foreground max-w-[700px]">
-                    AI-powered suggestions based on budget and preferences
-                  </p>
-                </div>
-              </div>
-              <div className="space-y-6">
-                <div className="border border-border rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3">Spending Analytics</h3>
-                  <p className="text-muted-foreground max-w-[700px]">
-                    Detailed insights into spending patterns and trends
-                  </p>
-                </div>
-                <div className="border border-border rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3">Goal Setting</h3>
-                  <p className="text-muted-foreground max-w-[700px]">
-                    Customizable budget goals with progress tracking
-                  </p>
-                </div>
-              </div>
+      {/* Results Section */}
+      <section
+        className="mb-20 w-full"
+        style={{ background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)" }}
+      >
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          <h2 className="text-3xl font-bold text-center mb-12 max-w-4xl mx-auto">
+            After the launch of notification and allowance screen, metrics have been increased by...
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            <div className="text-center">
+              <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">Primary business metric</p>
+              <div className="text-6xl font-bold mb-4" style={{ color: '#E91E63' }}>+62.5</div>
+              <p className="text-base text-foreground">Allowance utilization rate</p>
             </div>
-          </section>
-
-          {/* Results Section */}
-          <section className="mb-20">
-            <p className="text-lg text-center mb-12 max-w-4xl mx-auto">
-              After the launch of notification and allowance screen, metrics have been increased by...
-            </p>
-            <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-              <div className="text-center">
-                <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">Primary business metric</p>
-                <div className="text-6xl font-bold mb-4" style={{ color: '#E91E63' }}>+62.5</div>
-                <p className="text-base text-foreground">Allowance utilization rate</p>
-              </div>
-              <div className="text-center">
-                <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">New screen performance</p>
-                <div className="text-6xl font-bold mb-4" style={{ color: '#E91E63' }}>+1200</div>
-                <p className="text-base text-foreground">Daily sessions of allowance screen<br />(9% of total session)</p>
-              </div>
+            <div className="text-center">
+              <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">New screen performance</p>
+              <div className="text-6xl font-bold mb-4" style={{ color: '#E91E63' }}>+1200</div>
+              <p className="text-base text-foreground">Daily sessions of allowance screen<br />(9% of total session)</p>
             </div>
-          </section>
+          </div>
+        </div>
+      </section>
 
           {/* Learnings Section */}
           <section className="mb-20">
