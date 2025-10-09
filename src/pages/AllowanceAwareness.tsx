@@ -1300,22 +1300,24 @@ const AllowanceAwareness = () => {
 
                 {/* Card 5 - Progressive Disclosure */}
                 <div
-                  className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0"
+                  className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0"
                   style={{
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
                 >
-                  <div className="flex-1 pr-8">
-                    <h3 className="text-xl font-semibold mb-3">Progressive Disclosure</h3>
-                    <p className="mb-4">
-                      Layered information presentation allowing users to drill down into specific allowance details as
-                      needed.
-                    </p>
+                  <div className="mb-6">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
+                    <h3 className="text-xl font-semibold mb-4">
+                      Putting remanning and total allowance together to emphasize their connections.
+                    </h3>
                   </div>
+
                   <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Progressive Disclosure Placeholder</span>
-                    </div>
+                    <img
+                      src={cardWire}
+                      alt="Information hierarchy diagram showing 1st level with action leading information and 2nd level with identification and detailed criteria"
+                      className="h-full w-auto max-h-[320px] object-contain"
+                    />
                   </div>
                 </div>
 
