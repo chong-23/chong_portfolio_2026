@@ -1341,22 +1341,22 @@ const AllowanceAwareness = () => {
                     <img
                       src={allowanceCard1}
                       alt="Available now allowance status"
-                      className="w-[160px] h-auto object-contain rounded-lg"
+                      className="w-[180px] h-auto object-contain rounded-lg"
                     />
                     <img
                       src={allowanceCard2}
                       alt="Available now with restriction message"
-                      className="w-[160px] h-auto object-contain rounded-lg"
+                      className="w-[180px] h-auto object-contain rounded-lg"
                     />
                     <img
                       src={allowanceCard3}
                       alt="Available at specific time"
-                      className="w-[160px] h-auto object-contain rounded-lg"
+                      className="w-[180px] h-auto object-contain rounded-lg"
                     />
                     <img
                       src={allowanceCard4}
                       alt="Fully used allowance status"
-                      className="w-[160px] h-auto object-contain rounded-lg"
+                      className="w-[180px] h-auto object-contain rounded-lg"
                     />
                   </div>
                 </div>
