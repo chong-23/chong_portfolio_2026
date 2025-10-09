@@ -37,6 +37,7 @@ import allowanceCard1 from "@/assets/allowance_card_1.png";
 import allowanceCard2 from "@/assets/allowance_card_2.png";
 import allowanceCard3 from "@/assets/allowance_card_3.png";
 import allowanceCard4 from "@/assets/allowance_card_4.png";
+import aaData from "@/assets/aa_data.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -1402,122 +1403,13 @@ const AllowanceAwareness = () => {
               The test shows that adding allowance indicator from RDP would heighten allowance awareness and boost menu-to-transaction conversion. However, results suggest heightened awareness of allowance may not directly increase the conversion rate.
             </p>
 
-            {/* Conversion Funnel Visualization */}
-            <div className="max-w-4xl mx-auto space-y-12">
-              {/* Control Group - Top Funnel */}
-              <div className="relative">
-                <div className="absolute top-0 right-0 text-2xl font-bold text-muted-foreground">50.02%</div>
-                
-                <div className="flex items-center justify-between pt-12">
-                  {/* Menu */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Menu</p>
-                    </div>
-                    <p className="text-base font-semibold">74%</p>
-                  </div>
-
-                  <div className="text-muted-foreground text-xl">→</div>
-
-                  {/* Cart */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Cart</p>
-                    </div>
-                    <p className="text-base font-semibold">95%</p>
-                  </div>
-
-                  <div className="text-muted-foreground text-xl">→</div>
-
-                  {/* Add to cart */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Add to cart</p>
-                    </div>
-                    <p className="text-base font-semibold">76%</p>
-                  </div>
-
-                  <div className="text-muted-foreground text-xl">→</div>
-
-                  {/* Checkout */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Checkout</p>
-                    </div>
-                    <p className="text-base font-semibold">90%</p>
-                  </div>
-
-                  <div className="text-muted-foreground text-xl">→</div>
-
-                  {/* Transaction */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Transaction</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Dotted line connecting control */}
-                <div className="absolute top-6 right-4 w-[calc(100%-2rem)] border-t-2 border-dotted border-muted-foreground/30"></div>
-              </div>
-
-              {/* Test Group - Bottom Funnel */}
-              <div className="relative">
-                <div className="absolute bottom-0 right-0 text-2xl font-bold" style={{ color: '#E91E63' }}>50.1%</div>
-                
-                <div className="flex items-center justify-between pb-12">
-                  {/* Menu */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Menu</p>
-                    </div>
-                    <p className="text-base font-semibold" style={{ color: '#E91E63' }}>72% (Neg Sig)</p>
-                  </div>
-
-                  <div className="text-muted-foreground text-xl">→</div>
-
-                  {/* Cart */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Cart</p>
-                    </div>
-                    <p className="text-base font-semibold" style={{ color: '#E91E63' }}>95%</p>
-                  </div>
-
-                  <div className="text-muted-foreground text-xl">→</div>
-
-                  {/* Add to cart */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Add to cart</p>
-                    </div>
-                    <p className="text-base font-semibold" style={{ color: '#E91E63' }}>78% (Sig)</p>
-                  </div>
-
-                  <div className="text-muted-foreground text-xl">→</div>
-
-                  {/* Checkout */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Checkout</p>
-                    </div>
-                    <p className="text-base font-semibold" style={{ color: '#E91E63' }}>91%</p>
-                  </div>
-
-                  <div className="text-muted-foreground text-xl">→</div>
-
-                  {/* Transaction */}
-                  <div className="flex flex-col items-center">
-                    <div className="bg-muted rounded-lg px-6 py-4 mb-2">
-                      <p className="text-sm font-medium">Transaction</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Dotted line connecting test with arrow */}
-                <div className="absolute bottom-6 right-4 w-[calc(100%-2rem)] border-t-2 border-dotted border-[#E91E63]/50"></div>
-                <div className="absolute bottom-4 right-0 text-[#E91E63] text-2xl">↑</div>
-              </div>
+            {/* Conversion Funnel Image */}
+            <div className="max-w-5xl mx-auto">
+              <img 
+                src={aaData} 
+                alt="A/B test conversion funnel showing control group at 50.02% and test group at 50.1%, with detailed conversion rates at each stage"
+                className="w-full h-auto"
+              />
             </div>
           </section>
 
