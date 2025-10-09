@@ -1366,26 +1366,33 @@ const AllowanceAwareness = () => {
         </div>
       </section>
 
+      {/* Results Section with Full-Width Gradient Background */}
+      <section
+        className="mb-20 w-full"
+        style={{ background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)" }}
+      >
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          <h2 className="text-3xl font-bold mb-8">
+            After the launch of notification and allowance screen, metrics have been increased by...
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 max-w-4xl">
+            <div>
+              <p className="text-sm text-muted-foreground mb-2">Primary business metric</p>
+              <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>+62.5</div>
+              <p className="text-base text-foreground">Allowance utilization rate</p>
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground mb-2">New screen performance</p>
+              <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>+1200</div>
+              <p className="text-base text-foreground">Daily sessions of allowance screen<br />(9% of total session)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content */}
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Results Section */}
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">
-              After the launch of notification and allowance screen, metrics have been increased by...
-            </h2>
-            <div className="grid md:grid-cols-2 gap-12 max-w-4xl">
-              <div>
-                <p className="text-sm text-muted-foreground mb-2">Primary business metric</p>
-                <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>+62.5</div>
-                <p className="text-base text-foreground">Allowance utilization rate</p>
-              </div>
-              <div>
-                <p className="text-sm text-muted-foreground mb-2">New screen performance</p>
-                <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>+1200</div>
-                <p className="text-base text-foreground">Daily sessions of allowance screen<br />(9% of total session)</p>
-              </div>
-            </div>
-          </section>
 
           {/* Learnings Section */}
           <section className="mb-20">
