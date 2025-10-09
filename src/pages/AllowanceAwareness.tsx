@@ -33,6 +33,10 @@ import card2_1 from "@/assets/card2_1.png";
 import card2_2 from "@/assets/card2_2.png";
 import card2_3 from "@/assets/card2_3.png";
 import cardRevision from "@/assets/card_revision.png";
+import allowanceCard1 from "@/assets/allowance_card_1.png";
+import allowanceCard2 from "@/assets/allowance_card_2.png";
+import allowanceCard3 from "@/assets/allowance_card_3.png";
+import allowanceCard4 from "@/assets/allowance_card_4.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -1324,20 +1328,35 @@ const AllowanceAwareness = () => {
 
                 {/* Card 6 - Final Details Screen with right padding */}
                 <div
-                  className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0"
+                  className="rounded-xl p-8 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0"
                   style={{
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
                 >
                   <div className="mb-6">
-                    <h3 className="text-xl font-semibold">Final solution for different statuses</h3>
+                    <h3 className="text-xl font-semibold text-center">Final solution for different statuses</h3>
                   </div>
 
-                  <div className="flex-1 flex items-center justify-center">
+                  <div className="flex-1 flex items-center justify-center gap-4 px-4">
                     <img
-                      src={cardRevision}
-                      alt="Card design revision showing enhanced information hierarchy and user-friendly layout"
-                      className="h-full w-auto max-h-[320px] object-contain"
+                      src={allowanceCard1}
+                      alt="Available now allowance status"
+                      className="w-[160px] h-auto object-contain rounded-lg"
+                    />
+                    <img
+                      src={allowanceCard2}
+                      alt="Available now with restriction message"
+                      className="w-[160px] h-auto object-contain rounded-lg"
+                    />
+                    <img
+                      src={allowanceCard3}
+                      alt="Available at specific time"
+                      className="w-[160px] h-auto object-contain rounded-lg"
+                    />
+                    <img
+                      src={allowanceCard4}
+                      alt="Fully used allowance status"
+                      className="w-[160px] h-auto object-contain rounded-lg"
                     />
                   </div>
                 </div>
