@@ -1368,52 +1368,21 @@ const AllowanceAwareness = () => {
 
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Key Features Section */}
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">Key Features</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="space-y-6">
-                <div className="border border-border rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3">Budget Tracking</h3>
-                  <p className="text-muted-foreground max-w-[700px]">
-                    Real-time spending visualization with intuitive progress bars and alerts
-                  </p>
-                </div>
-                <div className="border border-border rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3">Smart Recommendations</h3>
-                  <p className="text-muted-foreground max-w-[700px]">
-                    AI-powered suggestions based on budget and preferences
-                  </p>
-                </div>
-              </div>
-              <div className="space-y-6">
-                <div className="border border-border rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3">Spending Analytics</h3>
-                  <p className="text-muted-foreground max-w-[700px]">
-                    Detailed insights into spending patterns and trends
-                  </p>
-                </div>
-                <div className="border border-border rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3">Goal Setting</h3>
-                  <p className="text-muted-foreground max-w-[700px]">
-                    Customizable budget goals with progress tracking
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* Results Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8 text-center">Results</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="text-center bg-primary/5 rounded-2xl p-8">
-                <div className="text-5xl font-bold text-primary mb-2">+62.5%</div>
-                <p className="text-lg text-muted-foreground">Increase in budget awareness</p>
+            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[900px]">
+              After the launch of notification and allowance screen, metrics have been increased by...
+            </p>
+            <div className="grid md:grid-cols-2 gap-12 max-w-4xl">
+              <div>
+                <p className="text-sm text-muted-foreground mb-2">Primary business metric</p>
+                <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>+62.5</div>
+                <p className="text-base text-foreground">Allowance utilization rate</p>
               </div>
-              <div className="text-center bg-primary/5 rounded-2xl p-8">
-                <div className="text-5xl font-bold text-primary mb-2">+1200</div>
-                <p className="text-lg text-muted-foreground">Daily active users gained</p>
+              <div>
+                <p className="text-sm text-muted-foreground mb-2">New screen performance</p>
+                <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>+1200</div>
+                <p className="text-base text-foreground">Daily sessions of allowance screen<br />(9% of total session)</p>
               </div>
             </div>
           </section>
