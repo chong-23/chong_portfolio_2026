@@ -1370,9 +1370,9 @@ const AllowanceAwareness = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Results Section */}
           <section className="mb-20">
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[900px]">
+            <h2 className="text-3xl font-bold mb-8">
               After the launch of notification and allowance screen, metrics have been increased by...
-            </p>
+            </h2>
             <div className="grid md:grid-cols-2 gap-12 max-w-4xl">
               <div>
                 <p className="text-sm text-muted-foreground mb-2">Primary business metric</p>
