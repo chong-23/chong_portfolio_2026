@@ -1367,7 +1367,8 @@ const AllowanceAwareness = () => {
       </section>
 
       <div className="bg-background">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+      </div>
+
       {/* Results Section */}
       <section
         className="mb-20 w-full"
@@ -1391,6 +1392,9 @@ const AllowanceAwareness = () => {
           </div>
         </div>
       </section>
+
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
 
           {/* Learnings Section */}
           <section className="mb-20">
