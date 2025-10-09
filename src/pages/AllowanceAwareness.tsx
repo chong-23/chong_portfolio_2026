@@ -1337,7 +1337,7 @@ const AllowanceAwareness = () => {
                     <h3 className="text-xl font-semibold text-center">Final solution for different statuses</h3>
                   </div>
 
-                  <div className="flex-1 flex items-start justify-center gap-4 px-4">
+                  <div className="flex-1 flex items-start justify-center gap-2 px-4">
                     <img
                       src={allowanceCard1}
                       alt="Available now allowance status"
