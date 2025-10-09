@@ -1405,15 +1405,19 @@ const AllowanceAwareness = () => {
 
           {/* Results Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8 text-center">Results</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="text-center bg-primary/5 rounded-2xl p-8">
-                <div className="text-5xl font-bold text-primary mb-2">+62.5%</div>
-                <p className="text-lg text-muted-foreground">Increase in budget awareness</p>
+            <p className="text-lg text-center mb-12 max-w-4xl mx-auto">
+              After the launch of notification and allowance screen, metrics have been increased by...
+            </p>
+            <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+              <div className="text-center">
+                <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">Primary business metric</p>
+                <div className="text-6xl font-bold mb-4" style={{ color: '#E91E63' }}>+62.5</div>
+                <p className="text-base text-foreground">Allowance utilization rate</p>
               </div>
-              <div className="text-center bg-primary/5 rounded-2xl p-8">
-                <div className="text-5xl font-bold text-primary mb-2">+1200</div>
-                <p className="text-lg text-muted-foreground">Daily active users gained</p>
+              <div className="text-center">
+                <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">New screen performance</p>
+                <div className="text-6xl font-bold mb-4" style={{ color: '#E91E63' }}>+1200</div>
+                <p className="text-base text-foreground">Daily sessions of allowance screen<br />(9% of total session)</p>
               </div>
             </div>
           </section>
