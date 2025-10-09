@@ -37,7 +37,6 @@ import allowanceCard1 from "@/assets/allowance_card_1.png";
 import allowanceCard2 from "@/assets/allowance_card_2.png";
 import allowanceCard3 from "@/assets/allowance_card_3.png";
 import allowanceCard4 from "@/assets/allowance_card_4.png";
-import aaData from "@/assets/aa_data.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -1368,48 +1367,54 @@ const AllowanceAwareness = () => {
       </section>
 
       <div className="bg-background">
-      </div>
-
-      {/* Results Section */}
-      <section
-        className="mb-20 w-full"
-        style={{ background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)" }}
-      >
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
-          <h2 className="text-3xl font-bold text-center mb-12 max-w-4xl mx-auto">
-            After the launch of notification and allowance screen, metrics have been increased by...
-          </h2>
-          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            <div className="text-center">
-              <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">Primary business metric</p>
-              <div className="text-6xl font-bold mb-4" style={{ color: '#E91E63' }}>+62.5</div>
-              <p className="text-base text-foreground">Allowance utilization rate</p>
-            </div>
-            <div className="text-center">
-              <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">New screen performance</p>
-              <div className="text-6xl font-bold mb-4" style={{ color: '#E91E63' }}>+1200</div>
-              <p className="text-base text-foreground">Daily sessions of allowance screen<br />(9% of total session)</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* A/B Test Analysis Section */}
+          {/* Key Features Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">A/B Test for Allowance on menu</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-12 max-w-[800px]">
-              The test shows that adding allowance indicator from RDP would heighten allowance awareness and boost menu-to-transaction conversion. However, results suggest heightened awareness of allowance may not directly increase the conversion rate.
-            </p>
+            <h2 className="text-3xl font-bold mb-8">Key Features</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="border border-border rounded-xl p-6">
+                  <h3 className="text-xl font-semibold mb-3">Budget Tracking</h3>
+                  <p className="text-muted-foreground max-w-[700px]">
+                    Real-time spending visualization with intuitive progress bars and alerts
+                  </p>
+                </div>
+                <div className="border border-border rounded-xl p-6">
+                  <h3 className="text-xl font-semibold mb-3">Smart Recommendations</h3>
+                  <p className="text-muted-foreground max-w-[700px]">
+                    AI-powered suggestions based on budget and preferences
+                  </p>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="border border-border rounded-xl p-6">
+                  <h3 className="text-xl font-semibold mb-3">Spending Analytics</h3>
+                  <p className="text-muted-foreground max-w-[700px]">
+                    Detailed insights into spending patterns and trends
+                  </p>
+                </div>
+                <div className="border border-border rounded-xl p-6">
+                  <h3 className="text-xl font-semibold mb-3">Goal Setting</h3>
+                  <p className="text-muted-foreground max-w-[700px]">
+                    Customizable budget goals with progress tracking
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
 
-            {/* Conversion Funnel Image */}
-            <div className="max-w-5xl mx-auto">
-              <img 
-                src={aaData} 
-                alt="A/B test conversion funnel showing control group at 50.02% and test group at 50.1%, with detailed conversion rates at each stage"
-                className="w-full h-auto"
-              />
+          {/* Results Section */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-8 text-center">Results</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="text-center bg-primary/5 rounded-2xl p-8">
+                <div className="text-5xl font-bold text-primary mb-2">+62.5%</div>
+                <p className="text-lg text-muted-foreground">Increase in budget awareness</p>
+              </div>
+              <div className="text-center bg-primary/5 rounded-2xl p-8">
+                <div className="text-5xl font-bold text-primary mb-2">+1200</div>
+                <p className="text-lg text-muted-foreground">Daily active users gained</p>
+              </div>
             </div>
           </section>
 
@@ -1418,24 +1423,25 @@ const AllowanceAwareness = () => {
             <h2 className="text-3xl font-bold mb-8">Key Learnings</h2>
             <div className="space-y-6">
               <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">User Behavior Insights</h3>
+                <h3 className="text-xl font-semibold mb-2">New opportunity</h3>
                 <p className="text-muted-foreground max-w-[700px]">
-                  Users are more likely to stick to budgets when they receive gentle, non-intrusive reminders rather
-                  than strict limitations.
+                  Peak usage of the allowance detail screen coincides with new client onboarding, suggesting an
+                  opportunity to promote other benefits and enhance overall service awareness.
                 </p>
               </div>
               <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">Design Integration</h3>
+                <h3 className="text-xl font-semibold mb-2">Consideration</h3>
                 <p className="text-muted-foreground max-w-[700px]">
-                  Financial features work best when seamlessly integrated into existing user flows rather than as
-                  separate modules.
+                  A/B test results indicate heightened allowance awareness may boost utilization but not necessarily
+                  conversion rate. Next step: A/B test for allowance on the home screen.
                 </p>
               </div>
               <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">Visual Feedback</h3>
+                <h3 className="text-xl font-semibold mb-2">What can be better</h3>
                 <p className="text-muted-foreground max-w-[700px]">
-                  Progressive visual indicators help users understand their spending without creating anxiety or
-                  frustration.
+                  Allowance indicator on home screen remains in the development backlog due to priority dependencies.
+                  The communication should have started earlier and been co-designed with the designer when they had a
+                  big revamp.
                 </p>
               </div>
             </div>
