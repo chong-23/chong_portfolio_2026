@@ -1324,23 +1324,24 @@ const AllowanceAwareness = () => {
 
                 {/* Card 6 - Final Details Screen with right padding */}
                 <div
-                  className="rounded-xl p-6 w-[780px] h-[500px] flex items-center flex-shrink-0 mr-6 md:mr-12 lg:mr-20"
+                  className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col justify-center flex-shrink-0"
                   style={{
                     background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)",
                   }}
                 >
-                  <div className="flex-1 pr-8">
-                    <h6 className="text-muted-foreground font-semibold mb-3">Final</h6>
-                    <h3 className="text-xl font-semibold mb-3">Details Screen</h3>
-                    <p className="mb-4">
-                      Complete allowance details interface providing comprehensive budget management and spending
-                      insights.
-                    </p>
+                  <div className="mb-6">
+                    <h6 className="text-muted-foreground font-semibold mb-3">Solution</h6>
+                    <h3 className="text-xl font-semibold">
+                      Putting remanning and total allowance together to emphasize their connections.
+                    </h3>
                   </div>
+
                   <div className="flex-1 flex items-center justify-center">
-                    <div className="w-full h-full bg-muted/50 rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground">Final Details Screen Placeholder</span>
-                    </div>
+                    <img
+                      src={cardRevision}
+                      alt="Card design revision showing enhanced information hierarchy and user-friendly layout"
+                      className="h-full w-auto max-h-[320px] object-contain"
+                    />
                   </div>
                 </div>
               </div>
