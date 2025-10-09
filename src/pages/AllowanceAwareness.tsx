@@ -37,6 +37,7 @@ import allowanceCard1 from "@/assets/allowance_card_1.png";
 import allowanceCard2 from "@/assets/allowance_card_2.png";
 import allowanceCard3 from "@/assets/allowance_card_3.png";
 import allowanceCard4 from "@/assets/allowance_card_4.png";
+import aaData2 from "@/assets/aa_data-2.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -1390,9 +1391,22 @@ const AllowanceAwareness = () => {
         </div>
       </section>
 
-      {/* Main Content */}
+      {/* A/B Test Analysis Section */}
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-6">A/B Test for Allowance on menu</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[900px]">
+              The test shows that adding allowance indicator from RDP would heighten allowance awareness and boost menu-to-transaction conversion. However, results suggest heightened awareness of allowance may not directly increase the conversion rate.
+            </p>
+            <div className="flex justify-center">
+              <img
+                src={aaData2}
+                alt="A/B test conversion funnel showing control group (50.02%) vs test group (50.1%) across menu, cart, add to cart, checkout, and transaction stages"
+                className="w-full max-w-5xl h-auto"
+              />
+            </div>
+          </section>
 
           {/* Learnings Section */}
           <section className="mb-20">
