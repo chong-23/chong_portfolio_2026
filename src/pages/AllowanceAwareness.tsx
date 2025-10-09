@@ -32,6 +32,7 @@ import cardWire from "@/assets/card_wire.png";
 import card2_1 from "@/assets/card2_1.png";
 import card2_2 from "@/assets/card2_2.png";
 import card2_3 from "@/assets/card2_3.png";
+import cardRevision from "@/assets/card_revision.png";
 
 const AllowanceAwareness = () => {
   return (
@@ -1314,8 +1315,8 @@ const AllowanceAwareness = () => {
 
                   <div className="flex-1 flex items-center justify-center">
                     <img
-                      src={cardWire}
-                      alt="Information hierarchy diagram showing 1st level with action leading information and 2nd level with identification and detailed criteria"
+                      src={cardRevision}
+                      alt="Card design revision showing enhanced information hierarchy and user-friendly layout"
                       className="h-full w-auto max-h-[320px] object-contain"
                     />
                   </div>
