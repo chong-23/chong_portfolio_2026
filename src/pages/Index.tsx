@@ -25,6 +25,7 @@ const Index = () => {
       subtitle: "B2B2C - Web",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: adminCoverImg,
+      link: "/corporate-admin-revamp",
     },
     {
       title: "Snippet of Past Works",
