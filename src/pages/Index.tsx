@@ -19,19 +19,25 @@ const Index = () => {
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: allowanceCoverImg,
       link: "/allowance-awareness",
+      blobColor: "bg-pink-200/40",
+      reverse: false,
     },
     {
-      title: "Corporate Admin Revamp",
-      subtitle: "B2B2C - Web",
+      title: "Allowance Awareness",
+      subtitle: "B2B2C - iOS & Android",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: adminCoverImg,
       link: "/corporate-admin-revamp",
+      blobColor: "bg-purple-200/40",
+      reverse: true,
     },
     {
-      title: "Snippet of Past Works",
-      subtitle: "Multiple - Web",
+      title: "Allowance Awareness",
+      subtitle: "B2B2C - iOS & Android",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: pastWorkCoverImg,
+      blobColor: "bg-blue-200/40",
+      reverse: false,
     },
   ];
 
@@ -62,7 +68,7 @@ const Index = () => {
       <main className="w-full px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           {/* Projects Section */}
-          <section id="design" className="mb-20">
+          <section id="design" className="mb-20 space-y-20">
             {projects.map((project, index) => (
               <ProjectCard
                 key={index}
@@ -71,6 +77,8 @@ const Index = () => {
                 description={project.description}
                 imageUrl={project.imageUrl}
                 link={project.link}
+                blobColor={project.blobColor}
+                reverse={project.reverse}
               />
             ))}
           </section>

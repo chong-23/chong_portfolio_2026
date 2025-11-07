@@ -6,35 +6,43 @@ interface ProjectCardProps {
   description: string;
   imageUrl?: string;
   link?: string;
+  blobColor?: string;
+  reverse?: boolean;
 }
 
-const ProjectCard = ({ title, subtitle, description, imageUrl, link }: ProjectCardProps) => {
+const ProjectCard = ({ title, subtitle, description, imageUrl, link, blobColor = "bg-accent/20", reverse = false }: ProjectCardProps) => {
   const CardContent = () => (
-    <div className="flex flex-col md:flex-row-reverse border border-border rounded-3xl transition-all duration-300 hover:shadow-lg hover:shadow-black/5 hover:-translate-y-1 cursor-pointer group overflow-hidden">
-      <div className="flex-1 max-w-[450px]">
-        <div className="w-full aspect-square bg-muted">
+    <div className={`flex flex-col ${reverse ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 md:gap-12 group cursor-pointer`}>
+      <div className="flex-1 relative">
+        <div className={`absolute inset-0 ${blobColor} rounded-full blur-3xl scale-90`} />
+        <div className="relative w-full aspect-square">
           {imageUrl ? (
             <img 
               src={imageUrl} 
               alt={title}
-              className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+              className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300 relative z-10"
             />
           ) : (
-            <div className="w-full h-full bg-muted group-hover:bg-muted/80 transition-colors duration-300" />
+            <div className="w-full h-full bg-muted/50 rounded-full group-hover:bg-muted/80 transition-colors duration-300" />
           )}
         </div>
       </div>
-      <div className="flex-1 p-6 md:p-8 md:flex md:flex-col md:justify-center">
+      <div className="flex-1 space-y-4">
         <div>
-          <h3 className="text-2xl md:text-3xl font-bold mb-2 tracking-tight group-hover:text-primary transition-colors duration-300">
+          <h3 className="text-2xl md:text-4xl font-bold mb-2 tracking-tight group-hover:text-primary transition-colors duration-300">
             {title}
           </h3>
           <p className="text-sm text-muted-foreground mb-4 font-medium tracking-wide">
             {subtitle}
           </p>
-          <p className="text-base leading-relaxed text-foreground">
+          <p className="text-base leading-relaxed text-foreground mb-6">
             {description}
           </p>
+          {link && (
+            <span className="inline-flex items-center text-sm font-medium group-hover:text-primary transition-colors">
+              See process →
+            </span>
+          )}
         </div>
       </div>
     </div>
