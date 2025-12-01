@@ -6,18 +6,19 @@ interface ProjectCardProps {
   description: string;
   imageUrl?: string;
   link?: string;
-  blobColor?: string;
+  gradientStyle?: React.CSSProperties;
   reverse?: boolean;
 }
 
-const ProjectCard = ({ title, subtitle, description, imageUrl, link, blobColor = "bg-accent/20", reverse = false }: ProjectCardProps) => {
+const ProjectCard = ({ title, subtitle, description, imageUrl, link, gradientStyle, reverse = false }: ProjectCardProps) => {
   const CardContent = () => (
     <div className={`flex flex-col ${reverse ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 md:gap-12 group cursor-pointer`}>
       <div className="flex-1 relative overflow-visible">
         {/* Gradient circle positioned based on layout direction */}
         <div 
-          className={`absolute w-[80%] aspect-square rounded-full ${blobColor} blur-sm
+          className={`absolute w-[80%] aspect-square rounded-full
             ${reverse ? '-top-8 -left-8 md:-top-12 md:-left-12' : '-top-8 -right-8 md:-top-12 md:-right-12'}`}
+          style={gradientStyle}
         />
         <div className="relative w-full aspect-square">
           {imageUrl ? (
