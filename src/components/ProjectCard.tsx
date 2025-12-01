@@ -45,7 +45,7 @@ const ProjectCard = ({ title, subtitle, description, imageUrl, link, gradientSty
           </p>
           {link && (
             <span className="inline-flex items-center text-sm font-medium group-hover:text-primary transition-colors">
-              See process →
+              See process <span className="inline-block ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
             </span>
           )}
         </div>
