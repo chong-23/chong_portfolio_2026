@@ -20,7 +20,7 @@ const Index = () => {
       imageUrl: allowanceCoverImg,
       link: "/allowance-awareness",
       gradientStyle: {
-        background: "linear-gradient(to bottom right, rgb(255, 178, 158) 0%, rgb(255, 237, 201) 100%)"
+        background: "linear-gradient(to bottom right, rgba(255, 178, 158, 0.3) 0%, rgba(255, 237, 201, 0.3) 100%)"
       },
       reverse: false,
     },
@@ -31,7 +31,7 @@ const Index = () => {
       imageUrl: adminCoverImg,
       link: "/corporate-admin-revamp",
       gradientStyle: {
-        background: "linear-gradient(to bottom right, rgb(127, 130, 166) 0%, rgb(242, 242, 242) 100%)"
+        background: "linear-gradient(to bottom right, rgba(127, 130, 166, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)"
       },
       reverse: true,
     },
@@ -41,7 +41,7 @@ const Index = () => {
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: pastWorkCoverImg,
       gradientStyle: {
-        background: "linear-gradient(to bottom right, rgb(64, 112, 245) 0%, rgb(227, 214, 255) 100%)"
+        background: "linear-gradient(to bottom right, rgba(64, 112, 245, 0.3) 0%, rgba(227, 214, 255, 0.3) 100%)"
       },
       reverse: false,
     },
