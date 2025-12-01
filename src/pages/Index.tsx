@@ -7,9 +7,9 @@ import SolarSystemAnimation from "@/components/SolarSystemAnimation";
 import dayProjectImg from "@/assets/100day-project.jpg";
 import rocketSandboxImg from "@/assets/rocket-sandbox.jpg";
 import powerfallImg from "@/assets/powerfall.jpg";
-import adminCoverImg from "@/assets/admin_cover.jpg";
-import allowanceCoverImg from "@/assets/allowance_cover.jpg";
-import pastWorkCoverImg from "@/assets/cover_past.jpg";
+import adminCoverImg from "@/assets/hs_admin.png";
+import allowanceCoverImg from "@/assets/allowance_hs-2.png";
+import pastWorkCoverImg from "@/assets/hs_past.png";
 
 const Index = () => {
   const projects = [
