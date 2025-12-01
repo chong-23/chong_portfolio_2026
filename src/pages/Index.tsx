@@ -19,7 +19,7 @@ const Index = () => {
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: allowanceCoverImg,
       link: "/allowance-awareness",
-      blobColor: "bg-pink-200/40",
+      blobColor: "bg-[#f5e6dc]",
       reverse: false,
     },
     {
@@ -28,7 +28,7 @@ const Index = () => {
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: adminCoverImg,
       link: "/corporate-admin-revamp",
-      blobColor: "bg-purple-200/40",
+      blobColor: "bg-[#d8d4e8]",
       reverse: true,
     },
     {
@@ -36,7 +36,7 @@ const Index = () => {
       subtitle: "B2B2C - iOS & Android",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: pastWorkCoverImg,
-      blobColor: "bg-blue-200/40",
+      blobColor: "bg-[#cdd5e0]",
       reverse: false,
     },
   ];
