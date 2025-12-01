@@ -6,7 +6,7 @@ const CorporateAdminRevamp = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Gradient Background covering Navigation */}
-      <div className="relative h-[400px] lg:h-[550px]" style={{ background: "var(--gradient-allowance-hero)" }}>
+      <div className="relative h-[400px] lg:h-[550px]" style={{ background: "linear-gradient(128deg, rgb(181, 184, 209) 0%, rgb(242, 242, 242) 100%)" }}>
         <Navigation />
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
@@ -64,7 +64,7 @@ const CorporateAdminRevamp = () => {
       {/* JTBD, Hypothesis, and HMW Section with Full-Width Gradient Background */}
       <section
         className="mb-20 w-full"
-        style={{ background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)" }}
+        style={{ background: "linear-gradient(128deg, rgb(181, 184, 209) 0%, rgb(242, 242, 242) 100%)" }}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
           {/* JTBD */}
@@ -151,7 +151,7 @@ const CorporateAdminRevamp = () => {
       {/* Results Section with Full-Width Gradient Background */}
       <section
         className="mb-20 w-full"
-        style={{ background: "linear-gradient(135deg, rgba(255, 215, 233, 0.3) 0%, rgba(241, 241, 241, 0.3) 100%)" }}
+        style={{ background: "linear-gradient(128deg, rgb(181, 184, 209) 0%, rgb(242, 242, 242) 100%)" }}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
           <h2 className="text-3xl font-bold mb-8">
