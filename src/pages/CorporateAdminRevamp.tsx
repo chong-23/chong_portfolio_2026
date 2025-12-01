@@ -6,7 +6,7 @@ const CorporateAdminRevamp = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Gradient Background covering Navigation */}
-      <div className="relative h-[400px] lg:h-[550px]" style={{ background: "linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}>
+      <div className="relative h-[400px] lg:h-[550px]" style={{ background: "linear-gradient(to bottom, transparent 0%, white 100%), linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}>
         <Navigation />
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
