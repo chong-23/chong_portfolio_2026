@@ -398,6 +398,25 @@ const CorporateAdminRevamp = () => {
         </div>
       </div>
 
+      {/* JTBD, Hypothesis, and HMW Section with Full-Width Gradient Background */}
+      <section
+        className="mb-20 w-full"
+        style={{ background: "linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}
+      >
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          {/* JTBD */}
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold mb-4">Challenge 2</h2>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+              Overhauling the entire site creates a significant gap between the old and new versions.
+            </p>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+              There are a lot of changes. How to not “surprise” users?
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Results Section with Full-Width Gradient Background */}
       <section
         className="mb-20 w-full"
