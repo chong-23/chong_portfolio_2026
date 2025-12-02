@@ -139,10 +139,16 @@ const CorporateAdminRevamp = () => {
           <div className="text-center mb-16">
             <h2 className="text-2xl font-bold mb-4">User centered goals</h2>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
-              Existing clients can manage 3 major functions: employee management, allowance setup and report by themselves.
+              <span className="font-bold" style={{ color: "#FE2B84" }}>
+                Existing clients
+              </span>{" "}
+              can manage 3 major functions: employee management, allowance setup and report by themselves.
             </p>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-              New clients can manage these 3 functions after introduction and onboarding with account managers.
+              <span className="font-bold" style={{ color: "#FE2B84" }}>
+                New clients
+              </span>{" "}
+              can manage these 3 functions after introduction and onboarding with account managers.
             </p>
           </div>
         </div>
