@@ -422,51 +422,48 @@ const CorporateAdminRevamp = () => {
       {/* Main Content */}
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Clarification and Usability Section */}
+          {/* Clarification of Key Terms Section */}
           <section className="mb-20">
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
-              {/* Left Column */}
-              <div className="space-y-12">
-                <div>
-                  <h2 className="text-3xl font-bold mb-4">Clarification of Key Terms</h2>
-                  <p className="text-lg leading-relaxed text-foreground">
-                    Tooltips provide additional explanations for uncommon terms.
-                  </p>
-                </div>
-
-                <div>
-                  <h2 className="text-3xl font-bold mb-6">Usability interviews for allowance</h2>
-                  <p className="text-lg leading-relaxed text-foreground mb-6">
-                    All participants completed tasks successfully, with interface and forms aligning well with user
-                    expectations. Minor confusion reported for one copy by a single tester.
-                  </p>
-                  <div className="bg-muted/30 border border-border rounded-lg p-6">
-                    <p className="text-base leading-relaxed text-foreground italic">
-                      Q: "Let's say that you want to create a new allowance for a specific group of employees.{" "}
-                      &lt;Provides criteria&gt; From this screen, could you show me how you would go about creating an
-                      allowance that fits the mentioned criteria?"
-                    </p>
-                  </div>
-                  <p className="text-sm text-muted-foreground mt-4">
-                    Screenshot from the report. It is conducted by the researcher. The designer and UX writer support the
-                    whole process.
-                  </p>
-                </div>
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold mb-4">Clarification of Key Terms</h2>
+                <p className="text-lg leading-relaxed text-foreground">
+                  Tooltips provide additional explanations for uncommon terms.
+                </p>
               </div>
+              <div className="flex-1">
+                <img src={tipImg} alt="Tooltip examples" className="w-full h-auto rounded-lg shadow-md" />
+              </div>
+            </div>
+          </section>
 
-              {/* Right Column */}
-              <div className="space-y-12">
-                <div>
-                  <img src={tipImg} alt="Tooltip examples" className="w-full h-auto rounded-lg shadow-md" />
+          {/* Usability interviews Section */}
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold mb-6">Usability interviews for allowance</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  All participants completed tasks successfully, with interface and forms aligning well with user
+                  expectations. Minor confusion reported for one copy by a single tester.
+                </p>
+                <div className="bg-muted/30 border border-border rounded-lg p-6">
+                  <p className="text-base leading-relaxed text-foreground italic">
+                    Q: "Let's say that you want to create a new allowance for a specific group of employees.{" "}
+                    &lt;Provides criteria&gt; From this screen, could you show me how you would go about creating an
+                    allowance that fits the mentioned criteria?"
+                  </p>
                 </div>
-
-                <div>
-                  <img
-                    src={interviewResultsImg}
-                    alt="Usability interview insights"
-                    className="w-full h-auto rounded-lg shadow-md"
-                  />
-                </div>
+                <p className="text-sm text-muted-foreground mt-4">
+                  Screenshot from the report. It is conducted by the researcher. The designer and UX writer support the
+                  whole process.
+                </p>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={interviewResultsImg}
+                  alt="Usability interview insights"
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
               </div>
             </div>
           </section>
