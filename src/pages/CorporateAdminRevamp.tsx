@@ -140,7 +140,7 @@ const CorporateAdminRevamp = () => {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
           {/* JTBD */}
-          <div className="text-center mb-8">
+          <div className="text-center mb-6">
             <h2 className="text-2xl font-bold mb-4">User centered goals</h2>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
               <span className="font-bold" style={{ color: "#FE2B84" }}>
