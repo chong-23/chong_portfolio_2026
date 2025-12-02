@@ -58,6 +58,7 @@ const CorporateAdminRevamp = () => {
                   alt="Old version of the admin platform"
                   className="w-full h-auto rounded-lg"
                 />
+                <p className="text-sm text-muted-foreground mt-2">Before-design version</p>
               </div>
             </div>
           </section>
