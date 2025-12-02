@@ -584,28 +584,16 @@ const CorporateAdminRevamp = () => {
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">Key Learnings</h2>
+            <h2 className="text-3xl font-bold mb-8">What can be better</h2>
             <div className="space-y-6">
               <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">Simplicity wins</h3>
-                <p className="text-muted-foreground max-w-[700px]">
-                  Corporate admins value straightforward workflows over feature-rich but complex interfaces.
-                  Prioritizing core tasks led to higher adoption.
-                </p>
+                <h3 className="text-xl font-semibold mb-2">1. Simplify allowance logic and reduce excessive settings.</h3>
               </div>
               <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">Data-driven decisions</h3>
-                <p className="text-muted-foreground max-w-[700px]">
-                  Providing clear analytics empowered admins to make informed decisions about budget allocation and
-                  policy changes.
-                </p>
+                <h3 className="text-xl font-semibold mb-2">2. Implement preset allowance templates for common use cases.</h3>
               </div>
               <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">Continuous iteration</h3>
-                <p className="text-muted-foreground max-w-[700px]">
-                  Regular feedback sessions with admins helped us identify and address pain points quickly, leading to a
-                  more refined product.
-                </p>
+                <h3 className="text-xl font-semibold mb-2">3. Enhance localization with basic name and address formats.</h3>
               </div>
             </div>
           </section>
