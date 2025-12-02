@@ -6,7 +6,13 @@ const CorporateAdminRevamp = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Gradient Background covering Navigation */}
-      <div className="relative h-[400px] lg:h-[550px]" style={{ background: "linear-gradient(to bottom, transparent 0%, white 100%), linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}>
+      <div
+        className="relative h-[400px] lg:h-[550px]"
+        style={{
+          background:
+            "linear-gradient(to bottom, transparent 0%, white 100%), linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
+        }}
+      >
         <Navigation />
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
@@ -14,7 +20,7 @@ const CorporateAdminRevamp = () => {
               {/* Title Section */}
               <div className="text-left flex-1">
                 <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">Corporate Admin Revamp</h1>
-                <p className="text-xl">B2B2C - Web Platform</p>
+                <p className="text-xl">B2B2C food delivery- Web Platform</p>
               </div>
 
               {/* Image Section - Desktop Only */}
@@ -36,18 +42,23 @@ const CorporateAdminRevamp = () => {
           {/* Overview Section */}
           <section className="mb-20">
             <div>
-              <h2 className="text-3xl font-bold mb-4">Overview</h2>
+              <h2 className="text-3xl font-bold mb-4">Background</h2>
               <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
-                This project focused on revamping the corporate admin platform to improve usability and efficiency for managing workplace food services.
+                The platform is a management tool for HRs to oversee food services, including allowance and membership
+                subscriptions for employees. This outdated platform with many usability issues hinders HR usage, relying
+                heavily on internal account managers. The goal is to enhance UX, enabling clients to independently use
+                current and future services.
               </p>
             </div>
           </section>
 
           {/* Problem Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">The Challenge</h2>
+            <h2 className="text-3xl font-bold mb-4">User needs and priority</h2>
             <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              Corporate administrators faced complex workflows and limited visibility into their team's usage patterns.
+              There are 43 requests gathered from 12 markets, ranging from new features to usability enhancements. In
+              order to understand the key user needs, we hosted stakeholder interviews to reveal high priority for
+              employee management, allowance setup, and reporting functions.
             </p>
           </section>
 
@@ -142,7 +153,8 @@ const CorporateAdminRevamp = () => {
             </div>
             <h2 className="text-3xl font-bold mb-4">Advanced Analytics</h2>
             <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              Provided detailed reports and visualizations to help admins understand spending patterns and optimize budgets.
+              Provided detailed reports and visualizations to help admins understand spending patterns and optimize
+              budgets.
             </p>
           </section>
         </div>
@@ -160,12 +172,16 @@ const CorporateAdminRevamp = () => {
           <div className="grid md:grid-cols-2 gap-12 max-w-4xl">
             <div>
               <p className="text-sm text-muted-foreground mb-2">Admin Efficiency</p>
-              <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>+45%</div>
+              <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>
+                +45%
+              </div>
               <p className="text-base text-foreground">Reduction in time spent on admin tasks</p>
             </div>
             <div>
               <p className="text-sm text-muted-foreground mb-2">User Satisfaction</p>
-              <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>+80%</div>
+              <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>
+                +80%
+              </div>
               <p className="text-base text-foreground">Increase in admin satisfaction scores</p>
             </div>
           </div>
@@ -181,19 +197,22 @@ const CorporateAdminRevamp = () => {
               <div className="border-l-4 border-primary pl-6">
                 <h3 className="text-xl font-semibold mb-2">Simplicity wins</h3>
                 <p className="text-muted-foreground max-w-[700px]">
-                  Corporate admins value straightforward workflows over feature-rich but complex interfaces. Prioritizing core tasks led to higher adoption.
+                  Corporate admins value straightforward workflows over feature-rich but complex interfaces.
+                  Prioritizing core tasks led to higher adoption.
                 </p>
               </div>
               <div className="border-l-4 border-primary pl-6">
                 <h3 className="text-xl font-semibold mb-2">Data-driven decisions</h3>
                 <p className="text-muted-foreground max-w-[700px]">
-                  Providing clear analytics empowered admins to make informed decisions about budget allocation and policy changes.
+                  Providing clear analytics empowered admins to make informed decisions about budget allocation and
+                  policy changes.
                 </p>
               </div>
               <div className="border-l-4 border-primary pl-6">
                 <h3 className="text-xl font-semibold mb-2">Continuous iteration</h3>
                 <p className="text-muted-foreground max-w-[700px]">
-                  Regular feedback sessions with admins helped us identify and address pain points quickly, leading to a more refined product.
+                  Regular feedback sessions with admins helped us identify and address pain points quickly, leading to a
+                  more refined product.
                 </p>
               </div>
             </div>
