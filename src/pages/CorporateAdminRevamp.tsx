@@ -384,8 +384,8 @@ const CorporateAdminRevamp = () => {
                   </span>
                 </div>
                 <p className="text-lg leading-relaxed text-foreground mb-6">
-                  Based on the interview, account managers highlighted a strong correlation between the amount,
-                  frequency, and duration during setup.
+                  Based on the interview, account managers highlighted a strong association between the amount,
+                  frequency, and duration.
                 </p>
                 <img
                   src={wireframeCreate2Img}
