@@ -358,7 +358,7 @@ const CorporateAdminRevamp = () => {
               discussion.
             </p>
 
-            <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+            <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-start">
               {/* Idea 1 */}
               <div>
                 <h3 className="text-xl font-bold mb-2">Idea 1 - Group time elements together</h3>
