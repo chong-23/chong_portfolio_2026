@@ -361,7 +361,7 @@ const CorporateAdminRevamp = () => {
             <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-start">
               {/* Idea 1 */}
               <div>
-                <h3 className="text-xl font-bold mb-2">Idea 1 - Group time elements together</h3>
+                <h3 className="text-xl font-bold mb-2">Idea 1 - Time element grouping</h3>
                 <p className="text-lg leading-relaxed text-foreground mb-6">
                   One approach is to have frequency and amount together. And all time related items are grouped below.
                 </p>
@@ -375,7 +375,7 @@ const CorporateAdminRevamp = () => {
               {/* Idea 2 */}
               <div>
                 <div className="flex items-center gap-3 mb-2">
-                  <h3 className="text-xl font-bold">Idea 2 - Think the concept as "Budget"</h3>
+                  <h3 className="text-xl font-bold">Idea 2 - "Budget" concept</h3>
                   <span
                     className="text-sm font-semibold px-3 py-1 rounded-full"
                     style={{ backgroundColor: "#E5E5E5", color: "#666" }}
