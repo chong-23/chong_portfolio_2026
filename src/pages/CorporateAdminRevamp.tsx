@@ -66,19 +66,25 @@ const CorporateAdminRevamp = () => {
 
           {/* Problem Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">User needs and priority</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              There are <span className="font-bold" style={{ color: "#FE2B84" }}>43 requests</span> gathered from{" "}
-              <span className="font-bold" style={{ color: "#FE2B84" }}>12 markets</span>, ranging from new features to usability enhancements. In
-              order to understand the key user needs, we hosted stakeholder interviews to reveal high priority for
-              employee management, allowance setup, and reporting functions.
-            </p>
-            <img
-              src={needsMappingImg}
-              alt="Needs mapping across all stakeholders"
-              className="w-full h-auto rounded-lg mb-2"
-            />
-            <p className="text-sm text-muted-foreground mt-2 text-center">Needs mapping across all stakeholders</p>
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold mb-4">User needs and priority</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  There are <span className="font-bold" style={{ color: "#FE2B84" }}>43 requests</span> gathered from{" "}
+                  <span className="font-bold" style={{ color: "#FE2B84" }}>12 markets</span>, ranging from new features to usability enhancements. In
+                  order to understand the key user needs, we hosted stakeholder interviews to reveal high priority for
+                  employee management, allowance setup, and reporting functions.
+                </p>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={needsMappingImg}
+                  alt="Needs mapping across all stakeholders"
+                  className="w-full h-auto rounded-lg"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center">Needs mapping across all stakeholders</p>
+              </div>
+            </div>
           </section>
 
           {/* User Journey Section */}
