@@ -68,7 +68,8 @@ const CorporateAdminRevamp = () => {
           <section className="mb-20">
             <h2 className="text-3xl font-bold mb-4">User needs and priority</h2>
             <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              There are 43 requests gathered from 12 markets, ranging from new features to usability enhancements. In
+              There are <span className="font-bold" style={{ color: "#FE2B84" }}>43 requests</span> gathered from{" "}
+              <span className="font-bold" style={{ color: "#FE2B84" }}>12 markets</span>, ranging from new features to usability enhancements. In
               order to understand the key user needs, we hosted stakeholder interviews to reveal high priority for
               employee management, allowance setup, and reporting functions.
             </p>
