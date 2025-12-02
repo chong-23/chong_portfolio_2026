@@ -5,7 +5,7 @@ import oldVersionImg from "@/assets/admin_old_version.png";
 import needsMappingImg from "@/assets/needs-mapping.png";
 import priorityImg from "@/assets/priority.png";
 import proDashboardImg from "@/assets/pro_dashboard-3.png";
-import proEmployeeEmptyImg from "@/assets/pro_employee_csv_success-2.png";
+import proEmployeeEmptyImg from "@/assets/pro_employee_csv_success-3.png";
 import createImg from "@/assets/create-3.png";
 
 const CorporateAdminRevamp = () => {
