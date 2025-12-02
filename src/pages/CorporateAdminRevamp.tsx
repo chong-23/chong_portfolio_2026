@@ -163,7 +163,7 @@ const CorporateAdminRevamp = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Opportunities Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">Opportunities</h2>
+            <h2 className="text-3xl font-bold mb-4">Solution overview</h2>
             <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
               After analyzing user feedback and business requirements, we identified key areas for improvement.
             </p>
