@@ -22,7 +22,7 @@ const CorporateAdminRevamp = () => {
                 <img
                   src={adminCoverImg}
                   alt="Corporate Admin Revamp interface"
-                  className="w-[600px] h-auto rounded-2xl"
+                  className="w-[550px] h-auto rounded-2xl"
                 />
               </div>
             </div>
