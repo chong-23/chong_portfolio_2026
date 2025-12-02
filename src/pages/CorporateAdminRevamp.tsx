@@ -4,9 +4,9 @@ import adminCoverImg from "@/assets/hs_admin-2.png";
 import oldVersionImg from "@/assets/admin_old_version.png";
 import needsMappingImg from "@/assets/needs-mapping.png";
 import priorityImg from "@/assets/priority.png";
-import proDashboardImg from "@/assets/pro_dashboard.png";
-import proEmployeeEmptyImg from "@/assets/pro_Employee_Empty.png";
-import createImg from "@/assets/create.png";
+import proDashboardImg from "@/assets/pro_dashboard-2.png";
+import proEmployeeEmptyImg from "@/assets/pro_employee_csv_success.png";
+import createImg from "@/assets/create-2.png";
 
 const CorporateAdminRevamp = () => {
   return (
