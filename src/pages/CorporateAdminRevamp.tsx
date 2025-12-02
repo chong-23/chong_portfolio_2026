@@ -48,17 +48,13 @@ const CorporateAdminRevamp = () => {
                 <h2 className="text-3xl font-bold mb-4">Background</h2>
                 <p className="text-lg leading-relaxed text-foreground mb-6">
                   The platform is a management tool for HRs to oversee food services, including allowance and membership
-                  subscriptions for employees. This outdated platform with many usability issues hinders HR usage, relying
-                  heavily on internal account managers. The goal is to enhance UX, enabling clients to independently use
-                  current and future services.
+                  subscriptions for employees. This outdated platform with many usability issues hinders HR usage,
+                  relying heavily on internal account managers. The goal is to enhance UX, enabling clients to
+                  independently use current and future services.
                 </p>
               </div>
               <div className="flex-1">
-                <img
-                  src={oldVersionImg}
-                  alt="Old version of the admin platform"
-                  className="w-full h-auto rounded-lg"
-                />
+                <img src={oldVersionImg} alt="Old version of the admin platform" className="w-full h-auto rounded-lg" />
                 <p className="text-sm text-muted-foreground mt-2 text-center">Before-design version</p>
               </div>
             </div>
@@ -70,10 +66,17 @@ const CorporateAdminRevamp = () => {
               <div className="flex-1">
                 <h2 className="text-3xl font-bold mb-4">User needs and priority</h2>
                 <p className="text-lg leading-relaxed text-foreground mb-6">
-                  There are <span className="font-bold" style={{ color: "#FE2B84" }}>43 requests</span> gathered from{" "}
-                  <span className="font-bold" style={{ color: "#FE2B84" }}>12 markets</span>, ranging from new features to usability enhancements. In
-                  order to understand the key user needs, we hosted stakeholder interviews to reveal high priority for
-                  employee management, allowance setup, and reporting functions.
+                  There are{" "}
+                  <span className="font-bold" style={{ color: "#FE2B84" }}>
+                    43 requests
+                  </span>{" "}
+                  gathered from{" "}
+                  <span className="font-bold" style={{ color: "#FE2B84" }}>
+                    12 markets
+                  </span>
+                  , ranging from new features to usability enhancements. In order to understand the key user needs, we
+                  hosted stakeholder interviews to reveal high priority for employee management, allowance setup, and
+                  reporting functions.
                 </p>
               </div>
               <div className="flex-1">
@@ -89,7 +92,7 @@ const CorporateAdminRevamp = () => {
 
           {/* User Journey Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">User Journey & Pain Points</h2>
+            <h2 className="text-3xl font-bold mb-4">Where to start with piles of issues</h2>
             <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
               Through research with corporate admins, we identified key friction points in their daily workflows.
             </p>
