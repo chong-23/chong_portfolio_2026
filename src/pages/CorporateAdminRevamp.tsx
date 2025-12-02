@@ -236,8 +236,11 @@ const CorporateAdminRevamp = () => {
           <div className="text-center mb-6">
             <h2 className="text-2xl font-bold mb-4">Detailed design process for Allowance Management</h2>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
-              Taking the most important feature as the case study, the primary goal for HRs is to efficiently set up the
-              allowance for employees.
+              Taking the most important feature as the case study,{" "}
+              <span className="font-bold" style={{ color: "#FE2B84" }}>
+                the primary goal
+              </span>{" "}
+              for HRs is to efficiently set up the allowance for employees.
             </p>
           </div>
         </div>
