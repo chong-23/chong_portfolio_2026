@@ -178,7 +178,11 @@ const CorporateAdminRevamp = () => {
                 </p>
               </div>
               <div className="flex-1">
-                <img src={proDashboardImg} alt="Extendable layout dashboard" className="w-full h-auto rounded-lg shadow-md" />
+                <img
+                  src={proDashboardImg}
+                  alt="Extendable layout dashboard"
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
               </div>
             </div>
 
@@ -221,6 +225,23 @@ const CorporateAdminRevamp = () => {
           </section>
         </div>
       </div>
+
+      {/* JTBD, Hypothesis, and HMW Section with Full-Width Gradient Background */}
+      <section
+        className="mb-20 w-full"
+        style={{ background: "linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}
+      >
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          {/* JTBD */}
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold mb-4">Detailed design process for Allowance Management</h2>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+              Taking the most important feature as the case study, the primary goal for HRs is to efficiently set up the
+              allowance for employees.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Results Section with Full-Width Gradient Background */}
       <section
