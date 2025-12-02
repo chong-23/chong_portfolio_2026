@@ -325,14 +325,13 @@ const CorporateAdminRevamp = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Reorganize Structure Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">Reorganize the big structure</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-12 max-w-[800px]">
-              The structure is mapped based on attention-effort chart: prioritize top items for user attention, pushing
-              down those requiring more effort to complete.
-            </p>
-
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
               <div className="flex-1">
+                <h2 className="text-3xl font-bold mb-4">Reorganize the big structure</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  The structure is mapped based on attention-effort chart: prioritize top items for user attention,
+                  pushing down those requiring more effort to complete.
+                </p>
                 <img
                   src={effortDiagramImg}
                   alt="Effort-attention diagram showing reorganized structure"
