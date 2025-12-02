@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import adminCoverImg from "@/assets/hs_admin-2.png";
 import oldVersionImg from "@/assets/admin_old_version.png";
+import needsMappingImg from "@/assets/needs-mapping.png";
 
 const CorporateAdminRevamp = () => {
   return (
@@ -71,6 +72,12 @@ const CorporateAdminRevamp = () => {
               order to understand the key user needs, we hosted stakeholder interviews to reveal high priority for
               employee management, allowance setup, and reporting functions.
             </p>
+            <img
+              src={needsMappingImg}
+              alt="Needs mapping across all stakeholders"
+              className="w-full h-auto rounded-lg mb-2"
+            />
+            <p className="text-sm text-muted-foreground mt-2 text-center">Needs mapping across all stakeholders</p>
           </section>
 
           {/* User Journey Section */}
