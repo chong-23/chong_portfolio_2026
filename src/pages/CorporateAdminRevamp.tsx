@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import adminCoverImg from "@/assets/hs_admin-2.png";
 import oldVersionImg from "@/assets/admin_old_version.png";
 import needsMappingImg from "@/assets/needs-mapping.png";
+import priorityImg from "@/assets/priority.png";
 
 const CorporateAdminRevamp = () => {
   return (
@@ -92,10 +93,38 @@ const CorporateAdminRevamp = () => {
 
           {/* User Journey Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">Where to start with piles of issues</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              Through research with corporate admins, we identified key friction points in their daily workflows.
-            </p>
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold mb-4">Where to start with piles of issues</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  To start with phase 1 and to look over future vision, we prioritized 3 directions:
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">Scalability</h3>
+                    <p className="text-lg leading-relaxed text-foreground">
+                      The overall layout is a limitation for future extension
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">Branding</h3>
+                    <p className="text-lg leading-relaxed text-foreground">
+                      The overall style does not follow the new branding
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">Usability</h3>
+                    <p className="text-lg leading-relaxed text-foreground">
+                      90% percent of components are unusable; basic operation features (filter, search, bulk action) are
+                      missing; and there is no detailed error handlings.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex-1">
+                <img src={priorityImg} alt="Priority pyramid showing Foundation, Proficiency, and Engagement levels" className="w-full h-auto rounded-lg" />
+              </div>
+            </div>
           </section>
         </div>
       </div>
