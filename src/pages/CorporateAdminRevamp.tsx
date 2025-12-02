@@ -8,6 +8,8 @@ import priorityImg from "@/assets/priority.png";
 import proDashboardImg from "@/assets/pro_dashboard-3.png";
 import proEmployeeEmptyImg from "@/assets/pro_employee_csv_success-3.png";
 import createImg from "@/assets/create-3.png";
+import effortDiagramImg from "@/assets/effort_diagram.png";
+import effortWireframeImg from "@/assets/effort_wireframe.png";
 
 const CorporateAdminRevamp = () => {
   return (
@@ -317,6 +319,37 @@ const CorporateAdminRevamp = () => {
           </div>
         </div>
       </section>
+
+      {/* Main Content */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          {/* Reorganize Structure Section */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-8">Reorganize the big structure</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-12 max-w-[800px]">
+              The structure is mapped based on attention-effort chart: prioritize top items for user attention, pushing
+              down those requiring more effort to complete.
+            </p>
+
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <img
+                  src={effortDiagramImg}
+                  alt="Effort-attention diagram showing reorganized structure"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+              <div className="flex-1">
+                <img
+                  src={effortWireframeImg}
+                  alt="Wireframe showing the reorganized interface"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
       {/* Results Section with Full-Width Gradient Background */}
       <section
