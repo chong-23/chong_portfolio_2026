@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import adminCoverImg from "@/assets/hs_admin-2.png";
 import oldVersionImg from "@/assets/admin_old_version.png";
+import problemAreasImg from "@/assets/problem_areas.png";
 import needsMappingImg from "@/assets/needs-mapping.png";
 import priorityImg from "@/assets/priority.png";
 import proDashboardImg from "@/assets/pro_dashboard-3.png";
@@ -59,6 +60,48 @@ const CorporateAdminRevamp = () => {
               </div>
               <div className="flex-1">
                 <img src={oldVersionImg} alt="Old version of the admin platform" className="w-full h-auto rounded-lg" />
+                <p className="text-sm text-muted-foreground mt-2 text-center">Before-design version</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Problem Areas Section */}
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold mb-4">Problem areas</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  To improve the efficiency, there are 4 problems areas:
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">Info Hierarchy</h3>
+                    <p className="text-lg leading-relaxed text-foreground">
+                      Random field placement pushes key information down.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">Layout</h3>
+                    <p className="text-lg leading-relaxed text-foreground">
+                      The layout is incompatible for various languages and screen sizes, disrupting the reading flow due to space between titles and forms.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">Components</h3>
+                    <p className="text-lg leading-relaxed text-foreground">
+                      All components are outdated with usability problems.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">Copies</h3>
+                    <p className="text-lg leading-relaxed text-foreground">
+                      All copies are very confusing, even for internal business teams.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex-1">
+                <img src={problemAreasImg} alt="Problem areas in the old platform" className="w-full h-auto rounded-lg" />
                 <p className="text-sm text-muted-foreground mt-2 text-center">Before-design version</p>
               </div>
             </div>
