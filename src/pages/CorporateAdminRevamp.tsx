@@ -572,7 +572,7 @@ const CorporateAdminRevamp = () => {
                 <img
                   src={navImg}
                   alt="Navigation improvements showing better visibility"
-                  className="w-full h-auto rounded-lg shadow-md"
+                  className="w-full h-auto rounded-lg"
                 />
               </div>
             </div>
