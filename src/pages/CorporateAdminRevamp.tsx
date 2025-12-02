@@ -4,6 +4,9 @@ import adminCoverImg from "@/assets/hs_admin-2.png";
 import oldVersionImg from "@/assets/admin_old_version.png";
 import needsMappingImg from "@/assets/needs-mapping.png";
 import priorityImg from "@/assets/priority.png";
+import proDashboardImg from "@/assets/pro_dashboard.png";
+import proEmployeeEmptyImg from "@/assets/pro_Employee_Empty.png";
+import createImg from "@/assets/create.png";
 
 const CorporateAdminRevamp = () => {
   return (
@@ -161,52 +164,60 @@ const CorporateAdminRevamp = () => {
       {/* Main Content */}
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Opportunities Section */}
+          {/* Solution Overview Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">Solution overview</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              After analyzing user feedback and business requirements, we identified key areas for improvement.
-            </p>
-          </section>
+            <h2 className="text-3xl font-bold mb-12">Solution overview</h2>
 
-          {/* Solution Section */}
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">Solution</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              We redesigned the admin platform with a focus on intuitive navigation and actionable insights.
-            </p>
-          </section>
-
-          {/* Design Process Section */}
-          <section className="mb-20">
-            <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
-              Key Feature 1
+            {/* Scalability & Branding */}
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-2">Scalability & Branding</p>
+                <h3 className="text-2xl font-bold mb-4">Extendable layout</h3>
+                <p className="text-lg leading-relaxed text-foreground">
+                  The horizontal navigation is changed to vertical for future expansion and multilingual supports.
+                </p>
+              </div>
+              <div className="flex-1">
+                <img src={proDashboardImg} alt="Extendable layout dashboard" className="w-full h-auto rounded-lg" />
+              </div>
             </div>
-            <h2 className="text-3xl font-bold mb-4">Dashboard Redesign</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              Created a centralized dashboard providing at-a-glance insights into team spending and usage patterns.
-            </p>
-          </section>
 
-          <section className="mb-20">
-            <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
-              Key Feature 2
+            {/* Usability for general operations */}
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-2">Usability for general operations</p>
+                <h3 className="text-2xl font-bold mb-4">Bulk actions & Error validation</h3>
+                <p className="text-lg leading-relaxed text-foreground">
+                  Bulk Actions for Efficiency & Early Error Validation to Prevent Redundancy.
+                </p>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={proEmployeeEmptyImg}
+                  alt="Bulk actions and error validation"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
-            <h2 className="text-3xl font-bold mb-4">Simplified User Management</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              Streamlined the process of adding, removing, and managing employee accounts and allowances.
-            </p>
-          </section>
 
-          <section className="mb-20">
-            <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
-              Key Feature 3
+            {/* Usability for key features */}
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-2">Usability for key features</p>
+                <h3 className="text-2xl font-bold mb-4">User-centered information architecture</h3>
+                <p className="text-lg leading-relaxed text-foreground">
+                  Information architecture is improved for each key feature. Cognitive load is reduced via sectioned
+                  tasks.
+                </p>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={createImg}
+                  alt="User-centered information architecture"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
-            <h2 className="text-3xl font-bold mb-4">Advanced Analytics</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-8 max-w-[700px]">
-              Provided detailed reports and visualizations to help admins understand spending patterns and optimize
-              budgets.
-            </p>
           </section>
         </div>
       </div>
