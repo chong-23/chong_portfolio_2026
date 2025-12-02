@@ -286,7 +286,7 @@ const CorporateAdminRevamp = () => {
                 </div>
               </div>
               <div className="flex-1">
-                <img src={problemAreasImg} alt="Problem areas in the old platform" className="w-full h-auto rounded-lg" />
+                <img src={problemAreasImg} alt="Problem areas in the old platform" className="w-full h-auto rounded-lg shadow-md" />
                 <p className="text-sm text-muted-foreground mt-2 text-center">Before-design version</p>
               </div>
             </div>
