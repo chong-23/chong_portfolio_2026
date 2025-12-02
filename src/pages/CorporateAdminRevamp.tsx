@@ -16,6 +16,7 @@ import tipImg from "@/assets/tip.png";
 import interviewResultsImg from "@/assets/interview_results.png";
 import createFullImg from "@/assets/create_full.png";
 import oldCreateFullImg from "@/assets/old_create_full.png";
+import navImg from "@/assets/nav.png";
 
 const CorporateAdminRevamp = () => {
   return (
@@ -542,6 +543,42 @@ const CorporateAdminRevamp = () => {
           </div>
         </div>
       </section>
+
+      {/* Main Content */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          {/* Quick Fix Section */}
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold mb-6">Fix the critical issues</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  4/5 medium issues resolved; one out of scope. All highly critical issues addressed:
+                </p>
+                <ul className="space-y-3 text-lg leading-relaxed text-foreground">
+                  <li className="flex items-start">
+                    <span className="mr-3">•</span>
+                    <span>Improved allowance visibility in navigation.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3">•</span>
+                    <span>
+                      Clarified "Benefits" association for users, surfacing key services to the first level.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={navImg}
+                  alt="Navigation improvements showing better visibility"
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
       {/* Learnings Section */}
       <div className="bg-background">
