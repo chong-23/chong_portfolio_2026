@@ -10,6 +10,8 @@ import proEmployeeEmptyImg from "@/assets/pro_employee_csv_success-3.png";
 import createImg from "@/assets/create-3.png";
 import effortDiagramImg from "@/assets/effort_diagram.png";
 import effortWireframeImg from "@/assets/effort_wireframe.png";
+import wireframeCreate1Img from "@/assets/wireframe_create1.png";
+import wireframeCreate2Img from "@/assets/wireframe_create2.png";
 
 const CorporateAdminRevamp = () => {
   return (
@@ -343,6 +345,52 @@ const CorporateAdminRevamp = () => {
                   src={effortWireframeImg}
                   alt="Wireframe showing the reorganized interface"
                   className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+          </section>
+
+          {/* Group High-Attention Items Section */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-4">Group high-attention and low-effort items</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-12">
+              When group days, time, frequency and amount in more details, there are 2 majors ideas under intense
+              discussion.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+              {/* Idea 1 */}
+              <div>
+                <h3 className="text-xl font-bold mb-2">Idea 1 - Group time elements together</h3>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  One approach is to have frequency and amount together. And all time related items are grouped below.
+                </p>
+                <img
+                  src={wireframeCreate1Img}
+                  alt="Wireframe showing grouped time elements"
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+              </div>
+
+              {/* Idea 2 */}
+              <div>
+                <div className="flex items-center gap-3 mb-2">
+                  <h3 className="text-xl font-bold">Idea 2 - Think the concept as "Budget"</h3>
+                  <span
+                    className="text-sm font-semibold px-3 py-1 rounded-full"
+                    style={{ backgroundColor: "#E5E5E5", color: "#666" }}
+                  >
+                    The chosen one
+                  </span>
+                </div>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  Based on the interview, account managers highlighted a strong correlation between the amount,
+                  frequency, and duration during setup.
+                </p>
+                <img
+                  src={wireframeCreate2Img}
+                  alt="Wireframe showing budget concept grouping"
+                  className="w-full h-auto rounded-lg shadow-md"
                 />
               </div>
             </div>
