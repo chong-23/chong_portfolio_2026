@@ -25,7 +25,7 @@ const CorporateAdminRevamp = () => {
               </div>
 
               {/* Image Section - Desktop Only */}
-              <div className="hidden lg:block flex-shrink-0 ml-12 relative top-[100px]">
+              <div className="hidden lg:block flex-shrink-0 ml-12 relative top-[40px]">
                 <img
                   src={adminCoverImg}
                   alt="Corporate Admin Revamp interface"
