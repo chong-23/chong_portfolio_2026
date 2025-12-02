@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import adminCoverImg from "@/assets/hs_admin-2.png";
+import oldVersionImg from "@/assets/admin_old_version.png";
 
 const CorporateAdminRevamp = () => {
   return (
@@ -41,14 +42,23 @@ const CorporateAdminRevamp = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Overview Section */}
           <section className="mb-20">
-            <div>
-              <h2 className="text-3xl font-bold mb-4">Background</h2>
-              <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
-                The platform is a management tool for HRs to oversee food services, including allowance and membership
-                subscriptions for employees. This outdated platform with many usability issues hinders HR usage, relying
-                heavily on internal account managers. The goal is to enhance UX, enabling clients to independently use
-                current and future services.
-              </p>
+            <h2 className="text-3xl font-bold mb-4">Background</h2>
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+              <div className="flex-1">
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  The platform is a management tool for HRs to oversee food services, including allowance and membership
+                  subscriptions for employees. This outdated platform with many usability issues hinders HR usage, relying
+                  heavily on internal account managers. The goal is to enhance UX, enabling clients to independently use
+                  current and future services.
+                </p>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={oldVersionImg}
+                  alt="Old version of the admin platform"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
           </section>
 
