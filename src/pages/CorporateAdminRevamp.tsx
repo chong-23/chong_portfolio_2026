@@ -15,6 +15,7 @@ import wireframeCreate2Img from "@/assets/wireframe_create2.png";
 import tipImg from "@/assets/tip.png";
 import interviewResultsImg from "@/assets/interview_results.png";
 import createFullImg from "@/assets/create_full.png";
+import oldCreateFullImg from "@/assets/old_create_full.png";
 
 const CorporateAdminRevamp = () => {
   return (
@@ -471,15 +472,23 @@ const CorporateAdminRevamp = () => {
 
           {/* Visual Hierarchy Section */}
           <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-              <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4">Improve the visual hierarchy of action components</h2>
-                <p className="text-lg leading-relaxed text-foreground">
-                  A lot of components are based on our consumer website, but B2B platform uses primary color sparingly,
-                  mainly for primary actions, in contrast to the extensive use of primary colors in B2C.
+            <h2 className="text-3xl font-bold mb-4">Improve the visual hierarchy of action components</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-8">
+              A lot of components are based on our consumer website, but B2B platform uses primary color sparingly,
+              mainly for primary actions, in contrast to the extensive use of primary colors in B2C.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-start">
+              <div>
+                <img
+                  src={oldCreateFullImg}
+                  alt="Directly use components from the consumer site"
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center">
+                  Directly use components from the consumer site
                 </p>
               </div>
-              <div className="flex-1">
+              <div>
                 <img
                   src={createFullImg}
                   alt="Final design with improved visual hierarchy"
