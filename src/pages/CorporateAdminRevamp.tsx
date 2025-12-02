@@ -507,23 +507,37 @@ const CorporateAdminRevamp = () => {
         style={{ background: "linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
-          <h2 className="text-3xl font-bold mb-8">
-            After the launch of the revamped platform, key metrics improved significantly...
+          <h2 className="text-3xl font-bold mb-4 text-center">
+            Usability test of the whole platform: 3 markets, 20 features and 3 major tasks
           </h2>
-          <div className="grid md:grid-cols-2 gap-12 max-w-4xl">
-            <div>
-              <p className="text-sm text-muted-foreground mb-2">Admin Efficiency</p>
-              <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>
-                +45%
+          <p className="text-lg leading-relaxed text-foreground text-center mb-12 max-w-4xl mx-auto">
+            All participants independently completed 3 major tasks (upload employees, set up allowance and export
+            reports). For these 20 features:
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+            <div className="text-center">
+              <div className="text-7xl font-bold mb-3" style={{ color: "#FE2B84" }}>
+                11
               </div>
-              <p className="text-base text-foreground">Reduction in time spent on admin tasks</p>
+              <p className="text-lg font-medium text-foreground">No issue</p>
             </div>
-            <div>
-              <p className="text-sm text-muted-foreground mb-2">User Satisfaction</p>
-              <div className="text-6xl font-bold mb-2" style={{ color: "#FE2B84" }}>
-                +80%
+            <div className="text-center">
+              <div className="text-7xl font-bold mb-3" style={{ color: "#FE2B84" }}>
+                2
               </div>
-              <p className="text-base text-foreground">Increase in admin satisfaction scores</p>
+              <p className="text-lg font-medium text-foreground">Low criticality</p>
+            </div>
+            <div className="text-center">
+              <div className="text-7xl font-bold mb-3" style={{ color: "#FE2B84" }}>
+                5
+              </div>
+              <p className="text-lg font-medium text-foreground">Medium criticality</p>
+            </div>
+            <div className="text-center">
+              <div className="text-7xl font-bold mb-3" style={{ color: "#FE2B84" }}>
+                2
+              </div>
+              <p className="text-lg font-medium text-foreground">High criticality</p>
             </div>
           </div>
         </div>
