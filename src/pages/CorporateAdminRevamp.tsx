@@ -268,7 +268,8 @@ const CorporateAdminRevamp = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-2">Layout</h3>
                     <p className="text-lg leading-relaxed text-foreground">
-                      The layout is incompatible for various languages and screen sizes, disrupting the reading flow due to space between titles and forms.
+                      The layout is incompatible for various languages and screen sizes, disrupting the reading flow due
+                      to space between titles and forms.
                     </p>
                   </div>
                   <div>
@@ -286,13 +287,36 @@ const CorporateAdminRevamp = () => {
                 </div>
               </div>
               <div className="flex-1">
-                <img src={problemAreasImg} alt="Problem areas in the old platform" className="w-full h-auto rounded-lg shadow-md" />
+                <img
+                  src={problemAreasImg}
+                  alt="Problem areas in the old platform"
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
                 <p className="text-sm text-muted-foreground mt-2 text-center">Before-design version</p>
               </div>
             </div>
           </section>
         </div>
       </div>
+
+      {/* JTBD, Hypothesis, and HMW Section with Full-Width Gradient Background */}
+      <section
+        className="mb-20 w-full"
+        style={{ background: "linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}
+      >
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          {/* JTBD */}
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold mb-4">Challenge 1</h2>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+              In the current design, users start with effort-intensive action items that are not contextually relevant.
+            </p>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+              Without change on backend, how to make users feel effortless to finish the task?
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Results Section with Full-Width Gradient Background */}
       <section
