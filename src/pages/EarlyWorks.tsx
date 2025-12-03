@@ -35,7 +35,7 @@ const EarlyWorks = () => {
               {/* Left Column - Content */}
               <div className="flex-1">
                 <p className="text-sm text-muted-foreground mb-4 font-medium">
-                  🇸🇬 2020 · Ecommerce · Web
+                  🇨🇳 2020 · Ecommerce · Web
                 </p>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">Seller Center Homescreen</h2>
                 <p className="text-lg leading-relaxed text-foreground mb-8">
