@@ -3,9 +3,13 @@ interface CreativeWorkCardProps {
   subtitle: string;
   imageUrl: string;
   backgroundColor?: string;
+  tag?: {
+    label: string;
+    color: string;
+  };
 }
 
-const CreativeWorkCard = ({ title, subtitle, imageUrl, backgroundColor }: CreativeWorkCardProps) => {
+const CreativeWorkCard = ({ title, subtitle, imageUrl, backgroundColor, tag }: CreativeWorkCardProps) => {
   return (
     <div className="group cursor-pointer border border-border rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-black/5 hover:-translate-y-1 overflow-hidden">
       <div 
@@ -22,6 +26,10 @@ const CreativeWorkCard = ({ title, subtitle, imageUrl, backgroundColor }: Creati
           {title}
         </h4>
         <p className="text-sm text-muted-foreground">
+          {tag && (
+            <span style={{ color: tag.color }} className="font-medium">{tag.label}</span>
+          )}
+          {tag && subtitle && <span className="mx-1">·</span>}
           {subtitle}
         </p>
       </div>
