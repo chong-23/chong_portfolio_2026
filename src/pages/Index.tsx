@@ -52,18 +52,21 @@ const Index = () => {
   const creativeWorks = [
     {
       title: "#100dayproject",
-      subtitle: "Illustration - Science & Culture",
+      subtitle: "Science & Culture",
       imageUrl: dayProjectImg,
+      tag: { label: "Illustration", color: "#E87A00" },
     },
     {
       title: "Rocket Sandbox",
-      subtitle: "Education Game - Connected Devices",
+      subtitle: "Connected Devices",
       imageUrl: rocketSandboxImg,
+      tag: { label: "Game", color: "#4070F4" },
     },
     {
       title: "Powerfall",
-      subtitle: "Voice-controlled Game - Connected Devices",
+      subtitle: "Voice-control",
       imageUrl: powerfallImg,
+      tag: { label: "Game", color: "#4070F4" },
     },
   ];
 
@@ -97,7 +100,7 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 tracking-tight">Creation for inspiration & fun</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-8">
               {creativeWorks.map((work, index) => (
-                <CreativeWorkCard key={index} title={work.title} subtitle={work.subtitle} imageUrl={work.imageUrl} />
+                <CreativeWorkCard key={index} title={work.title} subtitle={work.subtitle} imageUrl={work.imageUrl} tag={work.tag} />
               ))}
             </div>
           </section>
