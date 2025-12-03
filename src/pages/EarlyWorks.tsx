@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import lazadaScreensImg from "@/assets/lazada_screens.png";
+import lazadaOnboardingImg from "@/assets/lazada_onboarding.png";
 
 const EarlyWorks = () => {
   return (
@@ -113,6 +114,91 @@ const EarlyWorks = () => {
                 <img 
                   src={lazadaScreensImg} 
                   alt="Seller Center Homescreen designs showing different user segment views" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Project 2: Seller Onboarding */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
+              {/* Left Column - Content */}
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-4 font-medium">
+                  🇨🇳 2020 · Ecommerce · Web
+                </p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">Seller Onboarding</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-8">
+                  The platform used to focus on serving Chinese sellers, but for the new business strategy, product would be more tailored for SEA business. The onboarding experience is the first step.
+                </p>
+
+                {/* Goal */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-2">Goal</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    SEA sellers are able to easily register their business on the platform.
+                  </p>
+                </div>
+
+                {/* Challenges */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-3">Challenges</h3>
+                  <ul className="space-y-3 text-lg leading-relaxed text-foreground">
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>How to not overwhelm users from my required tasks to be filled up?</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>How to categorize the tasks for different business setup stages?</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>How can we localize the experience for each market due to different business requirements?</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Solutions */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-3">Solutions</h3>
+                  <ul className="space-y-3 text-lg leading-relaxed text-foreground">
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>Break the one-page long signup form to bite sizes.</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>Detailed localization guidance for key fields.</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Results */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-4">Task success rate increased by</h3>
+                  <div className="text-5xl font-bold" style={{ color: '#4070F4' }}>20%</div>
+                </div>
+
+                {/* Takeaways */}
+                <div>
+                  <h3 className="text-lg font-bold mb-2">Takeaways</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    We observed big difference of CSAT from SEA and China users. This leads our consideration in localization on the market level.
+                  </p>
+                </div>
+              </div>
+
+              {/* Right Column - Images */}
+              <div className="flex-1">
+                <img 
+                  src={lazadaOnboardingImg} 
+                  alt="Seller Onboarding flow showing registration and setup screens" 
                   className="w-full h-auto rounded-lg"
                 />
               </div>
