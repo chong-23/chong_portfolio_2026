@@ -600,7 +600,7 @@ const CorporateAdminRevamp = () => {
         </div>
       </div>
 
-      <Footer />
+      <Footer variant="project" />
     </div>
   );
 };

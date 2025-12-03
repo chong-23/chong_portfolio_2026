@@ -1439,7 +1439,7 @@ const AllowanceAwareness = () => {
         </div>
       </div>
 
-      <Footer />
+      <Footer variant="project" />
     </div>
   );
 };
