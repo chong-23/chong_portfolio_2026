@@ -45,8 +45,8 @@ const EarlyWorks = () => {
                 {/* Goal */}
                 <div className="mb-8">
                   <h3 className="text-lg font-bold mb-2">Goal</h3>
-                  <p className="text-lg leading-relaxed text-foreground">
-                    Provide <span className="underline decoration-primary">customized experience</span> for focused seller segments: <span className="text-primary font-medium">New, small and medium size of sellers.</span>
+                <p className="text-lg leading-relaxed text-foreground">
+                    Provide <span className="underline" style={{ textDecorationColor: '#4070F4' }}>customized experience</span> for focused seller segments: <span className="font-medium" style={{ color: '#4070F4' }}>New, small and medium size of sellers.</span>
                   </p>
                 </div>
 
@@ -85,15 +85,15 @@ const EarlyWorks = () => {
                   <h3 className="text-lg font-bold mb-4">Results of CSAT measurement</h3>
                   <div className="flex gap-12">
                     <div>
-                      <div className="text-4xl font-bold text-primary mb-1">55%</div>
+                      <div className="text-4xl font-bold mb-1" style={{ color: '#4070F4' }}>55%</div>
                       <p className="text-sm text-muted-foreground">All countries</p>
                     </div>
                     <div>
-                      <div className="text-4xl font-bold text-primary mb-1">57%</div>
+                      <div className="text-4xl font-bold mb-1" style={{ color: '#4070F4' }}>57%</div>
                       <p className="text-sm text-muted-foreground">SEA</p>
                     </div>
                     <div>
-                      <div className="text-4xl font-bold text-primary mb-1">28%</div>
+                      <div className="text-4xl font-bold mb-1" style={{ color: '#4070F4' }}>28%</div>
                       <p className="text-sm text-muted-foreground">China</p>
                     </div>
                   </div>
