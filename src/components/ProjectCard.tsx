@@ -16,7 +16,7 @@ const ProjectCard = ({ title, subtitle, description, imageUrl, link, gradientSty
       <div className="flex-1 relative overflow-visible">
         {/* Gradient circle positioned based on layout direction */}
         <div 
-          className={`absolute w-[80%] aspect-square rounded-full
+          className={`absolute w-[80%] aspect-square rounded-full transition-transform duration-300 group-hover:scale-90
             ${reverse ? '-top-8 -left-8 md:-top-12 md:-left-12' : '-top-8 -right-8 md:-top-12 md:-right-12'}`}
           style={gradientStyle}
         />
