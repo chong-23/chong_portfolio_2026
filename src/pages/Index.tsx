@@ -40,6 +40,8 @@ const Index = () => {
       subtitle: "Education&E-commerce - Web",
       description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: pastWorkCoverImg,
+      link: "/early-works",
+      linkText: "See details",
       gradientStyle: {
         background: "linear-gradient(to bottom right, rgba(64, 112, 245, 0.3) 0%, rgba(227, 214, 255, 0.3) 100%)",
       },
@@ -83,6 +85,7 @@ const Index = () => {
                 description={project.description}
                 imageUrl={project.imageUrl}
                 link={project.link}
+                linkText={project.linkText}
                 gradientStyle={project.gradientStyle}
                 reverse={project.reverse}
               />

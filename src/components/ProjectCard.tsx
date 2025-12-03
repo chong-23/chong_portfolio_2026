@@ -6,11 +6,12 @@ interface ProjectCardProps {
   description: string;
   imageUrl?: string;
   link?: string;
+  linkText?: string;
   gradientStyle?: React.CSSProperties;
   reverse?: boolean;
 }
 
-const ProjectCard = ({ title, subtitle, description, imageUrl, link, gradientStyle, reverse = false }: ProjectCardProps) => {
+const ProjectCard = ({ title, subtitle, description, imageUrl, link, linkText = "See process", gradientStyle, reverse = false }: ProjectCardProps) => {
   const CardContent = () => (
     <div className={`flex flex-col ${reverse ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 md:gap-12 group cursor-pointer`}>
       <div className="flex-1 relative overflow-visible">
@@ -43,16 +44,11 @@ const ProjectCard = ({ title, subtitle, description, imageUrl, link, gradientSty
           <p className="text-base leading-relaxed text-foreground mb-6">
             {description}
           </p>
-          <div className="flex gap-3">
-            {link && (
-              <span className="inline-flex items-center text-sm font-medium group-hover:text-primary transition-colors">
-                See details <span className="inline-block ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
-              </span>
-            )}
-            <span className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Snippet of early works
+          {link && (
+            <span className="inline-flex items-center text-sm font-medium group-hover:text-primary transition-colors">
+              {linkText} <span className="inline-block ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
             </span>
-          </div>
+          )}
         </div>
       </div>
     </div>
