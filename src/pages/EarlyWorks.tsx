@@ -1,6 +1,5 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import pastWorkCoverImg from "@/assets/hs_past.png";
 
 const EarlyWorks = () => {
   return (
@@ -16,20 +15,11 @@ const EarlyWorks = () => {
         <Navigation />
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
-            <div className="flex items-center justify-between w-full">
+            <div className="w-full">
               {/* Title Section */}
-              <div className="text-left flex-1">
+              <div className="text-left">
                 <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">Snippet of Early Works</h1>
                 <p className="text-xl">Education & E-commerce - Web Platform</p>
-              </div>
-
-              {/* Image Section - Desktop Only */}
-              <div className="hidden lg:block flex-shrink-0 ml-12 relative top-[40px]">
-                <img
-                  src={pastWorkCoverImg}
-                  alt="Early Works interface"
-                  className="w-[550px] h-auto rounded-2xl"
-                />
               </div>
             </div>
           </div>
