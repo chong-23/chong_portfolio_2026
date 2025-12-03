@@ -274,11 +274,11 @@ const EarlyWorks = () => {
                   <h3 className="text-lg font-bold mb-4">Coverage</h3>
                   <div className="flex gap-12">
                     <div>
-                      <div className="text-4xl font-bold mb-1" style={{ color: '#4070F4' }}>1M+</div>
+                      <div className="text-4xl font-bold mb-1" style={{ color: '#249A10' }}>1M+</div>
                       <p className="text-sm text-muted-foreground">Teachers worldwide</p>
                     </div>
                     <div>
-                      <div className="text-4xl font-bold mb-1" style={{ color: '#4070F4' }}>Over 70%</div>
+                      <div className="text-4xl font-bold mb-1" style={{ color: '#249A10' }}>Over 70%</div>
                       <p className="text-sm text-muted-foreground">US schools</p>
                     </div>
                   </div>
