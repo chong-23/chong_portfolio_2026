@@ -43,11 +43,16 @@ const ProjectCard = ({ title, subtitle, description, imageUrl, link, gradientSty
           <p className="text-base leading-relaxed text-foreground mb-6">
             {description}
           </p>
-          {link && (
-            <span className="inline-flex items-center text-sm font-medium group-hover:text-primary transition-colors">
-              See process <span className="inline-block ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+          <div className="flex gap-3">
+            {link && (
+              <span className="inline-flex items-center text-sm font-medium group-hover:text-primary transition-colors">
+                See details <span className="inline-block ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+              </span>
+            )}
+            <span className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+              Snippet of early works
             </span>
-          )}
+          </div>
         </div>
       </div>
     </div>
