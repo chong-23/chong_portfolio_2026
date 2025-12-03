@@ -46,7 +46,7 @@ const EarlyWorks = () => {
                 <div className="mb-8">
                   <h3 className="text-lg font-bold mb-2">Goal</h3>
                 <p className="text-lg leading-relaxed text-foreground">
-                    Provide <span className="underline" style={{ textDecorationColor: '#4070F4' }}>customized experience</span> for focused seller segments: <span className="font-medium" style={{ color: '#4070F4' }}>New, small and medium size of sellers.</span>
+                    Provide <span className="underline font-medium" style={{ color: '#4070F4', textDecorationColor: '#4070F4' }}>customized experience</span> for focused seller segments: <span className="font-medium" style={{ color: '#4070F4' }}>New, small and medium size of sellers.</span>
                   </p>
                 </div>
 
