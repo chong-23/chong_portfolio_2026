@@ -1,12 +1,13 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import lazadaScreensImg from "@/assets/lazada_screens.png";
 
 const EarlyWorks = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Gradient Background covering Navigation */}
       <div
-        className="relative h-[400px] lg:h-[550px]"
+        className="relative h-[300px] lg:h-[350px]"
         style={{
           background:
             "linear-gradient(to bottom, transparent 0%, white 100%), linear-gradient(128deg, rgba(64, 112, 245, 0.3) 0%, rgba(227, 214, 255, 0.3) 100%)",
@@ -26,80 +27,94 @@ const EarlyWorks = () => {
         </div>
       </div>
 
-      {/* Main Content */}
+      {/* Project 1: Seller Center Homescreen */}
       <div className="bg-background">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Overview Section */}
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
           <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
+              {/* Left Column - Content */}
               <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4">Background</h2>
-                <p className="text-lg leading-relaxed text-foreground mb-6">
-                  A collection of early design projects spanning education and e-commerce platforms. 
-                  These works showcase foundational design thinking and problem-solving approaches 
-                  that shaped my design philosophy.
+                <p className="text-sm text-muted-foreground mb-4 font-medium">
+                  🇸🇬 2020 · Ecommerce · Web
                 </p>
-              </div>
-              <div className="flex-1">
-                <div className="w-full h-64 bg-muted/30 rounded-lg flex items-center justify-center">
-                  <p className="text-muted-foreground">Project image placeholder</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">Seller Center Homescreen</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-8">
+                  This project is to redesign the home screen of the seller platform for Lazada, one of the largest e-commerce platforms in SEA.
+                </p>
+
+                {/* Goal */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-2">Goal</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    Provide <span className="underline decoration-primary">customized experience</span> for focused seller segments: <span className="text-primary font-medium">New, small and medium size of sellers.</span>
+                  </p>
+                </div>
+
+                {/* Challenges */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-3">Challenges</h3>
+                  <ul className="space-y-3 text-lg leading-relaxed text-foreground">
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>Given diverse user preferences from interviews, how can we effectively map out and present information tailored to different user segments?</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>Considering numerous existing platform features, how can we centralize home screen navigation for these diverse user segments?</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Solutions */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-3">Solutions</h3>
+                  <ul className="space-y-3 text-lg leading-relaxed text-foreground">
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>A dynamic section based on the users' needs as the focus of the screen</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>Less links for new sellers and more feature entries for advanced sellers</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Results */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-4">Results of CSAT measurement</h3>
+                  <div className="flex gap-12">
+                    <div>
+                      <div className="text-4xl font-bold text-primary mb-1">55%</div>
+                      <p className="text-sm text-muted-foreground">All countries</p>
+                    </div>
+                    <div>
+                      <div className="text-4xl font-bold text-primary mb-1">57%</div>
+                      <p className="text-sm text-muted-foreground">SEA</p>
+                    </div>
+                    <div>
+                      <div className="text-4xl font-bold text-primary mb-1">28%</div>
+                      <p className="text-sm text-muted-foreground">China</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Takeaways */}
+                <div>
+                  <h3 className="text-lg font-bold mb-2">Takeaways</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    We observed big difference of CSAT from SEA and China users. This leads our consideration in localization on the market level.
+                  </p>
                 </div>
               </div>
-            </div>
-          </section>
 
-          {/* Project 1 Section */}
-          <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              {/* Right Column - Images */}
               <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4">Project Title 1</h2>
-                <p className="text-lg leading-relaxed text-foreground mb-6">
-                  Description of the first early work project. Explain the context, challenges, 
-                  and your role in solving the design problems.
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="w-full h-64 bg-muted/30 rounded-lg flex items-center justify-center">
-                  <p className="text-muted-foreground">Project image placeholder</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Project 2 Section */}
-          <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-              <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4">Project Title 2</h2>
-                <p className="text-lg leading-relaxed text-foreground mb-6">
-                  Description of the second early work project. Explain the context, challenges, 
-                  and your role in solving the design problems.
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="w-full h-64 bg-muted/30 rounded-lg flex items-center justify-center">
-                  <p className="text-muted-foreground">Project image placeholder</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-
-      {/* Key Learnings Section */}
-      <div className="bg-background">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-8">Key Learnings</h2>
-            <div className="space-y-6">
-              <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">1. Learning point one</h3>
-              </div>
-              <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">2. Learning point two</h3>
-              </div>
-              <div className="border-l-4 border-primary pl-6">
-                <h3 className="text-xl font-semibold mb-2">3. Learning point three</h3>
+                <img 
+                  src={lazadaScreensImg} 
+                  alt="Seller Center Homescreen designs showing different user segment views" 
+                  className="w-full h-auto rounded-lg"
+                />
               </div>
             </div>
           </section>
