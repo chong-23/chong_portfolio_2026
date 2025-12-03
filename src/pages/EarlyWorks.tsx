@@ -339,7 +339,7 @@ const EarlyWorks = () => {
         </div>
       </div>
 
-      <Footer />
+      <Footer variant="project" />
     </div>
   );
 };
