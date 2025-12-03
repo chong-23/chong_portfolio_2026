@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import lazadaScreensImg from "@/assets/lazada_screens.png";
 import lazadaOnboardingImg from "@/assets/lazada_onboarding.png";
+import commonsenseImg from "@/assets/commonsense.png";
 
 const EarlyWorks = () => {
   return (
@@ -199,6 +200,104 @@ const EarlyWorks = () => {
                 <img 
                   src={lazadaOnboardingImg} 
                   alt="Seller Onboarding flow showing registration and setup screens" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Project 3: Digital Citizenship */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
+              {/* Left Column - Content */}
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-4 font-medium">
+                  🇺🇸 2018 · Education · Web
+                </p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">Digital Citizenship</h2>
+                <p className="text-lg leading-relaxed text-foreground mb-8">
+                  Digital well-being for children has been a very critical topic. This project aims to develop one of the very first platforms hosting extensive digital citizenship curricula for teachers to effectively teach in classrooms.
+                </p>
+
+                {/* Goal */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-2">Goal</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    Enable teachers to effortlessly discover and utilize various curricula and classroom materials like reading, videos, and games.
+                  </p>
+                </div>
+
+                {/* Challenges */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-3">Challenges</h3>
+                  <ul className="space-y-3 text-lg leading-relaxed text-foreground">
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>How to make text-heavy teaching materials easier to read for both students and teachers?</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>How to categorize materials into different teaching stages?</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>How to make the overall presentation fun?</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Solutions */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-3">Solutions</h3>
+                  <ul className="space-y-3 text-lg leading-relaxed text-foreground">
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>Key contents are highlighted in long content for quick scanning.</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>Organize categories into sections following traditional teaching Guidelines.</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-3">•</span>
+                      <span>Utilize Hand-drawn Style for Callouts, Icons, and Titles.</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Coverage */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold mb-4">Coverage</h3>
+                  <div className="flex gap-12">
+                    <div>
+                      <div className="text-4xl font-bold mb-1" style={{ color: '#4070F4' }}>1M+</div>
+                      <p className="text-sm text-muted-foreground">Teachers worldwide</p>
+                    </div>
+                    <div>
+                      <div className="text-4xl font-bold mb-1" style={{ color: '#4070F4' }}>Over 70%</div>
+                      <p className="text-sm text-muted-foreground">US schools</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Takeaways */}
+                <div>
+                  <h3 className="text-lg font-bold mb-2">Takeaways</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    The digital solution innovates from traditional methods, simplifying navigation and resource sharing for improved efficiency.
+                  </p>
+                </div>
+              </div>
+
+              {/* Right Column - Images */}
+              <div className="flex-1">
+                <img 
+                  src={commonsenseImg} 
+                  alt="Digital Citizenship curriculum platform showing lesson pages and materials" 
                   className="w-full h-auto rounded-lg"
                 />
               </div>
