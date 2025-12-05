@@ -48,10 +48,10 @@ const HundredDayProject = () => {
       {/* Chinese Ethnic Groups Section */}
       <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
             <div className="w-full md:w-2/3">
               <img 
-                src={ethnicGroupsImg} 
+                src={ethnicGroupsImg}
                 alt="Chinese Ethnic Groups Illustrations" 
                 className="w-full h-auto rounded-lg"
               />
@@ -76,10 +76,10 @@ const HundredDayProject = () => {
       {/* Human Cells Section */}
       <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
             <div className="w-full md:w-2/3">
               <img 
-                src={humanCellsImg} 
+                src={humanCellsImg}
                 alt="Human Cells Illustrations" 
                 className="w-full h-auto rounded-lg"
               />
@@ -105,10 +105,10 @@ const HundredDayProject = () => {
       {/* Space Probes Section */}
       <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
             <div className="w-full md:w-2/3">
               <img 
-                src={spaceImg} 
+                src={spaceImg}
                 alt="Space Probes Illustrations" 
                 className="w-full h-auto rounded-lg"
               />
