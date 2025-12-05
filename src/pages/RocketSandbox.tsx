@@ -43,16 +43,16 @@ const RocketSandbox = () => {
               </div>
 
               {/* Image Section - Desktop Only - Stacked like Allowance Awareness */}
-              <div className="hidden lg:flex flex-shrink-0 ml-12 relative top-[80px] gap-4">
+              <div className="hidden lg:flex flex-shrink-0 ml-12 relative top-[80px] items-end">
                 <img 
                   src={rocketHeaderImage2} 
                   alt="Rocket Sandbox game interface with layers" 
-                  className="w-[320px] h-auto rounded-2xl shadow-2xl -rotate-2"
+                  className="w-[280px] h-auto rounded-2xl shadow-2xl -rotate-3 z-10"
                 />
                 <img 
                   src={rocketHeaderImage} 
                   alt="Rocket Sandbox game interface" 
-                  className="w-[320px] h-auto rounded-2xl shadow-2xl rotate-2 -ml-8"
+                  className="w-[280px] h-auto rounded-2xl shadow-2xl rotate-3 -ml-16"
                 />
               </div>
             </div>
