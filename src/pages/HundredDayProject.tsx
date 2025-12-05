@@ -18,13 +18,9 @@ const HundredDayProject = () => {
               <h1 className="text-4xl md:text-6xl font-bold text-black mb-4 bg-white inline-block px-4 py-2">
                 100day projects
               </h1>
-              <div className="flex items-center gap-2">
+              <div className="inline-block">
                 <span className="text-lg md:text-xl text-black bg-white px-3 py-1">
-                  Illustrations
-                </span>
-                <span className="text-black bg-white px-1">·</span>
-                <span className="text-lg md:text-xl text-black bg-white px-3 py-1">
-                  Culture&Science
+                  Illustrations · Culture&Science
                 </span>
               </div>
             </div>
