@@ -15,15 +15,15 @@ const HundredDayProject = () => {
         <div className="absolute inset-0 flex items-center">
           <div className="px-6 md:px-12 lg:px-20">
             <div className="max-w-7xl mx-auto">
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 bg-[#3D3D3D]/80 inline-block px-4 py-2">
+              <h1 className="text-4xl md:text-6xl font-bold text-black mb-4 bg-white inline-block px-4 py-2">
                 100day projects
               </h1>
               <div className="flex items-center gap-2">
-                <span className="text-lg md:text-xl text-white bg-[#3D3D3D]/80 px-3 py-1">
+                <span className="text-lg md:text-xl text-black bg-white px-3 py-1">
                   Culture&Science
                 </span>
-                <span className="text-white">·</span>
-                <span className="text-lg md:text-xl text-white bg-[#3D3D3D]/80 px-3 py-1">
+                <span className="text-black bg-white px-1">·</span>
+                <span className="text-lg md:text-xl text-black bg-white px-3 py-1">
                   Illustrations
                 </span>
               </div>
