@@ -17,7 +17,7 @@ const Footer = ({ variant = "default" }: FooterProps) => {
             >
               ◂ Back to home screen
             </Link>
-            <p className="text-sm text-muted-foreground">© 2024 Chong Hu. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© 2026 Chong Hu. All rights reserved.</p>
           </div>
         </div>
       </footer>
