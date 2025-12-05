@@ -34,7 +34,7 @@ const HundredDayProject = () => {
           <h2 className="text-2xl md:text-3xl font-bold mb-6 tracking-tight">
             Learning by making
           </h2>
-          <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
+          <p className="text-base md:text-lg leading-relaxed text-foreground">
             I'm deeply passionate about exploring diverse subjects beyond my expertise—science, culture, 
             and more. They fuel my curiosity and serve as the foundation of my inspiration library. 
             However, I've learned that true understanding comes from active engagement. So, I've begun 
@@ -59,11 +59,11 @@ const HundredDayProject = () => {
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
                 Chinese Ethnic Groups
               </h2>
-              <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
                 In 2018, returning to China after 9 years abroad, I realized how little I knew about 
                 my homeland. Traveling across various cities, I was captivated by millennia of craftsmanship.
               </p>
-              <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
                 This inspired a project to showcase traditional costumes from the 56 ethnic groups of China, 
                 aiming to delve into the diverse beauty of their craftsmanship.
               </p>
