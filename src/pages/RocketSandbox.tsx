@@ -1,6 +1,8 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
+import rocketHeaderImage from "@/assets/rocket-header-image.png";
+import rocketHeaderBg from "@/assets/rocket-header-bg.png";
 
 const PlaceholderImage = ({ className = "", aspectRatio = "aspect-video" }: { className?: string; aspectRatio?: string }) => (
   <div className={`bg-muted rounded-lg ${aspectRatio} ${className}`} />
@@ -9,27 +11,43 @@ const PlaceholderImage = ({ className = "", aspectRatio = "aspect-video" }: { cl
 const RocketSandbox = () => {
   return (
     <div className="min-h-screen bg-background">
-      {/* Hero Section with Gradient Background covering Navigation */}
-      <div
-        className="relative h-[400px] lg:h-[550px]"
-        style={{
-          background:
-            "linear-gradient(to bottom, transparent 0%, white 100%), linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
-        }}
-      >
+      {/* Hero Section with Blurred Background Image */}
+      <div className="relative h-[400px] lg:h-[550px] overflow-hidden">
+        {/* Background Image with Blur */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${rocketHeaderBg})`,
+          }}
+        />
+        {/* Gradient Overlay for fade to white */}
+        <div 
+          className="absolute inset-0"
+          style={{
+            background: "linear-gradient(to bottom, transparent 60%, hsl(var(--background)) 100%)",
+          }}
+        />
+        
         <Navigation />
+        
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
             <div className="flex items-center justify-between w-full">
               {/* Title Section */}
               <div className="text-left flex-1">
-                <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">Rocket Sandbox</h1>
-                <p className="text-xl">K-12 Education Game • Connected Devices</p>
+                <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight text-white">Rocket Sandbox</h1>
+                <p className="text-xl text-white/90 border-b-2 border-white/60 pb-1 inline-block">
+                  K12 Education Game · Connected Devices
+                </p>
               </div>
 
               {/* Image Section - Desktop Only */}
-              <div className="hidden lg:block flex-shrink-0 ml-12 relative top-[40px]">
-                <PlaceholderImage aspectRatio="aspect-square" className="w-[400px] h-[400px]" />
+              <div className="hidden lg:block flex-shrink-0 ml-12 relative top-[60px]">
+                <img 
+                  src={rocketHeaderImage} 
+                  alt="Rocket Sandbox game interface" 
+                  className="w-[500px] h-auto rounded-lg shadow-2xl"
+                />
               </div>
             </div>
           </div>
