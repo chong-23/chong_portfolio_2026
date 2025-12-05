@@ -20,11 +20,11 @@ const HundredDayProject = () => {
               </h1>
               <div className="flex items-center gap-2">
                 <span className="text-lg md:text-xl text-black bg-white px-3 py-1">
-                  Culture&Science
+                  Illustrations
                 </span>
                 <span className="text-black bg-white px-1">·</span>
                 <span className="text-lg md:text-xl text-black bg-white px-3 py-1">
-                  Illustrations
+                  Culture&Science
                 </span>
               </div>
             </div>
