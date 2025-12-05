@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 import rocketHeaderImage from "@/assets/rocket-header-image.png";
+import rocketHeaderImage2 from "@/assets/rocket-header-image-2.png";
 import rocketHeaderBg from "@/assets/rocket-header-bg.png";
 
 const PlaceholderImage = ({ className = "", aspectRatio = "aspect-video" }: { className?: string; aspectRatio?: string }) => (
@@ -12,7 +13,7 @@ const RocketSandbox = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Blurred Background Image */}
-      <div className="relative h-[400px] lg:h-[550px] overflow-hidden">
+      <div className="relative h-[400px] lg:h-[600px] overflow-hidden">
         {/* Background Image with Blur */}
         <div 
           className="absolute inset-0 bg-cover bg-center"
@@ -41,12 +42,17 @@ const RocketSandbox = () => {
                 </p>
               </div>
 
-              {/* Image Section - Desktop Only */}
-              <div className="hidden lg:block flex-shrink-0 ml-12 relative top-[60px]">
+              {/* Image Section - Desktop Only - Stacked like Allowance Awareness */}
+              <div className="hidden lg:flex flex-shrink-0 ml-12 relative top-[80px] gap-4">
+                <img 
+                  src={rocketHeaderImage2} 
+                  alt="Rocket Sandbox game interface with layers" 
+                  className="w-[320px] h-auto rounded-2xl shadow-2xl -rotate-2"
+                />
                 <img 
                   src={rocketHeaderImage} 
                   alt="Rocket Sandbox game interface" 
-                  className="w-[500px] h-auto rounded-lg shadow-2xl"
+                  className="w-[320px] h-auto rounded-2xl shadow-2xl rotate-2 -ml-8"
                 />
               </div>
             </div>
