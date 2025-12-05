@@ -6,17 +6,12 @@ import ethnicGroupsImg from "@/assets/chinese-ethnic-groups.png";
 const HundredDayProject = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-
-      {/* Hero Section with Space Image */}
-      <section className="relative w-full">
-        <div className="w-full">
-          <img 
-            src={spaceImg} 
-            alt="100 Day Project - Space Satellites" 
-            className="w-full h-auto object-cover"
-          />
-        </div>
+      {/* Hero Section with Space Image covering Navigation */}
+      <div 
+        className="relative h-[400px] lg:h-[550px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${spaceImg})` }}
+      >
+        <Navigation />
         <div className="absolute inset-0 flex items-center">
           <div className="px-6 md:px-12 lg:px-20">
             <div className="max-w-7xl mx-auto">
@@ -35,7 +30,7 @@ const HundredDayProject = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* Learning by Making Section */}
       <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
