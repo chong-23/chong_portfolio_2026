@@ -61,6 +61,7 @@ const Index = () => {
       title: "Rocket Sandbox",
       subtitle: "Connected Devices",
       imageUrl: rocketSandboxImg,
+      link: "/rocket-sandbox",
       tag: { label: "Game", color: "#4070F4" },
     },
     {
