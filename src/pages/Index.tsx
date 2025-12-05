@@ -54,6 +54,7 @@ const Index = () => {
       title: "#100dayproject",
       subtitle: "Science & Culture",
       imageUrl: dayProjectImg,
+      link: "/100day-project",
       tag: { label: "Illustration", color: "#E87A00" },
     },
     {
@@ -100,7 +101,7 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 tracking-tight">Creation for inspiration & fun</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-8">
               {creativeWorks.map((work, index) => (
-                <CreativeWorkCard key={index} title={work.title} subtitle={work.subtitle} imageUrl={work.imageUrl} tag={work.tag} />
+                <CreativeWorkCard key={index} title={work.title} subtitle={work.subtitle} imageUrl={work.imageUrl} link={work.link} tag={work.tag} />
               ))}
             </div>
           </section>

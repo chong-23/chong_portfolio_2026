@@ -1,16 +1,19 @@
+import { Link } from "react-router-dom";
+
 interface CreativeWorkCardProps {
   title: string;
   subtitle: string;
   imageUrl: string;
   backgroundColor?: string;
+  link?: string;
   tag?: {
     label: string;
     color: string;
   };
 }
 
-const CreativeWorkCard = ({ title, subtitle, imageUrl, backgroundColor, tag }: CreativeWorkCardProps) => {
-  return (
+const CreativeWorkCard = ({ title, subtitle, imageUrl, backgroundColor, link, tag }: CreativeWorkCardProps) => {
+  const CardContent = () => (
     <div className="group cursor-pointer border border-border rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-black/5 hover:-translate-y-1 overflow-hidden">
       <div 
         className={`w-full aspect-square ${backgroundColor || 'bg-muted'} flex items-center justify-center`}
@@ -35,6 +38,16 @@ const CreativeWorkCard = ({ title, subtitle, imageUrl, backgroundColor, tag }: C
       </div>
     </div>
   );
+
+  if (link) {
+    return (
+      <Link to={link}>
+        <CardContent />
+      </Link>
+    );
+  }
+
+  return <CardContent />;
 };
 
 export default CreativeWorkCard;
