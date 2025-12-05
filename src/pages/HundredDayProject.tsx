@@ -102,6 +102,35 @@ const HundredDayProject = () => {
         </div>
       </section>
 
+      {/* Space Probes Section */}
+      <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="flex-1">
+              <img 
+                src={spaceImg} 
+                alt="Space Probes Illustrations" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            <div className="flex-1 space-y-6">
+              <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
+                Space Probes
+              </h2>
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
+                Being an astronaut is one of my many dreams, though it feels unattainable. The audacious 
+                exploration of space has always fascinated me. I took my first step towards this passion 
+                by choosing space probes as my initial project.
+              </p>
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
+                Collaborating with Guokr, a major science education platform in China, we transformed it 
+                into a Space Exploration notebook.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer variant="project" />
     </div>
   );
