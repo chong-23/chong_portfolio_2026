@@ -11,7 +11,7 @@ const HundredDayProject = () => {
         className="relative h-[400px] lg:h-[550px] bg-cover bg-center"
         style={{ backgroundImage: `url(${spaceImg})` }}
       >
-        <Navigation />
+        <Navigation variant="light" />
         <div className="absolute inset-0 flex items-center">
           <div className="px-6 md:px-12 lg:px-20">
             <div className="max-w-7xl mx-auto">
