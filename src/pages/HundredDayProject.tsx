@@ -45,7 +45,7 @@ const HundredDayProject = () => {
       </section>
 
       {/* Chinese Ethnic Groups Section */}
-      <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20 bg-muted/30">
+      <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div className="flex-1">
