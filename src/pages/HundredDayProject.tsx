@@ -89,12 +89,13 @@ const HundredDayProject = () => {
                 Human Cells
               </h2>
               <p className="text-base md:text-lg leading-relaxed text-foreground">
-                An exploration of the microscopic world within us. This project illustrates the diverse 
-                types of cells that make up the human body, from red blood cells to neurons.
+                Fascinated by the human body and its workings, I embarked on a project to understand 100 types 
+                of cells. However, the complexity exceeded my expectations. Some cells transition into others, 
+                adding layers of intricacy.
               </p>
               <p className="text-base md:text-lg leading-relaxed text-foreground">
-                Each illustration captures the unique structure and beauty of these building blocks of life, 
-                making complex biology accessible through art.
+                While I couldn't complete it due to my limited expertise, this challenge was a profound learning 
+                experience, enriching my understanding of our body and its intricate vocabulary.
               </p>
             </div>
           </div>
