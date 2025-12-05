@@ -30,7 +30,7 @@ const HundredDayProject = () => {
       </div>
 
       {/* Learning by Making Section */}
-      <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
+      <section className="py-12 md:py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 tracking-tight">
             Learning by making
@@ -46,7 +46,7 @@ const HundredDayProject = () => {
       </section>
 
       {/* Chinese Ethnic Groups Section */}
-      <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
+      <section className="py-12 md:py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
             <div className="w-full md:w-2/3">
@@ -74,7 +74,7 @@ const HundredDayProject = () => {
       </section>
 
       {/* Human Cells Section */}
-      <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
+      <section className="py-12 md:py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
             <div className="w-full md:w-2/3">
@@ -103,7 +103,7 @@ const HundredDayProject = () => {
       </section>
 
       {/* Space Probes Section */}
-      <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
+      <section className="py-12 md:py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
             <div className="w-full md:w-2/3">
