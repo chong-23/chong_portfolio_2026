@@ -49,14 +49,14 @@ const HundredDayProject = () => {
       <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-            <div className="flex-1">
+            <div className="w-full md:w-2/3">
               <img 
                 src={ethnicGroupsImg} 
                 alt="Chinese Ethnic Groups Illustrations" 
                 className="w-full h-auto rounded-lg"
               />
             </div>
-            <div className="flex-1 space-y-6">
+            <div className="w-full md:w-1/3 space-y-6">
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
                 Chinese Ethnic Groups
               </h2>
@@ -77,14 +77,14 @@ const HundredDayProject = () => {
       <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-            <div className="flex-1">
+            <div className="w-full md:w-2/3">
               <img 
                 src={humanCellsImg} 
                 alt="Human Cells Illustrations" 
                 className="w-full h-auto rounded-lg"
               />
             </div>
-            <div className="flex-1 space-y-6">
+            <div className="w-full md:w-1/3 space-y-6">
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
                 Human Cells
               </h2>
@@ -106,14 +106,14 @@ const HundredDayProject = () => {
       <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-            <div className="flex-1">
+            <div className="w-full md:w-2/3">
               <img 
                 src={spaceImg} 
                 alt="Space Probes Illustrations" 
                 className="w-full h-auto rounded-lg"
               />
             </div>
-            <div className="flex-1 space-y-6">
+            <div className="w-full md:w-1/3 space-y-6">
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
                 Space Probes
               </h2>
