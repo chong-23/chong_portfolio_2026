@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import spaceImg from "@/assets/100space.jpg";
 import ethnicGroupsImg from "@/assets/chinese-ethnic-groups.png";
+import humanCellsImg from "@/assets/human-cells.png";
 
 const HundredDayProject = () => {
   return (
@@ -66,6 +67,34 @@ const HundredDayProject = () => {
               <p className="text-base md:text-lg leading-relaxed text-foreground">
                 This inspired a project to showcase traditional costumes from the 56 ethnic groups of China, 
                 aiming to delve into the diverse beauty of their craftsmanship.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Human Cells Section */}
+      <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="flex-1">
+              <img 
+                src={humanCellsImg} 
+                alt="Human Cells Illustrations" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            <div className="flex-1 space-y-6">
+              <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
+                Human Cells
+              </h2>
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
+                An exploration of the microscopic world within us. This project illustrates the diverse 
+                types of cells that make up the human body, from red blood cells to neurons.
+              </p>
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
+                Each illustration captures the unique structure and beauty of these building blocks of life, 
+                making complex biology accessible through art.
               </p>
             </div>
           </div>
