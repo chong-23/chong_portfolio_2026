@@ -97,26 +97,26 @@ const RocketSandbox = () => {
                 </p>
               </div>
               
-              {/* Kids Card - Rotated 90 degrees clockwise */}
+              {/* Kids Card - Rotated 90 degrees counter-clockwise */}
               <div className="rounded-xl p-6 flex gap-4 items-center" style={{ backgroundColor: 'rgba(173, 216, 230, 0.3)' }}>
                 <div className="flex-shrink-0 relative w-[78px] h-[70px]">
                   <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
-                    <path d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z" fill="#7C8A99"/>
+                    <path d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z" fill="#7C8A99"/>
                   </svg>
-                  <span className="absolute top-[10px] left-0 right-0 bottom-0 flex items-center justify-center text-white text-[10px] font-medium">Kids (5-8)</span>
+                  <span className="absolute top-0 left-[10px] right-0 bottom-[10px] flex items-center justify-center text-white text-[10px] font-medium">Kids (5-8)</span>
                 </div>
                 <p className="text-foreground">
                   Kids at these ages don't understand, don't feel connected and don't see the process of what they are learning. <span className="font-bold">HMW make children aware of their learning?</span>
                 </p>
               </div>
               
-              {/* Science Card - Rotated 90 degrees counter-clockwise */}
+              {/* Science Card - Rotated 90 degrees clockwise */}
               <div className="rounded-xl p-6 flex gap-4 items-center" style={{ backgroundColor: 'rgba(139, 169, 131, 0.2)' }}>
                 <div className="flex-shrink-0 relative w-[78px] h-[70px]">
                   <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
-                    <path d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z" fill="#8BA983"/>
+                    <path d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z" fill="#8BA983"/>
                   </svg>
-                  <span className="absolute top-0 left-[10px] right-0 bottom-[10px] flex items-center justify-center text-white text-[11px] font-medium">Science</span>
+                  <span className="absolute top-[10px] left-0 right-0 bottom-0 flex items-center justify-center text-white text-[11px] font-medium">Science</span>
                 </div>
                 <p className="text-foreground">
                   There are so many different science content. <span className="font-bold">HMW choose the one that is simple and interesting for both parents and kids?</span>
