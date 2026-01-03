@@ -30,7 +30,7 @@ const RocketSandbox = () => {
           }}
         />
         
-        <Navigation />
+        <Navigation variant="light" />
         
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
