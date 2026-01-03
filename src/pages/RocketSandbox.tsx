@@ -330,8 +330,6 @@ const RocketSandbox = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Interaction Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-12">Interaction design</h2>
-
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
               <div className="flex-1">
                 <p className="text-sm text-muted-foreground mb-2">Core interaction</p>
