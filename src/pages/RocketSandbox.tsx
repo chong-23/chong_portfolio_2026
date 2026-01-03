@@ -84,52 +84,52 @@ const RocketSandbox = () => {
             
             {/* HMW Cards Grid */}
             <div className="grid md:grid-cols-2 gap-6 mt-10">
-              {/* Parents Card - Original orientation */}
+              {/* Parents Card - Quarter circle top-right, tabs on right and bottom */}
               <div className="rounded-xl p-6 flex gap-4 items-center" style={{ backgroundColor: 'rgba(255, 193, 7, 0.15)' }}>
                 <div className="flex-shrink-0 relative w-[70px] h-[78px]">
                   <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
                     <path d="M92.5 0C41.4137 0 0 41.4137 0 92.5H29.125V102.5H62.875V92.5H92.5V61H82.75V31.25H92.5V0Z" fill="#FBB020"/>
                   </svg>
-                  <span className="absolute top-[5px] left-[5px] w-[50px] h-[50px] flex items-center justify-center text-white text-[11px] font-medium">Parents</span>
+                  <span style={{ position: 'absolute', top: '18px', left: '12px', width: '42px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '11px', fontWeight: 500 }}>Parents</span>
                 </div>
                 <p className="text-foreground">
                   Parents and kids may think different things fun. Teaching science is also not easy. <span className="font-bold">HMW find the common fun and easy teaching experience for parents?</span>
                 </p>
               </div>
               
-              {/* Kids Card - Rotated 90 degrees counter-clockwise */}
+              {/* Kids Card - Quarter circle bottom-right, tabs on left and bottom */}
               <div className="rounded-xl p-6 flex gap-4 items-center" style={{ backgroundColor: 'rgba(173, 216, 230, 0.3)' }}>
                 <div className="flex-shrink-0 relative w-[78px] h-[70px]">
                   <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
                     <path d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z" fill="#7C8A99"/>
                   </svg>
-                  <span className="absolute top-[10px] right-[5px] w-[55px] h-[50px] flex items-center justify-center text-white text-[10px] font-medium">Kids (5-8)</span>
+                  <span style={{ position: 'absolute', top: '18px', right: '8px', width: '50px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '10px', fontWeight: 500 }}>Kids (5-8)</span>
                 </div>
                 <p className="text-foreground">
                   Kids at these ages don't understand, don't feel connected and don't see the process of what they are learning. <span className="font-bold">HMW make children aware of their learning?</span>
                 </p>
               </div>
               
-              {/* Science Card - Rotated 90 degrees clockwise */}
+              {/* Science Card - Quarter circle top-left, tabs on right and top */}
               <div className="rounded-xl p-6 flex gap-4 items-center" style={{ backgroundColor: 'rgba(139, 169, 131, 0.2)' }}>
                 <div className="flex-shrink-0 relative w-[78px] h-[70px]">
                   <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
                     <path d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z" fill="#8BA983"/>
                   </svg>
-                  <span className="absolute bottom-[10px] left-[5px] w-[55px] h-[50px] flex items-center justify-center text-white text-[11px] font-medium">Science</span>
+                  <span style={{ position: 'absolute', bottom: '8px', left: '8px', width: '50px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '11px', fontWeight: 500 }}>Science</span>
                 </div>
                 <p className="text-foreground">
                   There are so many different science content. <span className="font-bold">HMW choose the one that is simple and interesting for both parents and kids?</span>
                 </p>
               </div>
               
-              {/* Maker Culture Card - Rotated 180 degrees */}
+              {/* Maker Culture Card - Quarter circle bottom-left, tabs on left and top */}
               <div className="rounded-xl p-6 flex gap-4 items-center" style={{ backgroundColor: 'rgba(255, 182, 193, 0.25)' }}>
                 <div className="flex-shrink-0 relative w-[70px] h-[78px]">
                   <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
                     <path d="M0.5 103C51.5863 103 93 61.5863 93 10.5H63.875V0.5H30.125V10.5H0.5V42H10.25V71.75H0.5V103Z" fill="#E86C3A"/>
                   </svg>
-                  <span className="absolute bottom-[5px] right-[5px] w-[50px] h-[50px] flex flex-col items-center justify-center text-white text-[9px] font-medium leading-tight">
+                  <span style={{ position: 'absolute', bottom: '18px', right: '12px', width: '42px', height: '36px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '9px', fontWeight: 500, lineHeight: 1.2 }}>
                     <span>Maker</span>
                     <span>Culture</span>
                   </span>
