@@ -8,7 +8,7 @@ const Navigation = ({ variant = "default" }: NavigationProps) => {
   const isLight = variant === "light";
   
   return (
-    <nav className={`relative z-10 w-full py-6 px-6 md:px-12 lg:px-20 ${isLight ? "bg-[#3D3D3D]/80" : ""}`}>
+    <nav className="relative z-10 w-full py-6 px-6 md:px-12 lg:px-20">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <Link to="/" className={`${isLight ? "text-white" : "text-foreground"} hover:opacity-80 transition-opacity cursor-pointer`}>
           <span className="font-bold">Chong</span>
