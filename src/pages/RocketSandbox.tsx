@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 import rocketHeaderImage from "@/assets/rocket-header-image.png";
 import rocketHeaderImage2 from "@/assets/rocket-header-image-2.png";
+import rocketHeaderImage3 from "@/assets/rocket-header-image-3.png";
 import rocketHeaderBg from "@/assets/rocket-header-bg.png";
 
 const PlaceholderImage = ({ className = "", aspectRatio = "aspect-video" }: { className?: string; aspectRatio?: string }) => (
@@ -45,14 +46,19 @@ const RocketSandbox = () => {
               {/* Image Section - Desktop Only - Stacked like Allowance Awareness */}
               <div className="hidden lg:flex flex-shrink-0 ml-12 relative top-[80px] items-end">
                 <img 
+                  src={rocketHeaderImage3} 
+                  alt="Rocket Sandbox game launch scene" 
+                  className="w-[320px] h-auto rounded-2xl shadow-2xl -rotate-3 z-20"
+                />
+                <img 
                   src={rocketHeaderImage2} 
                   alt="Rocket Sandbox game interface with layers" 
-                  className="w-[280px] h-auto rounded-2xl shadow-2xl -rotate-3 z-10"
+                  className="w-[240px] h-auto rounded-2xl shadow-2xl rotate-2 -ml-20 z-10"
                 />
                 <img 
                   src={rocketHeaderImage} 
                   alt="Rocket Sandbox game interface" 
-                  className="w-[280px] h-auto rounded-2xl shadow-2xl rotate-3 -ml-16"
+                  className="w-[200px] h-auto rounded-2xl shadow-2xl rotate-4 -ml-16"
                 />
               </div>
             </div>
