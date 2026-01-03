@@ -246,7 +246,7 @@ const RocketSandbox = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
           <div className="text-center mb-6">
             {/* Kids + Maker Culture Puzzle Pieces */}
-            <div className="flex justify-center items-center gap-0 mb-6">
+            <div className="flex flex-col justify-center items-center gap-0 mb-6">
               {/* Kids Puzzle Piece */}
               <div className="relative w-[78px] h-[70px]">
                 <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
