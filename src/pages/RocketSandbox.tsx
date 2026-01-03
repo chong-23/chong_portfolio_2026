@@ -84,12 +84,12 @@ const RocketSandbox = () => {
             
             {/* HMW Cards Grid */}
             <div className="grid md:grid-cols-2 gap-6 mt-10">
-              {/* Parents Card - Tab on right */}
+              {/* Parents Card - Quarter circle top-left, tab bottom */}
               <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(255, 193, 7, 0.15)' }}>
                 <div className="flex-shrink-0">
-                  <svg width="80" height="64" viewBox="0 0 80 64" fill="none">
-                    <path d="M0 8C0 3.58 3.58 0 8 0H48C48 0 48 8 56 8C64 8 64 0 64 0H72C76.42 0 80 3.58 80 8V56C80 60.42 76.42 64 72 64H8C3.58 64 0 60.42 0 56V40C0 40 8 40 8 32C8 24 0 24 0 24V8Z" fill="#F5A623"/>
-                    <text x="40" y="36" textAnchor="middle" fill="white" fontSize="11" fontWeight="500">Parents</text>
+                  <svg width="70" height="80" viewBox="0 0 70 80" fill="none">
+                    <path d="M70 0C70 38.66 38.66 70 0 70V80H25V70H45V80H70V0Z" fill="#F5A623"/>
+                    <text x="42" y="50" textAnchor="middle" fill="white" fontSize="11" fontWeight="500">Parents</text>
                   </svg>
                 </div>
                 <p className="text-foreground">
@@ -97,12 +97,12 @@ const RocketSandbox = () => {
                 </p>
               </div>
               
-              {/* Kids Card - Tab on bottom */}
+              {/* Kids Card - Quarter circle top-right, tab bottom */}
               <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(173, 216, 230, 0.3)' }}>
                 <div className="flex-shrink-0">
-                  <svg width="64" height="80" viewBox="0 0 64 80" fill="none">
-                    <path d="M64 8C64 3.58 60.42 0 56 0H8C3.58 0 0 3.58 0 8V48C0 48 8 48 8 56C8 64 0 64 0 64V72C0 76.42 3.58 80 8 80H56C60.42 80 64 76.42 64 72V8Z" fill="#7C8A99"/>
-                    <text x="32" y="36" textAnchor="middle" fill="white" fontSize="10" fontWeight="500">Kids (5-8)</text>
+                  <svg width="70" height="80" viewBox="0 0 70 80" fill="none">
+                    <path d="M0 0C0 38.66 31.34 70 70 70V80H45V70H25V80H0V0Z" fill="#7C8A99"/>
+                    <text x="28" y="50" textAnchor="middle" fill="white" fontSize="10" fontWeight="500">Kids (5-8)</text>
                   </svg>
                 </div>
                 <p className="text-foreground">
@@ -110,12 +110,12 @@ const RocketSandbox = () => {
                 </p>
               </div>
               
-              {/* Science Card - Tab on top */}
+              {/* Science Card - Quarter circle bottom-left, tab top */}
               <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(139, 169, 131, 0.2)' }}>
                 <div className="flex-shrink-0">
-                  <svg width="64" height="80" viewBox="0 0 64 80" fill="none">
-                    <path d="M0 72C0 76.42 3.58 80 8 80H56C60.42 80 64 76.42 64 72V32C64 32 56 32 56 24C56 16 64 16 64 16V8C64 3.58 60.42 0 56 0H8C3.58 0 0 3.58 0 8V72Z" fill="#8BA983"/>
-                    <text x="32" y="48" textAnchor="middle" fill="white" fontSize="11" fontWeight="500">Science</text>
+                  <svg width="70" height="80" viewBox="0 0 70 80" fill="none">
+                    <path d="M70 80C70 41.34 38.66 10 0 10V0H25V10H45V0H70V80Z" fill="#8BA983"/>
+                    <text x="42" y="45" textAnchor="middle" fill="white" fontSize="11" fontWeight="500">Science</text>
                   </svg>
                 </div>
                 <p className="text-foreground">
@@ -123,13 +123,13 @@ const RocketSandbox = () => {
                 </p>
               </div>
               
-              {/* Maker Culture Card - Tab on left */}
+              {/* Maker Culture Card - Quarter circle bottom-right, tab top */}
               <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(255, 182, 193, 0.25)' }}>
                 <div className="flex-shrink-0">
-                  <svg width="80" height="64" viewBox="0 0 80 64" fill="none">
-                    <path d="M80 56C80 60.42 76.42 64 72 64H32C32 64 32 56 24 56C16 56 16 64 16 64H8C3.58 64 0 60.42 0 56V8C0 3.58 3.58 0 8 0H72C76.42 0 80 3.58 80 8V24C80 24 72 24 72 32C72 40 80 40 80 40V56Z" fill="#E86C3A"/>
-                    <text x="40" y="30" textAnchor="middle" fill="white" fontSize="9" fontWeight="500">Maker</text>
-                    <text x="40" y="42" textAnchor="middle" fill="white" fontSize="9" fontWeight="500">Culture</text>
+                  <svg width="70" height="80" viewBox="0 0 70 80" fill="none">
+                    <path d="M0 80C0 41.34 31.34 10 70 10V0H45V10H25V0H0V80Z" fill="#E86C3A"/>
+                    <text x="28" y="40" textAnchor="middle" fill="white" fontSize="9" fontWeight="500">Maker</text>
+                    <text x="28" y="52" textAnchor="middle" fill="white" fontSize="9" fontWeight="500">Culture</text>
                   </svg>
                 </div>
                 <p className="text-foreground">
