@@ -323,6 +323,29 @@ const RocketSandbox = () => {
         </div>
       </section>
 
+      {/* Main Content */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          {/* Interaction Section */}
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-2">Prototype 1</p>
+                <h3 className="text-2xl font-bold mb-4">How would young kids interact with these new toys?</h3>
+                <p className="text-lg leading-relaxed text-foreground">
+                  We created a simple Monster Stacking game to observe children interacting with the Sifteo Cubes. Our
+                  playtest at the Children’s Museum in Pittsburgh revealed that young kids quickly grasped how to play
+                  with these cubes.{" "}
+                </p>
+              </div>
+              <div className="flex-1">
+                <img src={rocketPrototype1} alt="Children playing with Sifteo Cubes at museum" className="rounded-lg shadow-md w-full" />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
       {/* Solution 2 - Easy & Fun Science */}
       <section className="mb-20 w-full">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
@@ -418,29 +441,6 @@ const RocketSandbox = () => {
           </div>
         </div>
       </section>
-
-      {/* Main Content */}
-      <div className="bg-background">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Interaction Section */}
-          <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
-              <div className="flex-1">
-                <p className="text-sm text-muted-foreground mb-2">Prototype 1</p>
-                <h3 className="text-2xl font-bold mb-4">How would young kids interact with these new toys?</h3>
-                <p className="text-lg leading-relaxed text-foreground">
-                  We created a simple Monster Stacking game to observe children interacting with the Sifteo Cubes. Our
-                  playtest at the Children’s Museum in Pittsburgh revealed that young kids quickly grasped how to play
-                  with these cubes.{" "}
-                </p>
-              </div>
-              <div className="flex-1">
-                <img src={rocketPrototype1} alt="Children playing with Sifteo Cubes at museum" className="rounded-lg shadow-md w-full" />
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
 
       {/* Scene to Run Section with Gradient Background */}
       <section
