@@ -329,11 +329,12 @@ const RocketSandbox = () => {
           <section className="mb-20">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
               <div className="flex-1">
-                <p className="text-sm text-muted-foreground mb-2">Core interaction</p>
-                <h3 className="text-2xl font-bold mb-4">Tap to customize</h3>
+                <p className="text-sm text-muted-foreground mb-2">Prototype 1</p>
+                <h3 className="text-2xl font-bold mb-4">How would young kids interact with these new toys?</h3>
                 <p className="text-lg leading-relaxed text-foreground">
-                  Children can tap on any rocket component to change its appearance, color, or functionality. The
-                  interface provides immediate visual feedback.
+                  We created a simple Monster Stacking game to observe children interacting with the Sifteo Cubes. Our
+                  playtest at the Children’s Museum in Pittsburgh revealed that young kids quickly grasped how to play
+                  with these cubes.{" "}
                 </p>
               </div>
               <div className="flex-1">
