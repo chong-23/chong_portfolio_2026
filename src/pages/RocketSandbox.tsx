@@ -135,19 +135,19 @@ const RocketSandbox = () => {
                   <span
                     style={{
                       position: "absolute",
-                      top: "18px",
-                      right: "8px",
+                      top: "20px",
+                      right: "13px",
                       width: "50px",
                       height: "36px",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
                       color: "white",
-                      fontSize: "10px",
+                      fontSize: "11px",
                       fontWeight: 500,
                     }}
                   >
-                    Kids (5-8)
+                    Kids
                   </span>
                 </div>
                 <p className="text-foreground">
