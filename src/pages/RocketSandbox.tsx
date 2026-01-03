@@ -78,8 +78,9 @@ const RocketSandbox = () => {
           <section className="mb-20">
             <h2 className="text-3xl font-bold mb-4">Challenge</h2>
             <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
-              The main challenge was to design an intuitive interface that allows young children to build and customize
-              rockets without overwhelming them with complex controls.
+              To understand these components, we visited the Children’s Museum of Pittsburgh, observing child-parent
+              interactions and maker workshops. Each element posed unique challenges, adding to the complexity of
+              integrating them seamlessly.
             </p>
 
             {/* HMW Cards Grid */}
