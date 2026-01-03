@@ -70,9 +70,6 @@ const RocketSandbox = () => {
                   engineering, and problem-solving in an engaging, hands-on environment.
                 </p>
               </div>
-              <div className="flex-1">
-                <PlaceholderImage aspectRatio="aspect-video" />
-              </div>
             </div>
           </section>
 
