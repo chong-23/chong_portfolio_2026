@@ -7,6 +7,7 @@ import rocketHeaderImage3 from "@/assets/rocket-header-image-3.png";
 import rocketHeaderBg from "@/assets/rocket-header-bg.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
+import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
 
 const PlaceholderImage = ({
   className = "",
@@ -338,7 +339,7 @@ const RocketSandbox = () => {
                 </p>
               </div>
               <div className="flex-1">
-                <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
+                <img src={rocketPrototype1} alt="Children playing with Sifteo Cubes at museum" className="rounded-lg shadow-md w-full" />
               </div>
             </div>
 
