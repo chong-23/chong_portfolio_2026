@@ -84,48 +84,53 @@ const RocketSandbox = () => {
             
             {/* HMW Cards Grid */}
             <div className="grid md:grid-cols-2 gap-6 mt-10">
-              {/* Parents Card */}
+              {/* Parents Card - Tab on right */}
               <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(255, 193, 7, 0.15)' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 rounded-tl-[32px] rounded-br-lg flex items-center justify-center text-white text-sm font-medium" style={{ backgroundColor: '#F5A623' }}>
-                    Parents
-                  </div>
+                  <svg width="80" height="64" viewBox="0 0 80 64" fill="none">
+                    <path d="M0 8C0 3.58 3.58 0 8 0H48C48 0 48 8 56 8C64 8 64 0 64 0H72C76.42 0 80 3.58 80 8V56C80 60.42 76.42 64 72 64H8C3.58 64 0 60.42 0 56V40C0 40 8 40 8 32C8 24 0 24 0 24V8Z" fill="#F5A623"/>
+                    <text x="40" y="36" textAnchor="middle" fill="white" fontSize="11" fontWeight="500">Parents</text>
+                  </svg>
                 </div>
                 <p className="text-foreground">
                   Parents and kids may think different things fun. Teaching science is also not easy. <span className="font-bold">HMW find the common fun and easy teaching experience for parents?</span>
                 </p>
               </div>
               
-              {/* Kids Card */}
+              {/* Kids Card - Tab on bottom */}
               <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(173, 216, 230, 0.3)' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 rounded-tr-[32px] rounded-bl-lg flex items-center justify-center text-white text-sm font-medium" style={{ backgroundColor: '#7C8A99' }}>
-                    Kids (5-8)
-                  </div>
+                  <svg width="64" height="80" viewBox="0 0 64 80" fill="none">
+                    <path d="M64 8C64 3.58 60.42 0 56 0H8C3.58 0 0 3.58 0 8V48C0 48 8 48 8 56C8 64 0 64 0 64V72C0 76.42 3.58 80 8 80H56C60.42 80 64 76.42 64 72V8Z" fill="#7C8A99"/>
+                    <text x="32" y="36" textAnchor="middle" fill="white" fontSize="10" fontWeight="500">Kids (5-8)</text>
+                  </svg>
                 </div>
                 <p className="text-foreground">
                   Kids at these ages don't understand, don't feel connected and don't see the process of what they are learning. <span className="font-bold">HMW make children aware of their learning?</span>
                 </p>
               </div>
               
-              {/* Science Card */}
+              {/* Science Card - Tab on top */}
               <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(139, 169, 131, 0.2)' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 rounded-bl-[32px] rounded-tr-lg flex items-center justify-center text-white text-sm font-medium" style={{ backgroundColor: '#8BA983' }}>
-                    Science
-                  </div>
+                  <svg width="64" height="80" viewBox="0 0 64 80" fill="none">
+                    <path d="M0 72C0 76.42 3.58 80 8 80H56C60.42 80 64 76.42 64 72V32C64 32 56 32 56 24C56 16 64 16 64 16V8C64 3.58 60.42 0 56 0H8C3.58 0 0 3.58 0 8V72Z" fill="#8BA983"/>
+                    <text x="32" y="48" textAnchor="middle" fill="white" fontSize="11" fontWeight="500">Science</text>
+                  </svg>
                 </div>
                 <p className="text-foreground">
                   There are so many different science content. <span className="font-bold">HMW choose the one that is simple and interesting for both parents and kids?</span>
                 </p>
               </div>
               
-              {/* Maker Culture Card */}
+              {/* Maker Culture Card - Tab on left */}
               <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(255, 182, 193, 0.25)' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 rounded-br-[32px] rounded-tl-lg flex items-center justify-center text-white text-[10px] font-medium text-center leading-tight px-1" style={{ backgroundColor: '#E86C3A' }}>
-                    Maker<br/>Culture
-                  </div>
+                  <svg width="80" height="64" viewBox="0 0 80 64" fill="none">
+                    <path d="M80 56C80 60.42 76.42 64 72 64H32C32 64 32 56 24 56C16 56 16 64 16 64H8C3.58 64 0 60.42 0 56V8C0 3.58 3.58 0 8 0H72C76.42 0 80 3.58 80 8V24C80 24 72 24 72 32C72 40 80 40 80 40V56Z" fill="#E86C3A"/>
+                    <text x="40" y="30" textAnchor="middle" fill="white" fontSize="9" fontWeight="500">Maker</text>
+                    <text x="40" y="42" textAnchor="middle" fill="white" fontSize="9" fontWeight="500">Culture</text>
+                  </svg>
                 </div>
                 <p className="text-foreground">
                   Most of maker culture is based on craftsmanship. <span className="font-bold">HMW create a digital experience of it?</span>
