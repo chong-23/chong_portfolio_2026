@@ -90,7 +90,7 @@ const RocketSandbox = () => {
                   <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
                     <path d="M92.5 0C41.4137 0 0 41.4137 0 92.5H29.125V102.5H62.875V92.5H92.5V61H82.75V31.25H92.5V0Z" fill="#FBB020"/>
                   </svg>
-                  <span className="absolute inset-0 flex items-center justify-center text-white text-[11px] font-medium pr-2 pb-3">Parents</span>
+                  <span className="absolute top-0 left-0 right-[10px] bottom-[18px] flex items-center justify-center text-white text-[11px] font-medium">Parents</span>
                 </div>
                 <p className="text-foreground">
                   Parents and kids may think different things fun. Teaching science is also not easy. <span className="font-bold">HMW find the common fun and easy teaching experience for parents?</span>
@@ -103,7 +103,7 @@ const RocketSandbox = () => {
                   <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
                     <path d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z" fill="#7C8A99"/>
                   </svg>
-                  <span className="absolute inset-0 flex items-center justify-center text-white text-[10px] font-medium pl-2 pt-1">Kids (5-8)</span>
+                  <span className="absolute top-[10px] left-0 right-0 bottom-0 flex items-center justify-center text-white text-[10px] font-medium">Kids (5-8)</span>
                 </div>
                 <p className="text-foreground">
                   Kids at these ages don't understand, don't feel connected and don't see the process of what they are learning. <span className="font-bold">HMW make children aware of their learning?</span>
@@ -116,7 +116,7 @@ const RocketSandbox = () => {
                   <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
                     <path d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z" fill="#8BA983"/>
                   </svg>
-                  <span className="absolute inset-0 flex items-center justify-center text-white text-[11px] font-medium pr-2 pb-1">Science</span>
+                  <span className="absolute top-0 left-[10px] right-0 bottom-[10px] flex items-center justify-center text-white text-[11px] font-medium">Science</span>
                 </div>
                 <p className="text-foreground">
                   There are so many different science content. <span className="font-bold">HMW choose the one that is simple and interesting for both parents and kids?</span>
@@ -129,7 +129,7 @@ const RocketSandbox = () => {
                   <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
                     <path d="M0.5 103C51.5863 103 93 61.5863 93 10.5H63.875V0.5H30.125V10.5H0.5V42H10.25V71.75H0.5V103Z" fill="#E86C3A"/>
                   </svg>
-                  <span className="absolute inset-0 flex flex-col items-center justify-center text-white text-[9px] font-medium pl-2 pt-3 leading-tight">
+                  <span className="absolute top-[18px] left-[10px] right-0 bottom-0 flex flex-col items-center justify-center text-white text-[9px] font-medium leading-tight">
                     <span>Maker</span>
                     <span>Culture</span>
                   </span>
