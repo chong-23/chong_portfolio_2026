@@ -48,7 +48,7 @@ const RocketSandbox = () => {
                 <img 
                   src={rocketHeaderImage3} 
                   alt="Rocket Sandbox game launch scene" 
-                  className="w-[400px] h-auto rounded-2xl shadow-2xl"
+                  className="w-[400px] h-auto rounded-2xl"
                 />
               </div>
             </div>
