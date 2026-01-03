@@ -76,27 +76,60 @@ const RocketSandbox = () => {
 
           {/* Challenge Section */}
           <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-              <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4">Challenge</h2>
-                <p className="text-lg leading-relaxed text-foreground mb-6">
-                  The main challenge was to design an intuitive interface that allows young children to build and
-                  customize rockets without overwhelming them with complex controls.
-                </p>
-                <div className="space-y-4">
-                  <p className="text-lg leading-relaxed text-foreground">
-                    • How can we make rocket building accessible for young learners?
-                  </p>
-                  <p className="text-lg leading-relaxed text-foreground">
-                    • How can we connect physical devices with digital experiences?
-                  </p>
-                  <p className="text-lg leading-relaxed text-foreground">
-                    • How can we make the learning process fun and rewarding?
-                  </p>
+            <h2 className="text-3xl font-bold mb-4">Challenge</h2>
+            <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
+              The main challenge was to design an intuitive interface that allows young children to build and
+              customize rockets without overwhelming them with complex controls.
+            </p>
+            
+            {/* HMW Cards Grid */}
+            <div className="grid md:grid-cols-2 gap-6 mt-10">
+              {/* Parents Card */}
+              <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(255, 193, 7, 0.15)' }}>
+                <div className="flex-shrink-0">
+                  <div className="w-16 h-16 rounded-tl-[32px] rounded-br-lg flex items-center justify-center text-white text-sm font-medium" style={{ backgroundColor: '#F5A623' }}>
+                    Parents
+                  </div>
                 </div>
+                <p className="text-foreground">
+                  Parents and kids may think different things fun. Teaching science is also not easy. <span className="font-bold">HMW find the common fun and easy teaching experience for parents?</span>
+                </p>
               </div>
-              <div className="flex-1">
-                <PlaceholderImage aspectRatio="aspect-video" />
+              
+              {/* Kids Card */}
+              <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(173, 216, 230, 0.3)' }}>
+                <div className="flex-shrink-0">
+                  <div className="w-16 h-16 rounded-tr-[32px] rounded-bl-lg flex items-center justify-center text-white text-sm font-medium" style={{ backgroundColor: '#7C8A99' }}>
+                    Kids (5-8)
+                  </div>
+                </div>
+                <p className="text-foreground">
+                  Kids at these ages don't understand, don't feel connected and don't see the process of what they are learning. <span className="font-bold">HMW make children aware of their learning?</span>
+                </p>
+              </div>
+              
+              {/* Science Card */}
+              <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(139, 169, 131, 0.2)' }}>
+                <div className="flex-shrink-0">
+                  <div className="w-16 h-16 rounded-bl-[32px] rounded-tr-lg flex items-center justify-center text-white text-sm font-medium" style={{ backgroundColor: '#8BA983' }}>
+                    Science
+                  </div>
+                </div>
+                <p className="text-foreground">
+                  There are so many different science content. <span className="font-bold">HMW choose the one that is simple and interesting for both parents and kids?</span>
+                </p>
+              </div>
+              
+              {/* Maker Culture Card */}
+              <div className="rounded-xl p-6 flex gap-4" style={{ backgroundColor: 'rgba(255, 182, 193, 0.25)' }}>
+                <div className="flex-shrink-0">
+                  <div className="w-16 h-16 rounded-br-[32px] rounded-tl-lg flex items-center justify-center text-white text-[10px] font-medium text-center leading-tight px-1" style={{ backgroundColor: '#E86C3A' }}>
+                    Maker<br/>Culture
+                  </div>
+                </div>
+                <p className="text-foreground">
+                  Most of maker culture is based on craftsmanship. <span className="font-bold">HMW create a digital experience of it?</span>
+                </p>
               </div>
             </div>
           </section>
