@@ -311,9 +311,13 @@ const RocketSandbox = () => {
               small cubes display graphics on their interface, presenting an engaging interactive solution.
             </p>
             {/* Cube images */}
-            <div className="flex justify-center items-center gap-8 mt-8">
-              <img src={cubeTouchImg} alt="Cube touch interaction" className="max-w-[300px] h-auto" />
-              <img src={cubeConnectImg} alt="Cube connect interaction" className="max-w-[400px] h-auto" />
+            <div className="grid grid-cols-2 gap-8 mt-8">
+              <div className="flex justify-center items-center">
+                <img src={cubeTouchImg} alt="Cube touch interaction" className="max-w-[300px] h-auto" />
+              </div>
+              <div className="flex justify-center items-center">
+                <img src={cubeConnectImg} alt="Cube connect interaction" className="max-w-[400px] h-auto" />
+              </div>
             </div>
           </div>
         </div>
