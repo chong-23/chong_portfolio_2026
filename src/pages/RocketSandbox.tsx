@@ -5,6 +5,8 @@ import rocketHeaderImage from "@/assets/rocket-header-image.png";
 import rocketHeaderImage2 from "@/assets/rocket-header-image-2.png";
 import rocketHeaderImage3 from "@/assets/rocket-header-image-3.png";
 import rocketHeaderBg from "@/assets/rocket-header-bg.png";
+import cubeConnectImg from "@/assets/cube_connect.png";
+import cubeTouchImg from "@/assets/cube_touch.png";
 
 const PlaceholderImage = ({
   className = "",
@@ -308,6 +310,11 @@ const RocketSandbox = () => {
               In our search for interactive tools, we discovered Sifteo Cubes—a digital Lego block alternative. These
               small cubes display graphics on their interface, presenting an engaging interactive solution.
             </p>
+            {/* Cube images */}
+            <div className="flex justify-center items-center gap-8 mt-8">
+              <img src={cubeTouchImg} alt="Cube touch interaction" className="max-w-[300px] h-auto" />
+              <img src={cubeConnectImg} alt="Cube connect interaction" className="max-w-[400px] h-auto" />
+            </div>
           </div>
         </div>
       </section>
