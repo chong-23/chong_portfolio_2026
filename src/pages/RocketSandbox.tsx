@@ -171,8 +171,8 @@ const RocketSandbox = () => {
                   <span
                     style={{
                       position: "absolute",
-                      bottom: "8px",
-                      left: "8px",
+                      bottom: "16px",
+                      left: "16px",
                       width: "50px",
                       height: "36px",
                       display: "flex",
@@ -209,8 +209,8 @@ const RocketSandbox = () => {
                   <span
                     style={{
                       position: "absolute",
-                      bottom: "18px",
-                      right: "12px",
+                      bottom: "22px",
+                      right: "15px",
                       width: "42px",
                       height: "36px",
                       display: "flex",
@@ -218,7 +218,7 @@ const RocketSandbox = () => {
                       alignItems: "center",
                       justifyContent: "center",
                       color: "white",
-                      fontSize: "9px",
+                      fontSize: "11px",
                       fontWeight: 500,
                       lineHeight: 1.2,
                     }}
