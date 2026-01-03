@@ -38,7 +38,7 @@ const RocketSandbox = () => {
               {/* Title Section */}
               <div className="text-left flex-1">
                 <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight text-white">Rocket Sandbox</h1>
-                <p className="text-xl text-white/90 border-b-2 border-white/60 pb-1 inline-block">
+                <p className="text-xl text-white/90">
                   K12 Education Game · Connected Devices
                 </p>
               </div>
