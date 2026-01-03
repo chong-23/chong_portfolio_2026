@@ -245,17 +245,10 @@ const RocketSandbox = () => {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
           <div className="text-center mb-6">
-            <h2 className="text-2xl font-bold mb-4">Solution approach</h2>
+            <h2 className="text-2xl font-bold mb-4">The solution of creating a digital maker experience for kids</h2>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
-              Creating a simple, intuitive interface that kids can use to{" "}
-              <span className="font-bold" style={{ color: "#FE2B84" }}>
-                tap to change graphics
-              </span>{" "}
-              and{" "}
-              <span className="font-bold" style={{ color: "#FE2B84" }}>
-                connect multiple components
-              </span>{" "}
-              together seamlessly.
+              In our search for interactive tools, we discovered Sifteo Cubes—a digital Lego block alternative. These
+              small cubes display graphics on their interface, presenting an engaging interactive solution.
             </p>
           </div>
         </div>
