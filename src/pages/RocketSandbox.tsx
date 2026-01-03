@@ -61,15 +61,13 @@ const RocketSandbox = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Background Section */}
           <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-              <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4">Background</h2>
-                <p className="text-lg leading-relaxed text-foreground mb-6">
-                  Rocket Sandbox allows children to experiment with building rockets and launching them into space. 
-                  By designing and testing their creations, students learn fundamental principles of physics, 
-                  engineering, and problem-solving in an engaging, hands-on environment.
-                </p>
-              </div>
+            <div className="max-w-[700px]">
+              <h2 className="text-3xl font-bold mb-4">Background</h2>
+              <p className="text-lg leading-relaxed text-foreground mb-6">
+                Rocket Sandbox allows children to experiment with building rockets and launching them into space. 
+                By designing and testing their creations, students learn fundamental principles of physics, 
+                engineering, and problem-solving in an engaging, hands-on environment.
+              </p>
             </div>
           </section>
 
