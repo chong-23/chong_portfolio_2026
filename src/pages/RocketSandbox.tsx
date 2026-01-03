@@ -312,11 +312,13 @@ const RocketSandbox = () => {
             </p>
             {/* Cube images */}
             <div className="grid grid-cols-2 gap-8 mt-8">
-              <div className="flex justify-center items-center">
+              <div className="flex flex-col justify-center items-center">
                 <img src={cubeTouchImg} alt="Cube touch interaction" className="max-w-[300px] h-auto" />
+                <p className="mt-4 text-muted-foreground">Tap to change the graphic</p>
               </div>
-              <div className="flex justify-center items-center">
+              <div className="flex flex-col justify-center items-center">
                 <img src={cubeConnectImg} alt="Cube connect interaction" className="max-w-[400px] h-auto" />
+                <p className="mt-4 text-muted-foreground">Connect multiple ones</p>
               </div>
             </div>
           </div>
