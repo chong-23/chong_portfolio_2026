@@ -408,7 +408,7 @@ const RocketSandbox = () => {
                 </div>
               </div>
               {/* Science Puzzle Piece - below Parents */}
-              <div className="relative w-[78px] h-[70px]" style={{ marginTop: "-8px", marginRight: "68px" }}>
+              <div className="relative w-[78px] h-[70px]" style={{ marginTop: "-8px", marginRight: "66px" }}>
                 <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
                   <path
                     d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z"
