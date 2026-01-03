@@ -245,6 +245,64 @@ const RocketSandbox = () => {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
           <div className="text-center mb-6">
+            {/* Kids + Maker Culture Puzzle Pieces */}
+            <div className="flex justify-center items-center gap-0 mb-6">
+              {/* Kids Puzzle Piece */}
+              <div className="relative w-[78px] h-[70px]">
+                <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                  <path
+                    d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z"
+                    fill="#7C8A99"
+                  />
+                </svg>
+                <span
+                  style={{
+                    position: "absolute",
+                    top: "20px",
+                    right: "13px",
+                    width: "50px",
+                    height: "36px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "white",
+                    fontSize: "11px",
+                    fontWeight: 500,
+                  }}
+                >
+                  Kids
+                </span>
+              </div>
+              {/* Maker Culture Puzzle Piece */}
+              <div className="relative w-[70px] h-[78px]" style={{ marginLeft: "-8px" }}>
+                <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                  <path
+                    d="M0.5 103C51.5863 103 93 61.5863 93 10.5H63.875V0.5H30.125V10.5H0.5V42H10.25V71.75H0.5V103Z"
+                    fill="#E86C3A"
+                  />
+                </svg>
+                <span
+                  style={{
+                    position: "absolute",
+                    bottom: "22px",
+                    right: "15px",
+                    width: "42px",
+                    height: "36px",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "white",
+                    fontSize: "11px",
+                    fontWeight: 500,
+                    lineHeight: 1.2,
+                  }}
+                >
+                  <span>Maker</span>
+                  <span>Culture</span>
+                </span>
+              </div>
+            </div>
             <h2 className="text-2xl font-bold mb-4">The solution of creating a digital maker experience for kids</h2>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
               In our search for interactive tools, we discovered Sifteo Cubes—a digital Lego block alternative. These
