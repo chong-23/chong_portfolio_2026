@@ -342,37 +342,6 @@ const RocketSandbox = () => {
                 <img src={rocketPrototype1} alt="Children playing with Sifteo Cubes at museum" className="rounded-lg shadow-md w-full" />
               </div>
             </div>
-
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-              <div className="flex-1">
-                <p className="text-sm text-muted-foreground mb-2">Building mechanics</p>
-                <h3 className="text-2xl font-bold mb-4">Connect components</h3>
-                <p className="text-lg leading-relaxed text-foreground">
-                  Components snap together naturally using a drag-and-drop interface. Visual guides help children
-                  understand how pieces fit together.
-                </p>
-              </div>
-              <div className="flex-1">
-                <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
-              </div>
-            </div>
-          </section>
-
-          {/* Library & Editor Section */}
-          <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-              <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4">Library & Editor</h2>
-                <p className="text-lg leading-relaxed text-foreground mb-6">
-                  The design system helps children tap and find the parts they want to build a rocket. The grid-based
-                  editor works with a line drawing tool, allowing children to explore a new world with a library of
-                  parts.
-                </p>
-              </div>
-              <div className="flex-1">
-                <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
-              </div>
-            </div>
           </section>
         </div>
       </div>
