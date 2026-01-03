@@ -248,7 +248,7 @@ const RocketSandbox = () => {
             {/* Kids + Maker Culture Puzzle Pieces */}
             <div className="flex flex-col justify-center items-center gap-0 mb-6">
               {/* Kids Puzzle Piece */}
-              <div className="relative w-[78px] h-[70px]">
+              <div className="relative w-[78px] h-[70px]" style={{ marginLeft: "-20px" }}>
                 <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
                   <path
                     d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z"
@@ -274,7 +274,7 @@ const RocketSandbox = () => {
                 </span>
               </div>
               {/* Maker Culture Puzzle Piece */}
-              <div className="relative w-[70px] h-[78px]" style={{ marginLeft: "-8px" }}>
+              <div className="relative w-[70px] h-[78px]" style={{ marginLeft: "20px", marginTop: "-8px" }}>
                 <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
                   <path
                     d="M0.5 103C51.5863 103 93 61.5863 93 10.5H63.875V0.5H30.125V10.5H0.5V42H10.25V71.75H0.5V103Z"
