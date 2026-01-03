@@ -240,11 +240,8 @@ const RocketSandbox = () => {
         </div>
       </div>
 
-      {/* Solution Highlight Section with Full-Width Gradient Background */}
-      <section
-        className="mb-20 w-full"
-        style={{ background: "linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}
-      >
+      {/* Solution Highlight Section */}
+      <section className="mb-20 w-full">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
           <div className="text-center mb-6">
             {/* Kids + Maker Culture Puzzle Pieces */}
