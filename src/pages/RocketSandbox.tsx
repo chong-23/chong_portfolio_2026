@@ -552,19 +552,17 @@ const RocketSandbox = () => {
             id="how-to-play-carousel"
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
-            <div className="flex gap-6 min-w-max items-stretch">
+            <div className="flex gap-6 min-w-max items-start">
               {/* Responsive spacer — matches container padding */}
               <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
               
               {/* Card 1 */}
-              <div
-                className="p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
-              >
-                <div className="flex-1 flex items-center justify-center mb-4">
+              <div className="w-[500px] flex flex-col flex-shrink-0">
+                <div className="mb-4">
                   <img
                     src={rocketPlay1}
                     alt="Player selecting rocket parts from cubes"
-                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                    className="w-full object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
@@ -573,14 +571,12 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 2 */}
-              <div
-                className="p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
-              >
-                <div className="flex-1 flex items-center justify-center mb-4">
+              <div className="w-[500px] flex flex-col flex-shrink-0">
+                <div className="mb-4">
                   <img
                     src={rocketPlay2}
                     alt="Hands putting rocket cubes together"
-                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                    className="w-full object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
@@ -589,14 +585,12 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 3 */}
-              <div
-                className="p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
-              >
-                <div className="flex-1 flex items-center justify-center mb-4">
+              <div className="w-[500px] flex flex-col flex-shrink-0">
+                <div className="mb-4">
                   <img
                     src={rocketPlay3}
                     alt="Hand pressing the launch button"
-                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                    className="w-full object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
@@ -605,14 +599,12 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 4 */}
-              <div
-                className="p-6 w-[780px] h-[500px] flex flex-col flex-shrink-0"
-              >
-                <div className="flex-1 flex items-center justify-center mb-4">
+              <div className="w-[780px] flex flex-col flex-shrink-0">
+                <div className="mb-4">
                   <img
                     src={rocketPlay4}
                     alt="Rocket launching on the big screen with atmosphere layers"
-                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                    className="w-full object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
@@ -621,14 +613,12 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 5 */}
-              <div
-                className="p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
-              >
-                <div className="flex-1 flex items-center justify-center mb-4">
+              <div className="w-[500px] flex flex-col flex-shrink-0">
+                <div className="mb-4">
                   <img
                     src={rocketPlay5}
                     alt="Rocket reaching the moon in space"
-                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                    className="w-full object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
