@@ -11,6 +11,11 @@ import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
 import thrustsImage from "@/assets/thrusts.png";
 import fueltanksImage from "@/assets/fueltanks.png";
 import atmosphereImage from "@/assets/atmosphere.png";
+import rocketPlay1 from "@/assets/rocket-play-1.png";
+import rocketPlay2 from "@/assets/rocket-play-2.png";
+import rocketPlay3 from "@/assets/rocket-play-3.png";
+import rocketPlay4 from "@/assets/rocket-play-4.png";
+import rocketPlay5 from "@/assets/rocket-play-5.png";
 
 const PlaceholderImage = ({
   className = "",
@@ -500,39 +505,162 @@ const RocketSandbox = () => {
           {/* How to Play Section */}
           <section className="mb-20">
             <h2 className="text-3xl font-bold mb-4">How to play</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-12">
-              The game flow is designed to guide children through four simple steps.
+            <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
+              The game flow is designed to guide children through simple steps.
             </p>
-
-            <div className="grid md:grid-cols-4 gap-8">
-              <div>
-                <h3 className="text-xl font-bold mb-2">Design</h3>
-                <p className="text-lg leading-relaxed text-foreground mb-4">
-                  Create your rocket with the parts library
-                </p>
-                <PlaceholderImage aspectRatio="aspect-square" className="shadow-md" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">Load</h3>
-                <p className="text-lg leading-relaxed text-foreground mb-4">
-                  Transfer your design to the physical device
-                </p>
-                <PlaceholderImage aspectRatio="aspect-square" className="shadow-md" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">Play</h3>
-                <p className="text-lg leading-relaxed text-foreground mb-4">
-                  Connect the controller and launch your rocket
-                </p>
-                <PlaceholderImage aspectRatio="aspect-square" className="shadow-md" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">Test</h3>
-                <p className="text-lg leading-relaxed text-foreground mb-4">Watch and control your rocket in space</p>
-                <PlaceholderImage aspectRatio="aspect-square" className="shadow-md" />
-              </div>
-            </div>
           </section>
+        </div>
+      </div>
+
+      {/* How to Play Carousel Navigation */}
+      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+        <div className="flex justify-end items-center gap-4 mb-6">
+          <button
+            className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+            onClick={() => {
+              const container = document.getElementById("how-to-play-carousel");
+              if (container) {
+                container.scrollBy({ left: -800, behavior: "smooth" });
+              }
+            }}
+          >
+            <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button
+            className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+            onClick={() => {
+              const container = document.getElementById("how-to-play-carousel");
+              if (container) {
+                container.scrollBy({ left: 800, behavior: "smooth" });
+              }
+            }}
+          >
+            <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* How to Play Horizontal Scrolling Carousel */}
+      <section className="mb-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div
+            className="overflow-x-auto pb-4 scrollbar-hide mx-[calc(50%-50vw)]"
+            id="how-to-play-carousel"
+            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          >
+            <div className="flex gap-6 min-w-max items-stretch">
+              {/* Responsive spacer — matches container padding */}
+              <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
+              
+              {/* Card 1 */}
+              <div
+                className="rounded-xl p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
+                style={{
+                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
+                }}
+              >
+                <div className="flex-1 flex items-center justify-center mb-4">
+                  <img
+                    src={rocketPlay1}
+                    alt="Player selecting rocket parts from cubes"
+                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                  />
+                </div>
+                <p className="text-base leading-relaxed text-foreground">
+                  The player has 9 cubes that present three parts of rockets: payload, fuel tank and thrust. They are also able to choose different types for each part.
+                </p>
+              </div>
+
+              {/* Card 2 */}
+              <div
+                className="rounded-xl p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
+                style={{
+                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
+                }}
+              >
+                <div className="flex-1 flex items-center justify-center mb-4">
+                  <img
+                    src={rocketPlay2}
+                    alt="Hands putting rocket cubes together"
+                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                  />
+                </div>
+                <p className="text-base leading-relaxed text-foreground">
+                  After the player choose the rocket parts, they can put cubes together.
+                </p>
+              </div>
+
+              {/* Card 3 */}
+              <div
+                className="rounded-xl p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
+                style={{
+                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
+                }}
+              >
+                <div className="flex-1 flex items-center justify-center mb-4">
+                  <img
+                    src={rocketPlay3}
+                    alt="Hand pressing the launch button"
+                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                  />
+                </div>
+                <p className="text-base leading-relaxed text-foreground">
+                  If they are happy with the rocket, they can press a launch button.
+                </p>
+              </div>
+
+              {/* Card 4 */}
+              <div
+                className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col flex-shrink-0"
+                style={{
+                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
+                }}
+              >
+                <div className="flex-1 flex items-center justify-center mb-4">
+                  <img
+                    src={rocketPlay4}
+                    alt="Rocket launching on the big screen with atmosphere layers"
+                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                  />
+                </div>
+                <p className="text-base leading-relaxed text-foreground">
+                  The rocket would be reflected on the big screen and start to take off. The player can observe how far the rocket can reach, and how weight, fuel and thrust relate to each other.
+                </p>
+              </div>
+
+              {/* Card 5 */}
+              <div
+                className="rounded-xl p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
+                style={{
+                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
+                }}
+              >
+                <div className="flex-1 flex items-center justify-center mb-4">
+                  <img
+                    src={rocketPlay5}
+                    alt="Rocket reaching the moon in space"
+                    className="h-full w-auto max-h-[350px] object-contain rounded-lg"
+                  />
+                </div>
+                <p className="text-base leading-relaxed text-foreground">
+                  The goal is to reach the moon.
+                </p>
+              </div>
+
+              {/* End spacer */}
+              <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content Continued */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
 
           {/* Research Section */}
           <section className="mb-20">
