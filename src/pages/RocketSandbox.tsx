@@ -599,7 +599,7 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 4 */}
-              <div className="flex flex-col flex-shrink-0">
+              <div className="flex flex-col flex-shrink-0 w-[390px]">
                 <div className="mb-4 h-[250px]">
                   <img
                     src={rocketPlay4}
