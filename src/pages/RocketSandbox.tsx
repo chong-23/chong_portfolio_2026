@@ -442,6 +442,24 @@ const RocketSandbox = () => {
         </div>
       </section>
 
+      {/* New Section - Duplicated Layout */}
+      <section className="mb-20 w-full">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex-1">
+              <p className="text-sm text-muted-foreground mb-2">Prototype 2</p>
+              <h3 className="text-2xl font-bold mb-4">Section title here</h3>
+              <p className="text-lg leading-relaxed text-foreground">
+                Section description text goes here.
+              </p>
+            </div>
+            <div className="flex-1">
+              <PlaceholderImage aspectRatio="aspect-video" className="rounded-lg shadow-md w-full" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Scene to Run Section with Gradient Background */}
       <section
         className="mb-20 w-full"
