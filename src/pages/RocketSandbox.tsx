@@ -10,6 +10,7 @@ import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
 import thrustsImage from "@/assets/thrusts.png";
 import fueltanksImage from "@/assets/fueltanks.png";
+import atmosphereImage from "@/assets/atmosphere.png";
 
 const PlaceholderImage = ({
   className = "",
@@ -485,16 +486,8 @@ const RocketSandbox = () => {
                 parents and kids learn together.
               </p>
             </div>
-            <div className="flex-1 flex items-center justify-center gap-8">
-              <div className="flex flex-col items-center">
-                <img src={thrustsImage} alt="Thrust power options" className="rounded-lg shadow-md" />
-                <p className="text-xl font-bold mt-4">Thrust power</p>
-              </div>
-              <span className="text-2xl font-medium text-muted-foreground">vs</span>
-              <div className="flex flex-col items-center">
-                <img src={fueltanksImage} alt="Fuel weight options" className="rounded-lg shadow-md" />
-                <p className="text-xl font-bold mt-4">Fuel weight</p>
-              </div>
+            <div className="flex-1 flex items-center justify-center">
+              <img src={atmosphereImage} alt="Atmosphere layers showing outer space, thermosphere, troposphere and ground" className="rounded-lg shadow-md max-h-[500px]" />
             </div>
           </div>
         </div>
