@@ -508,9 +508,6 @@ const RocketSandbox = () => {
           {/* How to Play Section */}
           <section className="mb-20">
             <h2 className="text-3xl font-bold mb-4">How to play</h2>
-            <p className="text-lg leading-relaxed text-foreground mb-6 max-w-[700px]">
-              The game flow is designed to guide children through simple steps.
-            </p>
           </section>
         </div>
       </div>
