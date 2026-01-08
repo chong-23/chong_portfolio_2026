@@ -557,7 +557,7 @@ const RocketSandbox = () => {
               <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
               
               {/* Card 1 */}
-              <div className="w-[500px] flex flex-col flex-shrink-0">
+              <div className="w-[250px] flex flex-col flex-shrink-0">
                 <div className="mb-4">
                   <img
                     src={rocketPlay1}
@@ -571,7 +571,7 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 2 */}
-              <div className="w-[500px] flex flex-col flex-shrink-0">
+              <div className="w-[250px] flex flex-col flex-shrink-0">
                 <div className="mb-4">
                   <img
                     src={rocketPlay2}
@@ -585,7 +585,7 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 3 */}
-              <div className="w-[500px] flex flex-col flex-shrink-0">
+              <div className="w-[250px] flex flex-col flex-shrink-0">
                 <div className="mb-4">
                   <img
                     src={rocketPlay3}
@@ -599,7 +599,7 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 4 */}
-              <div className="w-[780px] flex flex-col flex-shrink-0">
+              <div className="w-[390px] flex flex-col flex-shrink-0">
                 <div className="mb-4">
                   <img
                     src={rocketPlay4}
@@ -613,7 +613,7 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 5 */}
-              <div className="w-[500px] flex flex-col flex-shrink-0">
+              <div className="w-[250px] flex flex-col flex-shrink-0">
                 <div className="mb-4">
                   <img
                     src={rocketPlay5}
