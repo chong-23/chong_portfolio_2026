@@ -460,8 +460,24 @@ const RocketSandbox = () => {
                 actually achieve the balance. This challenge can maintain the fun of this experience.
               </p>
             </div>
-            <div className="flex-1">
-              <PlaceholderImage aspectRatio="aspect-video" className="rounded-lg shadow-md w-full" />
+            <div className="flex-1 flex items-center justify-center gap-8">
+              <div className="flex flex-col items-center">
+                <img 
+                  src={thrustsImage} 
+                  alt="Thrust power options" 
+                  className="rounded-lg shadow-md"
+                />
+                <p className="text-xl font-bold mt-4">Thrust power</p>
+              </div>
+              <span className="text-2xl font-medium text-muted-foreground">vs</span>
+              <div className="flex flex-col items-center">
+                <img 
+                  src={fueltanksImage} 
+                  alt="Fuel weight options" 
+                  className="rounded-lg shadow-md"
+                />
+                <p className="text-xl font-bold mt-4">Fuel weight</p>
+              </div>
             </div>
           </div>
         </div>
@@ -481,24 +497,8 @@ const RocketSandbox = () => {
                 have full control over every part and can see how they interact together in the launch scene.
               </p>
             </div>
-            <div className="flex-1 flex items-center justify-center gap-8">
-              <div className="flex flex-col items-center">
-                <img 
-                  src={thrustsImage} 
-                  alt="Thrust power options" 
-                  className="rounded-lg shadow-md"
-                />
-                <p className="text-xl font-bold mt-4">Thrust power</p>
-              </div>
-              <span className="text-2xl font-medium text-muted-foreground">vs</span>
-              <div className="flex flex-col items-center">
-                <img 
-                  src={fueltanksImage} 
-                  alt="Fuel weight options" 
-                  className="rounded-lg shadow-md"
-                />
-                <p className="text-xl font-bold mt-4">Fuel weight</p>
-              </div>
+            <div className="flex-1">
+              <PlaceholderImage aspectRatio="aspect-video" />
             </div>
           </div>
         </div>
