@@ -558,11 +558,11 @@ const RocketSandbox = () => {
               
               {/* Card 1 */}
               <div className="w-[250px] flex flex-col flex-shrink-0">
-                <div className="mb-4">
+                <div className="mb-4 h-[250px]">
                   <img
                     src={rocketPlay1}
                     alt="Player selecting rocket parts from cubes"
-                    className="w-full object-contain rounded-lg"
+                    className="h-full w-auto object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
@@ -572,11 +572,11 @@ const RocketSandbox = () => {
 
               {/* Card 2 */}
               <div className="w-[250px] flex flex-col flex-shrink-0">
-                <div className="mb-4">
+                <div className="mb-4 h-[250px]">
                   <img
                     src={rocketPlay2}
                     alt="Hands putting rocket cubes together"
-                    className="w-full object-contain rounded-lg"
+                    className="h-full w-auto object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
@@ -586,11 +586,11 @@ const RocketSandbox = () => {
 
               {/* Card 3 */}
               <div className="w-[250px] flex flex-col flex-shrink-0">
-                <div className="mb-4">
+                <div className="mb-4 h-[250px]">
                   <img
                     src={rocketPlay3}
                     alt="Hand pressing the launch button"
-                    className="w-full object-contain rounded-lg"
+                    className="h-full w-auto object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
@@ -614,11 +614,11 @@ const RocketSandbox = () => {
 
               {/* Card 5 */}
               <div className="w-[250px] flex flex-col flex-shrink-0">
-                <div className="mb-4">
+                <div className="mb-4 h-[250px]">
                   <img
                     src={rocketPlay5}
                     alt="Rocket reaching the moon in space"
-                    className="w-full object-contain rounded-lg"
+                    className="h-full w-auto object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
