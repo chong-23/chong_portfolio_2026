@@ -599,12 +599,12 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 4 */}
-              <div className="w-[250px] flex flex-col flex-shrink-0">
-                <div className="mb-4">
+              <div className="flex flex-col flex-shrink-0">
+                <div className="mb-4 h-[250px]">
                   <img
                     src={rocketPlay4}
                     alt="Rocket launching on the big screen with atmosphere layers"
-                    className="w-full object-contain rounded-lg"
+                    className="h-full w-auto object-contain rounded-lg"
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
