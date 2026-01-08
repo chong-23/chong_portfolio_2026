@@ -558,10 +558,7 @@ const RocketSandbox = () => {
               
               {/* Card 1 */}
               <div
-                className="rounded-xl p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
-                style={{
-                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
-                }}
+                className="p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center mb-4">
                   <img
@@ -577,10 +574,7 @@ const RocketSandbox = () => {
 
               {/* Card 2 */}
               <div
-                className="rounded-xl p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
-                style={{
-                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
-                }}
+                className="p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center mb-4">
                   <img
@@ -596,10 +590,7 @@ const RocketSandbox = () => {
 
               {/* Card 3 */}
               <div
-                className="rounded-xl p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
-                style={{
-                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
-                }}
+                className="p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center mb-4">
                   <img
@@ -615,10 +606,7 @@ const RocketSandbox = () => {
 
               {/* Card 4 */}
               <div
-                className="rounded-xl p-6 w-[780px] h-[500px] flex flex-col flex-shrink-0"
-                style={{
-                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
-                }}
+                className="p-6 w-[780px] h-[500px] flex flex-col flex-shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center mb-4">
                   <img
@@ -634,10 +622,7 @@ const RocketSandbox = () => {
 
               {/* Card 5 */}
               <div
-                className="rounded-xl p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
-                style={{
-                  background: "linear-gradient(135deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)",
-                }}
+                className="p-6 w-[500px] h-[500px] flex flex-col flex-shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center mb-4">
                   <img
