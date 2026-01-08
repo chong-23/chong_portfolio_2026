@@ -485,7 +485,11 @@ const RocketSandbox = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
             <div className="flex-1 flex items-center justify-center">
-              <img src={atmosphereImage} alt="Atmosphere layers showing outer space, thermosphere, troposphere and ground" className="rounded-lg shadow-md max-h-[500px]" />
+              <img
+                src={atmosphereImage}
+                alt="Atmosphere layers showing outer space, thermosphere, troposphere and ground"
+                className="rounded-lg shadow-md max-h-[500px]"
+              />
             </div>
             <div className="flex-1">
               <h3 className="text-2xl font-bold mb-4">Embed science into game goal</h3>
@@ -497,7 +501,6 @@ const RocketSandbox = () => {
           </div>
         </div>
       </section>
-
 
       {/* Main Content */}
       <div className="bg-background">
@@ -555,7 +558,7 @@ const RocketSandbox = () => {
             <div className="flex gap-6 min-w-max items-start">
               {/* Responsive spacer — matches container padding */}
               <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
-              
+
               {/* Card 1 */}
               <div className="w-[250px] flex flex-col flex-shrink-0">
                 <div className="mb-4 h-[250px]">
@@ -566,7 +569,8 @@ const RocketSandbox = () => {
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
-                  The player has 9 cubes that present three parts of rockets: payload, fuel tank and thrust. They are also able to choose different types for each part.
+                  The player has 9 cubes that present three parts of rockets: payload, fuel tank and thrust. They are
+                  also able to choose different types for each part.
                 </p>
               </div>
 
@@ -599,7 +603,7 @@ const RocketSandbox = () => {
               </div>
 
               {/* Card 4 */}
-              <div className="flex flex-col flex-shrink-0 w-[390px]">
+              <div className="flex flex-col flex-shrink-0 w-[462px]">
                 <div className="mb-4 h-[250px]">
                   <img
                     src={rocketPlay4}
@@ -608,7 +612,8 @@ const RocketSandbox = () => {
                   />
                 </div>
                 <p className="text-base leading-relaxed text-foreground">
-                  The rocket would be reflected on the big screen and start to take off. The player can observe how far the rocket can reach, and how weight, fuel and thrust relate to each other.
+                  The rocket would be reflected on the big screen and start to take off. The player can observe how far
+                  the rocket can reach, and how weight, fuel and thrust relate to each other.
                 </p>
               </div>
 
@@ -621,9 +626,7 @@ const RocketSandbox = () => {
                     className="h-full w-auto object-contain rounded-lg"
                   />
                 </div>
-                <p className="text-base leading-relaxed text-foreground">
-                  The goal is to reach the moon.
-                </p>
+                <p className="text-base leading-relaxed text-foreground">The goal is to reach the moon.</p>
               </div>
 
               {/* End spacer */}
@@ -636,7 +639,6 @@ const RocketSandbox = () => {
       {/* Main Content Continued */}
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-
           {/* Research Section */}
           <section className="mb-20">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
