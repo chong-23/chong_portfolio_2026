@@ -462,20 +462,37 @@ const RocketSandbox = () => {
             </div>
             <div className="flex-1 flex items-center justify-center gap-8">
               <div className="flex flex-col items-center">
-                <img 
-                  src={thrustsImage} 
-                  alt="Thrust power options" 
-                  className="rounded-lg shadow-md"
-                />
+                <img src={thrustsImage} alt="Thrust power options" className="rounded-lg shadow-md" />
                 <p className="text-xl font-bold mt-4">Thrust power</p>
               </div>
               <span className="text-2xl font-medium text-muted-foreground">vs</span>
               <div className="flex flex-col items-center">
-                <img 
-                  src={fueltanksImage} 
-                  alt="Fuel weight options" 
-                  className="rounded-lg shadow-md"
-                />
+                <img src={fueltanksImage} alt="Fuel weight options" className="rounded-lg shadow-md" />
+                <p className="text-xl font-bold mt-4">Fuel weight</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-20 w-full">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex-1">
+              <h3 className="text-2xl font-bold mb-4">Embed science into game goal</h3>
+              <p className="text-lg leading-relaxed text-foreground">
+                To visualize the progress, each level of the atmosphere is also presented as some science content for
+                parents and kids learn together.
+              </p>
+            </div>
+            <div className="flex-1 flex items-center justify-center gap-8">
+              <div className="flex flex-col items-center">
+                <img src={thrustsImage} alt="Thrust power options" className="rounded-lg shadow-md" />
+                <p className="text-xl font-bold mt-4">Thrust power</p>
+              </div>
+              <span className="text-2xl font-medium text-muted-foreground">vs</span>
+              <div className="flex flex-col items-center">
+                <img src={fueltanksImage} alt="Fuel weight options" className="rounded-lg shadow-md" />
                 <p className="text-xl font-bold mt-4">Fuel weight</p>
               </div>
             </div>
