@@ -493,26 +493,6 @@ const RocketSandbox = () => {
         </div>
       </section>
 
-      {/* Scene to Run Section with Gradient Background */}
-      <section
-        className="mb-20 w-full"
-        style={{ background: "linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}
-      >
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-            <div className="flex-1">
-              <h2 className="text-3xl font-bold mb-4">The scene to run</h2>
-              <p className="text-lg leading-relaxed text-foreground">
-                The design allows children to customize their rocket parts with various colors and patterns. Children
-                have full control over every part and can see how they interact together in the launch scene.
-              </p>
-            </div>
-            <div className="flex-1">
-              <PlaceholderImage aspectRatio="aspect-video" />
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Main Content */}
       <div className="bg-background">
