@@ -479,15 +479,15 @@ const RocketSandbox = () => {
       <section className="mb-20 w-full">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex-1 flex items-center justify-center">
+              <img src={atmosphereImage} alt="Atmosphere layers showing outer space, thermosphere, troposphere and ground" className="rounded-lg shadow-md max-h-[500px]" />
+            </div>
             <div className="flex-1">
               <h3 className="text-2xl font-bold mb-4">Embed science into game goal</h3>
               <p className="text-lg leading-relaxed text-foreground">
                 To visualize the progress, each level of the atmosphere is also presented as some science content for
                 parents and kids learn together.
               </p>
-            </div>
-            <div className="flex-1 flex items-center justify-center">
-              <img src={atmosphereImage} alt="Atmosphere layers showing outer space, thermosphere, troposphere and ground" className="rounded-lg shadow-md max-h-[500px]" />
             </div>
           </div>
         </div>
