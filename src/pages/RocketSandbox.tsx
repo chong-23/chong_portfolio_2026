@@ -339,7 +339,11 @@ const RocketSandbox = () => {
                 </p>
               </div>
               <div className="flex-1">
-                <img src={rocketPrototype1} alt="Children playing with Sifteo Cubes at museum" className="rounded-lg shadow-md w-full" />
+                <img
+                  src={rocketPrototype1}
+                  alt="Children playing with Sifteo Cubes at museum"
+                  className="rounded-lg shadow-md w-full"
+                />
               </div>
             </div>
           </section>
@@ -436,7 +440,8 @@ const RocketSandbox = () => {
             </div>
             <h2 className="text-2xl font-bold mb-4">The solution of the easy & fun science</h2>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
-              After searching different topics, we found rocket science can be fun and creative. The goal is to build a rocket with the cubes to reach the outer space with a balance of weight, fuel and thrust.
+              After searching different topics, we found rocket science can be fun and creative. The goal is to build a
+              rocket with the cubes to reach the outer space with a balance of weight, fuel and thrust.
             </p>
           </div>
         </div>
@@ -447,10 +452,10 @@ const RocketSandbox = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
             <div className="flex-1">
-              <p className="text-sm text-muted-foreground mb-2">Prototype 2</p>
-              <h3 className="text-2xl font-bold mb-4">Section title here</h3>
+              <h3 className="text-2xl font-bold mb-4">Easy physics for parents to teach</h3>
               <p className="text-lg leading-relaxed text-foreground">
-                Section description text goes here.
+                Balancing the weight of fuel and trust power can be easy for parents to teach, yet also challenge to
+                actually achieve the balance. This challenge can maintain the fun of this experience.
               </p>
             </div>
             <div className="flex-1">
