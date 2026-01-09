@@ -775,58 +775,6 @@ const RocketSandbox = () => {
           </section>
       </div>
 
-      {/* Main Content Continued */}
-      <div className="bg-background">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          {/* Research Section */}
-          <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-              <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4">Research</h2>
-                <h3 className="text-2xl font-bold mb-4">Would the concept work?</h3>
-                <p className="text-lg leading-relaxed text-foreground mb-6">
-                  We conducted user testing sessions with children aged 6-12 and observed their interactions with the
-                  prototype. The results showed high engagement and intuitive understanding of the building mechanics.
-                </p>
-                <div className="space-y-4">
-                  <p className="text-lg leading-relaxed text-foreground">
-                    • Children quickly understood the drag-and-drop mechanics
-                  </p>
-                  <p className="text-lg leading-relaxed text-foreground">
-                    • Visual feedback improved task completion rates
-                  </p>
-                  <p className="text-lg leading-relaxed text-foreground">
-                    • Physical device integration increased engagement
-                  </p>
-                </div>
-              </div>
-              <div className="flex-1">
-                <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-
-      {/* Impact Quote Section with Gradient Background */}
-      <section
-        className="mb-20 w-full"
-        style={{ background: "linear-gradient(128deg, rgba(181, 184, 209, 0.3) 0%, rgba(242, 242, 242, 0.3) 100%)" }}
-      >
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
-          <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4">The motion of creating, of the experience is essential</h2>
-            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-              For the first time, we combined new standards to guide kids to not just observe but{" "}
-              <span className="font-bold" style={{ color: "#FE2B84" }}>
-                experience real tasks
-              </span>
-              .
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Main Content */}
       <div className="bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
