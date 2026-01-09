@@ -20,6 +20,7 @@ import rocketPrototype2 from "@/assets/rocket-prototype-2.png";
 import smokelandConcept from "@/assets/smokeland_concept.png";
 import smokelaunchConcept from "@/assets/smokelaunchconcept.png";
 import rocketExhibit from "@/assets/rocket-exhibit.jpg";
+import rocketExhibitVisitors from "@/assets/rocket-exhibit-visitors.png";
 
 const PlaceholderImage = ({
   className = "",
@@ -820,7 +821,7 @@ const RocketSandbox = () => {
                   </p>
                 </div>
                 <div className="flex-1">
-                  <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
+                  <img src={rocketExhibitVisitors} alt="Visitors enjoying rocket exhibit" className="w-full rounded-lg shadow-md" />
                 </div>
               </div>
             </div>
