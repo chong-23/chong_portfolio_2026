@@ -795,9 +795,9 @@ const RocketSandbox = () => {
                     experience.
                   </p>
                 </div>
-                <div className="flex-1 flex flex-row gap-4">
-                  <img src={smokelandConcept} alt="Smoke landing concept" className="w-1/2 rounded-lg shadow-md" />
-                  <img src={smokelaunchConcept} alt="Smoke launch concept" className="w-1/2 rounded-lg shadow-md" />
+                <div className="flex-1 flex flex-row gap-2">
+                  <img src={smokelandConcept} alt="Smoke landing concept" className="w-1/2 h-64 object-cover rounded-lg shadow-md" />
+                  <img src={smokelaunchConcept} alt="Smoke launch concept" className="w-1/2 h-64 object-cover rounded-lg shadow-md" />
                 </div>
               </div>
 
