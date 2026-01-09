@@ -17,6 +17,8 @@ import rocketPlay3 from "@/assets/rocket-play-3.png";
 import rocketPlay4 from "@/assets/rocket-play-4.png";
 import rocketPlay5 from "@/assets/rocket-play-5.png";
 import rocketPrototype2 from "@/assets/rocket-prototype-2.png";
+import smokelandConcept from "@/assets/smokeland_concept.png";
+import smokelaunchConcept from "@/assets/smokelaunchconcept.png";
 
 const PlaceholderImage = ({
   className = "",
@@ -791,8 +793,9 @@ const RocketSandbox = () => {
                     experience.
                   </p>
                 </div>
-                <div className="flex-1">
-                  <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
+                <div className="flex-1 flex flex-col gap-4">
+                  <img src={smokelandConcept} alt="Smoke landing concept" className="w-full rounded-lg shadow-md" />
+                  <img src={smokelaunchConcept} alt="Smoke launch concept" className="w-full rounded-lg shadow-md" />
                 </div>
               </div>
 
