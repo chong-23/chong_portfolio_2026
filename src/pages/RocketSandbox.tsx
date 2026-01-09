@@ -509,7 +509,7 @@ const RocketSandbox = () => {
           {/* How to Play Section */}
           <section className="mb-20">
             <div className="flex justify-between items-center mb-6">
-              <h2 className="text-3xl font-bold">How to play</h2>
+              <h3 className="text-2xl font-bold">How to play</h3>
               <div className="flex items-center gap-4">
                 <button
                   className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
