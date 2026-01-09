@@ -780,7 +780,7 @@ const RocketSandbox = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Features Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-12">Key features</h2>
+
 
             <div className="space-y-12">
               <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
