@@ -16,6 +16,7 @@ import rocketPlay2 from "@/assets/rocket-play-2.png";
 import rocketPlay3 from "@/assets/rocket-play-3.png";
 import rocketPlay4 from "@/assets/rocket-play-4.png";
 import rocketPlay5 from "@/assets/rocket-play-5.png";
+import rocketPrototype2 from "@/assets/rocket-prototype-2.png";
 
 const PlaceholderImage = ({
   className = "",
@@ -640,7 +641,7 @@ const RocketSandbox = () => {
                 </ul>
               </div>
               <div className="flex-1">
-                <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
+                <img src={rocketPrototype2} alt="Prototype 2 playtest setup" className="rounded-lg shadow-md w-full" />
               </div>
             </div>
           </section>
