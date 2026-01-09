@@ -646,6 +646,133 @@ const RocketSandbox = () => {
             </div>
           </section>
         </div>
+
+          {/* Solution - Fun Experience Section */}
+          <section className="mb-20 w-full">
+            <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+              <div className="text-center mb-6">
+                {/* All Four Puzzle Pieces - Parents, Kids, Science, Maker Culture */}
+                <div className="flex flex-col justify-center items-center gap-0 mb-6">
+                  {/* Parents and Kids row */}
+                  <div className="flex items-end gap-0">
+                    {/* Parents Puzzle Piece */}
+                    <div className="relative w-[70px] h-[78px]">
+                      <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                        <path
+                          d="M92.5 0C41.4137 0 0 41.4137 0 92.5H29.125V102.5H62.875V92.5H92.5V61H82.75V31.25H92.5V0Z"
+                          fill="#FBB020"
+                        />
+                      </svg>
+                      <span
+                        style={{
+                          position: "absolute",
+                          top: "24px",
+                          left: "13px",
+                          width: "42px",
+                          height: "36px",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          color: "white",
+                          fontSize: "11px",
+                          fontWeight: 500,
+                        }}
+                      >
+                        Parents
+                      </span>
+                    </div>
+                    {/* Kids Puzzle Piece */}
+                    <div className="relative w-[78px] h-[70px]" style={{ marginLeft: "-8px", marginBottom: "8px" }}>
+                      <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                        <path
+                          d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z"
+                          fill="#7C8A99"
+                        />
+                      </svg>
+                      <span
+                        style={{
+                          position: "absolute",
+                          top: "20px",
+                          right: "13px",
+                          width: "50px",
+                          height: "36px",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          color: "white",
+                          fontSize: "11px",
+                          fontWeight: 500,
+                        }}
+                      >
+                        Kids
+                      </span>
+                    </div>
+                  </div>
+                  {/* Science and Maker Culture row */}
+                  <div className="flex items-start gap-0" style={{ marginTop: "-8px" }}>
+                    {/* Science Puzzle Piece */}
+                    <div className="relative w-[78px] h-[70px]" style={{ marginRight: "-8px" }}>
+                      <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                        <path
+                          d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z"
+                          fill="#8BA983"
+                        />
+                      </svg>
+                      <span
+                        style={{
+                          position: "absolute",
+                          bottom: "16px",
+                          left: "16px",
+                          width: "50px",
+                          height: "36px",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          color: "white",
+                          fontSize: "11px",
+                          fontWeight: 500,
+                        }}
+                      >
+                        Science
+                      </span>
+                    </div>
+                    {/* Maker Culture Puzzle Piece */}
+                    <div className="relative w-[70px] h-[78px]">
+                      <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                        <path
+                          d="M0 103C51.0863 103 92.5 61.5863 92.5 10.5H63.375V0.5H29.625V10.5H0V42H9.75V71.75H0V103Z"
+                          fill="#E87A5D"
+                        />
+                      </svg>
+                      <span
+                        style={{
+                          position: "absolute",
+                          bottom: "20px",
+                          right: "8px",
+                          width: "54px",
+                          height: "36px",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          color: "white",
+                          fontSize: "10px",
+                          fontWeight: 500,
+                          textAlign: "center",
+                          lineHeight: "1.2",
+                        }}
+                      >
+                        Maker Culture
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2 className="text-2xl font-bold mb-4">The solution of creating a fun experience to connect all</h2>
+                <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+                  For the final touch, we polished every detail to make it fun and intuitive for both parents and kids.
+                </p>
+              </div>
+            </div>
+          </section>
       </div>
 
       {/* Main Content Continued */}
