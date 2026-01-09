@@ -832,7 +832,15 @@ const RocketSandbox = () => {
             <div className="text-center">
               <p className="text-sm text-muted-foreground mb-2">One Minute Video</p>
               <h3 className="text-2xl font-bold mb-8">Do you want to build a rocket?</h3>
-              <PlaceholderImage aspectRatio="aspect-video" className="max-w-4xl mx-auto shadow-md" />
+              <div className="aspect-video max-w-4xl mx-auto shadow-md rounded-lg overflow-hidden">
+                <iframe
+                  src="https://player.vimeo.com/video/92982542"
+                  className="w-full h-full"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title="Do you want to build a rocket?"
+                />
+              </div>
             </div>
           </section>
         </div>
