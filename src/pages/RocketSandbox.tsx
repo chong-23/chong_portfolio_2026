@@ -809,7 +809,7 @@ const RocketSandbox = () => {
                   </p>
                 </div>
                 <div className="flex-1">
-                  <img src={rocketExhibit} alt="Rocket exhibit installation" className="w-full rounded-lg shadow-md" />
+                  <img src={rocketExhibit} alt="Rocket exhibit installation" className="w-full h-64 object-cover rounded-lg shadow-md" />
                 </div>
               </div>
 
@@ -821,7 +821,7 @@ const RocketSandbox = () => {
                   </p>
                 </div>
                 <div className="flex-1">
-                  <img src={rocketExhibitVisitors} alt="Visitors enjoying rocket exhibit" className="w-full rounded-lg shadow-md" />
+                  <img src={rocketExhibitVisitors} alt="Visitors enjoying rocket exhibit" className="w-full h-64 object-cover rounded-lg shadow-md" />
                 </div>
               </div>
             </div>
