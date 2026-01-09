@@ -507,9 +507,9 @@ const RocketSandbox = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* How to Play Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-4">How to play</h2>
-            <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-              <div className="flex justify-end items-center gap-4 mb-6">
+            <div className="flex justify-between items-center mb-6">
+              <h2 className="text-3xl font-bold">How to play</h2>
+              <div className="flex items-center gap-4">
                 <button
                   className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
                   onClick={() => {
@@ -535,10 +535,9 @@ const RocketSandbox = () => {
                   <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                </button>
+              </button>
               </div>
             </div>
-            <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
               <div
                 className="overflow-x-auto pb-4 scrollbar-hide mx-[calc(50%-50vw)]"
                 id="how-to-play-carousel"
@@ -622,7 +621,6 @@ const RocketSandbox = () => {
                   <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
                 </div>
               </div>
-            </div>
           </section>
         </div>
       </div>
