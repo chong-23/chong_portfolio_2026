@@ -640,8 +640,8 @@ const RocketSandbox = () => {
                   <li>Kids could easily destroy the launch button.</li>
                 </ul>
               </div>
-              <div className="flex-1">
-                <img src={rocketPrototype2} alt="Prototype 2 playtest setup" className="rounded-lg shadow-md w-full" />
+              <div className="flex-1 flex justify-center">
+                <img src={rocketPrototype2} alt="Prototype 2 playtest setup" className="rounded-lg shadow-md w-1/2" />
               </div>
             </div>
           </section>
