@@ -737,7 +737,7 @@ const RocketSandbox = () => {
                       </span>
                     </div>
                     {/* Maker Culture Puzzle Piece */}
-                    <div className="relative w-[70px] h-[78px]" style={{ marginTop: "-5px" }}>
+                    <div className="relative w-[70px] h-[78px]" style={{ marginTop: "-8px" }}>
                       <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
                         <path
                           d="M0 103C51.0863 103 92.5 61.5863 92.5 10.5H63.375V0.5H29.625V10.5H0V42H9.75V71.75H0V103Z"
