@@ -629,10 +629,15 @@ const RocketSandbox = () => {
               <div className="flex-1">
                 <p className="text-sm text-muted-foreground mb-2">Prototype 2</p>
                 <h3 className="text-2xl font-bold mb-4">Would it be fun and easy to play?</h3>
-                <p className="text-lg leading-relaxed text-foreground">
+                <p className="text-lg leading-relaxed text-foreground mb-4">
                   To verify this idea, we made another prototype. Both children and parents could understand the game
                   and had fun.
                 </p>
+                <p className="text-lg leading-relaxed text-foreground mb-2">During this playtest, we also found:</p>
+                <ul className="list-disc list-inside space-y-2 text-lg leading-relaxed text-foreground">
+                  <li>The instruction that we gave them restricted their creativity: they always constructed the same rocket;</li>
+                  <li>Kids could easily destroy the launch button.</li>
+                </ul>
               </div>
               <div className="flex-1">
                 <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
