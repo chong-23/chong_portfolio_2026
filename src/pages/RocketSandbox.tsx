@@ -867,14 +867,6 @@ const RocketSandbox = () => {
         </div>
       </section>
 
-      {/* Back to Home Link */}
-      <section className="py-8 bg-muted/50">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
-          <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            ← Back to home screen
-          </Link>
-        </div>
-      </section>
 
       <Footer variant="project" />
     </div>
