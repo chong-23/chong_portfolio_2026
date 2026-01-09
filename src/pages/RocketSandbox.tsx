@@ -622,6 +622,22 @@ const RocketSandbox = () => {
                 </div>
               </div>
           </section>
+
+          {/* New Prototype Section */}
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-2">Prototype 2</p>
+                <h3 className="text-2xl font-bold mb-4">Title goes here</h3>
+                <p className="text-lg leading-relaxed text-foreground">
+                  Description text goes here. Add your content to explain this prototype section.
+                </p>
+              </div>
+              <div className="flex-1">
+                <PlaceholderImage aspectRatio="aspect-video" className="shadow-md" />
+              </div>
+            </div>
+          </section>
         </div>
       </div>
 
