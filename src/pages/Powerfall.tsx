@@ -272,7 +272,7 @@ const Powerfall = () => {
       <section className="relative py-16 overflow-hidden">
         {/* Blurred Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center blur-md scale-110"
+          className="absolute inset-0 bg-cover bg-center blur-2xl scale-110"
           style={{ backgroundImage: `url(${powerfallVideoBg})` }}
         />
         
