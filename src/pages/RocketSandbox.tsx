@@ -21,6 +21,7 @@ import smokelandConcept from "@/assets/smokeland_concept.png";
 import smokelaunchConcept from "@/assets/smokelaunchconcept.png";
 import rocketExhibit from "@/assets/rocket-exhibit.jpg";
 import rocketExhibitVisitors from "@/assets/rocket-exhibit-visitors.png";
+import rocketVideoBg from "@/assets/rocket-video-bg.png";
 
 const PlaceholderImage = ({
   className = "",
@@ -828,10 +829,18 @@ const RocketSandbox = () => {
           </section>
 
           {/* Video Section */}
-          <section className="mb-20">
-            <div className="text-center">
-              <p className="text-sm text-muted-foreground mb-2">One Minute Video</p>
-              <h3 className="text-2xl font-bold mb-8">Do you want to build a rocket?</h3>
+          <section className="mb-20 relative py-16 -mx-6 md:-mx-12 lg:-mx-20 px-6 md:px-12 lg:px-20 overflow-hidden">
+            {/* Blurred Background Image */}
+            <div 
+              className="absolute inset-0 bg-cover bg-center blur-md scale-110"
+              style={{ backgroundImage: `url(${rocketVideoBg})` }}
+            />
+            {/* Semi-transparent Overlay */}
+            <div className="absolute inset-0 bg-black/50" />
+            
+            <div className="relative text-center z-10">
+              <p className="text-sm text-white/70 mb-2">One Minute Video</p>
+              <h3 className="text-2xl font-bold mb-8 text-white">Do you want to build a rocket?</h3>
               <div className="aspect-video max-w-4xl mx-auto shadow-md rounded-lg overflow-hidden">
                 <iframe
                   src="https://player.vimeo.com/video/92982542"
