@@ -68,6 +68,7 @@ const Index = () => {
       title: "Powerfall",
       subtitle: "Voice-control",
       imageUrl: powerfallImg,
+      link: "/powerfall",
       tag: { label: "Game", color: "#4070F4" },
     },
   ];
