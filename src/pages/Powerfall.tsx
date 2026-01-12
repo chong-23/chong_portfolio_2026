@@ -7,6 +7,7 @@ import powerfallChallenge1 from "@/assets/powerfall-challenge-1.png";
 import powerfallChallenge2 from "@/assets/powerfall-challenge-2.png";
 import powerfallChallenge3 from "@/assets/powerfall-challenge-3.png";
 import powerfallShoutDiagram from "@/assets/powerfall-shout-diagram.png";
+import powerfallSafetyInstruction from "@/assets/powerfall-safety-instruction.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -136,6 +137,30 @@ const Powerfall = () => {
               alt="Players shouting at screen to control the game" 
               className="max-w-2xl w-full mx-auto"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Survive from danger Section */}
+      <section className="py-16 w-full bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex-1">
+              <h3 className="text-2xl font-bold mb-4">Survive from danger with friends</h3>
+              <p className="text-lg leading-relaxed text-foreground">
+                To create tension between players, we designed an
+                intense scenario where two players shout in opposite
+                directions to control their navigation through
+                hazardous obstacles.
+              </p>
+            </div>
+            <div className="flex-1 flex justify-center">
+              <img 
+                src={powerfallSafetyInstruction} 
+                alt="Safety instruction showing gameplay mechanics" 
+                className="max-w-[350px] w-full rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </section>
