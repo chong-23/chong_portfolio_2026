@@ -300,7 +300,7 @@ const Powerfall = () => {
         <img src={cloudImg} alt="" className="absolute bottom-2 right-12 w-28 opacity-70" />
         
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center relative z-10">
-          <img src={chiPlayLogo} alt="CHI PLAY 2014" className="h-12 mx-auto mb-6" />
+          <img src={chiPlayLogo} alt="CHI PLAY 2014" className="h-16 mx-auto mb-6" />
           <p className="text-foreground max-w-2xl mx-auto">
             This game enters the Student Game Design Competition at the ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play (CHI PLAY) 2014.
           </p>
