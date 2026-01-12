@@ -50,15 +50,15 @@ const Powerfall = () => {
           }}
         />
 
-        <Navigation variant="light" />
+        <Navigation />
 
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 w-full">
             <div className="flex items-center justify-between w-full">
               {/* Title Section */}
               <div className="text-left flex-1">
-                <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight text-white">Powerfall</h1>
-                <p className="text-xl text-white/90">K12 Education Game · Connected Devices</p>
+                <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">Powerfall</h1>
+                <p className="text-xl">K12 Education Game · Voice-control</p>
               </div>
 
               {/* Image Section - Desktop Only */}
