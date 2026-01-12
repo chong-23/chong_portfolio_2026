@@ -293,7 +293,7 @@ const Powerfall = () => {
       </section>
 
       {/* CHI PLAY 2014 Section */}
-      <section className="py-12 relative overflow-hidden" style={{ backgroundColor: "#7ec8e3" }}>
+      <section className="py-12 relative overflow-hidden" style={{ backgroundColor: "#AAE0F9" }}>
         {/* Cloud decorations */}
         <div className="absolute top-4 left-8 w-16 h-10 bg-white/60 rounded-full blur-sm" />
         <div className="absolute top-6 left-16 w-12 h-8 bg-white/60 rounded-full blur-sm" />
