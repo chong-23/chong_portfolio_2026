@@ -8,6 +8,10 @@ import powerfallChallenge2 from "@/assets/powerfall-challenge-2.png";
 import powerfallChallenge3 from "@/assets/powerfall-challenge-3.png";
 import powerfallShoutDiagram from "@/assets/powerfall-shout-diagram.png";
 import powerfallSafetyInstruction from "@/assets/powerfall-safety-instruction.png";
+import powerfallStory1 from "@/assets/powerfall-story-1.png";
+import powerfallStory2 from "@/assets/powerfall-story-2.png";
+import powerfallStory3 from "@/assets/powerfall-story-3.png";
+import powerfallStory4 from "@/assets/powerfall-story-4.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -160,6 +164,63 @@ const Powerfall = () => {
                 alt="Safety instruction showing gameplay mechanics" 
                 className="max-w-[350px] w-full rounded-lg"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Set a hilarious scene Section */}
+      <section className="py-16 w-full" style={{ backgroundColor: "rgba(173, 216, 230, 0.3)" }}>
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-4">Set a hilarious scene</h2>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
+              To set up the fun moments, we created this nonsense story with goofy characters and exaggerated animations.
+            </p>
+          </div>
+          
+          <h3 className="text-lg font-semibold mb-6">The story</h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="flex flex-col">
+              <img 
+                src={powerfallStory1} 
+                alt="Candy Line airplane flying" 
+                className="w-full rounded-lg mb-4"
+              />
+              <p className="text-sm text-foreground">
+                2 pilots are driving an airplane, and suddenly encounter an accident.
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <img 
+                src={powerfallStory2} 
+                alt="Airplane explosion with characters escaping" 
+                className="w-full rounded-lg mb-4"
+              />
+              <p className="text-sm text-foreground">
+                The airport explodes, and they are tied to one parachute.
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <img 
+                src={powerfallStory3} 
+                alt="Characters parachuting and avoiding obstacles" 
+                className="w-full rounded-lg mb-4"
+              />
+              <p className="text-sm text-foreground">
+                To survive, they need to shout to control the parachute and avoid dangers coming to them.
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <img 
+                src={powerfallStory4} 
+                alt="Characters landing safely on beach" 
+                className="w-full rounded-lg mb-4"
+              />
+              <p className="text-sm text-foreground">
+                The parachute can take 10 hits. If they make it, they will land safely.
+              </p>
             </div>
           </div>
         </div>
