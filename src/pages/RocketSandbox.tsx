@@ -22,6 +22,7 @@ import smokelaunchConcept from "@/assets/smokelaunchconcept.png";
 import rocketExhibit from "@/assets/rocket-exhibit.jpg";
 import rocketExhibitVisitors from "@/assets/rocket-exhibit-visitors.png";
 import rocketVideoBg from "@/assets/rocket-video-bg.png";
+import nysciLogo from "@/assets/nysci-logo-white.png";
 
 const PlaceholderImage = ({
   className = "",
@@ -859,7 +860,7 @@ const RocketSandbox = () => {
       <section className="py-16 bg-[hsl(220,20%,20%)] text-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <div className="text-center mb-12">
-            <PlaceholderImage aspectRatio="aspect-[3/1]" className="w-32 mx-auto mb-4 bg-white/20" />
+            <img src={nysciLogo} alt="NYSCI Logo" className="w-24 h-24 mx-auto mb-4 object-contain" />
             <p className="text-lg text-white/70">
               This project has been funded and selected by New York Hall of Science
             </p>
