@@ -297,7 +297,6 @@ const Powerfall = () => {
       <section className="py-12 relative overflow-hidden" style={{ backgroundColor: "#AAE0F9" }}>
         {/* Cloud decorations */}
         <img src={cloudImg} alt="" className="absolute top-2 left-8 w-24 opacity-80" />
-        <img src={cloudImg} alt="" className="absolute bottom-4 left-16 w-32 opacity-70" />
         <img src={cloudImg} alt="" className="absolute bottom-2 right-12 w-28 opacity-70" />
         
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center relative z-10">
