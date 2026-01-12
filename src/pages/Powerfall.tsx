@@ -15,6 +15,7 @@ import powerfallStory4 from "@/assets/powerfall-story-4.png";
 import powerfallCharacters from "@/assets/powerfall-characters.png";
 import powerfallAnimationFeedback from "@/assets/powerfall-animation-feedback.png";
 import powerfallVideoBg from "@/assets/powerfall-video-bg.png";
+import chiPlayLogo from "@/assets/chi-play-logo.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -291,6 +292,23 @@ const Powerfall = () => {
         </div>
       </section>
 
+      {/* CHI PLAY 2014 Section */}
+      <section className="py-12 relative overflow-hidden" style={{ backgroundColor: "#7ec8e3" }}>
+        {/* Cloud decorations */}
+        <div className="absolute top-4 left-8 w-16 h-10 bg-white/60 rounded-full blur-sm" />
+        <div className="absolute top-6 left-16 w-12 h-8 bg-white/60 rounded-full blur-sm" />
+        <div className="absolute bottom-4 left-12 w-20 h-12 bg-white/50 rounded-full blur-sm" />
+        <div className="absolute bottom-6 left-24 w-14 h-10 bg-white/50 rounded-full blur-sm" />
+        <div className="absolute bottom-8 right-16 w-16 h-10 bg-white/50 rounded-full blur-sm" />
+        <div className="absolute bottom-10 right-28 w-12 h-8 bg-white/50 rounded-full blur-sm" />
+        
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center relative z-10">
+          <img src={chiPlayLogo} alt="CHI PLAY 2014" className="h-12 mx-auto mb-6" />
+          <p className="text-foreground max-w-2xl mx-auto">
+            This game enters the Student Game Design Competition at the ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play (CHI PLAY) 2014.
+          </p>
+        </div>
+      </section>
 
       {/* Credits Section - Light */}
       <section className="py-12 bg-background">
