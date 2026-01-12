@@ -103,23 +103,29 @@ const Powerfall = () => {
           <section className="mb-20">
             <h2 className="text-3xl font-bold mb-4">Challenge & Goal</h2>
             <p className="text-lg leading-relaxed text-foreground mb-12 max-w-[700px]">
-              Challenged with a mere 3-week timeline, we began with a blank canvas, quickly establishing a
-              brainstorming direction to craft an unforgettable 5-minute experience from scratch.
+              Challenged with a mere 3-week timeline, we began with a blank canvas, quickly establishing a brainstorming
+              direction to craft an unforgettable 5-minute experience from scratch.
             </p>
 
             {/* Three Column Layout */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="flex flex-col items-center text-center">
                 <img src={powerfallChallenge1} alt="Simple interaction" className="h-24 w-auto mb-6" />
-                <h3 className="text-xl font-bold" style={{ color: "#4070F4" }}>Simple interaction</h3>
+                <h3 className="text-xl font-bold" style={{ color: "#4070F4" }}>
+                  Simple interaction
+                </h3>
               </div>
               <div className="flex flex-col items-center text-center">
                 <img src={powerfallChallenge2} alt="Collaborative gameplay" className="h-24 w-auto mb-6" />
-                <h3 className="text-xl font-bold" style={{ color: "#4070F4" }}>Collaborative gameplay</h3>
+                <h3 className="text-xl font-bold" style={{ color: "#4070F4" }}>
+                  Collaborative gameplay
+                </h3>
               </div>
               <div className="flex flex-col items-center text-center">
                 <img src={powerfallChallenge3} alt="Funny story" className="h-24 w-auto mb-6" />
-                <h3 className="text-xl font-bold" style={{ color: "#4070F4" }}>Funny story</h3>
+                <h3 className="text-xl font-bold" style={{ color: "#4070F4" }}>
+                  Funny story
+                </h3>
               </div>
             </div>
           </section>
@@ -132,13 +138,16 @@ const Powerfall = () => {
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4">The simplest and "chaotic" interaction</h2>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-8">
-              After an intense 5-hour research and brainstorming over 3 days, exploring
-              various tech options like AR, VR, Kinects, and Leap Motion, we arrived at
-              the simplest idea: allowing players to <span className="font-bold" style={{ color: "#4070F4" }}>SHOUT</span>.
+              After an intense 5-hour research and brainstorming over 3 days, exploring various tech options like AR,
+              VR, Kinects, and Leap Motion, we arrived at the simplest idea: allowing players to{" "}
+              <span className="font-bold" style={{ color: "#4070F4" }}>
+                SHOUT
+              </span>
+              .
             </p>
-            <img 
-              src={powerfallShoutDiagram} 
-              alt="Players shouting at screen to control the game" 
+            <img
+              src={powerfallShoutDiagram}
+              alt="Players shouting at screen to control the game"
               className="max-w-2xl w-full mx-auto"
             />
           </div>
@@ -152,16 +161,14 @@ const Powerfall = () => {
             <div className="flex-1">
               <h3 className="text-2xl font-bold mb-4">Survive from danger with friends</h3>
               <p className="text-lg leading-relaxed text-foreground">
-                To create tension between players, we designed an
-                intense scenario where two players shout in opposite
-                directions to control their navigation through
-                hazardous obstacles.
+                To create tension between players, we designed an intense scenario where two players shout in opposite
+                directions to control their navigation through hazardous obstacles.
               </p>
             </div>
             <div className="flex-1 flex justify-center">
-              <img 
-                src={powerfallSafetyInstruction} 
-                alt="Safety instruction showing gameplay mechanics" 
+              <img
+                src={powerfallSafetyInstruction}
+                alt="Safety instruction showing gameplay mechanics"
                 className="max-w-[350px] w-full rounded-lg"
               />
             </div>
@@ -175,37 +182,29 @@ const Powerfall = () => {
           <div className="text-center mb-8">
             <h2 className="text-2xl font-bold mb-4">Set a hilarious scene</h2>
             <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto">
-              To set up the fun moments, we created this nonsense story with goofy characters and exaggerated animations.
+              To set up the fun moments, we created this nonsense story with goofy characters and exaggerated
+              animations.
             </p>
           </div>
-          
-          <h3 className="text-lg font-semibold mb-6">The story</h3>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="flex flex-col">
-              <img 
-                src={powerfallStory1} 
-                alt="Candy Line airplane flying" 
-                className="w-full rounded-lg mb-4"
-              />
+              <img src={powerfallStory1} alt="Candy Line airplane flying" className="w-full rounded-lg mb-4" />
               <p className="text-sm text-foreground">
                 2 pilots are driving an airplane, and suddenly encounter an accident.
               </p>
             </div>
             <div className="flex flex-col">
-              <img 
-                src={powerfallStory2} 
-                alt="Airplane explosion with characters escaping" 
+              <img
+                src={powerfallStory2}
+                alt="Airplane explosion with characters escaping"
                 className="w-full rounded-lg mb-4"
               />
-              <p className="text-sm text-foreground">
-                The airport explodes, and they are tied to one parachute.
-              </p>
+              <p className="text-sm text-foreground">The airport explodes, and they are tied to one parachute.</p>
             </div>
             <div className="flex flex-col">
-              <img 
-                src={powerfallStory3} 
-                alt="Characters parachuting and avoiding obstacles" 
+              <img
+                src={powerfallStory3}
+                alt="Characters parachuting and avoiding obstacles"
                 className="w-full rounded-lg mb-4"
               />
               <p className="text-sm text-foreground">
@@ -213,11 +212,7 @@ const Powerfall = () => {
               </p>
             </div>
             <div className="flex flex-col">
-              <img 
-                src={powerfallStory4} 
-                alt="Characters landing safely on beach" 
-                className="w-full rounded-lg mb-4"
-              />
+              <img src={powerfallStory4} alt="Characters landing safely on beach" className="w-full rounded-lg mb-4" />
               <p className="text-sm text-foreground">
                 The parachute can take 10 hits. If they make it, they will land safely.
               </p>
@@ -847,9 +842,7 @@ const Powerfall = () => {
       <section className="py-12 bg-[hsl(220,20%,20%)] text-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
           <img src={nysciLogo} alt="NYSCI Logo" className="w-48 h-auto mx-auto mb-6 object-contain" />
-          <p className="text-lg text-white/70">
-            The project was installed and exhibited in New York Hall of Science
-          </p>
+          <p className="text-lg text-white/70">The project was installed and exhibited in New York Hall of Science</p>
         </div>
       </section>
 
@@ -860,8 +853,10 @@ const Powerfall = () => {
             <div>
               <h4 className="text-xl font-bold mb-4">Team member</h4>
               <p className="text-foreground">
-                Interaction designer: Chong Hu  Yeqing Deng<br />
-                Producer/Sound Designer: David Shiyang Liu<br />
+                Interaction designer: Chong Hu Yeqing Deng
+                <br />
+                Producer/Sound Designer: David Shiyang Liu
+                <br />
                 Engineers: Wei Shao, Prajwal Manjunath
               </p>
             </div>
