@@ -313,7 +313,7 @@ const Powerfall = () => {
       {/* Credits Section - Light */}
       <section className="py-12 bg-background">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
             <h4 className="text-xl font-bold mb-4">Team member</h4>
             <p className="text-foreground">
               Interaction designer: Chong Hu, Nayoung Kim
