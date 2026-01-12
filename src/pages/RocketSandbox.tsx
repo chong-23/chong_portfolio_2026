@@ -642,7 +642,10 @@ const RocketSandbox = () => {
                 </p>
                 <p className="text-lg leading-relaxed text-foreground mb-2">During this playtest, we also found:</p>
                 <ul className="list-disc list-inside space-y-2 text-lg leading-relaxed text-foreground">
-                  <li>The instruction that we gave them restricted their creativity: they always constructed the same rocket;</li>
+                  <li>
+                    The instruction that we gave them restricted their creativity: they always constructed the same
+                    rocket;
+                  </li>
                   <li>Kids could easily destroy the launch button.</li>
                 </ul>
               </div>
@@ -653,132 +656,132 @@ const RocketSandbox = () => {
           </section>
         </div>
 
-          {/* Solution - Fun Experience Section */}
-          <section className="mb-20 w-full">
-            <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
-              <div className="text-center mb-6">
-                {/* All Four Puzzle Pieces - Parents, Kids, Science, Maker Culture */}
-                <div className="flex flex-col justify-center items-center gap-0 mb-6">
-                  {/* Parents and Kids row */}
-                  <div className="flex items-end gap-0">
-                    {/* Parents Puzzle Piece */}
-                    <div className="relative w-[70px] h-[78px]">
-                      <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
-                        <path
-                          d="M92.5 0C41.4137 0 0 41.4137 0 92.5H29.125V102.5H62.875V92.5H92.5V61H82.75V31.25H92.5V0Z"
-                          fill="#FBB020"
-                        />
-                      </svg>
-                      <span
-                        style={{
-                          position: "absolute",
-                          top: "24px",
-                          left: "13px",
-                          width: "42px",
-                          height: "36px",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          color: "white",
-                          fontSize: "11px",
-                          fontWeight: 500,
-                        }}
-                      >
-                        Parents
-                      </span>
-                    </div>
-                    {/* Kids Puzzle Piece */}
-                    <div className="relative w-[78px] h-[70px]" style={{ marginLeft: "-8px", marginBottom: "8px" }}>
-                      <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
-                        <path
-                          d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z"
-                          fill="#7C8A99"
-                        />
-                      </svg>
-                      <span
-                        style={{
-                          position: "absolute",
-                          top: "20px",
-                          right: "13px",
-                          width: "50px",
-                          height: "36px",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          color: "white",
-                          fontSize: "11px",
-                          fontWeight: 500,
-                        }}
-                      >
-                        Kids
-                      </span>
-                    </div>
+        {/* Solution - Fun Experience Section */}
+        <section className="mb-20 w-full">
+          <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+            <div className="text-center mb-6">
+              {/* All Four Puzzle Pieces - Parents, Kids, Science, Maker Culture */}
+              <div className="flex flex-col justify-center items-center gap-0 mb-6">
+                {/* Parents and Kids row */}
+                <div className="flex items-end gap-0">
+                  {/* Parents Puzzle Piece */}
+                  <div className="relative w-[70px] h-[78px]">
+                    <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                      <path
+                        d="M92.5 0C41.4137 0 0 41.4137 0 92.5H29.125V102.5H62.875V92.5H92.5V61H82.75V31.25H92.5V0Z"
+                        fill="#FBB020"
+                      />
+                    </svg>
+                    <span
+                      style={{
+                        position: "absolute",
+                        top: "24px",
+                        left: "13px",
+                        width: "42px",
+                        height: "36px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "11px",
+                        fontWeight: 500,
+                      }}
+                    >
+                      Parents
+                    </span>
                   </div>
-                  {/* Science and Maker Culture row */}
-                  <div className="flex items-start gap-0" style={{ marginTop: "-8px" }}>
-                    {/* Science Puzzle Piece */}
-                    <div className="relative w-[78px] h-[70px]" style={{ marginRight: "-8px" }}>
-                      <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
-                        <path
-                          d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z"
-                          fill="#8BA983"
-                        />
-                      </svg>
-                      <span
-                        style={{
-                          position: "absolute",
-                          bottom: "16px",
-                          left: "16px",
-                          width: "50px",
-                          height: "36px",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          color: "white",
-                          fontSize: "11px",
-                          fontWeight: 500,
-                        }}
-                      >
-                        Science
-                      </span>
-                    </div>
-                    {/* Maker Culture Puzzle Piece */}
-                    <div className="relative w-[70px] h-[78px]" style={{ marginTop: "-8px" }}>
-                      <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
-                        <path
-                          d="M0 103C51.0863 103 92.5 61.5863 92.5 10.5H63.375V0.5H29.625V10.5H0V42H9.75V71.75H0V103Z"
-                          fill="#E87A5D"
-                        />
-                      </svg>
-                      <span
-                        style={{
-                          position: "absolute",
-                          bottom: "20px",
-                          right: "8px",
-                          width: "54px",
-                          height: "36px",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          color: "white",
-                          fontSize: "10px",
-                          fontWeight: 500,
-                          textAlign: "center",
-                          lineHeight: "1.2",
-                        }}
-                      >
-                        Maker Culture
-                      </span>
-                    </div>
+                  {/* Kids Puzzle Piece */}
+                  <div className="relative w-[78px] h-[70px]" style={{ marginLeft: "-8px", marginBottom: "8px" }}>
+                    <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                      <path
+                        d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z"
+                        fill="#7C8A99"
+                      />
+                    </svg>
+                    <span
+                      style={{
+                        position: "absolute",
+                        top: "20px",
+                        right: "13px",
+                        width: "50px",
+                        height: "36px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "11px",
+                        fontWeight: 500,
+                      }}
+                    >
+                      Kids
+                    </span>
                   </div>
                 </div>
-                <h2 className="text-2xl font-bold mb-4">The solution of creating a fun experience to connect all</h2>
-                <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
-                  For the final touch, we polished every detail to make it fun and intuitive for both parents and kids.
-                </p>
+                {/* Science and Maker Culture row */}
+                <div className="flex items-start gap-0" style={{ marginTop: "-8px" }}>
+                  {/* Science Puzzle Piece */}
+                  <div className="relative w-[78px] h-[70px]" style={{ marginRight: "-8px" }}>
+                    <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                      <path
+                        d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z"
+                        fill="#8BA983"
+                      />
+                    </svg>
+                    <span
+                      style={{
+                        position: "absolute",
+                        bottom: "16px",
+                        left: "16px",
+                        width: "50px",
+                        height: "36px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "11px",
+                        fontWeight: 500,
+                      }}
+                    >
+                      Science
+                    </span>
+                  </div>
+                  {/* Maker Culture Puzzle Piece */}
+                  <div className="relative w-[70px] h-[78px]" style={{ marginTop: "-8px" }}>
+                    <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                      <path
+                        d="M0 103C51.0863 103 92.5 61.5863 92.5 10.5H63.375V0.5H29.625V10.5H0V42H9.75V71.75H0V103Z"
+                        fill="#E87A5D"
+                      />
+                    </svg>
+                    <span
+                      style={{
+                        position: "absolute",
+                        bottom: "20px",
+                        right: "8px",
+                        width: "54px",
+                        height: "36px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "10px",
+                        fontWeight: 500,
+                        textAlign: "center",
+                        lineHeight: "1.2",
+                      }}
+                    >
+                      Maker Culture
+                    </span>
+                  </div>
+                </div>
               </div>
+              <h2 className="text-2xl font-bold mb-4">The solution of creating a fun experience to connect all</h2>
+              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+                For the final touch, we polished every detail to make it fun and intuitive for both parents and kids.
+              </p>
             </div>
-          </section>
+          </div>
+        </section>
       </div>
 
       {/* Main Content */}
@@ -786,8 +789,6 @@ const RocketSandbox = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Features Section */}
           <section className="mb-20">
-
-
             <div className="space-y-12">
               <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
                 <div className="flex-1">
@@ -798,8 +799,16 @@ const RocketSandbox = () => {
                   </p>
                 </div>
                 <div className="flex-1 flex flex-row gap-2">
-                  <img src={smokelandConcept} alt="Smoke landing concept" className="w-1/2 h-64 object-cover rounded-lg shadow-md" />
-                  <img src={smokelaunchConcept} alt="Smoke launch concept" className="w-1/2 h-64 object-cover rounded-lg shadow-md" />
+                  <img
+                    src={smokelandConcept}
+                    alt="Smoke landing concept"
+                    className="w-1/2 h-64 object-cover rounded-lg shadow-md"
+                  />
+                  <img
+                    src={smokelaunchConcept}
+                    alt="Smoke launch concept"
+                    className="w-1/2 h-64 object-cover rounded-lg shadow-md"
+                  />
                 </div>
               </div>
 
@@ -811,7 +820,11 @@ const RocketSandbox = () => {
                   </p>
                 </div>
                 <div className="flex-1">
-                  <img src={rocketExhibit} alt="Rocket exhibit installation" className="w-full h-64 object-cover rounded-lg shadow-md" />
+                  <img
+                    src={rocketExhibit}
+                    alt="Rocket exhibit installation"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
                 </div>
               </div>
 
@@ -823,7 +836,11 @@ const RocketSandbox = () => {
                   </p>
                 </div>
                 <div className="flex-1">
-                  <img src={rocketExhibitVisitors} alt="Visitors enjoying rocket exhibit" className="w-full h-64 object-cover rounded-lg shadow-md" />
+                  <img
+                    src={rocketExhibitVisitors}
+                    alt="Visitors enjoying rocket exhibit"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
                 </div>
               </div>
             </div>
@@ -834,13 +851,13 @@ const RocketSandbox = () => {
       {/* Video Section */}
       <section className="relative py-16 overflow-hidden">
         {/* Blurred Background Image */}
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center blur-md scale-110"
           style={{ backgroundImage: `url(${rocketVideoBg})` }}
         />
         {/* Semi-transparent Overlay */}
         <div className="absolute inset-0 bg-black/50" />
-        
+
         <div className="relative text-center z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <p className="text-sm text-white/70 mb-2">One Minute Video</p>
           <h3 className="text-2xl font-bold mb-8 text-white">Do you want to build a rocket?</h3>
@@ -862,7 +879,7 @@ const RocketSandbox = () => {
           <div className="text-center mb-12">
             <img src={nysciLogo} alt="NYSCI Logo" className="w-48 h-auto mx-auto mb-6 object-contain" />
             <p className="text-lg text-white/70">
-              This project has been funded and selected by New York Hall of Science
+              The project was installed and exhibited in the New York Hall of Science
             </p>
           </div>
 
@@ -870,21 +887,21 @@ const RocketSandbox = () => {
             <div>
               <h4 className="text-xl font-bold mb-4">Team member</h4>
               <p className="text-lg text-white/70">
-                User Experience Designer, Project Manager, Developer, Research Assistant
+                Interaction designer: Chong Hu Yeqing Deng Producer/Sound Designer: David Shiyang Liu Engineers: Wei
+                Shao, Prajwal Manjunath
               </p>
             </div>
             <div>
               <h4 className="text-xl font-bold mb-4">Supervisor</h4>
-              <p className="text-lg text-white/70">Director of Product Design Studio</p>
+              <p className="text-lg text-white/70">Shirley Yee, Brenda Bakker Harger</p>
             </div>
             <div>
-              <h4 className="text-xl font-bold mb-4">Client</h4>
-              <p className="text-lg text-white/70">New York Hall of Science, Exhibition and Experience Design</p>
+              <h4 className="text-xl font-bold mb-4">Clients</h4>
+              <p className="text-lg text-white/70">New York hall of Science, Children’s Museum of Pittsburgh</p>
             </div>
           </div>
         </div>
       </section>
-
 
       <Footer variant="project" />
     </div>
