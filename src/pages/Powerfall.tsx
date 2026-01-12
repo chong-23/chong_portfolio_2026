@@ -16,6 +16,7 @@ import powerfallCharacters from "@/assets/powerfall-characters.png";
 import powerfallAnimationFeedback from "@/assets/powerfall-animation-feedback.png";
 import powerfallVideoBg from "@/assets/powerfall-video-bg.png";
 import chiPlayLogo from "@/assets/chi-play-logo.png";
+import cloudImg from "@/assets/cloud.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -295,12 +296,9 @@ const Powerfall = () => {
       {/* CHI PLAY 2014 Section */}
       <section className="py-12 relative overflow-hidden" style={{ backgroundColor: "#AAE0F9" }}>
         {/* Cloud decorations */}
-        <div className="absolute top-4 left-8 w-16 h-10 bg-white/60 rounded-full blur-sm" />
-        <div className="absolute top-6 left-16 w-12 h-8 bg-white/60 rounded-full blur-sm" />
-        <div className="absolute bottom-4 left-12 w-20 h-12 bg-white/50 rounded-full blur-sm" />
-        <div className="absolute bottom-6 left-24 w-14 h-10 bg-white/50 rounded-full blur-sm" />
-        <div className="absolute bottom-8 right-16 w-16 h-10 bg-white/50 rounded-full blur-sm" />
-        <div className="absolute bottom-10 right-28 w-12 h-8 bg-white/50 rounded-full blur-sm" />
+        <img src={cloudImg} alt="" className="absolute top-2 left-8 w-24 opacity-80" />
+        <img src={cloudImg} alt="" className="absolute bottom-4 left-16 w-32 opacity-70" />
+        <img src={cloudImg} alt="" className="absolute bottom-2 right-12 w-28 opacity-70" />
         
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center relative z-10">
           <img src={chiPlayLogo} alt="CHI PLAY 2014" className="h-12 mx-auto mb-6" />
