@@ -889,7 +889,7 @@ const RocketSandbox = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h4 className="text-xl font-bold mb-4">Team member</h4>
-              <p className="text-muted-foreground">
+              <p className="text-foreground">
                 Interaction designer: Chong Hu  Yeqing Deng<br />
                 Producer/Sound Designer: David Shiyang Liu<br />
                 Engineers: Wei Shao, Prajwal Manjunath
@@ -897,11 +897,11 @@ const RocketSandbox = () => {
             </div>
             <div>
               <h4 className="text-xl font-bold mb-4">Supervisors</h4>
-              <p className="text-muted-foreground">Shirley Yee, Brenda Bakker Harger</p>
+              <p className="text-foreground">Shirley Yee, Brenda Bakker Harger</p>
             </div>
             <div>
               <h4 className="text-xl font-bold mb-4">Clients</h4>
-              <p className="text-muted-foreground">New York hall of Science, Children's Museum of Pittsburgh</p>
+              <p className="text-foreground">New York hall of Science, Children's Museum of Pittsburgh</p>
             </div>
           </div>
         </div>
