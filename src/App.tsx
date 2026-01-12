@@ -9,6 +9,7 @@ import CorporateAdminRevamp from "./pages/CorporateAdminRevamp";
 import EarlyWorks from "./pages/EarlyWorks";
 import HundredDayProject from "./pages/HundredDayProject";
 import RocketSandbox from "./pages/RocketSandbox";
+import Powerfall from "./pages/Powerfall";
 import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/early-works" element={<EarlyWorks />} />
           <Route path="/100day-project" element={<HundredDayProject />} />
           <Route path="/rocket-sandbox" element={<RocketSandbox />} />
+          <Route path="/powerfall" element={<Powerfall />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
