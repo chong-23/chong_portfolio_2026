@@ -234,7 +234,8 @@ const Powerfall = () => {
               <p className="text-sm text-muted-foreground mb-2">Character design exploration</p>
               <h3 className="text-2xl font-bold mb-4">Make the characters funny for the story</h3>
               <p className="text-lg leading-relaxed text-foreground">
-                Because the game is for families, the overall idea is to make them simple shapes with bright colors, which are fun for adults and also easily recognizable for children.
+                Because the game is for families, the overall idea is to make them simple shapes with bright colors,
+                which are fun for adults and also easily recognizable for children.
               </p>
             </div>
             <div className="flex-1 flex justify-center">
@@ -256,7 +257,8 @@ const Powerfall = () => {
               <p className="text-sm text-muted-foreground mb-2">Animation for interaction feedback</p>
               <h3 className="text-2xl font-bold mb-4">Simple interaction needs vivid feedback</h3>
               <p className="text-lg leading-relaxed text-foreground">
-                Though the interaction is super simple, the feedback needs to reflect the nuance of shouting. There are 4 different status of characters for different volumes of the sound.
+                Though the interaction is super simple, the feedback needs to reflect the nuance of shouting. There are
+                4 different status of characters for different volumes of the sound.
               </p>
             </div>
             <div className="flex-1 flex justify-center">
@@ -277,7 +279,7 @@ const Powerfall = () => {
           className="absolute inset-0 bg-cover bg-center blur-2xl scale-110"
           style={{ backgroundImage: `url(${powerfallVideoBg})` }}
         />
-        
+
         <div className="relative text-center z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <p className="text-sm text-foreground/70 mb-2">Final game demo</p>
           <h3 className="text-2xl font-bold mb-8 text-foreground">Are you ready to shout?</h3>
@@ -298,11 +300,12 @@ const Powerfall = () => {
         {/* Cloud decorations */}
         <img src={cloudImg} alt="" className="absolute top-4 left-8 w-32 opacity-80" />
         <img src={cloudImg} alt="" className="absolute bottom-4 right-12 w-36 opacity-70" />
-        
+
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center relative z-10">
           <img src={chiPlayLogo} alt="CHI PLAY 2014" className="h-20 md:h-24 mx-auto mb-6" />
           <p className="text-foreground max-w-2xl mx-auto">
-            This game enters the Student Game Design Competition at the ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play (CHI PLAY) 2014.
+            This game enters the Student Game Design Competition at the ACM SIGCHI Annual Symposium on Computer-Human
+            Interaction in Play (CHI PLAY) 2014.
           </p>
         </div>
       </section>
@@ -314,20 +317,12 @@ const Powerfall = () => {
             <div>
               <h4 className="text-xl font-bold mb-4">Team member</h4>
               <p className="text-foreground">
-                Interaction designer: Chong Hu Yeqing Deng
+                Interaction designer: Chong Hu, Nayoung Kim
                 <br />
-                Producer/Sound Designer: David Shiyang Liu
+                Producer/Sound Designer: Marco Vieira
                 <br />
-                Engineers: Wei Shao, Prajwal Manjunath
+                Engineers: Sudhanshu Aggarwal, Hao Fu
               </p>
-            </div>
-            <div>
-              <h4 className="text-xl font-bold mb-4">Supervisors</h4>
-              <p className="text-foreground">Shirley Yee, Brenda Bakker Harger</p>
-            </div>
-            <div>
-              <h4 className="text-xl font-bold mb-4">Clients</h4>
-              <p className="text-foreground">New York hall of Science, Children's Museum of Pittsburgh</p>
             </div>
           </div>
         </div>
