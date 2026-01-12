@@ -6,6 +6,7 @@ import powerfallHeaderBg from "@/assets/powerfall-header-bg.png";
 import powerfallChallenge1 from "@/assets/powerfall-challenge-1.png";
 import powerfallChallenge2 from "@/assets/powerfall-challenge-2.png";
 import powerfallChallenge3 from "@/assets/powerfall-challenge-3.png";
+import powerfallShoutDiagram from "@/assets/powerfall-shout-diagram.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -119,6 +120,25 @@ const Powerfall = () => {
           </section>
         </div>
       </div>
+
+      {/* Simplest Interaction Section */}
+      <section className="py-16 w-full" style={{ backgroundColor: "rgba(173, 216, 230, 0.3)" }}>
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold mb-4">The simplest and "chaotic" interaction</h2>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-8">
+              After an intense 5-hour research and brainstorming over 3 days, exploring
+              various tech options like AR, VR, Kinects, and Leap Motion, we arrived at
+              the simplest idea: allowing players to <span className="font-bold" style={{ color: "#4070F4" }}>SHOUT</span>.
+            </p>
+            <img 
+              src={powerfallShoutDiagram} 
+              alt="Players shouting at screen to control the game" 
+              className="max-w-2xl w-full mx-auto"
+            />
+          </div>
+        </div>
+      </section>
 
       {/* Solution Highlight Section */}
       <section className="mb-20 w-full">
