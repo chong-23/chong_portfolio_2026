@@ -827,33 +827,33 @@ const RocketSandbox = () => {
               </div>
             </div>
           </section>
-
-          {/* Video Section */}
-          <section className="mb-20 relative py-16 -mx-6 md:-mx-12 lg:-mx-20 px-6 md:px-12 lg:px-20 overflow-hidden">
-            {/* Blurred Background Image */}
-            <div 
-              className="absolute inset-0 bg-cover bg-center blur-md scale-110"
-              style={{ backgroundImage: `url(${rocketVideoBg})` }}
-            />
-            {/* Semi-transparent Overlay */}
-            <div className="absolute inset-0 bg-black/50" />
-            
-            <div className="relative text-center z-10">
-              <p className="text-sm text-white/70 mb-2">One Minute Video</p>
-              <h3 className="text-2xl font-bold mb-8 text-white">Do you want to build a rocket?</h3>
-              <div className="aspect-video max-w-4xl mx-auto shadow-md rounded-lg overflow-hidden">
-                <iframe
-                  src="https://player.vimeo.com/video/92982542"
-                  className="w-full h-full"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  title="Do you want to build a rocket?"
-                />
-              </div>
-            </div>
-          </section>
         </div>
       </div>
+
+      {/* Video Section */}
+      <section className="relative py-16 overflow-hidden">
+        {/* Blurred Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center blur-md scale-110"
+          style={{ backgroundImage: `url(${rocketVideoBg})` }}
+        />
+        {/* Semi-transparent Overlay */}
+        <div className="absolute inset-0 bg-black/50" />
+        
+        <div className="relative text-center z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <p className="text-sm text-white/70 mb-2">One Minute Video</p>
+          <h3 className="text-2xl font-bold mb-8 text-white">Do you want to build a rocket?</h3>
+          <div className="aspect-video max-w-4xl mx-auto shadow-md rounded-lg overflow-hidden">
+            <iframe
+              src="https://player.vimeo.com/video/92982542"
+              className="w-full h-full"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              title="Do you want to build a rocket?"
+            />
+          </div>
+        </div>
+      </section>
 
       {/* Credits Section */}
       <section className="py-16 bg-[hsl(220,20%,20%)] text-white">
