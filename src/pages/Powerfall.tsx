@@ -1,9 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
-import rocketHeaderImage from "@/assets/rocket-header-image.png";
-import rocketHeaderImage2 from "@/assets/rocket-header-image-2.png";
-import rocketHeaderImage3 from "@/assets/rocket-header-image-3.png";
+import powerfallHeaderImage from "@/assets/powerfall-header-image.png";
 import powerfallHeaderBg from "@/assets/powerfall-header-bg.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
@@ -66,9 +64,9 @@ const Powerfall = () => {
               {/* Image Section - Desktop Only */}
               <div className="hidden lg:flex flex-shrink-0 ml-12 relative top-[80px]">
                 <img
-                  src={rocketHeaderImage3}
-                  alt="Powerfall game scene"
-                  className="w-[400px] h-auto rounded-2xl"
+                  src={powerfallHeaderImage}
+                  alt="Powerfall game characters with parachute"
+                  className="w-[400px] h-auto"
                 />
               </div>
             </div>
