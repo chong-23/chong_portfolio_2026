@@ -12,6 +12,7 @@ import powerfallStory1 from "@/assets/powerfall-story-1.png";
 import powerfallStory2 from "@/assets/powerfall-story-2.png";
 import powerfallStory3 from "@/assets/powerfall-story-3.png";
 import powerfallStory4 from "@/assets/powerfall-story-4.png";
+import powerfallCharacters from "@/assets/powerfall-characters.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -216,6 +217,28 @@ const Powerfall = () => {
               <p className="text-sm text-foreground">
                 The parachute can take 10 hits. If they make it, they will land safely.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Character Design Section */}
+      <section className="py-16 w-full bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex-1">
+              <p className="text-sm text-muted-foreground mb-2">Character design exploration</p>
+              <h3 className="text-2xl font-bold mb-4">Make the characters funny for the story</h3>
+              <p className="text-lg leading-relaxed text-foreground">
+                Because the game is for families, the overall idea is to make them simple shapes with bright colors, which are fun for adults and also easily recognizable for children.
+              </p>
+            </div>
+            <div className="flex-1 flex justify-center">
+              <img
+                src={powerfallCharacters}
+                alt="Colorful character designs - pink, blue, orange, and yellow monsters"
+                className="max-w-full w-full"
+              />
             </div>
           </div>
         </div>
