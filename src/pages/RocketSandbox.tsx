@@ -490,7 +490,7 @@ const RocketSandbox = () => {
 
       <section className="mb-20 w-full">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+          <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12 items-center">
             <div className="flex-1 flex items-center justify-center">
               <img
                 src={atmosphereImage}
