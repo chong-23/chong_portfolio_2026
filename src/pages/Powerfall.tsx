@@ -12,11 +12,6 @@ import powerfallStory1 from "@/assets/powerfall-story-1.png";
 import powerfallStory2 from "@/assets/powerfall-story-2.png";
 import powerfallStory3 from "@/assets/powerfall-story-3.png";
 import powerfallStory4 from "@/assets/powerfall-story-4.png";
-import powerfallCharacters from "@/assets/powerfall-characters.png";
-import powerfallAnimationFeedback from "@/assets/powerfall-animation-feedback.png";
-import powerfallVideoBg from "@/assets/powerfall-video-bg.png";
-import chiPlayLogo from "@/assets/chi-play-logo.png";
-import cloudImg from "@/assets/cloud.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -191,6 +186,9 @@ const Powerfall = () => {
               animations.
             </p>
           </div>
+
+          <h3 className="text-lg font-semibold mb-6">The story</h3>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="flex flex-col">
               <img src={powerfallStory1} alt="Candy Line airplane flying" className="w-full rounded-lg mb-4" />
@@ -226,84 +224,628 @@ const Powerfall = () => {
         </div>
       </section>
 
-      {/* Character Design Section */}
-      <section className="py-16 w-full bg-background">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-            <div className="flex-1">
-              <p className="text-sm text-muted-foreground mb-2">Character design exploration</p>
-              <h3 className="text-2xl font-bold mb-4">Make the characters funny for the story</h3>
-              <p className="text-lg leading-relaxed text-foreground">
-                Because the game is for families, the overall idea is to make them simple shapes with bright colors, which are fun for adults and also easily recognizable for children.
-              </p>
+      {/* Solution Highlight Section */}
+      <section className="mb-20 w-full">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          <div className="text-center mb-6">
+            {/* Kids + Maker Culture Puzzle Pieces */}
+            <div className="flex flex-col justify-center items-center gap-0 mb-6">
+              {/* Kids Puzzle Piece */}
+              <div className="relative w-[78px] h-[70px]" style={{ marginLeft: "-4px" }}>
+                <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                  <path
+                    d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z"
+                    fill="#7C8A99"
+                  />
+                </svg>
+                <span
+                  style={{
+                    position: "absolute",
+                    top: "20px",
+                    right: "13px",
+                    width: "50px",
+                    height: "36px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "white",
+                    fontSize: "11px",
+                    fontWeight: 500,
+                  }}
+                >
+                  Kids
+                </span>
+              </div>
+              {/* Maker Culture Puzzle Piece */}
+              <div className="relative w-[70px] h-[78px]" style={{ marginLeft: "4px", marginTop: "-8px" }}>
+                <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                  <path
+                    d="M0.5 103C51.5863 103 93 61.5863 93 10.5H63.875V0.5H30.125V10.5H0.5V42H10.25V71.75H0.5V103Z"
+                    fill="#E86C3A"
+                  />
+                </svg>
+                <span
+                  style={{
+                    position: "absolute",
+                    bottom: "22px",
+                    right: "15px",
+                    width: "42px",
+                    height: "36px",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "white",
+                    fontSize: "11px",
+                    fontWeight: 500,
+                    lineHeight: 1.2,
+                  }}
+                >
+                  <span>Maker</span>
+                  <span>Culture</span>
+                </span>
+              </div>
             </div>
-            <div className="flex-1 flex justify-center">
-              <img
-                src={powerfallCharacters}
-                alt="Colorful character designs - pink, blue, orange, and yellow monsters"
-                className="max-w-full w-full"
-              />
+            <h2 className="text-2xl font-bold mb-4">The solution of creating a digital maker experience for kids</h2>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+              In our search for interactive tools, we discovered Sifteo Cubes—a digital Lego block alternative. These
+              small cubes display graphics on their interface, presenting an engaging interactive solution.
+            </p>
+            {/* Cube images */}
+            <div className="grid grid-cols-2 gap-8 mt-8">
+              <div className="flex flex-col justify-center items-center">
+                <img src={cubeTouchImg} alt="Cube touch interaction" className="max-w-[300px] h-auto" />
+                <p className="mt-4 text-muted-foreground">Tap to change the graphic</p>
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <img src={cubeConnectImg} alt="Cube connect interaction" className="max-w-[400px] h-auto" />
+                <p className="mt-4 text-muted-foreground">Connect multiple ones</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Animation Feedback Section */}
-      <section className="py-16 w-full" style={{ backgroundColor: "rgba(173, 216, 230, 0.3)" }}>
+      {/* Main Content */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          {/* Interaction Section */}
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-2">Prototype 1</p>
+                <h3 className="text-2xl font-bold mb-4">How would young kids interact with these new toys?</h3>
+                <p className="text-lg leading-relaxed text-foreground">
+                  We created a simple Monster Stacking game to observe children interacting with the Sifteo Cubes. Our
+                  playtest at the Children's Museum in Pittsburgh revealed that young kids quickly grasped how to play
+                  with these cubes.{" "}
+                </p>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={rocketPrototype1}
+                  alt="Children playing with Sifteo Cubes at museum"
+                  className="rounded-lg shadow-md w-full"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Solution 2 - Easy & Fun Science */}
+      <section className="mb-20 w-full">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+          <div className="text-center mb-6">
+            {/* Parents + Kids + Science Puzzle Pieces */}
+            <div className="flex flex-col justify-center items-center gap-0 mb-6">
+              {/* Parents and Kids row */}
+              <div className="flex items-end gap-0">
+                {/* Parents Puzzle Piece */}
+                <div className="relative w-[70px] h-[78px]">
+                  <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                    <path
+                      d="M92.5 0C41.4137 0 0 41.4137 0 92.5H29.125V102.5H62.875V92.5H92.5V61H82.75V31.25H92.5V0Z"
+                      fill="#FBB020"
+                    />
+                  </svg>
+                  <span
+                    style={{
+                      position: "absolute",
+                      top: "24px",
+                      left: "13px",
+                      width: "42px",
+                      height: "36px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                      fontSize: "11px",
+                      fontWeight: 500,
+                    }}
+                  >
+                    Parents
+                  </span>
+                </div>
+                {/* Kids Puzzle Piece */}
+                <div className="relative w-[78px] h-[70px]" style={{ marginLeft: "-8px", marginBottom: "8px" }}>
+                  <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                    <path
+                      d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z"
+                      fill="#7C8A99"
+                    />
+                  </svg>
+                  <span
+                    style={{
+                      position: "absolute",
+                      top: "20px",
+                      right: "13px",
+                      width: "50px",
+                      height: "36px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                      fontSize: "11px",
+                      fontWeight: 500,
+                    }}
+                  >
+                    Kids
+                  </span>
+                </div>
+              </div>
+              {/* Science Puzzle Piece - below Parents */}
+              <div className="relative w-[78px] h-[70px]" style={{ marginTop: "-8px", marginRight: "66px" }}>
+                <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                  <path
+                    d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z"
+                    fill="#8BA983"
+                  />
+                </svg>
+                <span
+                  style={{
+                    position: "absolute",
+                    bottom: "16px",
+                    left: "16px",
+                    width: "50px",
+                    height: "36px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "white",
+                    fontSize: "11px",
+                    fontWeight: 500,
+                  }}
+                >
+                  Science
+                </span>
+              </div>
+            </div>
+            <h2 className="text-2xl font-bold mb-4">The solution of the easy & fun science</h2>
+            <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+              After searching different topics, we found rocket science can be fun and creative. The goal is to build a
+              rocket with the cubes to reach the outer space with a balance of weight, fuel and thrust.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* New Section - Duplicated Layout */}
+      <section className="mb-20 w-full">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
             <div className="flex-1">
-              <p className="text-sm text-muted-foreground mb-2">Animation for interaction feedback</p>
-              <h3 className="text-2xl font-bold mb-4">Simple interaction needs vivid feedback</h3>
+              <h3 className="text-2xl font-bold mb-4">Easy physics for parents to teach</h3>
               <p className="text-lg leading-relaxed text-foreground">
-                Though the interaction is super simple, the feedback needs to reflect the nuance of shouting. There are 4 different status of characters for different volumes of the sound.
+                Balancing the weight of fuel and trust power can be easy for parents to teach, yet also challenge to
+                actually achieve the balance. This challenge can maintain the fun of this experience.
               </p>
             </div>
-            <div className="flex-1 flex justify-center">
-              <img
-                src={powerfallAnimationFeedback}
-                alt="Character animation frames showing different shouting intensities"
-                className="max-w-full w-full rounded-lg"
-              />
+            <div className="flex-1 flex items-center justify-center gap-8">
+              <div className="flex flex-col items-center">
+                <img src={thrustsImage} alt="Thrust power options" className="rounded-lg shadow-md" />
+                <p className="text-xl font-bold mt-4">Thrust power</p>
+              </div>
+              <span className="text-2xl font-medium text-muted-foreground">vs</span>
+              <div className="flex flex-col items-center">
+                <img src={fueltanksImage} alt="Fuel weight options" className="rounded-lg shadow-md" />
+                <p className="text-xl font-bold mt-4">Fuel weight</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Final Game Demo Video Section */}
+      <section className="mb-20 w-full">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex-1 flex items-center justify-center">
+              <img
+                src={atmosphereImage}
+                alt="Atmosphere layers showing outer space, thermosphere, troposphere and ground"
+                className="rounded-lg shadow-md max-h-[500px]"
+              />
+            </div>
+            <div className="flex-1">
+              <h3 className="text-2xl font-bold mb-4">Embed science into game goal</h3>
+              <p className="text-lg leading-relaxed text-foreground">
+                To visualize the progress, each level of the atmosphere is also presented as some science content for
+                parents and kids learn together.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          {/* How to Play Section */}
+          <section className="mb-20">
+            <div className="flex justify-between items-center mb-6">
+              <h3 className="text-2xl font-bold">How to play</h3>
+              <div className="flex items-center gap-4">
+                <button
+                  className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+                  onClick={() => {
+                    const container = document.getElementById("how-to-play-carousel");
+                    if (container) {
+                      container.scrollBy({ left: -800, behavior: "smooth" });
+                    }
+                  }}
+                >
+                  <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+                <button
+                  className="w-12 h-12 bg-muted hover:bg-muted/80 rounded-full flex items-center justify-center transition-colors"
+                  onClick={() => {
+                    const container = document.getElementById("how-to-play-carousel");
+                    if (container) {
+                      container.scrollBy({ left: 800, behavior: "smooth" });
+                    }
+                  }}
+                >
+                  <svg className="w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              className="overflow-x-auto pb-4 scrollbar-hide mx-[calc(50%-50vw)]"
+              id="how-to-play-carousel"
+              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+            >
+              <div className="flex gap-6 min-w-max items-start">
+                {/* Responsive spacer — matches container padding */}
+                <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
+
+                {/* Card 1 */}
+                <div className="w-[250px] flex flex-col flex-shrink-0">
+                  <div className="mb-4 h-[250px]">
+                    <img
+                      src={rocketPlay1}
+                      alt="Player selecting rocket parts from cubes"
+                      className="h-full w-auto object-contain rounded-lg"
+                    />
+                  </div>
+                  <p className="text-base leading-relaxed text-foreground">
+                    The player has 9 cubes that present three parts of rockets: payload, fuel tank and thrust. They are
+                    also able to choose different types for each part.
+                  </p>
+                </div>
+
+                {/* Card 2 */}
+                <div className="w-[250px] flex flex-col flex-shrink-0">
+                  <div className="mb-4 h-[250px]">
+                    <img
+                      src={rocketPlay2}
+                      alt="Hands putting rocket cubes together"
+                      className="h-full w-auto object-contain rounded-lg"
+                    />
+                  </div>
+                  <p className="text-base leading-relaxed text-foreground">
+                    After the player choose the rocket parts, they can put cubes together.
+                  </p>
+                </div>
+
+                {/* Card 3 */}
+                <div className="w-[250px] flex flex-col flex-shrink-0">
+                  <div className="mb-4 h-[250px]">
+                    <img
+                      src={rocketPlay3}
+                      alt="Hand pressing the launch button"
+                      className="h-full w-auto object-contain rounded-lg"
+                    />
+                  </div>
+                  <p className="text-base leading-relaxed text-foreground">
+                    If they are happy with the rocket, they can press a launch button.
+                  </p>
+                </div>
+
+                {/* Card 4 */}
+                <div className="flex flex-col flex-shrink-0 w-[462px]">
+                  <div className="mb-4 h-[250px]">
+                    <img
+                      src={rocketPlay4}
+                      alt="Rocket launching on the big screen with atmosphere layers"
+                      className="h-full w-auto object-contain rounded-lg"
+                    />
+                  </div>
+                  <p className="text-base leading-relaxed text-foreground">
+                    The rocket would be reflected on the big screen and start to take off. The player can observe how
+                    far the rocket can reach, and how weight, fuel and thrust relate to each other.
+                  </p>
+                </div>
+
+                {/* Card 5 */}
+                <div className="w-[250px] flex flex-col flex-shrink-0">
+                  <div className="mb-4 h-[250px]">
+                    <img
+                      src={rocketPlay5}
+                      alt="Rocket reaching the moon in space"
+                      className="h-full w-auto object-contain rounded-lg"
+                    />
+                  </div>
+                  <p className="text-base leading-relaxed text-foreground">The goal is to reach the moon.</p>
+                </div>
+
+                {/* End spacer */}
+                <div className="shrink-0 w-6 md:w-12 lg:w-20 xl:w-[calc((100vw-80rem)/2+5rem)]" aria-hidden></div>
+              </div>
+            </div>
+          </section>
+
+          {/* New Prototype Section */}
+          <section className="mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground mb-2">Prototype 2</p>
+                <h3 className="text-2xl font-bold mb-4">Would it be fun and easy to play?</h3>
+                <p className="text-lg leading-relaxed text-foreground mb-4">
+                  To verify this idea, we made another prototype. Both children and parents could understand the game
+                  and had fun.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground mb-2">During this playtest, we also found:</p>
+                <ul className="list-disc list-inside space-y-2 text-lg leading-relaxed text-foreground">
+                  <li>
+                    The instruction that we gave them restricted their creativity: they always constructed the same
+                    rocket;
+                  </li>
+                  <li>Kids could easily destroy the launch button.</li>
+                </ul>
+              </div>
+              <div className="flex-1">
+                <img src={rocketPrototype2} alt="Prototype 2 playtest setup" className="rounded-lg shadow-md w-[70%]" />
+              </div>
+            </div>
+          </section>
+        </div>
+
+        {/* Solution - Fun Experience Section */}
+        <section className="mb-20 w-full">
+          <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
+            <div className="text-center mb-6">
+              {/* All Four Puzzle Pieces - Parents, Kids, Science, Maker Culture */}
+              <div className="flex flex-col justify-center items-center gap-0 mb-6">
+                {/* Parents and Kids row */}
+                <div className="flex items-end gap-0">
+                  {/* Parents Puzzle Piece */}
+                  <div className="relative w-[70px] h-[78px]">
+                    <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                      <path
+                        d="M92.5 0C41.4137 0 0 41.4137 0 92.5H29.125V102.5H62.875V92.5H92.5V61H82.75V31.25H92.5V0Z"
+                        fill="#FBB020"
+                      />
+                    </svg>
+                    <span
+                      style={{
+                        position: "absolute",
+                        top: "24px",
+                        left: "13px",
+                        width: "42px",
+                        height: "36px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "11px",
+                        fontWeight: 500,
+                      }}
+                    >
+                      Parents
+                    </span>
+                  </div>
+                  {/* Kids Puzzle Piece */}
+                  <div className="relative w-[78px] h-[70px]" style={{ marginLeft: "-8px", marginBottom: "8px" }}>
+                    <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                      <path
+                        d="M103 93C103 41.9137 61.5863 0.5 10.5 0.5V29.625H0.5V63.375H10.5V93H42V83.25H71.75V93H103Z"
+                        fill="#7C8A99"
+                      />
+                    </svg>
+                    <span
+                      style={{
+                        position: "absolute",
+                        top: "20px",
+                        right: "13px",
+                        width: "50px",
+                        height: "36px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "11px",
+                        fontWeight: 500,
+                      }}
+                    >
+                      Kids
+                    </span>
+                  </div>
+                </div>
+                {/* Science and Maker Culture row */}
+                <div className="flex items-start gap-0" style={{ marginTop: "-8px" }}>
+                  {/* Science Puzzle Piece */}
+                  <div className="relative w-[78px] h-[70px]" style={{ marginRight: "-8px" }}>
+                    <svg width="78" height="70" viewBox="0 0 103 93" fill="none" className="absolute inset-0">
+                      <path
+                        d="M0 0C0 51.0863 41.4137 92.5 92.5 92.5V63.375H102.5V29.625H92.5V0H61V9.75H31.25V0H0Z"
+                        fill="#8BA983"
+                      />
+                    </svg>
+                    <span
+                      style={{
+                        position: "absolute",
+                        bottom: "16px",
+                        left: "16px",
+                        width: "50px",
+                        height: "36px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "11px",
+                        fontWeight: 500,
+                      }}
+                    >
+                      Science
+                    </span>
+                  </div>
+                  {/* Maker Culture Puzzle Piece */}
+                  <div className="relative w-[70px] h-[78px]" style={{ marginTop: "-8px" }}>
+                    <svg width="70" height="78" viewBox="0 0 93 103" fill="none" className="absolute inset-0">
+                      <path
+                        d="M0 103C51.0863 103 92.5 61.5863 92.5 10.5H63.375V0.5H29.625V10.5H0V42H9.75V71.75H0V103Z"
+                        fill="#E87A5D"
+                      />
+                    </svg>
+                    <span
+                      style={{
+                        position: "absolute",
+                        bottom: "20px",
+                        right: "8px",
+                        width: "54px",
+                        height: "36px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "10px",
+                        fontWeight: 500,
+                        textAlign: "center",
+                        lineHeight: "1.2",
+                      }}
+                    >
+                      Maker Culture
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <h2 className="text-2xl font-bold mb-4">The solution of creating a fun experience to connect all</h2>
+              <p className="text-lg leading-relaxed text-foreground max-w-[700px] mx-auto mb-4">
+                For the final touch, we polished every detail to make it fun and intuitive for both parents and kids.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      {/* Main Content */}
+      <div className="bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          {/* Features Section */}
+          <section className="mb-20">
+            <div className="space-y-12">
+              <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-4">Add elements with interactions</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    Users can interact with elements in the scene and add effects, creating a dynamic and engaging
+                    experience.
+                  </p>
+                </div>
+                <div className="flex-1 flex flex-row gap-2">
+                  <img
+                    src={smokelandConcept}
+                    alt="Smoke landing concept"
+                    className="w-1/2 h-64 object-cover rounded-lg shadow-md"
+                  />
+                  <img
+                    src={smokelaunchConcept}
+                    alt="Smoke launch concept"
+                    className="w-1/2 h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-4">Make the existing moment "stronger"</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    Make crafts that we can remember forever with the understanding of its interaction.
+                  </p>
+                </div>
+                <div className="flex-1">
+                  <img
+                    src={rocketExhibit}
+                    alt="Rocket exhibit installation"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-4">Inspire fun and creativity</h3>
+                  <p className="text-lg leading-relaxed text-foreground">
+                    The art that things work together well gives users a deeper understanding of the physical world.
+                  </p>
+                </div>
+                <div className="flex-1">
+                  <img
+                    src={rocketExhibitVisitors}
+                    alt="Visitors enjoying rocket exhibit"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Video Section */}
       <section className="relative py-16 overflow-hidden">
         {/* Blurred Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center blur-2xl scale-110"
-          style={{ backgroundImage: `url(${powerfallVideoBg})` }}
+          className="absolute inset-0 bg-cover bg-center blur-md scale-110"
+          style={{ backgroundImage: `url(${rocketVideoBg})` }}
         />
-        
+        {/* Semi-transparent Overlay */}
+        <div className="absolute inset-0 bg-black/50" />
+
         <div className="relative text-center z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          <p className="text-sm text-foreground/70 mb-2">Final game demo</p>
-          <h3 className="text-2xl font-bold mb-8 text-foreground">Are you ready to shout?</h3>
-          <div className="aspect-video max-w-4xl mx-auto shadow-lg rounded-lg overflow-hidden">
+          <p className="text-sm text-white/70 mb-2">One Minute Video</p>
+          <h3 className="text-2xl font-bold mb-8 text-white">Do you want to build a rocket?</h3>
+          <div className="aspect-video max-w-4xl mx-auto shadow-md rounded-lg overflow-hidden">
             <iframe
-              src="https://www.youtube.com/embed/z--mD7JqFAg"
+              src="https://player.vimeo.com/video/92982542"
               className="w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
-              title="Powerfall Game Demo - Are you ready to shout?"
+              title="Do you want to build a rocket?"
             />
           </div>
         </div>
       </section>
 
-      {/* CHI PLAY 2014 Section */}
-      <section className="py-12 relative overflow-hidden" style={{ backgroundColor: "#AAE0F9" }}>
-        {/* Cloud decorations */}
-        <img src={cloudImg} alt="" className="absolute top-2 left-8 w-24 opacity-80" />
-        <img src={cloudImg} alt="" className="absolute bottom-2 right-12 w-28 opacity-70" />
-        
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center relative z-10">
-          <img src={chiPlayLogo} alt="CHI PLAY 2014" className="h-16 mx-auto mb-6" />
-          <p className="text-foreground max-w-2xl mx-auto">
-            This game enters the Student Game Design Competition at the ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play (CHI PLAY) 2014.
-          </p>
+      {/* Exhibition Section - Dark */}
+      <section className="py-12 bg-[hsl(220,20%,20%)] text-white">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
+          <img src={nysciLogo} alt="NYSCI Logo" className="w-48 h-auto mx-auto mb-6 object-contain" />
+          <p className="text-lg text-white/70">The project was installed and exhibited in New York Hall of Science</p>
         </div>
       </section>
 
@@ -314,20 +856,12 @@ const Powerfall = () => {
             <div>
               <h4 className="text-xl font-bold mb-4">Team member</h4>
               <p className="text-foreground">
-                Interaction designer: Chong Hu Yeqing Deng
+                Interaction designer: Chong Hu & Nayoung Kim
                 <br />
-                Producer/Sound Designer: David Shiyang Liu
+                Producer/Sound Designer: Marco Vieira
                 <br />
-                Engineers: Wei Shao, Prajwal Manjunath
+                Engineers: Sudhanshu Aggarwal & Hao Fu
               </p>
-            </div>
-            <div>
-              <h4 className="text-xl font-bold mb-4">Supervisors</h4>
-              <p className="text-foreground">Shirley Yee, Brenda Bakker Harger</p>
-            </div>
-            <div>
-              <h4 className="text-xl font-bold mb-4">Clients</h4>
-              <p className="text-foreground">New York hall of Science, Children's Museum of Pittsburgh</p>
             </div>
           </div>
         </div>
