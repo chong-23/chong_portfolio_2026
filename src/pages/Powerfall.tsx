@@ -13,6 +13,7 @@ import powerfallStory2 from "@/assets/powerfall-story-2.png";
 import powerfallStory3 from "@/assets/powerfall-story-3.png";
 import powerfallStory4 from "@/assets/powerfall-story-4.png";
 import powerfallCharacters from "@/assets/powerfall-characters.png";
+import powerfallAnimationFeedback from "@/assets/powerfall-animation-feedback.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -238,6 +239,28 @@ const Powerfall = () => {
                 src={powerfallCharacters}
                 alt="Colorful character designs - pink, blue, orange, and yellow monsters"
                 className="max-w-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Animation Feedback Section */}
+      <section className="py-16 w-full" style={{ backgroundColor: "rgba(173, 216, 230, 0.3)" }}>
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex-1">
+              <p className="text-sm text-muted-foreground mb-2">Animation for interaction feedback</p>
+              <h3 className="text-2xl font-bold mb-4">Simple interaction needs vivid feedback</h3>
+              <p className="text-lg leading-relaxed text-foreground">
+                Though the interaction is super simple, the feedback needs to reflect the nuance of shouting. There are 4 different status of characters for different volumes of the sound.
+              </p>
+            </div>
+            <div className="flex-1 flex justify-center">
+              <img
+                src={powerfallAnimationFeedback}
+                alt="Character animation frames showing different shouting intensities"
+                className="max-w-full w-full rounded-lg"
               />
             </div>
           </div>
