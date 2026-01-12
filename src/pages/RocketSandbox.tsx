@@ -873,31 +873,35 @@ const RocketSandbox = () => {
         </div>
       </section>
 
-      {/* Credits Section */}
-      <section className="py-16 bg-[hsl(220,20%,20%)] text-white">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-          <div className="text-center mb-12">
-            <img src={nysciLogo} alt="NYSCI Logo" className="w-48 h-auto mx-auto mb-6 object-contain" />
-            <p className="text-lg text-white/70">
-              The project was installed and exhibited in the New York Hall of Science
-            </p>
-          </div>
+      {/* Exhibition Section - Dark */}
+      <section className="py-12 bg-[hsl(220,20%,20%)] text-white">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
+          <img src={nysciLogo} alt="NYSCI Logo" className="w-48 h-auto mx-auto mb-6 object-contain" />
+          <p className="text-lg text-white/70">
+            The project was installed and exhibited in New York Hall of Science
+          </p>
+        </div>
+      </section>
 
+      {/* Credits Section - Light */}
+      <section className="py-12 bg-background">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h4 className="text-xl font-bold mb-4">Team member</h4>
-              <p className="text-lg text-white/70">
-                Interaction designer: Chong Hu Yeqing Deng Producer/Sound Designer: David Shiyang Liu Engineers: Wei
-                Shao, Prajwal Manjunath
+              <p className="text-muted-foreground">
+                Interaction designer: Chong Hu  Yeqing Deng<br />
+                Producer/Sound Designer: David Shiyang Liu<br />
+                Engineers: Wei Shao, Prajwal Manjunath
               </p>
             </div>
             <div>
-              <h4 className="text-xl font-bold mb-4">Supervisor</h4>
-              <p className="text-lg text-white/70">Shirley Yee, Brenda Bakker Harger</p>
+              <h4 className="text-xl font-bold mb-4">Supervisors</h4>
+              <p className="text-muted-foreground">Shirley Yee, Brenda Bakker Harger</p>
             </div>
             <div>
               <h4 className="text-xl font-bold mb-4">Clients</h4>
-              <p className="text-lg text-white/70">New York hall of Science, Children’s Museum of Pittsburgh</p>
+              <p className="text-muted-foreground">New York hall of Science, Children's Museum of Pittsburgh</p>
             </div>
           </div>
         </div>
