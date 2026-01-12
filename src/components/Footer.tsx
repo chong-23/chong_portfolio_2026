@@ -7,7 +7,7 @@ interface FooterProps {
 const Footer = ({ variant = "default" }: FooterProps) => {
   if (variant === "project") {
     return (
-      <footer className="w-full mt-20">
+      <footer className="w-full">
         {/* Light gray section with back link and copyright */}
         <div className="bg-[#F5F5F5] py-12">
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
