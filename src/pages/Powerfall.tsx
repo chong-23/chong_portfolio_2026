@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import rocketHeaderImage from "@/assets/rocket-header-image.png";
 import rocketHeaderImage2 from "@/assets/rocket-header-image-2.png";
 import rocketHeaderImage3 from "@/assets/rocket-header-image-3.png";
-import rocketHeaderBg from "@/assets/rocket-header-bg.png";
+import powerfallHeaderBg from "@/assets/powerfall-header-bg.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -41,7 +41,7 @@ const Powerfall = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url(${rocketHeaderBg})`,
+            backgroundImage: `url(${powerfallHeaderBg})`,
           }}
         />
         {/* Gradient Overlay for fade to white */}
