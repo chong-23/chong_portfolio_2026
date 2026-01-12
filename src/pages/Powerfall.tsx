@@ -14,6 +14,7 @@ import powerfallStory3 from "@/assets/powerfall-story-3.png";
 import powerfallStory4 from "@/assets/powerfall-story-4.png";
 import powerfallCharacters from "@/assets/powerfall-characters.png";
 import powerfallAnimationFeedback from "@/assets/powerfall-animation-feedback.png";
+import powerfallVideoBg from "@/assets/powerfall-video-bg.png";
 import cubeConnectImg from "@/assets/cube_connect.png";
 import cubeTouchImg from "@/assets/cube_touch.png";
 import rocketPrototype1 from "@/assets/rocket-prototype-1.jpg";
@@ -269,13 +270,10 @@ const Powerfall = () => {
 
       {/* Final Game Demo Video Section */}
       <section className="relative py-16 overflow-hidden">
-        {/* Gradient Background */}
+        {/* Blurred Background Image */}
         <div
-          className="absolute inset-0"
-          style={{
-            background: "linear-gradient(135deg, #a8d8ea 0%, #f0c3d7 50%, #a8d8ea 100%)",
-            filter: "blur(0px)",
-          }}
+          className="absolute inset-0 bg-cover bg-center blur-md scale-110"
+          style={{ backgroundImage: `url(${powerfallVideoBg})` }}
         />
         
         <div className="relative text-center z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
