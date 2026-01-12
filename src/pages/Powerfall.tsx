@@ -186,7 +186,7 @@ const Powerfall = () => {
               <img 
                 src={powerfallStory1} 
                 alt="Candy Line airplane flying" 
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full rounded-lg mb-4"
               />
               <p className="text-sm text-foreground">
                 2 pilots are driving an airplane, and suddenly encounter an accident.
@@ -196,7 +196,7 @@ const Powerfall = () => {
               <img 
                 src={powerfallStory2} 
                 alt="Airplane explosion with characters escaping" 
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full rounded-lg mb-4"
               />
               <p className="text-sm text-foreground">
                 The airport explodes, and they are tied to one parachute.
@@ -206,7 +206,7 @@ const Powerfall = () => {
               <img 
                 src={powerfallStory3} 
                 alt="Characters parachuting and avoiding obstacles" 
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full rounded-lg mb-4"
               />
               <p className="text-sm text-foreground">
                 To survive, they need to shout to control the parachute and avoid dangers coming to them.
@@ -216,7 +216,7 @@ const Powerfall = () => {
               <img 
                 src={powerfallStory4} 
                 alt="Characters landing safely on beach" 
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full rounded-lg mb-4"
               />
               <p className="text-sm text-foreground">
                 The parachute can take 10 hits. If they make it, they will land safely.
