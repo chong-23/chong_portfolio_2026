@@ -39,7 +39,7 @@ const Powerfall = () => {
       <div className="relative h-[400px] lg:h-[600px] overflow-hidden">
         {/* Background Image with Blur */}
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center blur-md scale-110"
           style={{
             backgroundImage: `url(${powerfallHeaderBg})`,
           }}
