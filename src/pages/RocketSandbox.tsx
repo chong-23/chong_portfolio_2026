@@ -860,7 +860,7 @@ const RocketSandbox = () => {
       <section className="py-16 bg-[hsl(220,20%,20%)] text-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <div className="text-center mb-12">
-            <img src={nysciLogo} alt="NYSCI Logo" className="w-24 h-24 mx-auto mb-4 object-contain" />
+            <img src={nysciLogo} alt="NYSCI Logo" className="w-48 h-auto mx-auto mb-6 object-contain" />
             <p className="text-lg text-white/70">
               This project has been funded and selected by New York Hall of Science
             </p>
