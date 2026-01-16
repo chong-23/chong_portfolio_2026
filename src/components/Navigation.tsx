@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 interface NavigationProps {
   variant?: "default" | "light";
@@ -6,6 +6,9 @@ interface NavigationProps {
 
 const Navigation = ({ variant = "default" }: NavigationProps) => {
   const isLight = variant === "light";
+  const location = useLocation();
+  const isAboutPage = location.pathname === "/about-me";
+  const isHomePage = location.pathname === "/";
   
   return (
     <nav className="relative z-10 w-full py-6 px-6 md:px-12 lg:px-20">
@@ -24,13 +27,15 @@ const Navigation = ({ variant = "default" }: NavigationProps) => {
           </a>
           <Link 
             to="/" 
-            className={`${isLight ? "text-white border-white" : "text-black border-black"} border-b-2 border-dotted`}
+            className={`${isLight ? "text-white" : "text-black"} ${isHomePage && !isAboutPage ? "border-b-2 border-dotted" : ""} ${isLight ? "border-white" : "border-black"}`}
           >
             Design
           </Link>
           <Link 
             to="/about-me" 
-            className={`${isLight ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground"} transition-colors duration-200`}
+            className={`${isAboutPage 
+              ? (isLight ? "text-white border-b-2 border-dotted border-white" : "text-black border-b-2 border-dotted border-black") 
+              : (isLight ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground")} transition-colors duration-200`}
           >
             About me
           </Link>
