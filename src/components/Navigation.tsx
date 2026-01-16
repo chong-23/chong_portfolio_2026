@@ -19,13 +19,7 @@ const Navigation = ({ variant = "default" }: NavigationProps) => {
           <span className="font-light">HCI Researcher and Designer</span>
         </Link>
         <div className="hidden md:flex space-x-8">
-          <a 
-            href="#research" 
-            className={`${isLight ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground"} transition-colors duration-200`}
-          >
-            Research
-          </a>
-          <Link 
+          <Link
             to="/" 
             className={`${isHomePage 
               ? (isLight ? "text-white border-b-2 border-dotted border-white" : "text-black border-b-2 border-dotted border-black") 
