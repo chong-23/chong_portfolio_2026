@@ -28,12 +28,12 @@ const Navigation = ({ variant = "default" }: NavigationProps) => {
           >
             Design
           </Link>
-          <a 
-            href="#about" 
+          <Link 
+            to="/about-me" 
             className={`${isLight ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground"} transition-colors duration-200`}
           >
             About me
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
