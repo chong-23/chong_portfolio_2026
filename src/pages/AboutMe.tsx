@@ -28,7 +28,7 @@ const AboutMe = () => {
               </div>
             </div>
             
-            <div className="lg:col-span-6 flex justify-center lg:justify-end items-start">
+            <div className="lg:col-span-6 flex justify-center items-start">
               <div className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-foreground/10">
                 <img 
                   src={myPhoto} 
