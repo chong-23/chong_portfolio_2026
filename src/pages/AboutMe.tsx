@@ -20,7 +20,7 @@ const AboutMe = () => {
                   Chong is a product designer with nine years of experience in the tech industry across the United States, China, and Singapore. She has designed products in education, e-commerce, food delivery, and last-mile logistics, serving millions of users across diverse cultural contexts worldwide.
                 </p>
                 <p>
-                  In addition to her professional design practice, Chong is is a PhD candidate in the School of Information Studies at McGill University and a member of the ACT Research Group, supervised by Prof. Karyn Moffatt. Chong's research interests include computational creativity, social computing, inclusive design, and human-AI interaction.
+                  In addition to her professional design practice, Chong is is a PhD candidate in the School of Information Studies at McGill University and a member of the ACT Research Group, supervised by <a href="https://kmoffatt.github.io/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">Prof. Karyn Moffatt</a>. Chong's research interests include computational creativity, social computing, inclusive design, and human-AI interaction.
                 </p>
                 <p>
                   As both a researcher of creativity and a practicing designer, Chong enjoys thinking, making, and playing with traditional, digital, and AI-driven media in her spare time.
