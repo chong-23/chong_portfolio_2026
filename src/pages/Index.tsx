@@ -16,7 +16,6 @@ const Index = () => {
     {
       title: "Allowance Awareness",
       subtitle: "Food Delivery - iOS & Android",
-      description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: allowanceCoverImg,
       link: "/allowance-awareness",
       gradientStyle: {
@@ -27,7 +26,6 @@ const Index = () => {
     {
       title: "Corporate Admin Revamp",
       subtitle: "Food Delivery - Web",
-      description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: adminCoverImg,
       link: "/corporate-admin-revamp",
       gradientStyle: {
@@ -38,7 +36,6 @@ const Index = () => {
     {
       title: "Snippet of Early Works",
       subtitle: "Education&E-commerce - Web",
-      description: "Enhance Employee Awareness of Allowance for Informed Food Ordering Decisions.",
       imageUrl: pastWorkCoverImg,
       link: "/early-works",
       linkText: "See details",
@@ -88,7 +85,6 @@ const Index = () => {
                 key={index}
                 title={project.title}
                 subtitle={project.subtitle}
-                description={project.description}
                 imageUrl={project.imageUrl}
                 link={project.link}
                 linkText={project.linkText}
