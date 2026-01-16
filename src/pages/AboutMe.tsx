@@ -11,7 +11,7 @@ const AboutMe = () => {
       <main className="w-full px-6 md:px-12 lg:px-20 py-12">
         <div className="max-w-6xl mx-auto">
           {/* Header Section */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-12 mb-16">
             <div className="md:col-span-2">
               <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6">CHONG HU</h1>
               
@@ -28,8 +28,8 @@ const AboutMe = () => {
               </div>
             </div>
             
-            <div className="flex justify-center md:justify-end">
-              <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-foreground/10">
+            <div className="flex justify-start md:justify-start">
+              <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-foreground/10">
                 <img 
                   src={myPhoto} 
                   alt="Chong Hu" 
