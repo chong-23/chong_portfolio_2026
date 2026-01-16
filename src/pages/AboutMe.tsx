@@ -148,7 +148,9 @@ const AboutMe = () => {
                     <p className="text-sm text-foreground/50 mb-1">Aug 2023</p>
                     <p className="font-medium">Design beyond borders: navigating localization and cultural difference</p>
                     <a 
-                      href="#" 
+                      href="https://www.youtube.com/watch?v=e3sM1BKHCmQ" 
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-foreground/70 text-sm inline-flex items-center gap-1 hover:text-foreground transition-colors"
                     >
                       Lazada Design U <ExternalLink className="w-3 h-3" />
