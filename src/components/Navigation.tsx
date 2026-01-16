@@ -27,7 +27,9 @@ const Navigation = ({ variant = "default" }: NavigationProps) => {
           </a>
           <Link 
             to="/" 
-            className={`${isLight ? "text-white" : "text-black"} ${isHomePage && !isAboutPage ? "border-b-2 border-dotted" : ""} ${isLight ? "border-white" : "border-black"}`}
+            className={`${isHomePage 
+              ? (isLight ? "text-white border-b-2 border-dotted border-white" : "text-black border-b-2 border-dotted border-black") 
+              : (isLight ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground")} transition-colors duration-200`}
           >
             Design
           </Link>
