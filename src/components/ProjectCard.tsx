@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 interface ProjectCardProps {
   title: string;
   subtitle: string;
-  description?: string;
+  description: string;
   imageUrl?: string;
   link?: string;
   linkText?: string;
@@ -41,11 +41,9 @@ const ProjectCard = ({ title, subtitle, description, imageUrl, link, linkText = 
           <p className="text-sm text-muted-foreground mb-4 font-medium tracking-wide">
             {subtitle}
           </p>
-          {description && (
-            <p className="text-base leading-relaxed text-foreground mb-6">
-              {description}
-            </p>
-          )}
+          <p className="text-base leading-relaxed text-foreground mb-6">
+            {description}
+          </p>
           {link && (
             <span className="inline-flex items-center text-sm font-medium group-hover:text-primary transition-colors">
               {linkText} <span className="inline-block ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
