@@ -29,10 +29,10 @@ const Navigation = ({ variant = "default" }: NavigationProps) => {
             Design
           </Link>
           <a 
-            href="#resume" 
+            href="#about" 
             className={`${isLight ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground"} transition-colors duration-200`}
           >
-            Resume
+            About me
           </a>
         </div>
       </div>
