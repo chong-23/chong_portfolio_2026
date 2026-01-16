@@ -15,13 +15,6 @@ const AboutMe = () => {
             <div className="md:col-span-2">
               <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6">CHONG HU</h1>
               
-              {/* Decorative element */}
-              <div className="mb-8">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-foreground/30">
-                  <path d="M16 0L17.5 14.5L32 16L17.5 17.5L16 32L14.5 17.5L0 16L14.5 14.5L16 0Z" fill="currentColor"/>
-                </svg>
-              </div>
-              
               <div className="space-y-6 text-foreground/80 max-w-xl">
                 <p>
                   Chong is a product designer with nine years of experience in the tech industry across the United States, China, and Singapore. She has designed products in education, e-commerce, food delivery, and last-mile logistics, serving millions of users across diverse cultural contexts worldwide.
