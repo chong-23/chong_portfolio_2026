@@ -13,7 +13,7 @@ const AboutMe = () => {
           {/* Header Section */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-16">
             <div className="lg:col-span-6 order-2 lg:order-1">
-              <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6">CHONG HU</h1>
+              <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-center lg:text-left">CHONG HU</h1>
               
               <div className="space-y-6 text-foreground/80">
                 <p>
