@@ -12,7 +12,7 @@ const AboutMe = () => {
         <div className="max-w-6xl mx-auto">
           {/* Header Section */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-16">
-            <div className="lg:col-span-6">
+            <div className="lg:col-span-6 order-2 lg:order-1">
               <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6">CHONG HU</h1>
               
               <div className="space-y-6 text-foreground/80">
@@ -28,7 +28,7 @@ const AboutMe = () => {
               </div>
             </div>
             
-            <div className="lg:col-span-6 flex justify-center items-start">
+            <div className="lg:col-span-6 flex justify-center items-start order-1 lg:order-2">
               <div className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-foreground/10">
                 <img 
                   src={myPhoto} 
