@@ -179,7 +179,7 @@ const CorporateAdminRevamp = () => {
             <h2 className="text-3xl font-bold mb-12">Solution overview</h2>
 
             {/* Scalability & Branding */}
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start lg:items-center mb-20">
               <div className="flex-1">
                 <p className="text-sm text-muted-foreground mb-2">Scalability & Branding</p>
                 <h3 className="text-2xl font-bold mb-4">Extendable layout</h3>
@@ -197,7 +197,7 @@ const CorporateAdminRevamp = () => {
             </div>
 
             {/* Usability for general operations */}
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-20">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start lg:items-center mb-20">
               <div className="flex-1">
                 <p className="text-sm text-muted-foreground mb-2">Usability for general operations</p>
                 <h3 className="text-2xl font-bold mb-4">Bulk actions & Error validation</h3>
@@ -215,7 +215,7 @@ const CorporateAdminRevamp = () => {
             </div>
 
             {/* Usability for key features */}
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start lg:items-center">
               <div className="flex-1">
                 <p className="text-sm text-muted-foreground mb-2">Usability for key features</p>
                 <h3 className="text-2xl font-bold mb-4">User-centered information architecture</h3>
