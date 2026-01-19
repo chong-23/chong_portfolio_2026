@@ -427,7 +427,7 @@ const CorporateAdminRevamp = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Clarification of Key Terms Section */}
           <section className="mb-20">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start lg:items-center">
               <div className="flex-1">
                 <h2 className="text-3xl font-bold mb-4">Clarification of Key Terms</h2>
                 <p className="text-lg leading-relaxed text-foreground">
