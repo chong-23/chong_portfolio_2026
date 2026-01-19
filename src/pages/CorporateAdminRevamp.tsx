@@ -191,7 +191,7 @@ const CorporateAdminRevamp = () => {
                 <img
                   src={proDashboardImg}
                   alt="Extendable layout dashboard"
-                  className="w-full h-auto rounded-lg shadow-md"
+                  className="w-full h-auto rounded-lg shadow-md border border-border/50"
                 />
               </div>
             </div>
@@ -209,7 +209,7 @@ const CorporateAdminRevamp = () => {
                 <img
                   src={proEmployeeEmptyImg}
                   alt="Bulk actions and error validation"
-                  className="w-full h-auto rounded-lg shadow-md"
+                  className="w-full h-auto rounded-lg shadow-md border border-border/50"
                 />
               </div>
             </div>
@@ -228,7 +228,7 @@ const CorporateAdminRevamp = () => {
                 <img
                   src={createImg}
                   alt="User-centered information architecture"
-                  className="w-full h-auto rounded-lg shadow-md"
+                  className="w-full h-auto rounded-lg shadow-md border border-border/50"
                 />
               </div>
             </div>
