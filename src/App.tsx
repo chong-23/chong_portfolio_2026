@@ -19,7 +19,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/chong_portfolio_2026">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/allowance-awareness" element={<AllowanceAwareness />} />
