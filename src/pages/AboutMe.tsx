@@ -8,8 +8,8 @@ const AboutMe = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      <main className="w-full px-6 md:px-12 lg:px-20 py-12">
-        <div className="max-w-7xl mx-auto">
+      <main className="w-full py-12">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Header Section */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-16">
             <div className="lg:col-span-6 order-2 lg:order-1">

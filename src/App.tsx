@@ -3,6 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PageTransition from "./components/PageTransition";
 import Index from "./pages/Index";
 import AllowanceAwareness from "./pages/AllowanceAwareness";
 import CorporateAdminRevamp from "./pages/CorporateAdminRevamp";
@@ -21,16 +22,18 @@ const App = () => (
       <Sonner />
       <BrowserRouter basename="/chong_portfolio_2026">
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/allowance-awareness" element={<AllowanceAwareness />} />
-          <Route path="/corporate-admin-revamp" element={<CorporateAdminRevamp />} />
-          <Route path="/early-works" element={<EarlyWorks />} />
-          <Route path="/100day-project" element={<HundredDayProject />} />
-          <Route path="/rocket-sandbox" element={<RocketSandbox />} />
-          <Route path="/powerfall" element={<Powerfall />} />
-          <Route path="/about-me" element={<AboutMe />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
+          <Route element={<PageTransition />}>
+            <Route path="/" element={<Index />} />
+            <Route path="/allowance-awareness" element={<AllowanceAwareness />} />
+            <Route path="/corporate-admin-revamp" element={<CorporateAdminRevamp />} />
+            <Route path="/early-works" element={<EarlyWorks />} />
+            <Route path="/100day-project" element={<HundredDayProject />} />
+            <Route path="/rocket-sandbox" element={<RocketSandbox />} />
+            <Route path="/powerfall" element={<Powerfall />} />
+            <Route path="/about-me" element={<AboutMe />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

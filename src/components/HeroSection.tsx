@@ -4,7 +4,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold mb-8 tracking-tight">Product Design</h1>
         <p className="text-lg leading-relaxed text-foreground max-w-2xl">
-          Creating digital products for users from diverse cultural backgrounds.
+          My UX practice spans education, e-commerce, food delivery, and last-mile logistics, reaching millions of users worldwide. I lead design and product strategy, collaborate with cross-functional partners, and contribute to the development of design systems.
         </p>
       </div>
     </section>
