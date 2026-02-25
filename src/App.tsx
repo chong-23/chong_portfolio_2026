@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageTransition from "./components/PageTransition";
+import ScrollRestoration from "./components/ScrollRestoration";
 import Index from "./pages/Index";
 import AllowanceAwareness from "./pages/AllowanceAwareness";
 import CorporateAdminRevamp from "./pages/CorporateAdminRevamp";
@@ -21,6 +22,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter basename="/chong_portfolio_2026">
+        <ScrollRestoration />
         <Routes>
           <Route element={<PageTransition />}>
             <Route path="/" element={<Index />} />
